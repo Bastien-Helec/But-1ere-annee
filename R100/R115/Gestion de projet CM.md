@@ -55,3 +55,29 @@ Tous les projets sont uniques, d'un contexte a l'autre (projet interne ou extern
 Un projet commence avec l'expression puis l'analyse et le recueil de besoins (explicites ou implicites). 
 
 Un commanditaire a généralement une grille de lecture faite de differents critères de selection. Qu'elle soit formalisée ou non , en tant que chef de projet , vous devez la décrypter pour maximiser vos chances de remporter une appel d'offres. Rendez-vous au prochain chapitre pour assiter a votre premiere reunion de cadrage et rencontrer le reste de l'equipe Digitalizer ! :)
+
+
+--- 
+# Gestion de projet CM2 :
+---
+Tout projet commence par une etudes faisabilité : 
+-Ressources humaines ,
+-Ressources materiels,
+-Ressources salariales
+...
+
+Un chef de projet : coordone l'ensembke des activités de projets pour garantir l'atteinte de l'objectif et respecter les delais , les coûts et la qualité du projet
+
+Les methodologie classique : aussi appelé predicitives ou séquentielles comme la methodologie en cascade implique une methodologie par etapes , par séquences et par un ensemble de phases 
+les phases : tâches prédéfini dans un planning de réalisation précis 
+
+La methodes en cascade :
+1. Phase d'initialisation 
+2. Phase de lancement (realisation d'un cahier des charges)
+3. Phase de conception
+4. Phase de production (la livraison du projet)
+5. Phase d'exploitation (S.A.V)
+
+Ils existent d'autre types de methodologie comme les methodologies agiles 
+
+Les methodologies agiles sont itératives , incrémentales et adaptatives 
