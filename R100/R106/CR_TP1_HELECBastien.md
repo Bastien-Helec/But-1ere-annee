@@ -84,3 +84,4 @@ a l'aide des commandes lspci et lsusb , decrivez et commentez l'architecture phy
 ici on peut voir une compatibilité VGA 2 controlleur usb ,3 pci , 1 isa , 1 SATA, 2 ethernet et un controlleur audio 
 ``` lsusb ``` permet de voir les composants connecté sur les bus USB et non connecté 
 ici on peut voir une souris , un clavier , 4 port usb  et un ecran. 
+
