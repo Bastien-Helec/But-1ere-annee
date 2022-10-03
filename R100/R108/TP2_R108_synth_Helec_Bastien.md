@@ -301,5 +301,6 @@ cat dico_francais.txt | grep ^[a-l]
 4) Compter le nombre de mots commençant par « V ».
 
 ```
-cat dico_francais.txt | grep ^V
+cat dico_francais.txt | grep ^V | wc -l
 ```
+wc permet de compter le nombre de ligne, de mot et de caractère avec l'option -l on compte le nombre de ligne du grep ^V
