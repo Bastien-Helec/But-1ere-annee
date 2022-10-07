@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram id="vChUMbPdstvGmaZwXjwa" name="Page-1">
+        <mxGraphModel dx="490" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="80" width="500" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Alimentation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="80" width="150" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Carte réseau&amp;nbsp;&lt;br&gt;Connectique externe arrière" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="80" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="CPU / ventirad (cache dessous)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="RAM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Pont nord&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="200" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Pont sud&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="260" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="PCI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="310" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="PCI express" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="350" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="PCI express" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="380" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Horloge interne" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="280" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Lecteur CD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="170" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Connectique USB/connectique" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="300" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Disque Dur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="230" width="150" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
