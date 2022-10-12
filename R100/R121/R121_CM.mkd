@@ -1,0 +1,47 @@
+## R121 Télécommunication spatiales :
+---
+
+Dans un satellite: 
+La charge utile appartient , la phase de telecommunication 
+- antennes et receptions d'émission 
+- equipements electroniques assurant la transmission des signaux 
+  
+La plateforme :
+- permet de faire fonctionner la charge utile 
+
+La charge utile a une fréquence adapté en fonction de l'utilisation : telemetrie =! television par exemple et a plusieurs bandes de fréquences  
+
+liaison montantes : antennes de reception
+
+Recomposition du signaux , et transmissions avec la liaison descendantes 
+
+Les signaux envoyé sont extrement faibles : de 100pW a 1nW 
+
+Un satellite a plusieurs faisceaux pour communiqué sur plusieurs zones avec plusieurs antennes 
+
+Dans le secteur terrien : 
+station terriennes qui recupere les informations des satellites 
+
+
+F(force en newton)= GMm/r² 
+G la force gravitationnel de newton
+M la masse de la terre 
+m la masse du satellite
+
+que l'on peut remplace par ,Fin= m(µ/(r)²) ou µ est G*M
+Fout=m(v²/r)
+
+pour que le satellite reste a la meme distance de la terre il faut resoudre :
+Fin=Fout soit v=V(µ/r)
+
+La preiode de révolution du satellite sur son orbite est 
+T=2pi V(a)³/µ
+a est la distance de l'apogé au point zero qui est perpendiculaire 
+µ=G*Mterre=3,986 m⁻3*s⁻2
+
+Higly elliptical orbit : permet une observation de longue durée sur un point precis 
+Low earth Orbit : observer la fonte des glaces par exemple 
+Low earth orbit (non polaire)
+medium earth orbit
+
+1 jour sidéral = 23h56min4s 
