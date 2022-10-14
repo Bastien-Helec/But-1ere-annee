@@ -1,4 +1,4 @@
-is### Helec bastien 
+### Helec bastien 
 ---
 # Gestion de projet cm 1
 ---
