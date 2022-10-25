@@ -1,1 +1,0 @@
-ecrire ici la grille a sauvegarder (surement en boucle python ou peut etre plus simple !!!)
