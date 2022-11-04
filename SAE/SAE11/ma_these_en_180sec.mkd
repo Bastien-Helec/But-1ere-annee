@@ -1,0 +1,72 @@
+### SAE 11 : Usurpation d'identité
+
+--- 
+### Sommaire :
+    -Qu'est ce que l'usurpation d'identité ?
+    
+    -En quoi cette pratique est dangereuses
+    
+    -Sous qu'elle forme ? (cybersecurité) 
+
+    -Qui peut etre toucher
+    
+    -Comment s'en proteger 
+
+    -Quelques exemples
+
+---
+
+
+### Informations a trouver : 
+    
+1. Qu'est ce que l'usurpation d'identité ?
+
+L'usurpation d'identité c'est : 
+- quelqu'un qui utilise votre identité pour commettre tout type de crime ou delit. 
+- quelqu'un ou plusieurs personne qui se servent de ce que vous poster sur internet pour vous faire du mal ou bien se servir de vous. 
+
+2. En quoi cette pratique est dangereuses
+
+- Cette pratique est dangereuses car une personne mal intentionné aurait pour but de detourner ses informations a des fins de piratages de carte bancaires ou bien en se servant de ce compte pour impacter l'image de la personne.
+<br>
+
+- Si vous detennez des informations confidentielles sur un compte specifique , il es alors une mine d'or pour le pirate qui pourra utiliser c'est informations pour poster des choses intimes sur des sites ou bien detruire des relations que vous entretennais que ce soit professionnel ou personnel.
+
+
+3. Sous qu'elle forme ? (cybersecurité)
+
+L'usurpation d'identité peut se faire de plusieurs maniere :
+- Par l'utilisation de la creation de faux papiers 
+
+- Par les reseaux sociaux
+
+- par l'utilisation de logiciel de piratage
+
+-par l'exploitation de faille sur des logiciels de messagerie, de galerie photo , ...
+
+4. Qui peut etre toucher ?
+
+Tout le monde peut etre toucher par cette pratique, mais certaines personnes sont plus sensible que d'autre et sont alors plus vulnerables avec des ransomware par exemple. 
+
+certaines personnes sont plus vulnerables pas forcement par leur faiblesse mental mais par leur status social. (riche, celebre, ...)
+<br>
+
+
+5. Comment s'en proteger
+
+Pour se proteger de cette pratique il faut :
+- ne pas donner trop d'information sur sois sur internet
+- faire attention on vous allez sur internet et sur les sites que vous visitez
+- empecher les personnes de vous suivre sur internet
+
+
+6. Quelques exemples
+
+- Le cas de la star de la musique Taylor Swift qui a ete victime d'usurpation d'identité par un hacker qui a publier des photos intimes de la star sur internet.
+<br>
+- En juillet 2013, George Clooney était appelé à témoigner à la barre devant le tribunal de Milan. Trois personnes étaient accusées de fraude, de faux et recel pour avoir utilisé le nom de l'acteur américain afin de lancer leur marque de vêtements. Le juge en charge de l'affaire avait dû demander un renforcement du service d'ordre pour garantir un "déroulement régulier de l'audience" malgré la venue de nombreux fans. 
+
+
+7. Sources:
+
+kaspersky : https://www.kaspersky.fr/blog/tag/usurpation-didentite/
