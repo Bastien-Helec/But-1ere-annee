@@ -1,0 +1,10 @@
+interent vient d'arpanet pas d'un réseau militaire
+portocole NCP = a peut pres l'ancentre de tcp/ip
+les 4 regles de bob kahn :
+- chaque reseau distinct doit survivre a distance local
+
+
+- definitions de boite noir ,qui permette d'interconnecter les réseaux 
+- Il ne doit pas avoir de retentions d'informations (neutralité)
+- Il ne foit pas y avoir de control global d'internet 
+
