@@ -1,0 +1,35 @@
+## Helec Bastien
+
+# TP1 : Capture de trames : 
+
+---
+1. Initiation a wireshark :
+   
+montrer comment filtrer le trafic pour n'avoir que les messages qui partent ou qui arrive de la machine :
+
+``` 
+ip.src == 10.213.8.1 || ip.dst == 10.213.8.1
+```
+
+Capturer les trames emises et reçues lors de la consultation avec firefox du site :
+www.perdu.com
+
+```
+http.request.method == GET || http.request.method == POST
+```
+
+Les protocoles utilisés sont :
+Ethernet, IPV4, TCP, HTTP
+
+Les champs que vous comprennez du PCI de chaque couche :
+couche 2:
+les adresses mac :
+dest= d0:7e:28:2d:84:8c
+src = 98:90:96:e0:85:29
+le type = IPV4
+couche 3: 
+ip src = 10.213.8.1
+ip dest = 34.107.221.82 
+la taille de l'entete = 20 bytes 
+le protocole = TCP
+

@@ -1,0 +1,102 @@
+## Helec Bastien
+
+# TP1 : Capture de trames : 
+
+---
+1. Initiation a wireshark :
+   
+montrer comment filtrer le trafic pour n'avoir que les messages qui partent ou qui arrive de la machine :
+
+``` 
+ip.src == 10.213.8.1 || ip.dst == 10.213.8.1
+```
+
+Capturer les trames emises et reçues lors de la consultation avec firefox du site :
+www.perdu.com
+
+```
+http.request.method == GET || http.request.method == POST
+```
+
+Les protocoles utilisés sont :
+Ethernet, IPV4, TCP, HTTP
+
+Les champs que vous comprennez du PCI de chaque couche :
+couche 2:
+les adresses mac :
+dest= d0:7e:28:2d:84:8c
+src = 98:90:96:e0:85:29
+le type = IPV4
+couche 3: 
+ip src = 10.213.8.1
+ip dest = 34.107.221.82 
+la taille de l'entete = 20 bytes 
+le protocole = TCP
+le TTL = 64
+la taille total = 364 bytes
+couche 4:
+port dest = 80
+port source = 34388
+le flags = PSH, ACK 
+
+Prenez l'un des paquets de votre. Dans son analyse en couches, une couche apparait tout en haut indiquant 'Frame XXXX' où XXXX est un numéro.
+frame 525
+
+Qu'elle couche du modele tcp/ip correspond a cette information ?
+couche 1
+
+Que contient-elle ? 
+le type de la couche 2
+
+2. Analyse de trames ICMP Request : 
+   
+   Quels paquets sont emis ? reçus ? Expliquez
+    les paquets emis sont les paquets ICMP request
+    les paquets recus sont les paquets ICMP reply
+    ICMP request permet de savoir si une machine est joignable
+    ICMP reply permet de repondre a un ICMP request
+
+3. Follow TCP stream : 
+   Récupérez et ouvrez la capture effectuée par vos professeurs adorés à l'adresse suivante : 
+   ``` 
+   http://www.lirm.fr/~druon/assets/pdf/r102_tp1_capture.pcapng
+   ```
+   Vous pourrez pour ce faire , utiliser la commande wget. 
+
+   Comment wireshark a-t-il réussi à isoler cette conversation des autres ?
+    il a reconnu les paquets TCP et a recuperer toute la données qu'il a pu isoler grace au numéro du paquet 
+
+4. Graphique des flux : 
+   Que voyez vous ? Explorez les autres analyse possible 
+   On voit les flux sur le réseaux a qu'elle moment le paquet et a t'elle endroit entre le serveur et le client
+
+5. Analyse de trames Ethernet :
+    Dans l'en-tete Ethernet quel champ permet de dire ce que contient la trame ? 
+    le type (qui est situé juste apres l'adresse mac src)
+    Quelle est la valeur de ce champ dans le cas d'un ARP ? !
+    0x0806 (ARP) 
+
+6. Ecriture d'un filtre sous wireshark: 
+   
+   Ecrivez un filtre permettant de ne visualiser que les paquets : 
+        émis pour votre machine
+        en tcp 
+        a destination du port 80 
+```
+ip.src == 10.213.8.1 && tcp && tcp.dstport == 80
+```
+Quelle est l'adresse Mac de destination : d0:7e:28:2d:84:8c
+Quelle est l'adresse IP de destination : 193.49.104.251
+
+7. Decouverte de tcpdump: 
+
+    Capturez avec tcpdump une requete http vers le site htttps://www.lawifi.fr , vous donnerez : 
+    les actions et commandes utiliser
+    la syntaxe du filtre permettant de faire la Capture
+
+```
+man tcpdump 
+sudo tcpdump HTTP https://lawifi.fr
+
+sudo tcpdump -A 'tcp port 80 and (((ip[2:2] -))) 
+```
