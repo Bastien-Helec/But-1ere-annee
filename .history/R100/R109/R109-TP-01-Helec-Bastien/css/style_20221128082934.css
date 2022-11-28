@@ -1,0 +1,8 @@
+.header{
+    background: url(../images/header.jpg) no-repeat center center;
+    background-size: cover;
+    height: 10;
+    width: auto;
+    position: relative;
+    z-index: 1;
+}

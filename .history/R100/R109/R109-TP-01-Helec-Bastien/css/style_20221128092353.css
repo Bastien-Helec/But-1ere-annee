@@ -1,0 +1,20 @@
+header{
+    color: #003E69;
+    text-align: right;
+    display: block;
+    
+}
+#image{
+    width: 3%;
+    height: auto;
+    display: block;
+    margin-left: 40%;
+    
+}
+#head{
+
+    background-color :#5CB7E7;
+}
+#footer{
+    text-align: right;
+}

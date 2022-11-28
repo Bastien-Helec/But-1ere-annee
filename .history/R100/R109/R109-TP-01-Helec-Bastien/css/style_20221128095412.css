@@ -1,0 +1,33 @@
+header{
+    background-color:yellow;
+    position: fixed;
+}
+#header{
+    color: #003E69;
+    display: flex;
+    flex: auto;
+    position: relative;
+    right: 30%;
+    background-color: lightcoral;
+}
+img{
+    width: 5%;
+    height: auto;
+    
+}
+body{
+    background-color: red;
+}
+div{
+    background-color: green;
+}
+#body{
+    background-color: blue;
+}
+#head{
+
+    background-color :#5CB7E7;
+}
+#footer{
+    text-align: right;
+}

@@ -1,0 +1,32 @@
+
+#tete{
+    color: #003E69;
+    position: relative;
+    left: 61%;
+    margin-right: 61%;
+    margin-left: 30%;
+
+}
+img{
+    width: 5%;
+    height: auto;
+    position: relative;
+    left: 86.2%;
+    top: 63px;
+}
+{
+    
+}
+#head{
+    background-color: green;
+}
+#body{
+    background-color: blue;
+}
+#head{
+
+    background-color :#5CB7E7;
+}
+#footer{
+    text-align: right;
+}

@@ -1,0 +1,8 @@
+.header{
+    
+    background-size: cover;
+    height: 10px;
+    width: auto;
+    position: relative;
+    z-index: 1;
+}

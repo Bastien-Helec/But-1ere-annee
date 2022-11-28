@@ -1,0 +1,14 @@
+header{
+    color: #003E69;
+    text-align: right;
+}
+#image{
+    width: 5%;
+    height: auto;
+    float: left;
+    
+    left: 20px;
+}
+footer{
+    text-align: right;
+}

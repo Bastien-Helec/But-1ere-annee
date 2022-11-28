@@ -1,0 +1,36 @@
+
+#tete{
+    color: #003E69;
+    position: relative;
+    left: 61%;
+    margin-right: 61%;
+    margin-left: 30%;
+
+}
+img{
+    width: 4%;
+    height: auto;
+    position: relative;
+    left: 87.2%;
+    top: 57px;
+}
+body{
+    color: white; }
+#body{
+    background-color: grey;
+}
+#head{
+    margin-top: 6%;
+    background-color :#5CB7E7;
+    height: 50px;
+    border-bottom: #003E69 5px solid;
+    
+}
+span{
+    position: relative;
+    top: 18px;
+    left: 
+}
+#footer{
+    text-align: right;
+}

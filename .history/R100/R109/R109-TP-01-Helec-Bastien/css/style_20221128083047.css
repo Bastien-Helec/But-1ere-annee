@@ -1,0 +1,11 @@
+.header{
+    background: url(../images/header.jpg) no-repeat center center;
+    background-size: cover;
+    height: 10px;
+    width: auto;
+    position: relative;
+    z-index: 1;
+}
+.body{
+    background-color:"red";
+}
