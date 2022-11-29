@@ -1,7 +1,7 @@
-header{
+/* header{
     text-align: center;
-    background-color: rgb(73, 69, 69);} 
-#navbar {
+    background-color: rgb(73, 69, 69);} */
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,7 +10,6 @@ header{
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    z-index: 30;
     }
     
     li {
@@ -32,7 +31,7 @@ header{
     .active {
       background-color: #04AA6D;
     }
-    #droitenavbar{
+    #droite{
       float: right;
     }
 body {

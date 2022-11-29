@@ -1,16 +1,15 @@
-header{
+/* header{
     text-align: center;
-    background-color: rgb(73, 69, 69);} 
-#navbar {
+    background-color: rgb(73, 69, 69);} */
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
     position: -webkit-sticky; /* Safari */
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 30;
     }
     
     li {

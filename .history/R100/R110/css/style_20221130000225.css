@@ -1,6 +1,6 @@
-header{
+/* header{
     text-align: center;
-    background-color: rgb(73, 69, 69);} 
+    background-color: rgb(73, 69, 69);} */
 #navbar {
     list-style-type: none;
     margin: 0;
@@ -10,7 +10,7 @@ header{
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    z-index: 30;
+    z-index: ;
     }
     
     li {

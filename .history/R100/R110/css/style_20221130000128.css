@@ -1,6 +1,6 @@
-header{
+/* header{
     text-align: center;
-    background-color: rgb(73, 69, 69);} 
+    background-color: rgb(73, 69, 69);} */
 #navbar {
     list-style-type: none;
     margin: 0;
@@ -8,9 +8,8 @@ header{
     overflow: hidden;
     background-color: #333;
     position: -webkit-sticky; /* Safari */
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 30;
     }
     
     li {
