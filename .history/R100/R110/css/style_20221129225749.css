@@ -5,18 +5,13 @@
 body {
     background-color: #145561 ;
 } */
-h1{
-    text-align: center;
+
+#headMe{
+    background-color: yellow;
 }
 #Me {
     background-color: red ;
 }
-#headMe{
-    background-color: yellow;
-}
-
-
-
 #Mlf {
     background-color: lightgreen ;
 }

@@ -1,0 +1,19 @@
+#colour1{
+    color: #C3CFBB;
+}
+#colour2{
+    color: #2E3032;
+}
+#colour3{
+    color: #F2F2F2;
+}
+
+#colour1:hover {
+    color: #F2F2F2;
+}
+#colour4{
+    color: rgb(73, 69, 69);
+}
+#colour5{
+    color: #145561;
+}

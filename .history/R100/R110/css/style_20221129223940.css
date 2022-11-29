@@ -5,24 +5,20 @@
 body {
     background-color: #145561 ;
 } */
-h1{
+
+#headMe{
     text-align: center;
+    background-color: yellow;
 }
 #Me {
     background-color: red ;
 }
-#headMe{
-    background-color: yellow;
-}
-
-
-
 #Mlf {
-    background-color: lightgreen ;
+    background-color: green ;
 }
 #Mh {
     background-color: blue ;
 }
 #About{
-    background-color: darkslategrey ;
+    
 }
