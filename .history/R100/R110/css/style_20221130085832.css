@@ -7,8 +7,10 @@ header{
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    z-index: 30;
     }
     
     .navbarli {
@@ -34,9 +36,6 @@ header{
       float: right;
     }
 body {
-  font-family: "Luminari, fantasy";
-  font-size: 17px;
-
     background-color: #145561 ;
 } */
 
@@ -61,9 +60,11 @@ h1{
   list-style: none;
   bottom: 230px;
 }
-#me2 {
+#me1 {
   position: relative;
-  top: 135px;
+  display: inline-block;
+  list-style: none;
+  bottom: 230px;
 }
 
 #pictMe1{

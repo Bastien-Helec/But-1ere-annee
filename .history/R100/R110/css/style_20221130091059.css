@@ -7,8 +7,9 @@ header{
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: sticky;
+    position: fixed;
     top: 0;
+    z-index: 30;
     }
     
     .navbarli {
