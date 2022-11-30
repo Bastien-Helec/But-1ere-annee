@@ -161,4 +161,4 @@ show mac address-table dynamic
 ```
 Reliez votre switch au switch et de vos deux machines a votre switch. 
 
-tout en Fa0/10 est le cable réseau et Fa0/6 le cable de la machine
+tout en F

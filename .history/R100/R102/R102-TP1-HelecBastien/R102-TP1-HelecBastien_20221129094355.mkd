@@ -127,38 +127,7 @@ sudo ip neigh flush all
 Effectuez la capture de trame lors d'un ping vers WWWW.google.fr
 
 Quelles sont les entrées qui sont apparu dans votre cache ARP ?
-L'entrée qui est apparu est l'adresse ip et mac du routeur 
 Est-ce compatible avec votre capture de trame ?
-Oui car on peut voir que la trame passe par le routeur avant d'aller sur le reseau externe
-Justifiez et illustrez vos réponses avec une capture d'écran.
+Justifiez et illustrez vos réponses.
 
-18. Que se passe t'il si vous refaite une tentative pour joindre www.tf1.fr au bout d'une minute ? 
-
-Le cache arp du routeur est passer en status stale 
-
-Qu'elle influence cela peut avoir sur le trafic réseau ?
-Cela peut avoir une influence sur le trafic réseau car le routeur va devoir repondre a une requete ARP pour savoir si l'adresse MAC est toujours valide
-
-19. On va maintenant entrer l'adresse de la passerelle en statique dans le cache ARP. Recuperez l'adresse MAC de la passerelle et entrez cette adresse de facon statique à l'aide de la commande ip neigh :
-
-```
-sudo ip neigh add d0:7e:28:2d:84:8c dev eno1 lladdr d0:7e:28:2d:84:8c nud permanent
-```
-
-Que se passe t'il si vous refaite une tentative pour joindre une machine exterieur. Indiquez ce qui a changer .
-
-On peut voir que la trame passe directement sur le reseau externe sans passer par le routeur
-
-20. Les switchs (partie optionnelle) :
-    
-Connectez vous a l'interface d'administration de l'un des switchs Cisco 2960 .
-Affichez la table de commutation du switch 
-```
-
-show mac address-table
-show mac address-table dynamic
-
-```
-Reliez votre switch au switch et de vos deux machines a votre switch. 
-
-tout en Fa0/10 est le cable réseau et Fa0/6 le cable de la machine
+18. 

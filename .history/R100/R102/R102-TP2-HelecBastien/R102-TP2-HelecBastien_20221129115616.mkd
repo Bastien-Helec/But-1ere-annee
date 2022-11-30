@@ -1,0 +1,19 @@
+## Helec Bastien
+
+# TP1 : La couche IP : 
+
+---
+
+exercice 1 : Mise en place d’un serveur echo
+L’outil netcat est un peu le couteau suisse de l’administrateur réseau. Il permet de mettre en place très simplement un petit serveur en une simple commande :
+
+nc -l -p 7 -c "/bin/cat"
+
+Expliquez ce que fait la commande ci-dessus. Démarrez un serveur echo en UDP sur le port XX de la vm mise à votre disposition, et montrez comment vous y connecter depuis votre machine à l’aide de la commande telnet.
+Pour rappel, un serveur echo ouvre un port, et répète en retour tout message
+que vous lui enverrez.
+
+nc -l -p 7 -c "/bin/cat" : permet de lancer un serveur echo en UDP sur le port 7 
+
+exercice 2 : Encapsulation/ Désencapsulation
+

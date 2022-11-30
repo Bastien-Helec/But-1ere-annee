@@ -149,16 +149,4 @@ Que se passe t'il si vous refaite une tentative pour joindre une machine exterie
 
 On peut voir que la trame passe directement sur le reseau externe sans passer par le routeur
 
-20. Les switchs (partie optionnelle) :
-    
-Connectez vous a l'interface d'administration de l'un des switchs Cisco 2960 .
-Affichez la table de commutation du switch 
-```
-
-show mac address-table
-show mac address-table dynamic
-
-```
-Reliez votre switch au switch et de vos deux machines a votre switch. 
-
-tout en Fa0/10 est le cable réseau et Fa0/6 le cable de la machine
+20. 
