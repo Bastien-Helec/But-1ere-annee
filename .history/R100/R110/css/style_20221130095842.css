@@ -1,0 +1,94 @@
+header{
+    text-align: center;
+    background-color: rgb(73, 69, 69);} 
+
+header.menu{
+  position:sticky;
+}
+#navbar{
+    list-style-type: none;
+    display:n
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top :0;
+    z-index: 99;
+    }
+    
+    .navbarli {
+      float: left;
+    }
+    
+    .navbarli a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .navbarli a:hover:not(.active) {
+      background-color: #145561;
+    }
+    
+    .active {
+      background-color: #04AA6D;
+    }
+    #droitenavbar{
+      float: right;
+    }
+body {
+  font-family: "Luminari, fantasy";
+  font-size: 17px;
+  background-color: #145561 ;
+} 
+
+h1{
+    text-align: center;
+}
+
+#Me {
+    background-color: red ;
+}
+#headMe{
+    background-color: yellow;
+    text-align: center;
+}
+#textMe{
+  display: inline;
+}
+#melist
+{
+  position: relative;
+  display: inline-block;
+  list-style: none;
+  bottom: 230px;
+}
+#me2 {
+  position: relative;
+  top: 135px;
+}
+
+#pictMe1{
+  background-color: green;
+  text-align: center;
+  position: relative;
+  width: 12%;
+  height:auto;
+  left:24%
+}
+
+
+
+#Mlf {
+    background-color: lightgreen ;
+}
+#Mh {
+    background-color: blue ;
+}
+#About{
+    background-color: darkslategrey ;
+}

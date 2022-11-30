@@ -7,13 +7,16 @@
         <link href="/R100/R110/css/style.css" rel="stylesheet">
     </head>
     <body>
-    <header class="menu">
+    <header>
+        <nav id="menu">
             <ul id="navbar">
             <li class="navbarli"><a href="#Me">Me</a></li>
             <li class="navbarli"><a href="#Mlf">My life</a></li>
             <li class="navbarli"><a href="#Mh">My hobbies </a></li>
             <li class="navbarli" id="droitenavbar"><a href="#About">About</a></li>
+            
             </ul>
+        </nav>
     </header>
         <div id="Me">
             <div id="headMe"> <h1>ME</h1> </div>
@@ -26,90 +29,20 @@
             </div>
         </div>
 
-
-
-
-
         <div id="Mlf">
             <div id="headMlf"> <h1>MY LIFE</h1> </div>
             <div id="textMlf">
                 <p>My life is very simple cause i'm just too much busy about school , personnal projects and another type of project ;) <br>
                 Sometimes i just need break and play watch video ... But it's kind of complicate when it's happened in lesson time ...</p>
                 </p>
-            
-            <article id="pictMlf">
-                
-                <div class="slideshow-container">
-                    
-                    <div class="mySlides fade">
-                        <div class="numbertext">1 / 5</<div>
-                            <img class="Mylife" id="picmlf1" src="css/images/mylife/Snapchat-1360447970.jpg" alt="My life">
-                            
-                        </div>
-                        
-                        <div class="mySlides fade">
-                            <div class="numbertext">2 / 5</div>
-                            <img class="Mylife" id="picmlf2" src="css/images/mylife/Snapchat-1447883106.jpg" alt="My life">
-                        </div>
-                        
-                        <div class="mySlides fade">
-                            <div class="numbertext">3 / 5</div>
-                            <img class="Mylife" id="picmlf3" src="css/images/mylife/Snapchat-244782790.jpg" alt="My life">
-                            
-                        </div>
-                        <div class="mySlides fade">
-                            <div class="numbertext">4 / 5</div>
-                            <img class="Mylife" id="picmlf4" src="css/images/mylife/Snapchat-737565143.jpg" alt="My life">
-                            
-                        </div>
-                            
-                        <div class="mySlides fade">
-                            <div class="numbertext">5 / 5</div>
-                            <img class="Mylife" id="picmlf5" src="css/images/mylife/Snapchat-857624004.jpg" alt="My life">
-                        </div>
-                        
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)">❯</a>
-                    
-                    </div>
-                    <br>
-                    
-                    <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span> 
-                    <span class="dot" onclick="currentSlide(2)"></span> 
-                    <span class="dot" onclick="currentSlide(3)"></span> 
-                    <span class="dot" onclick="currentSlide(4)"></span> 
-                    <span class="dot" onclick="currentSlide(5)"></span> 
-                    </div>
-<script>
-    let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-let i;
-let slides = document.getElementsByClassName("mySlides");
-let dots = document.getElementsByClassName("dot");
-if (n > slides.length) {slideIndex = 1}    
-if (n < 1) {slideIndex = slides.length}
-for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-}
-for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-}
-slides[slideIndex-1].style.display = "block";  dots[slideIndex-1].className += " active";
-}
-</script>
-            </article>
             </div>
+            <article id="pictMlf">
+                <!-- <img src="css/images/mylife/Snapchat-1360447970.jpg" alt="My life">
+                <img src="css/images/mylife/Snapchat-1447883106.jpg" alt="My life">
+                <img src="css/images/mylife/Snapchat-244782790.jpg" alt="My life">
+                <img src="css/images/mylife/Snapchat-737565143.jpg" alt="My life">
+                <img src="css/images/mylife/Snapchat-857624004.jpg" alt="My life"> -->
+            </article>
         </div>
     
         <div id="Mh">
