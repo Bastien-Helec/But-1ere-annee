@@ -1,0 +1,274 @@
+header{
+    text-align: center;
+    background-color: rgb(73, 69, 69);} 
+h1{
+  color:white
+}
+header.menu{
+  position:sticky;
+  top:0;
+  overflow: hidden;
+  position: -webkit-sticky;
+  z-index: 30;
+  font-size: 20px; 
+}
+
+#navbar{
+    list-style-type: none;
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+    
+    }
+
+    .navbarli {
+      float: left;
+    }
+    
+    .navbarli a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .navbarli a:hover {
+      background-color: #145561;
+    }
+    
+    .active {
+      background-color: #04AA6D;
+    }
+    #droitenavbar{
+      float: right;
+    }
+body {
+  font-family: "Luminari, fantasy";
+  font-size: 17px;
+  background-color: #145561 ;
+} 
+
+h1{
+    text-align: center;
+}
+
+/* #Me {
+    background-color: red ;
+} */
+#me1,#me2{
+    font-size: 20px;
+    text-align: right;
+    color: white
+}
+#headMe{
+    /* background-color: yellow; */
+    text-align: center;
+}
+#textMe{
+  display: inline;
+}
+#melist
+{
+  position: relative;
+  display: inline-block;
+  list-style: none;
+  bottom: 230px;
+}
+#me2 {
+  position: relative;
+  top: 135px;
+}
+
+#pictMe1{
+  background-color: green;
+  text-align: center;
+  position: relative;
+  width: 11%;
+  height:auto;
+  left:16%;
+  bottom: 69px;
+}
+
+
+
+
+#textMlf{
+  color:white
+}
+
+#picmlf1{
+  width: 13%;
+  height:auto;
+}
+#picmlf2{
+  width: 13%;
+}
+#picmlf3{
+  width: 13%;
+}
+#picmlf4{
+  width: 13%;
+}
+#picmlf5{
+  width: 13%;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  top: -100px;
+  left: 907px;
+  width: 456px;
+  height: 110px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+     /* cursor: pointer; */
+    position: absolute;
+    top: 50%;
+    width: auto;
+     /* padding: 100px; */
+     /* margin-top: -22px; */
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    left: 142px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.dot {
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  position: relative;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  left: 415px;
+  top: -100px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+#photo{
+  text-align: center;
+  color: white;
+}
+.photo{
+  width: 20%;
+}
+
+/* Slideshow container */
+.slideshow-container2 {
+  max-width: 1000px;
+  position: relative;
+  top: -100px;
+  left: 907px;
+  width: 456px;
+  height: 110px;
+  text-align: center;
+}
+
+  .dot2 {
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    position: relative;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    left: 413px;
+    top: -29px;
+  }
+  
+  .active, .dot2:hover {
+    background-color: #717171;
+  }
+  
+  
+  
+  .prog{
+    width:13%
+  }
+.slideshow-container3 {
+  max-width: 1000px;
+  position: relative;
+  top: -15px;
+  left: 907px;
+  width: 456px;
+  height: 110px;
+  text-align: center;
+}
+
+  .dot3 {
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    position: relative;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    left: 411px;
+    top: -29px;
+  }
+
+.active, .dot3:hover {
+  background-color: #717171;
+}
+h4{
+  text-align: center;
+  color: white;
+}
+
+
+#About{
+    background-color: grey;
+}
+#headAbout{
+  text-align: center;
+}
+ul{
+  list-style-type:none;
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+}
+a {
+text-decoration: none;
+}

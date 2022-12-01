@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>My first web page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <header class="menu">
+            <ul id="navbar">
+            <li class="navbarli"><a href="#Me">Me</a></li>
+            <li class="navbarli"><a href="#Mlf">My life</a></li>
+            <li class="navbarli"><a href="#Mh">My hobbies </a></li>
+            <li class="navbarli" id="droitenavbar"><a href="#About">About</a></li>
+            </ul>
+    </header>
+        <div id="Me">
+            <div id="headMe"> <h1>ME</h1> </div>
+            <div id="textMe">
+                <ul id="melist">
+                    <li id="me1">I'm Bastien , I live in Pezenas , I was born in Beziers the 26 august 2003</li> <br>
+                    <li id="me2">I'm a kind person but sometimes i need what the others people set their limits with me </li>
+                </ul> 
+                <img  id="pictMe1" src="css/images/moi/moi.jpg" alt="My HEAD :)">
+            </div>
+        </div>
+
+
+
+
+
+        <div id="Mlf">
+            <div id="headMlf"> <h1>MY LIFE</h1> </div>
+            <div id="textMlf">
+                <p>My life is very simple cause i'm just too much busy about school , personnal projects and another type of project ;) <br><br><br><br>
+                Sometimes i just need break and play watch video ... But it's kind of complicate when it's happened in lesson time ...</p>
+                </p>
+                
+                <div class="slideshow-container">
+                    
+                    <div class="mySlides fade">
+                            <img class="Mylife" id="picmlf1" src="css/images/mylife/Snapchat-1360447970.jpg" alt="My life">
+            </div>
+        </div>
+    
+        <div id="Mh">
+            <div id="headMh"><h1>My hobbies</h1></div>
+            <div id="picsMh">
+                <div id="photo">
+                    <div id="headphoto"> <h4>Photography</h4></div>
+                    
+                    <div class="slideshow-container2">
+                        
+                        <div class="mySlides fade2">
+                        <img class="photo" src="css/images/photo/Snapchat-115279095.jpg" alt="My photo1">
+                        </div>
+                        
+                        <div class="mySlides fade2">
+                            <img class="photo"  src="css/images/photo/Snapchat-1350129431.jpg" alt="My photo2">
+                        </div>
+                        
+                        <div class="mySlides fade2">
+                            <img class="photo" src="css/images/photo/Snapchat-1424076087.jpg" alt="My photo3">
+                            
+                            
+                        </div>
+                        <div class="mySlides fade2">
+                            <img class="photo" src="css/images/photo/Snapchat-1790632167.jpg" alt="My photo4">
+                            
+                            
+                        </div>
+                        
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                    <span class="dot2" onclick="currentSlide(1)"></span> 
+                    <span class="dot2" onclick="currentSlide(2)"></span> 
+                    <span class="dot2" onclick="currentSlide(3)"></span> 
+                    <span class="dot2" onclick="currentSlide(4)"></span> 
+                    </div>
+<script>
+let slideIndex2 = 1;
+showSlides(slideIndex2);
+
+function plusSlides(n) {
+showSlides(slideIndex2 += n);
+}
+
+function currentSlide(n) {
+showSlides(slideIndex2 = n);
+}
+
+function showSlides(n) {
+let i;
+let slides = document.getElementsByClassName("mySlides fade2");
+let dots = document.getElementsByClassName("dot2");
+if (n > slides.length) {slideIndex2 = 1}    
+if (n < 1) {slideIndex2 = slides.length}
+for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+}
+for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex2-1].style.display = "block";  dots[slideIndex2-1].className += " active";
+}
+</script>
+                </div>
+
+                <div id="prog">
+                <div id="headprog"> <h4>Programming</h4></div>
+                <div class="slideshow-container3">
+                        
+                    <div class="mySlides fade3">
+                    <img class="prog" src="css/images/prog/IMG_20190501_174229_01.jpg" alt="My prog">
+                    </div>
+                    
+                </div>
+        <footer>
+            <div id="About">
+                <div id="headAbout"> <h3>About</h3> </div>
+                <div id="textAbout">
+                    <ul>
+                        <li>Networks</li>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/">Linkedin</a></li>
+                            <li><a href="https://www.instagram.com">Instagram</a></li>
+                        </ul>
+                        <li>Github</li>
+                        <ul>
+                            <li><a href="">Github</a></li>
+                        </ul>
+                        <li>Contact</li>
+                        <ul>
+                            <li><a href="mailto:bastien.helec@etu.umontpellier.fr">bastien.helec@etu.umontpellier.fr</a></li>
+                        </ul>
+                    </ul>
+                    
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
