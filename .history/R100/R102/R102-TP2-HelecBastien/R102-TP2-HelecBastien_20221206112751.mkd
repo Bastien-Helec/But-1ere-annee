@@ -98,5 +98,5 @@ Pour activer le routage, utilisez la commande :
 echo 1 1> /proc/sys/net/ipv4/ip_forward
 Montrez, captures de trames à l’appui, comment une trame IP est fragmentée/réassemblée
 sur votre réseau.
-
+R102 – La couche IP – page 2/2
 

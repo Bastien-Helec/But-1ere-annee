@@ -90,13 +90,4 @@ ip link set dev eno1 mtu [valeur]
 hping3 -p 22 -s 666 -t 1++ -a
 ```
 
-mtu = 500 : L'emission d'un paquet de 400 octets fonctionne mais pas un paquet de 2000 octets car le mtu est trop petit pour 2000 octets 
-
-exercice 7 : Mettre en place un réseau ip 
-Vous configurerez les adresses, masques, MTU et route par défaut de chaque machine.
-Pour activer le routage, utilisez la commande :
-echo 1 1> /proc/sys/net/ipv4/ip_forward
-Montrez, captures de trames à l’appui, comment une trame IP est fragmentée/réassemblée
-sur votre réseau.
-
-
+mtu = 500 : 

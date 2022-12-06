@@ -1,0 +1,48 @@
+## Helec Bastien
+
+# TP1 : La couche IP : 
+
+---
+
+exercice 1 : Mise en place d’un serveur echo
+L’outil netcat est un peu le couteau suisse de l’administrateur réseau. Il permet de mettre en place très simplement un petit serveur en une simple commande :
+
+nc -l -p 7 -c "/bin/cat"
+
+Expliquez ce que fait la commande ci-dessus. Démarrez un serveur echo en UDP sur le port XX de la vm mise à votre disposition, et montrez comment vous y connecter depuis votre machine à l’aide de la commande telnet.
+Pour rappel, un serveur echo ouvre un port, et répète en retour tout message
+que vous lui enverrez.
+
+nc -l -u -p 7 -c "/bin/cat" : permet de lancer un serveur echo en UDP sur le port 7 
+connexion avec la machine physique :
+```
+netcat -u 10.213.0.169 7
+```
+
+exercice 2 : Encapsulation/ Désencapsulation
+
+Capturez une trame émise par votre machine vers le serveur echo. Vous devrez capturer la même trame simultanément sur la machine émettrice et sur la machine réceptrice.
+Comparez le contenu des entêtes Ethernet, IP et UDP des deux paquets. Qu’est-ce qui
+a changé ? Expliquez.
+
+Le contenu des entêtes Ethernet, IP et UDP des deux paquets sont identiques sauf pour l'adresse MAC de la machine émettrice qui a changé.
+
+exercice 3: forgeage de trame avec hping 
+
+L’utilitaire hping, sous linux, permet de "fabriquer" une trame telle que vous la voulez.
+Montrer comment l’utiliser. Forgez une trame obéissant aux contraintes suivantes :
+. Couche IP ;
+. Adresse IP source : La votre.
+. Adresse IP destination : celle de votre VM
+. TTL : 200
+. Couche TCP :
+. Port source : 666
+. Port destination : 22
+. FLAGS : SYN
+. Numéro de séquence : 2355
+Capturez la trame que vous avez émise et vérifiez qu’elle obéit bien aux contraintes
+demandées.
+
+```
+hping3 -0 -a 10.213. 
+```
