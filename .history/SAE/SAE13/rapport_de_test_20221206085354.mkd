@@ -1,0 +1,15 @@
+## Helec Bastien
+
+
+## Comprendre un rapport de test du DSX602
+
+Sur la troisieme page du rapport de test, on trouve les informations suivantes:
+
+![rapport de test](rapport_test.png)
+
+Puis la propriété global du cable 
+
+![propriété du cable](rapport_test2.png)
+
+Le schema du systeme :
+![schema](rapport_test3.png)

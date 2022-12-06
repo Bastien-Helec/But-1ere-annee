@@ -1,0 +1,27 @@
+## Helec Bastien
+
+
+## Comprendre un rapport de test du DSX602
+
+1. Sur la troisieme page du rapport de test, on trouve les informations suivantes:
+
+![rapport de test](rapport_test.png)
+
+2. Puis la propriété global du cable 
+
+![propriété du cable](rapport_test2.png)
+
+3. Le schema du systeme :
+![schema](rapport_test3.png)
+
+4. et le rapport de test :
+![rapport de test nombre](rapport_test4.png)
+![rapport de test graphes](rapport_test5.png)
+
+Le rapport de test :
+NEXT 
+PS NEXT
+ACR-F
+PS ACR-F
+ACR-N
+PS ACR-N
