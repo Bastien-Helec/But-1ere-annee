@@ -1,0 +1,11 @@
+## Bastien Helec
+
+## 1  Etude de la couche HTTP: 
+
+1.1  Le cas HTTP
+Vous procéderez en deux étapes :
+. Sniffez et enregistrez la conversation entre votre navigateur et le site http ://www.perdu.com
+. Après vous être documenté sur le protocole HTTP, tentez d’obtenir la même page
+depuis telnet ou netcat.
+
+```
