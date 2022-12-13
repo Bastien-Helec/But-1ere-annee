@@ -1,0 +1,7 @@
+## R102-TP3-HelecBastien
+
+## 1 Preliminaires :
+
+echo 1 1> /proc/sys/net/ipv4/ip_forward 
+permet d'activer le routage
+

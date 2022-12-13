@@ -1,0 +1,5 @@
+## R102-TP3-HelecBastien
+
+## 1 Preliminaires :
+
+echo 1 1>

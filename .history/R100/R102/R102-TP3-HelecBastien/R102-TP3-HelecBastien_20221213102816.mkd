@@ -1,0 +1,35 @@
+## R102-TP3-HelecBastien
+
+## 1 Preliminaires :
+
+echo 1 1> /proc/sys/net/ipv4/ip_forward 
+permet d'activer le routage
+
+vous montrerez à l’enseignant que votre réseau fonctionne, et si la machine "Client" peut
+accéder au Web (expliquez).
+
+Cela ne marche pas car la table du routeur de l'iut n'est pas configurer 
+pour pouvoir acceder au web il faudra mettre en place une translation d'adressage pour pouvoir acceder au web
+
+## 2 Le protocol UDP 
+Modifiez le serveur que vous avez installé de façon à ce qu’il écoute en UDP sur le port
+42. Capturez les trames échangées entre votre Client et le Routeur 1 lors de :
+. l’établissement de la connexion entre le serveur et le client.
+. l’envoi (et la réception) d’une chaîne de caractères.
+. la fermeture d’une connexion.
+Qu’observez vous ? Expliquez en vous appuyant sur votre cours. Vous irez aussi loin que
+possible dans l’analyse des trames échangées 
+
+Le protocol UDP est un protocol de transport qui transporte sans garantie d'arriver il es aussi plus rapide. Ce qui impact sur les trames echangées en effet en UDP il n'y a pas de aquittement pour dire au serveur qu'il a bien recu le message. 
+
+## 3 Le protocol TCP :
+Modifiez maintenant le serveur que vous avez installé de façon à ce qu’il écoute en TCP
+sur le port 80 . Capturez les trames échangées entre votre Client et le Routeur 1 lors de :
+. l’établissement de la connexion entre le serveur et le client.
+. l’envoi (et la réception) d’une chaîne de caractères.
+. la fermeture d’une connexion.
+Qu’observez vous ? Expliquez en vous appuyant sur votre cours. Vous irez aussi loin que
+possible dans l’analyse des trames échangées.
+
+En TCP il y a un aquittement pour dire au serveur que le message a bien été recu. cela dis au serveur que l'information a bien etait reçu et que le serveur ne renvoi pas d'autre données identique jusqu'a une reponse positive du client 
+

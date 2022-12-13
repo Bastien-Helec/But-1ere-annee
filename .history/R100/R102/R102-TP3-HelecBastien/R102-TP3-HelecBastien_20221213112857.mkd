@@ -1,0 +1,84 @@
+## R102-TP3-HelecBastien
+
+## 1 Preliminaires :
+
+echo 1 1> /proc/sys/net/ipv4/ip_forward 
+permet d'activer le routage
+
+vous montrerez à l’enseignant que votre réseau fonctionne, et si la machine "Client" peut
+accéder au Web (expliquez).
+
+Cela ne marche pas car la table du routeur de l'iut n'est pas configurer 
+pour pouvoir acceder au web il faudra mettre en place une translation d'adressage pour pouvoir acceder au web
+
+## 2 Le protocol UDP 
+Modifiez le serveur que vous avez installé de façon à ce qu’il écoute en UDP sur le port
+42. Capturez les trames échangées entre votre Client et le Routeur 1 lors de :
+. l’établissement de la connexion entre le serveur et le client.
+. l’envoi (et la réception) d’une chaîne de caractères.
+. la fermeture d’une connexion.
+Qu’observez vous ? Expliquez en vous appuyant sur votre cours. Vous irez aussi loin que
+possible dans l’analyse des trames échangées 
+
+Le protocol UDP est un protocol de transport qui transporte sans garantie d'arriver il es aussi plus rapide. Ce qui impact sur les trames echangées en effet en UDP il n'y a pas de aquittement pour dire au serveur qu'il a bien recu le message. 
+
+## 3 Le protocol TCP :
+Modifiez maintenant le serveur que vous avez installé de façon à ce qu’il écoute en TCP
+sur le port 80 . Capturez les trames échangées entre votre Client et le Routeur 1 lors de :
+. l’établissement de la connexion entre le serveur et le client.
+. l’envoi (et la réception) d’une chaîne de caractères.
+. la fermeture d’une connexion.
+Qu’observez vous ? Expliquez en vous appuyant sur votre cours. Vous irez aussi loin que
+possible dans l’analyse des trames échangées.
+
+En TCP il y a un aquittement pour dire au serveur que le message a bien été recu. cela dis au serveur que l'information a bien etait reçu et que le serveur ne renvoi pas d'autre données identique jusqu'a une reponse positive du client 
+
+## 4 La notion de port :
+Sur le routeur 1, on souhaite démarrer deux serveurs écho, tout deux fonctionnant en
+TCP sur le port 80. Cela fonctionne-t-il ? Justifiez.
+Sur les conseils de l’un de vos camarades, vous décidez de placer un serveur en TCP/80,
+l’autre en UDP/80. Cela fonctionne-t-il ? Justifiez.
+On souhaite démarrez deux serveurs écho sur le routeur 1, sans utiliser le compte root.
+Montrez comment faire. 
+
+Faire 2 serveur echo sur le routeur sur le port 80 fonctionne pas car la machine connait le port du serveur est permet donc de faire un retour serveur (c'est quelque chose qui normalement ne fonctionne pas)
+
+sudo netsat -nlpt 
+affiche les serveurs qui sont ecoute 
+
+sudo netstat -npt 
+affiche les sockets active (les pcs connecter sur qu'elle pid)
+
+Sur les deux serveurs 1 en TCP et l'autre en UDP on peut voir avec les commandes ulterieurs que l'un est afficher mais pas l'autre , ce qui veut dire qu'on ne voit pas les informations en UDP alors qu'en TCP oui  
+
+sudo 
+
+## 5 Test sur les connexions sortantes :
+
+capturez, de part et d’autre de votre routeur, la consultation depuis le client du site
+http://www.perdu.com
+
+. Donnez l’encapsulation des trames échangées.
+. Le header TCP est-il modifié à la traversée du routeur ? En quoi ?
+
+Le header TCP est modifier car le routeur fait le NAT dans le but de recevoir le message et de pouvoir avoir acces a internet 
+
+## 6 Controle de flux :
+cat /dev/urandom |nc 192.168.1.2 8080 
+
+permet de saturer le serveur de connexion en affichant a chaque fois un nombre different a l'adresse ip 192.168.1.2 sur le port 8080
+
+La fenetre de reception a une taille qui s'incremente entre chaque paquet d'octet on le trouve sur le windows size de l'en tete tcp 
+
+
+
+Mise en place d'un nat : 
+
+La commande iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE permet de faire du nat 
+les options permette de :
+-t : permet de choisir le type de table
+-A : permet d'ajouter une regle
+-j : permet de choisir l'action a faire
+-o : permet de choisir l'interface de sortie
+iptables : permet de faire des regles de filtrage
+

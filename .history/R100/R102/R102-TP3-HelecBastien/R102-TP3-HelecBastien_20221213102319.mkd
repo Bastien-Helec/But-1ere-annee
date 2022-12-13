@@ -1,0 +1,13 @@
+## R102-TP3-HelecBastien
+
+## 1 Preliminaires :
+
+echo 1 1> /proc/sys/net/ipv4/ip_forward 
+permet d'activer le routage
+
+vous montrerez à l’enseignant que votre réseau fonctionne, et si la machine "Client" peut
+accéder au Web (expliquez).
+
+Cela ne marche pas car la table du routeur de l'iut n'est pas configurer 
+pour pouvoir acceder au web il faudra mettre en place une translation d'adressage pour pouvoir acceder au web
+
