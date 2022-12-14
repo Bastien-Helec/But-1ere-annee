@@ -3,14 +3,13 @@ On est parti dans home est on a suivi les instructions suivantes :
 outils> definition de la references, puis on a brancher le cable de lien permanent entre l'unité distante et l'unité locale. puis on a appuyer sur tester une fois terminer on a fait terminer. 
 Une fois terminer on a realiser un nouveau projet avec le nom sae-Diallo-Helec. 
 on ajouter un operateur et on a modifier le cable avec la references : acolan 550 FU 4P 24AWG F/UTP cat.6A 10Gbit 550Mhz LSOH-FR NVP 78% . puis on appuyer sur enregistrer. 
-on va ensuite dans outils et on met la longueur en metres. 
- 
+
 Puis a on appuyer sur home puis sur test on, appuiera sur oui lorsque la pop up va apparaitre 
 
 On tombe alors sur le resultat du cable qu'on a ensuite enregistrer sur l'ordinateur. Pour recuperer les informations sur l'ordinateur on a brancher le cable micro-usb au usb de l'ordinateur on arrive alors sur la page d'acceuil ou l'on va faire : 
-fichiers>Importer de > DSX CableAnalyzer> Select file 
-On optient alors le rapport de test sur l'ordinateur on va l'exporter ensuite en pdf :
-fichiers>PDF 
+fichiers>Importer de > DSX CableAnalyzer 
+On optient alors le rapport de test sur l'ordinateur on l'exporter ensuite en pdf :
+fichiers
 
 deuxième partie :
 
