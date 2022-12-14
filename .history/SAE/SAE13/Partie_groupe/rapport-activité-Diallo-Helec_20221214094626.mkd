@@ -36,13 +36,14 @@ On doit d'abord s'armer des appareils suivant :
 -Un oscilloscope 
 -le cable ( acolan 550 FU 4P 24AWG F/UTP cat.6A 10Gbit 550Mhz LSOH-FR) 
 -une plaquette 
+-2 cable prise RJ45 pour pouvoir les brancher sur le cable
 
 
 
 
 Mesure de la resistance du cable :
 
-Pour mésurer la resistance du cables on s'est servi : 
+Pour mesurer la resistance du cables on c'est servis : 
 du cable 
 d'un multimetre mx579 
 

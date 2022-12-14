@@ -36,15 +36,4 @@ On doit d'abord s'armer des appareils suivant :
 -Un oscilloscope 
 -le cable ( acolan 550 FU 4P 24AWG F/UTP cat.6A 10Gbit 550Mhz LSOH-FR) 
 -une plaquette 
-
-
-
-
-Mesure de la resistance du cable :
-
-Pour mésurer la resistance du cables on s'est servi : 
-du cable 
-d'un multimetre mx579 
-
-On a brancher le cable a l'aide d'un cable RJ11 sur une plaquette de telephonie ou il y a que 2 paire qui circule grace a cette plaquette on a pu mesurer la resistance de deux paire du cable. on a obtenu pour valeur 3.5 Ohms et 2.84 Ohms. ce qui est plutot proche de la valeur de 3.81 Ohms mesurer a l'aide du DSX602 
-
+-2 cable prise RJ45 pour pouvoir les brancher sur le cable

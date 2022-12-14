@@ -37,12 +37,12 @@ On doit d'abord s'armer des appareils suivant :
 -le cable ( acolan 550 FU 4P 24AWG F/UTP cat.6A 10Gbit 550Mhz LSOH-FR) 
 -une plaquette 
 
-
+,;
 
 
 Mesure de la resistance du cable :
 
-Pour mésurer la resistance du cables on s'est servi : 
+Pour mésurer la resistance du cables on s'est servit : 
 du cable 
 d'un multimetre mx579 
 

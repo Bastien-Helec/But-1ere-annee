@@ -42,7 +42,7 @@ On doit d'abord s'armer des appareils suivant :
 
 Mesure de la resistance du cable :
 
-Pour mésurer la resistance du cables on s'est servi : 
+Pour mesurer la resistance du cables on c'est servis : 
 du cable 
 d'un multimetre mx579 
 
