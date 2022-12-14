@@ -1,0 +1,28 @@
+premiere partie: 
+On est parti dans home est on a suivi les instructions suivantes :
+outils> definition de la references, puis on a brancher le cable de lien permanent entre l'unité distante et l'unité locale. puis on a appuyer sur tester une fois terminer on a fait terminer. 
+Une fois terminer on a realiser un nouveau projet avec le nom sae-Diallo-Helec. 
+on ajouter un operateur et on a modifier le cable avec la references : acolan 550 FU 4P 24AWG F/UTP cat.6A 10Gbit 550Mhz LSOH-FR NVP 78% . puis on appuyer sur enregistrer
+
+deuxième partie :
+
+
+
+
+
+
+
+## Troisième partie : 
+
+On va realiser plusieurs test sur le cable :
+calcul de l'attenuation du cable
+mesure de la resistance du cable
+et mesures liées a la propagation du cable 
+
+
+Calcul de l'attenuation du cable :
+
+On doit d'abord s'armer des appareils suivant : 
+-Un GBF 
+-Un oscilloscope 
+-le cable ( acolan 550 FU 4P 24AWG F/UTP cat.6A 10Gbit 550Mhz LSOH-FR) 

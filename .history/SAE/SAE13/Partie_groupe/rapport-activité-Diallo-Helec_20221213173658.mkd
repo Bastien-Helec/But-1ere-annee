@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+## Troisième partie : 
+
+On va realiser plusieurs test sur le cable :
+calcul de l'attenuation du cable
+mesure de la resistance du cable
+et mesures lié 

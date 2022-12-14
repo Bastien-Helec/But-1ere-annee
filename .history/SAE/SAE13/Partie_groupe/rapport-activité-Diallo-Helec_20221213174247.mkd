@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+## Troisième partie : 
+
+On va realiser plusieurs test sur le cable :
+calcul de l'attenuation du cable
+mesure de la resistance du cable
+et mesures liées a la propagation du cable 
+
+
+Calcul de l'attenuation du cable :
+
+On doit d'abord s'armer des appareils suivant : 
+-Un GBF 
+-Un oscilloscope 
+-le cable ( acolan 550 FU 4P 24AWG F/UTP ) 

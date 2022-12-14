@@ -1,0 +1,26 @@
+premiere partie: 
+On est parti dans home est on a suivi les instructions suivantes :
+outils> definition de la references, puis on a brancher le cable l
+
+deuxième partie :
+
+
+
+
+
+
+
+## Troisième partie : 
+
+On va realiser plusieurs test sur le cable :
+calcul de l'attenuation du cable
+mesure de la resistance du cable
+et mesures liées a la propagation du cable 
+
+
+Calcul de l'attenuation du cable :
+
+On doit d'abord s'armer des appareils suivant : 
+-Un GBF 
+-Un oscilloscope 
+-le cable ( acolan 550 FU 4P 24AWG F/UTP cat.6A 10Gbit 550Mhz LSOH-FR) 
