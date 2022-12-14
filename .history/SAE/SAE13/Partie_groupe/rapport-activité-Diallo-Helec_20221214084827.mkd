@@ -11,7 +11,7 @@ On tombe alors sur le resultat du cable qu'on a ensuite enregistrer sur l'ordina
 fichiers>Importer de > DSX CableAnalyzer> Selectionner les enregistrements a importer> on selectionne notre projet "SAE-DIALLO-HELEC" puis on appuie sur importer les elements selectionnés.
 
 On optient alors le rapport de test sur l'ordinateur on va l'exporter ensuite en pdf :
-fichiers>PDF>Rapport d'autotest> enregistrements selectionnés dans la liste>ok>puis on le renomme au nom desiré et on l'enregistre. 
+fichiers>PDF>Rapport d'autotest> enregistrements selectionnés
 
 deuxième partie :
 

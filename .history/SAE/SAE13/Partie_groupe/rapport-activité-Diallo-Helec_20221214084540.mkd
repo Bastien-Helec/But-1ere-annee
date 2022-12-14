@@ -8,10 +8,9 @@ on va ensuite dans outils et on met la longueur en metres.
 Puis a on appuyer sur home puis sur test on, appuiera sur oui lorsque la pop up va apparaitre 
 
 On tombe alors sur le resultat du cable qu'on a ensuite enregistrer sur l'ordinateur. Pour recuperer les informations sur l'ordinateur on a brancher le cable micro-usb au usb de l'ordinateur on arrive alors sur la page d'acceuil ou l'on va faire : 
-fichiers>Importer de > DSX CableAnalyzer> Selectionner les enregistrements a importer> on selectionne notre projet "SAE-DIALLO-HELEC" puis on appuie sur importer les elements selectionnés.
-
+fichiers>Importer de > DSX CableAnalyzer> Selectionner les enregistrements a importer> on selectionne notre projet "SAE-DIALLO-HELEC" puis on appuie sur import
 On optient alors le rapport de test sur l'ordinateur on va l'exporter ensuite en pdf :
-fichiers>PDF>Rapport d'autotest> enregistrements selectionnés dans la liste>ok>puis on le renomme au nom desiré et on l'enregistre. 
+fichiers>PDF 
 
 deuxième partie :
 
