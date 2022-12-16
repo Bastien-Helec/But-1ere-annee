@@ -15,23 +15,10 @@ fichiers>PDF>Rapport d'autotest> enregistrements selectionnés dans la liste>ok>
 
 deuxième partie :
 
-En faisant le rapport de test on a pu avoir un resultat correct on a pu obtenir aussi la taille du cable qui est de 24,3m . 
-
-sur la troisieme pages on alors obtenir des resultats des plus convenables car aucune courbe passe 
-en dessous de la marge en rouge (26.1 dB)
-
-![alt](https://)
-
-la partie NEXT et PS NEXT permet de savoir si dans la communication on aura des interferences du cable comme ça ne depasse pas la marge alors il n'y a pas d'interferences ou du moins sont peut presentes 
+En faisant le raportde test on pu avoir un resultat correct on a pu obtenir aussi la taille du cable qui est 24,3m 
 
 
-La partie ACR-F et PS ACR-F permet de savoir le rapport entre l'attenuation et la diaphonie du cable en bout de ligne. Ici cela veut dire qu'il n'y a pas de rapport inferieur a la marge donc c'est correct 
 
-La partie ACR-N et PS ACR-N Font les memes mesure que la partie ACR-F mais en debut du cable , ici aussi cela veut dire qu'il n'y a pas de rapport inferieur a la marge hors comme c'est au debut du cable le certificateur n'en prend pas compte 
-
-La partie RL indique une perte de retour largement superieur a la marge donc cela veut dire qu'il n'y a pas de probleme au niveau des retours du cables donc c'est correct 
-
-En faisant la totalité des resultats on peut donc en conclure que la certification est correct , donc le cable est correct et certifié. 
 
 
 ## Troisième partie : 
