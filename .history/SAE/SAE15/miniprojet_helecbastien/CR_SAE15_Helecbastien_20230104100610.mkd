@@ -14,5 +14,4 @@ Nous allons d'abord commencer par creer un systeme de parsage du site pour les p
 Puis on mettra la coorelation entre les deux types de parkings. 
 
 # Code Source
-les codes seront dans les differents dossiers trier dans le miniprojet 
-
+les codes seront dans les differents dossiers trier 

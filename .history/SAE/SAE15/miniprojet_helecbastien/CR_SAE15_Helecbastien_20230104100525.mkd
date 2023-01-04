@@ -13,6 +13,3 @@ Le but de cette sae est de recuperer des données sur les differents parkings : 
 Nous allons d'abord commencer par creer un systeme de parsage du site pour les parkings voitures de montpellier par le biais de request dans le but d'obtenir un fichier d'un parking au depart , puis sur tout les parkings. En second temps nous feront la meme chose pour les parkings vélo. Et on terminera par afficher une courbe de l'evolution du nombre de place de parking libre et occupé pour chacun des deux types de parkings. 
 Puis on mettra la coorelation entre les deux types de parkings. 
 
-# Code Source
-les codes seront dans les differents dossiers trier dans le miniprojet 
-
