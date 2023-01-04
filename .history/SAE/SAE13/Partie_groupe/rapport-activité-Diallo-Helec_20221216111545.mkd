@@ -1,5 +1,4 @@
 ### Helec bastien , Diallo Rahilou
-J'ai etait contraint de travailler tout seul car mademoiselle Diallo Rahilou n'a pas été presentes durant l'entierêté de la SAE13 et ayant rencontrer de grande diffculté dans cette SAE , c'est pourquoi les differents compte rendu et montage on etait redigé est fait par Mr Helec Bastien
 
 ##  Premiere partie: 
 On est parti dans home est on a suivi les instructions suivantes :
@@ -23,27 +22,18 @@ En faisant le rapport de test on a pu avoir un resultat correct on a pu obtenir 
 sur la troisieme pages on alors obtenir des resultats des plus convenables car aucune courbe passe 
 en dessous de la marge en rouge (26.1 dB)
 
-![alt](images/Capture%20d%E2%80%99%C3%A9cran%20du%202022-12-16%2011-09-43.png)
+![alt](Capture%20d%E2%80%99%C3%A9cran%20du%202022-12-16%2011-09-43.png)
 
 la partie NEXT et PS NEXT permet de savoir si dans la communication on aura des interferences du cable comme ça ne depasse pas la marge alors il n'y a pas d'interferences ou du moins sont peut presentes 
 
-![alt](images/Capture%20d%E2%80%99%C3%A9cran%20du%202022-12-16%2011-11-04.png)
-![alt](images/Capture%20d%E2%80%99%C3%A9cran%20du%202022-12-16%2011-11-39.png)
+![alt](Capture%20d%E2%80%99%C3%A9cran%20du%202022-12-16%2011-11-04.png)
 
 La partie ACR-F et PS ACR-F permet de savoir le rapport entre l'attenuation et la diaphonie du cable en bout de ligne. Ici cela veut dire qu'il n'y a pas de rapport inferieur a la marge donc c'est correct 
-
-![alt](images/Capture%20d%E2%80%99%C3%A9cran%20du%202022-12-16%2011-12-00.png)
-![alt](images/Capture%20d%E2%80%99%C3%A9cran%20du%202022-12-16%2011-22-40.png)
+![alt](Capture%20d%E2%80%99%C3%A9cran%20du%202022-12-16%2011-11-39.png)
 
 La partie ACR-N et PS ACR-N Font les memes mesure que la partie ACR-F mais en debut du cable , ici aussi cela veut dire qu'il n'y a pas de rapport inferieur a la marge hors comme c'est au debut du cable le certificateur n'en prend pas compte 
-![alt](images/Capture%20d%E2%80%99%C3%A9cran%20du%202022-12-16%2011-12-13.png)
-![alt](images/Capture%20d%E2%80%99%C3%A9cran%20du%202022-12-16%2011-12-26.png)
-
 
 La partie RL indique une perte de retour largement superieur a la marge donc cela veut dire qu'il n'y a pas de probleme au niveau des retours du cables donc c'est correct 
-
-![alt](images/Capture%20d%E2%80%99%C3%A9cran%20du%202022-12-16%2011-12-55.png)
-![alt](images/Capture%20d%E2%80%99%C3%A9cran%20du%202022-12-16%2011-12-34.png)
 
 En faisant la totalité des resultats on peut donc en conclure que la certification est correct , donc le cable est correct et certifié. 
 
@@ -71,7 +61,6 @@ Sur le GBF on a mis une valeur de 1Mhz et une valeur crete a crete de 10V avec u
 
 L'attenuation du cable est donc de 0,10 dB 
 
-![alt](images/schema2.png)
 
 
 Mesure de la resistance du cable :
@@ -82,7 +71,6 @@ d'un multimetre mx579
 
 On a brancher le cable a l'aide d'un cable RJ11 sur une plaquette de telephonie ou il y a que 2 paire qui circule grace a cette plaquette on a pu mesurer la resistance de deux paire du cable. on a obtenu pour valeur 3.5 Ohms et 2.84 Ohms. ce qui est plutot proche de la valeur de 3.81 Ohms mesurer a l'aide du DSX602 
 
-![alt](images/schema1.png)
 
 Calcul de la vitesse de propagation dans le cable : 
 
@@ -98,4 +86,13 @@ Sur le GBF on a mis une valeur de 1Mhz et une valeur crete a crete de 10V avec u
 en utilisant la formule v=d/t pour t= 260ns et d=24,3m 
 24,3/260*10^-9 = 112 500 Km/s , la vitesse est plutot coherentes car la vitesse de propagation dans le vide est de 300 000 Km/s 
 
-![alt](images/schema1.png)
+Test sur les cables coaxiaux :-
+
+
+-Avec le DSX602
+
+-La resistance du cable 
+
+-L'attenuation du cable 
+
+-La vitesse de propagation du cable

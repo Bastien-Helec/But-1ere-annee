@@ -71,7 +71,7 @@ Sur le GBF on a mis une valeur de 1Mhz et une valeur crete a crete de 10V avec u
 
 L'attenuation du cable est donc de 0,10 dB 
 
-![alt](images/schema2.png)
+![alt]()
 
 
 Mesure de la resistance du cable :
@@ -97,5 +97,3 @@ On a d'abord brancher le cable d'un connecteur RJ11 sur l'une des prises femelle
 Sur le GBF on a mis une valeur de 1Mhz et une valeur crete a crete de 10V avec une impedance caracteristiques de 100 Ohms que l'ont a obtenu grace a internet est les caracteristiques du cables qui on indiqué l'impédance caracteristiques entre autre. on a regler l'oscilloscope de sorte a avoir une periode de chaque voie differente. l'entrée situer sur le debut de la periode en jaune et la sortie sur la fin de la periode en bleu on a alors obtenu : 
 en utilisant la formule v=d/t pour t= 260ns et d=24,3m 
 24,3/260*10^-9 = 112 500 Km/s , la vitesse est plutot coherentes car la vitesse de propagation dans le vide est de 300 000 Km/s 
-
-![alt](images/schema1.png)

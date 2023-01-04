@@ -71,7 +71,7 @@ Sur le GBF on a mis une valeur de 1Mhz et une valeur crete a crete de 10V avec u
 
 L'attenuation du cable est donc de 0,10 dB 
 
-![alt](images/schema2.png)
+![alt](images/sch)
 
 
 Mesure de la resistance du cable :
