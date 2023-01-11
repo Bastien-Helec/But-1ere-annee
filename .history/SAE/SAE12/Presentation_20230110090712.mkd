@@ -1,0 +1,5 @@
+## Copyright © Helec Bastien
+
+### preparation
+Faire une reseau sur GNS3 
+et partie physique en 
