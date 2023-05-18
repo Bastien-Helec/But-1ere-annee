@@ -1,0 +1,40 @@
+## TP Transmission FM
+## Maronne Helec
+
+4. Experimentation
+.1  Nous utiliserons le VM dragon os preinstaller sur les ordinateurs de l'IUT 
+
+.2 Pour connecter l'ADALM PLUTO a la VM on a alors brancher le cable USB a l'ordinateur et a l'ADALM PLUTO puis sur le logiciels qui host le VM on es aller dans peripheriques puis USB et on a selectionner Analog Devices Inc.
+
+.3 Ce diagramme realise la liaison de 2 source constant au format float puis on les additionne et on les envois vers le sink qui est l'ADALM PLUTO
+
+Il emet donc un signal qui est la somme des 2 signaux constant sur la frequence de 840MHz 
+
+.4 
+![alt](IMG_20230505_163507.jpg)
+on peut observer sur le spectrogramme un pic a 840MHz ce qui correspond a l'emission donc cela correspond a nos attentes 
+
+
+.5 Contrairement a la partie 4.3 on utilise ici un signal sinusoidale qui va donc réaliser un signal modulé en amplitude, d'apres nos predictions on devrait donc avoir un signal constant
+
+.6 
+![alt](IMG_0124.jpg)
+cela est conformes a nos predictions on a bien un signal constant
+
+5. Transmission de signaux en modulation de frequence 
+
+.7 le bloc signal source permet d'emettre un signal sinusoidale de frequence 1kHz et d'amplitude 1 , le bloc Rational Resampler permet de changer la frequence d'echantillonage du signal , le bloc WBFM Transmit permet de moduler le signal en frequence et de l'envoyer vers l'ADALM PLUTO et le bloc pluto sink permet de recevoir le signal et de l'afficher sur le logiciel
+
+.8 
+![alt](5D563DF2-8F9A-4348-9152-AA0FA4B65DBC.jpg)
+Le programme 
+
+.9 Le diagramme et le meme que le diagramme afficher et expliquer en .7 on a simplement une section d'affichage permettant d'afficher avec un filtre passe bas le signal emis par adalm pluto
+
+.10 
+
+.11 
+
+.12
+
+.13 

@@ -1,0 +1,30 @@
+## Bastien Helec
+
+## 1  Etude de la couche HTTP: 
+
+1.1  Le cas HTTP
+Vous procéderez en deux étapes :
+. Sniffez et enregistrez la conversation entre votre navigateur et le site http ://www.perdu.com
+. Après vous être documenté sur le protocole HTTP, tentez d’obtenir la même page
+depuis telnet ou netcat.
+
+```
+netcat www.perdu.com 80
+```
+1.2 Le cas HTTPS
+
+Sniffez et enregistrez la conversation entre votre navigateur et le site https ://www.perdu.com
+. L’approche précédente fonctionnera-t-elle avec https ? pourquoi ?
+
+non car le site est en https et non en http ce qui veut dire qu'il es securiser 
+
+. Documentez-vous sur la commande "openssl s_client". Que fait-elle ?
+
+elle permet de se connecter a un serveur ssl/tls en etablissant une connexion transparente
+
+. Tentez d’obtenir la page avec ce nouvel outil.
+
+```
+openssl s_client
+```
+

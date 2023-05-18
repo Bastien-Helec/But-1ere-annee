@@ -1,0 +1,7 @@
+## TP Transmission FM
+## Maronne Helec
+
+4. Experimentation
+.1  Nous utiliserons le VM dragon os preinstaller sur les ordinateurs de l'IUT 
+
+.2  

@@ -1,0 +1,16 @@
+TD2:
+Exercice 1 :
+a) Il faut 2 bits de sous réseaux /26 
+b) 4 sous réseaux
+c) 256-192 soit 64-2=62 machines
+d)
+e) 
+f) 
+
+Exercice 2 :
+a) la route par defaut : 194.199.229.100
+l'addresse lo (loopback)
+et le ppp 
+
+b) 194.199.227.11
+c) 

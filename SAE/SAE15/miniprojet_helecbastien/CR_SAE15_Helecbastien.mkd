@@ -1,0 +1,18 @@
+## © Helec Bastien
+### Compte rendu miniprojet SAE 15 :
+
+# Introduction
+Le but de cette SAE est de recuperer des données sur les differents parkings : voitures et vélo, sur la ville de Montpellier. Pour cela, nous allons utiliser le site : http://data.montpellier3m.fr/dataset/parkings-temps-reel. puis on triera ces données et on recuperera les données suivantes :
+* Nombre de places de parking
+* Nombre de places de parking libre
+* nombre de places de parking occupé
+* entrée 
+* sortie 
+
+# Préparation
+Nous allons d'abord commencer par creer un systeme de parsage du site pour les parkings voitures de montpellier par le biais de request, lxml et time dans le but d'obtenir un fichier d'un parking au depart , puis sur tout les parkings. En second temps nous feront la meme chose pour les parkings vélo. Et on terminera par afficher une courbe de l'evolution du nombre de place de parking libre et occupé pour chacun des deux types de parkings. 
+Puis on mettra la coorelation entre les deux types de parkings. 
+
+# Code Source
+les codes seront dans les differents dossiers trier dans le miniprojet 
+

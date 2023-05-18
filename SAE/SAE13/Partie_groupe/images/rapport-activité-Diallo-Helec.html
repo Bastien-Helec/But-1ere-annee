@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>rapport-activité-Diallo-Helec.mkd</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h3 id="helec-bastien--diallo-rahilou">Helec bastien , Diallo Rahilou</h3>
+<h2 id="premiere-partie">Premiere partie:</h2>
+<p>On est parti dans home est on a suivi les instructions suivantes :
+outils&gt; definition de la references, puis on a brancher le cable de lien permanent entre l'unité distante et l'unité locale. puis on a appuyer sur tester une fois terminer on a fait terminer.
+Une fois terminer on a realiser un nouveau projet avec le nom sae-Diallo-Helec.
+on ajouter un operateur et on a modifier le cable avec la references : acolan 550 FU 4P 24AWG F/UTP cat.6A 10Gbit 550Mhz LSOH-FR NVP 78% . puis on appuyer sur enregistrer.
+on va ensuite dans outils et on met la longueur en metres.</p>
+<p>Puis a on appuyer sur home puis sur test on, appuiera sur oui lorsque la pop up va apparaitre</p>
+<p>On tombe alors sur le resultat du cable qu'on a ensuite enregistrer sur l'ordinateur. Pour recuperer les informations sur l'ordinateur on a brancher le cable micro-usb au usb de l'ordinateur on arrive alors sur la page d'acceuil ou l'on va faire :
+fichiers&gt;Importer de &gt; DSX CableAnalyzer&gt; Selectionner les enregistrements a importer&gt; on selectionne notre projet &quot;SAE-DIALLO-HELEC&quot; puis on appuie sur importer les elements selectionnés.</p>
+<p>On optient alors le rapport de test sur l'ordinateur on va l'exporter ensuite en pdf :
+fichiers&gt;PDF&gt;Rapport d'autotest&gt; enregistrements selectionnés dans la liste&gt;ok&gt;puis on le renomme au nom desiré et on l'enregistre.</p>
+<h2 id="deuxi%C3%A8me-partie">Deuxième partie :</h2>
+<p>En faisant le rapport de test on a pu avoir un resultat correct on a pu obtenir aussi la taille du cable qui est de 24,3m .</p>
+<p>sur la troisieme pages on alors obtenir des resultats des plus convenables car aucune courbe passe
+en dessous de la marge en rouge (26.1 dB)</p>
+<p><img src="Capture d’écran du 2022-12-16 11-09-43.png" alt="alt"></p>
+<p>la partie NEXT et PS NEXT permet de savoir si dans la communication on aura des interferences du cable comme ça ne depasse pas la marge alors il n'y a pas d'interferences ou du moins sont peut presentes</p>
+<p><img src="Capture d’écran du 2022-12-16 11-11-04.png" alt="alt">
+<img src="Capture d’écran du 2022-12-16 11-11-39.png" alt="alt"></p>
+<p>La partie ACR-F et PS ACR-F permet de savoir le rapport entre l'attenuation et la diaphonie du cable en bout de ligne. Ici cela veut dire qu'il n'y a pas de rapport inferieur a la marge donc c'est correct</p>
+<p><img src="Capture d’écran du 2022-12-16 11-12-00.png" alt="alt">
+<img src="Capture d’écran du 2022-12-16 11-22-40.png" alt="alt"></p>
+<p>La partie ACR-N et PS ACR-N Font les memes mesure que la partie ACR-F mais en debut du cable , ici aussi cela veut dire qu'il n'y a pas de rapport inferieur a la marge hors comme c'est au debut du cable le certificateur n'en prend pas compte
+<img src="Capture d’écran du 2022-12-16 11-12-13.png" alt="alt">
+<img src="Capture d’écran du 2022-12-16 11-12-26.png" alt="alt"></p>
+<p>La partie RL indique une perte de retour largement superieur a la marge donc cela veut dire qu'il n'y a pas de probleme au niveau des retours du cables donc c'est correct</p>
+<p><img src="Capture d’écran du 2022-12-16 11-12-55.png" alt="alt">
+<img src="Capture d’écran du 2022-12-16 11-12-34.png" alt="alt"></p>
+<p>En faisant la totalité des resultats on peut donc en conclure que la certification est correct , donc le cable est correct et certifié.</p>
+<h2 id="troisi%C3%A8me-partie">Troisième partie :</h2>
+<p>On va realiser plusieurs test sur le cable :
+calcul de l'attenuation du cable
+mesure de la resistance du cable
+et mesures liées a la propagation du cable</p>
+<p>Calcul de l'attenuation du cable :</p>
+<p>On doit d'abord s'armer des appareils suivant :
+-Un GBF
+-Un oscilloscope
+-le cable ( acolan 550 FU 4P 24AWG F/UTP cat.6A 10Gbit 550Mhz LSOH-FR)
+-une plaquette
+-une resistance de 100 Ohms.
+On a d'abord brancher le cable d'un connecteur RJ11 sur l'une des prises femelles, que l'on a relier sur une plaquette ou on l'a regrouper avec la deuxième prise femelle du cable acolan on ensuite brancher le gbf avec un connecteur T sur la voie 1 de l'oscilloscope en cable direct , on a ajouter sur la deuxieme voie la sortie du cable</p>
+<p>Sur le GBF on a mis une valeur de 1Mhz et une valeur crete a crete de 10V avec une impedance caracteristiques de 100 Ohms que l'ont a obtenu grace a internet est les caracteristiques du cables qui on indiqué l'impédance caracteristiques entre autre. on a regler l'oscilloscope de sorte a avoir une periode de chaque voie differente. on alors recuperer les max de v(O) = 6,80 V et de v(d)=6,72 V on a alors obtenu :
+20log(6,80/6,72)~ 0,10 dB , en utilisant la formule : 20log(v(0)/v(d))</p>
+<p>L'attenuation du cable est donc de 0,10 dB</p>
+<p>Mesure de la resistance du cable :</p>
+<p>Pour mésurer la resistance du cables on s'est servi :
+du cable
+d'un multimetre mx579</p>
+<p>On a brancher le cable a l'aide d'un cable RJ11 sur une plaquette de telephonie ou il y a que 2 paire qui circule grace a cette plaquette on a pu mesurer la resistance de deux paire du cable. on a obtenu pour valeur 3.5 Ohms et 2.84 Ohms. ce qui est plutot proche de la valeur de 3.81 Ohms mesurer a l'aide du DSX602</p>
+<p>Calcul de la vitesse de propagation dans le cable :</p>
+<p>On doit d'abord s'armer des appareils suivant :
+-Un GBF
+-Un oscilloscope
+-le cable ( acolan 550 FU 4P 24AWG F/UTP cat.6A 10Gbit 550Mhz LSOH-FR)
+-une plaquette
+-une resistance de 100 Ohms.
+On a d'abord brancher le cable d'un connecteur RJ11 sur l'une des prises femelles, que l'on a relier sur une plaquette ou on l'a regrouper avec la deuxième prise femelle du cable acolan on ensuite brancher le gbf avec un connecteur T sur la voie 1 de l'oscilloscope en cable direct , on a ajouter sur la deuxieme voie la sortie du cable</p>
+<p>Sur le GBF on a mis une valeur de 1Mhz et une valeur crete a crete de 10V avec une impedance caracteristiques de 100 Ohms que l'ont a obtenu grace a internet est les caracteristiques du cables qui on indiqué l'impédance caracteristiques entre autre. on a regler l'oscilloscope de sorte a avoir une periode de chaque voie differente. l'entrée situer sur le debut de la periode en jaune et la sortie sur la fin de la periode en bleu on a alors obtenu :
+en utilisant la formule v=d/t pour t= 260ns et d=24,3m
+24,3/260*10^-9 = 112 500 Km/s , la vitesse est plutot coherentes car la vitesse de propagation dans le vide est de 300 000 Km/s</p>
+<p>Test sur les cables coaxiaux :-</p>
+<p>-Avec le DSX602</p>
+<p>-La resistance du cable</p>
+<p>-L'attenuation du cable</p>
+<p>-La vitesse de propagation du cable</p>
+
+</body>
+</html>

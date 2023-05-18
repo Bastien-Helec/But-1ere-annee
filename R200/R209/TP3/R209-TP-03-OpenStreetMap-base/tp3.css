@@ -1,0 +1,19 @@
+body{
+  background-color:white;
+  text-align:center;
+}
+.box{width:500px;height:400px;}
+div.flex{display:flex;align-items:center;justify-content:center;}
+.btn{display:inline-block;margin-bottom:0;font-weight:400;text-align:center;white-space:nowrap;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;padding:6px 12px;font-size:14px;line-height:1.42857143;border-radius:4px;}
+
+.btn-primary{color:#fff;background-color:#337ab7;border-color:#2e6da4}
+.btn-primary:hover{color:#fff;background-color:#286090;border-color:#204d74}
+
+.btn-success{color:#fff;background-color:#5cb85c;border-color:#4cae4c}
+.btn-success:hover{color:#fff;background-color:#449d44;border-color:#398439}
+
+.btn-warning{color:#fff;background-color:#f0ad4e;border-color:#eea236}
+.btn-warning:hover{color:#fff;background-color:#ec971f;border-color:#d58512}
+
+.btn-danger{color:#fff;background-color:#d9534f;border-color:#d43f3a}
+.btn-danger:hover{color:#fff;background-color:#c9302c;border-color:#ac2925}

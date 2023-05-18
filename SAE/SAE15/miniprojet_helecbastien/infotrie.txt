@@ -1,0 +1,171 @@
+Rue Jules Ferry - Gare Saint-Roch : 001
+capacity : 12
+
+ComÃ©die : 002
+capacity : 24
+
+Esplanade : 003
+capacity : 32
+
+HÃ´tel de Ville : 004
+capacity : 16
+
+Corum : 005
+capacity : 12
+
+Place Albert 1er - St Charles : 006
+capacity : 27
+
+Foch : 007
+capacity : 8
+
+Halles Castellane : 008
+capacity : 12
+
+Observatoire : 009
+capacity : 8
+
+Rondelet : 010
+capacity : 16
+
+Plan Cabanes : 011
+capacity : 12
+
+Boutonnet : 012
+capacity : 12
+
+Emile Combes : 013
+capacity : 8
+
+Beaux-Arts : 014
+capacity : 28
+
+Les Aubes : 015
+capacity : 8
+
+Antigone centre : 016
+capacity : 16
+
+MÃ©diathÃ¨que Emile Zola : 017
+capacity : 16
+
+Nombre d'Or : 018
+capacity : 16
+
+Louis Blanc : 019
+capacity : 16
+
+Gambetta : 020
+capacity : 8
+
+Port Marianne : 021
+capacity : 16
+
+Clemenceau : 022
+capacity : 12
+
+Les Arceaux : 023
+capacity : 16
+
+CitÃ© Mion : 024
+capacity : 8
+
+Nouveau Saint-Roch : 025
+capacity : 8
+
+Renouvier : 026
+capacity : 8
+
+Odysseum : 027
+capacity : 8
+
+Saint-Denis : 028
+capacity : 8
+
+Richter : 029
+capacity : 16
+
+Charles Flahault : 030
+capacity : 8
+
+Voltaire : 031
+capacity : 8
+
+PrÃ©s d'ArÃ¨nes : 032
+capacity : 8
+
+Garcia Lorca : 033
+capacity : 8
+
+Vert Bois : 034
+capacity : 0
+
+Malbosc : 035
+capacity : 8
+
+Occitanie : 036
+capacity : 32
+
+FacdesSciences : 037
+capacity : 24
+
+Fac de Lettres : 038
+capacity : 16
+
+Aiguelongue : 039
+capacity : 8
+
+Jeu de Mail des AbbÃ©s : 040
+capacity : 8
+
+EuromÃ©decine : 041
+capacity : 8
+
+Marie Caizergues : 042
+capacity : 8
+
+Sabines : 043
+capacity : 8
+
+Celleneuve : 044
+capacity : 8
+
+Jardin de la Lironde : 045
+capacity : 8
+
+PÃ¨re Soulas : 046
+capacity : 8
+
+Place Viala : 047
+capacity : 8
+
+HÃ´tel du DÃ©partement : 048
+capacity : 8
+
+Tonnelles : 049
+capacity : 8
+
+Parvis Jules Ferry - Gare Saint-Roch : 050
+capacity : 8
+
+Pont de Lattes - Gare Saint-Roch : 051
+capacity : 12
+
+Deux Ponts - Gare Saint-Roch : 053
+capacity : 8
+
+Providence - Ovalie : 054
+capacity : 8
+
+PÃ©rols Etang de l'Or : 055
+capacity : 68
+
+Albert 1er - CathÃ©drale : 056
+capacity : 12
+
+Saint-Guilhem - Courreau : 057
+capacity : 8
+
+Sud De France : 059
+capacity : 8
+

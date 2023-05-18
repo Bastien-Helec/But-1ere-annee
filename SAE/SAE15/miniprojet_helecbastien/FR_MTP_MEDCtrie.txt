@@ -1,0 +1,678 @@
+date local : 2023-01-20 15:41:59.647166
+Date et heure de la mesure :2023-01-20T15:35:53
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0142
+Statut :Open
+date local : 2023-01-20 15:47:06.146106
+Date et heure de la mesure :2023-01-20T15:45:53
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0142
+Statut :Open
+date local : 2023-01-20 15:52:15.942909
+Date et heure de la mesure :2023-01-20T15:50:58
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0143
+Statut :Open
+date local : 2023-01-20 15:57:22.104237
+Date et heure de la mesure :2023-01-20T15:55:54
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-20 16:02:31.841092
+Date et heure de la mesure :2023-01-20T16:00:59
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-20 16:07:39.598402
+Date et heure de la mesure :2023-01-20T16:05:54
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0143
+Statut :Open
+date local : 2023-01-20 16:12:45.915508
+Date et heure de la mesure :2023-01-20T16:10:50
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-20 16:17:54.523392
+Date et heure de la mesure :2023-01-20T16:15:56
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-20 16:23:03.424305
+Date et heure de la mesure :2023-01-20T16:20:52
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-20 16:28:09.721235
+Date et heure de la mesure :2023-01-20T16:25:58
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-20 16:33:15.997183
+Date et heure de la mesure :2023-01-20T16:30:53
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-20 16:38:23.592082
+Date et heure de la mesure :2023-01-20T16:35:59
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0150
+Statut :Open
+date local : 2023-01-20 16:43:31.357422
+Date et heure de la mesure :2023-01-20T16:40:54
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0152
+Statut :Open
+date local : 2023-01-20 16:48:37.592960
+Date et heure de la mesure :2023-01-20T16:45:50
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0156
+Statut :Open
+date local : 2023-01-20 16:53:43.768637
+Date et heure de la mesure :2023-01-20T16:50:56
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0158
+Statut :Open
+date local : 2023-01-20 16:58:49.987165
+Date et heure de la mesure :2023-01-20T16:55:53
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0161
+Statut :Open
+date local : 2023-01-20 17:03:56.441560
+Date et heure de la mesure :2023-01-20T17:00:49
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0163
+Statut :Open
+date local : 2023-01-20 17:09:03.655908
+Date et heure de la mesure :2023-01-20T17:05:56
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0163
+Statut :Open
+date local : 2023-01-20 17:14:10.137672
+Date et heure de la mesure :2023-01-20T17:10:53
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0163
+Statut :Open
+date local : 2023-01-20 17:19:20.097210
+Date et heure de la mesure :2023-01-20T17:15:49
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0167
+Statut :Open
+date local : 2023-01-20 17:24:26.745710
+Date et heure de la mesure :2023-01-20T17:20:56
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0168
+Statut :Open
+date local : 2023-01-20 17:29:33.108355
+Date et heure de la mesure :2023-01-20T17:25:53
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0167
+Statut :Open
+date local : 2023-01-20 17:34:39.540285
+Date et heure de la mesure :2023-01-20T17:30:59
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0168
+Statut :Open
+date local : 2023-01-20 17:39:49.964463
+Date et heure de la mesure :2023-01-20T17:35:55
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0171
+Statut :Open
+date local : 2023-01-20 17:44:56.240202
+Date et heure de la mesure :2023-01-20T17:40:51
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0172
+Statut :Open
+date local : 2023-01-20 17:50:02.395329
+Date et heure de la mesure :2023-01-20T17:45:58
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0173
+Statut :Open
+date local : 2023-01-20 17:55:08.556191
+Date et heure de la mesure :2023-01-20T17:50:54
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0174
+Statut :Open
+date local : 2023-01-20 18:00:17.608796
+Date et heure de la mesure :2023-01-20T17:55:50
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0177
+Statut :Open
+date local : 2023-01-20 18:05:24.029495
+Date et heure de la mesure :2023-01-20T18:00:57
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0179
+Statut :Open
+date local : 2023-01-20 18:10:30.240661
+Date et heure de la mesure :2023-01-20T18:05:53
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0179
+Statut :Open
+date local : 2023-01-20 18:15:36.669043
+Date et heure de la mesure :2023-01-20T18:10:59
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0183
+Statut :Open
+date local : 2023-01-20 18:20:46.561860
+Date et heure de la mesure :2023-01-20T18:15:56
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0184
+Statut :Open
+date local : 2023-01-20 18:25:53.168064
+Date et heure de la mesure :2023-01-20T18:20:53
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0187
+Statut :Open
+date local : 2023-01-20 18:30:59.519641
+Date et heure de la mesure :2023-01-20T18:25:50
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0187
+Statut :Open
+date local : 2023-01-20 18:36:05.723487
+Date et heure de la mesure :2023-01-20T18:30:56
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0187
+Statut :Open
+date local : 2023-01-20 18:41:12.050292
+Date et heure de la mesure :2023-01-20T18:35:53
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0187
+Statut :Open
+date local : 2023-01-20 18:46:18.277130
+Date et heure de la mesure :2023-01-20T18:40:50
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0187
+Statut :Open
+date local : 2023-01-20 18:51:24.514211
+Date et heure de la mesure :2023-01-20T18:45:58
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0189
+Statut :Open
+date local : 2023-01-20 18:56:34.429751
+Date et heure de la mesure :2023-01-20T18:50:54
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0192
+Statut :Open
+date local : 2023-01-20 19:01:40.531815
+Date et heure de la mesure :2023-01-20T18:55:51
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0193
+Statut :Open
+date local : 2023-01-20 19:06:50.073882
+Date et heure de la mesure :2023-01-20T19:00:58
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0193
+Statut :Open
+date local : 2023-01-20 19:11:58.002692
+Date et heure de la mesure :2023-01-20T19:05:56
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0195
+Statut :Open
+date local : 2023-01-20 19:17:04.772900
+Date et heure de la mesure :2023-01-20T19:15:51
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0198
+Statut :Open
+date local : 2023-01-20 19:22:11.150280
+Date et heure de la mesure :2023-01-20T19:20:50
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0198
+Statut :Open
+date local : 2023-01-20 19:27:17.292343
+Date et heure de la mesure :2023-01-20T19:25:57
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0198
+Statut :Open
+date local : 2023-01-20 19:32:23.400749
+Date et heure de la mesure :2023-01-20T19:30:54
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0198
+Statut :Open
+date local : 2023-01-20 19:37:29.545158
+Date et heure de la mesure :2023-01-20T19:35:52
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0200
+Statut :Open
+date local : 2023-01-20 19:42:35.817815
+Date et heure de la mesure :2023-01-20T19:40:59
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0201
+Statut :Open
+date local : 2023-01-20 19:47:42.285001
+Date et heure de la mesure :2023-01-20T19:45:57
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0202
+Statut :Open
+date local : 2023-01-20 19:52:48.382194
+Date et heure de la mesure :2023-01-20T19:50:54
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0203
+Statut :Open
+date local : 2023-01-20 19:57:55.533462
+Date et heure de la mesure :2023-01-20T19:55:51
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0204
+Statut :Open
+date local : 2023-01-20 20:27:52.400357
+Date et heure de la mesure :2023-01-20T20:25:52
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0205
+Statut :Open
+date local : 2023-01-20 20:28:12.232011
+Date et heure de la mesure :2023-01-20T20:25:52
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0205
+Statut :Open
+date local : 2023-01-20 20:33:18.273417
+Date et heure de la mesure :2023-01-20T20:30:58
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0205
+Statut :Open
+date local : 2023-01-20 20:38:24.292677
+Date et heure de la mesure :2023-01-20T20:35:54
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0205
+Statut :Open
+date local : 2023-01-20 20:43:30.317552
+Date et heure de la mesure :2023-01-20T20:40:50
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0205
+Statut :Open
+date local : 2023-01-20 20:48:36.358011
+Date et heure de la mesure :2023-01-20T20:45:56
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0205
+Statut :Open
+date local : 2023-01-20 20:53:42.470596
+Date et heure de la mesure :2023-01-20T20:50:52
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0205
+Statut :Open
+date local : 2023-01-20 20:58:49.477665
+Date et heure de la mesure :2023-01-20T20:55:59
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0206
+Statut :Open
+date local : 2023-01-20 21:03:55.825056
+Date et heure de la mesure :2023-01-20T21:00:55
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0207
+Statut :Open
+date local : 2023-01-20 21:09:01.923390
+Date et heure de la mesure :2023-01-20T21:05:51
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0207
+Statut :Open
+date local : 2023-01-20 21:14:08.076707
+Date et heure de la mesure :2023-01-20T21:10:57
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0207
+Statut :Open
+date local : 2023-01-20 21:19:14.043114
+Date et heure de la mesure :2023-01-20T21:15:53
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0207
+Statut :Open
+date local : 2023-01-20 21:24:20.501871
+Date et heure de la mesure :2023-01-20T21:20:51
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0207
+Statut :Open
+date local : 2023-01-20 21:29:30.876118
+Date et heure de la mesure :2023-01-20T21:25:58
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0207
+Statut :Open
+date local : 2023-01-20 21:34:37.993034
+Date et heure de la mesure :2023-01-20T21:30:55
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0207
+Statut :Open
+date local : 2023-01-20 21:39:46.297839
+Date et heure de la mesure :2023-01-20T21:35:52
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0207
+Statut :Open
+date local : 2023-01-20 21:44:57.124361
+Date et heure de la mesure :2023-01-20T21:40:59
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0207
+Statut :Open
+date local : 2023-01-20 21:50:05.404286
+Date et heure de la mesure :2023-01-20T21:45:56
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0207
+Statut :Open
+date local : 2023-01-20 21:55:13.663132
+Date et heure de la mesure :2023-01-20T21:50:54
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0207
+Statut :Open
+date local : 2023-01-20 22:00:22.006951
+Date et heure de la mesure :2023-01-20T21:55:51
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0207
+Statut :Open
+date local : 2023-01-20 22:05:29.110389
+Date et heure de la mesure :2023-01-20T22:00:59
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 22:10:35.624084
+Date et heure de la mesure :2023-01-20T22:05:55
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 22:15:47.561238
+Date et heure de la mesure :2023-01-20T22:10:51
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 22:20:56.961301
+Date et heure de la mesure :2023-01-20T22:15:57
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 22:26:04.278604
+Date et heure de la mesure :2023-01-20T22:20:54
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 22:31:10.834559
+Date et heure de la mesure :2023-01-20T22:25:49
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 22:36:17.579843
+Date et heure de la mesure :2023-01-20T22:30:56
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 22:41:23.656715
+Date et heure de la mesure :2023-01-20T22:35:52
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 22:46:29.709412
+Date et heure de la mesure :2023-01-20T22:40:58
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 22:51:35.645840
+Date et heure de la mesure :2023-01-20T22:45:54
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 22:56:41.565235
+Date et heure de la mesure :2023-01-20T22:50:50
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 23:01:47.482130
+Date et heure de la mesure :2023-01-20T22:55:56
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 23:06:57.128962
+Date et heure de la mesure :2023-01-20T23:00:52
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 23:12:06.507118
+Date et heure de la mesure :2023-01-20T23:10:53
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 23:17:12.423283
+Date et heure de la mesure :2023-01-20T23:15:59
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-21 01:03:02.360344
+Date et heure de la mesure :2023-01-21T01:00:56
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 01:03:22.039975
+Date et heure de la mesure :2023-01-21T01:00:56
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 01:08:28.040469
+Date et heure de la mesure :2023-01-21T01:05:54
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 01:13:33.904183
+Date et heure de la mesure :2023-01-21T01:10:50
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 01:18:39.967221
+Date et heure de la mesure :2023-01-21T01:15:56
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 01:23:46.120600
+Date et heure de la mesure :2023-01-21T01:20:51
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 01:28:55.467322
+Date et heure de la mesure :2023-01-21T01:25:57
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 01:34:01.843680
+Date et heure de la mesure :2023-01-21T01:30:52
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 01:39:07.881988
+Date et heure de la mesure :2023-01-21T01:35:58
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 01:44:13.810547
+Date et heure de la mesure :2023-01-21T01:40:54
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 01:49:19.715576
+Date et heure de la mesure :2023-01-21T01:45:59
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 01:54:25.654367
+Date et heure de la mesure :2023-01-21T01:50:55
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 01:59:34.435691
+Date et heure de la mesure :2023-01-21T01:55:50
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 02:04:40.599866
+Date et heure de la mesure :2023-01-21T02:00:55
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 02:09:46.747887
+Date et heure de la mesure :2023-01-21T02:05:50
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 02:14:52.835705
+Date et heure de la mesure :2023-01-21T02:10:54
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 02:19:58.738058
+Date et heure de la mesure :2023-01-21T02:15:59
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 02:25:04.637882
+Date et heure de la mesure :2023-01-21T02:20:53
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 02:30:10.567694
+Date et heure de la mesure :2023-01-21T02:25:57
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 02:35:16.441366
+Date et heure de la mesure :2023-01-21T02:30:52
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 02:40:25.618663
+Date et heure de la mesure :2023-01-21T02:35:57
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 02:45:36.072137
+Date et heure de la mesure :2023-01-21T02:40:52
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 02:50:42.074778
+Date et heure de la mesure :2023-01-21T02:45:57
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 02:55:47.948241
+Date et heure de la mesure :2023-01-21T02:50:53
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 03:00:53.867890
+Date et heure de la mesure :2023-01-21T02:55:58
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 03:05:59.841863
+Date et heure de la mesure :2023-01-21T03:00:53
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open
+date local : 2023-01-21 03:11:07.709742
+Date et heure de la mesure :2023-01-21T03:05:59
+Nom du parking :MEDC
+Nombre total de places :0255
+Nombre de places libres :0209
+Statut :Open

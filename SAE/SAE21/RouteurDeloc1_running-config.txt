@@ -1,0 +1,106 @@
+!
+version 15.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname RouteurDeloc1
+!
+!
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+!
+!
+!
+license udi pid CISCO2811/K9 sn FTX1017KTFK-
+!
+!
+!
+crypto isakmp policy 10
+ encr aes
+ authentication pre-share
+ group 5
+!
+crypto isakmp key KEYVPN address 192.168.20.0
+!
+!
+!
+crypto ipsec transform-set CRYPSET esp-aes esp-sha-hmac
+!
+crypto map VPNMAP 10 ipsec-isakmp 
+ ! Incomplete
+ set peer 192.168.20.0
+ set transform-set CRYPSET 
+ match address VPN
+!
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 192.128.40.254 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ ip address 20.30.1.1 255.255.255.252
+ duplex auto
+ speed auto
+ crypto map VPNMAP
+!
+interface Ethernet0/3/0
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+router bgp 100
+ bgp log-neighbor-changes
+ no synchronization
+ neighbor 20.30.1.2 remote-as 1000
+ redistribute static 
+ redistribute connected 
+!
+ip classless
+!
+ip flow-export version 9
+!
+!
+ip access-list extended VPN
+!
+no cdp run
+!
+!
+!
+!
+!
+line con 0
+!
+line aux 0
+!
+line vty 0 4
+ login
+!
+!
+!
+end
+

@@ -1,0 +1,678 @@
+date local : 2023-01-20 15:41:57.666560
+Date et heure de la mesure :2023-01-20T15:39:50
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0072
+Statut :Open
+date local : 2023-01-20 15:47:04.018597
+Date et heure de la mesure :2023-01-20T15:44:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0072
+Statut :Open
+date local : 2023-01-20 15:52:14.050639
+Date et heure de la mesure :2023-01-20T15:49:56
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0069
+Statut :Open
+date local : 2023-01-20 15:57:20.138051
+Date et heure de la mesure :2023-01-20T15:54:52
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0073
+Statut :Open
+date local : 2023-01-20 16:02:26.338904
+Date et heure de la mesure :2023-01-20T15:59:59
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0075
+Statut :Open
+date local : 2023-01-20 16:07:36.295284
+Date et heure de la mesure :2023-01-20T16:04:55
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0077
+Statut :Open
+date local : 2023-01-20 16:12:43.981404
+Date et heure de la mesure :2023-01-20T16:09:52
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0079
+Statut :Open
+date local : 2023-01-20 16:17:52.569946
+Date et heure de la mesure :2023-01-20T16:14:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0081
+Statut :Open
+date local : 2023-01-20 16:23:01.292760
+Date et heure de la mesure :2023-01-20T16:19:53
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0081
+Statut :Open
+date local : 2023-01-20 16:28:07.823476
+Date et heure de la mesure :2023-01-20T16:24:50
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0084
+Statut :Open
+date local : 2023-01-20 16:33:13.931312
+Date et heure de la mesure :2023-01-20T16:29:57
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0090
+Statut :Open
+date local : 2023-01-20 16:38:21.621847
+Date et heure de la mesure :2023-01-20T16:34:55
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0095
+Statut :Open
+date local : 2023-01-20 16:43:29.356799
+Date et heure de la mesure :2023-01-20T16:39:52
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0097
+Statut :Open
+date local : 2023-01-20 16:48:35.547450
+Date et heure de la mesure :2023-01-20T16:45:00
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0099
+Statut :Open
+date local : 2023-01-20 16:53:41.801060
+Date et heure de la mesure :2023-01-20T16:49:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0097
+Statut :Open
+date local : 2023-01-20 16:58:47.985121
+Date et heure de la mesure :2023-01-20T16:54:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0100
+Statut :Open
+date local : 2023-01-20 17:03:54.372497
+Date et heure de la mesure :2023-01-20T16:59:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0102
+Statut :Open
+date local : 2023-01-20 17:09:01.605541
+Date et heure de la mesure :2023-01-20T17:04:59
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0099
+Statut :Open
+date local : 2023-01-20 17:14:08.065200
+Date et heure de la mesure :2023-01-20T17:09:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0101
+Statut :Open
+date local : 2023-01-20 17:19:14.481471
+Date et heure de la mesure :2023-01-20T17:14:56
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0105
+Statut :Open
+date local : 2023-01-20 17:24:24.553040
+Date et heure de la mesure :2023-01-20T17:19:54
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0109
+Statut :Open
+date local : 2023-01-20 17:29:31.040155
+Date et heure de la mesure :2023-01-20T17:24:53
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0109
+Statut :Open
+date local : 2023-01-20 17:34:37.621010
+Date et heure de la mesure :2023-01-20T17:29:51
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0109
+Statut :Open
+date local : 2023-01-20 17:39:43.793228
+Date et heure de la mesure :2023-01-20T17:34:50
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0104
+Statut :Open
+date local : 2023-01-20 17:44:54.286873
+Date et heure de la mesure :2023-01-20T17:39:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0104
+Statut :Open
+date local : 2023-01-20 17:50:00.363754
+Date et heure de la mesure :2023-01-20T17:44:56
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0104
+Statut :Open
+date local : 2023-01-20 17:55:06.583257
+Date et heure de la mesure :2023-01-20T17:49:54
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0105
+Statut :Open
+date local : 2023-01-20 18:00:12.667101
+Date et heure de la mesure :2023-01-20T17:54:53
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0108
+Statut :Open
+date local : 2023-01-20 18:05:22.045901
+Date et heure de la mesure :2023-01-20T17:59:51
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0105
+Statut :Open
+date local : 2023-01-20 18:10:28.271793
+Date et heure de la mesure :2023-01-20T18:04:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0105
+Statut :Open
+date local : 2023-01-20 18:15:34.708862
+Date et heure de la mesure :2023-01-20T18:09:55
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0104
+Statut :Open
+date local : 2023-01-20 18:20:41.140447
+Date et heure de la mesure :2023-01-20T18:14:52
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0103
+Statut :Open
+date local : 2023-01-20 18:25:51.040005
+Date et heure de la mesure :2023-01-20T18:19:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0106
+Statut :Open
+date local : 2023-01-20 18:30:57.544798
+Date et heure de la mesure :2023-01-20T18:24:55
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0105
+Statut :Open
+date local : 2023-01-20 18:36:03.742936
+Date et heure de la mesure :2023-01-20T18:34:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0103
+Statut :Open
+date local : 2023-01-20 18:41:10.057905
+Date et heure de la mesure :2023-01-20T18:39:53
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0104
+Statut :Open
+date local : 2023-01-20 18:46:16.327651
+Date et heure de la mesure :2023-01-20T18:44:59
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0103
+Statut :Open
+date local : 2023-01-20 18:51:22.501509
+Date et heure de la mesure :2023-01-20T18:49:56
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0098
+Statut :Open
+date local : 2023-01-20 18:56:32.332786
+Date et heure de la mesure :2023-01-20T18:54:52
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0090
+Statut :Open
+date local : 2023-01-20 19:01:38.578801
+Date et heure de la mesure :2023-01-20T18:59:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0093
+Statut :Open
+date local : 2023-01-20 19:06:44.796457
+Date et heure de la mesure :2023-01-20T19:04:54
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0093
+Statut :Open
+date local : 2023-01-20 19:11:55.762695
+Date et heure de la mesure :2023-01-20T19:09:51
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0090
+Statut :Open
+date local : 2023-01-20 19:17:02.828827
+Date et heure de la mesure :2023-01-20T19:14:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0090
+Statut :Open
+date local : 2023-01-20 19:22:09.182409
+Date et heure de la mesure :2023-01-20T19:19:55
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0091
+Statut :Open
+date local : 2023-01-20 19:27:15.299949
+Date et heure de la mesure :2023-01-20T19:24:53
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0090
+Statut :Open
+date local : 2023-01-20 19:32:21.490726
+Date et heure de la mesure :2023-01-20T19:29:51
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0090
+Statut :Open
+date local : 2023-01-20 19:37:27.550113
+Date et heure de la mesure :2023-01-20T19:34:59
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0085
+Statut :Open
+date local : 2023-01-20 19:42:33.814095
+Date et heure de la mesure :2023-01-20T19:39:55
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0082
+Statut :Open
+date local : 2023-01-20 19:47:40.100177
+Date et heure de la mesure :2023-01-20T19:44:53
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0078
+Statut :Open
+date local : 2023-01-20 19:52:46.426693
+Date et heure de la mesure :2023-01-20T19:49:51
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0077
+Statut :Open
+date local : 2023-01-20 19:57:53.355285
+Date et heure de la mesure :2023-01-20T19:54:50
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0050
+Statut :Open
+date local : 2023-01-20 20:27:50.479455
+Date et heure de la mesure :2023-01-20T20:24:52
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0042
+Statut :Open
+date local : 2023-01-20 20:28:10.286345
+Date et heure de la mesure :2023-01-20T20:24:52
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0042
+Statut :Open
+date local : 2023-01-20 20:33:16.360538
+Date et heure de la mesure :2023-01-20T20:29:51
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0038
+Statut :Open
+date local : 2023-01-20 20:38:22.394692
+Date et heure de la mesure :2023-01-20T20:34:50
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0029
+Statut :Open
+date local : 2023-01-20 20:43:28.381012
+Date et heure de la mesure :2023-01-20T20:39:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0029
+Statut :Open
+date local : 2023-01-20 20:48:34.452235
+Date et heure de la mesure :2023-01-20T20:44:56
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0030
+Statut :Open
+date local : 2023-01-20 20:53:40.433610
+Date et heure de la mesure :2023-01-20T20:49:54
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0030
+Statut :Open
+date local : 2023-01-20 20:58:47.381411
+Date et heure de la mesure :2023-01-20T20:54:52
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0027
+Statut :Open
+date local : 2023-01-20 21:03:53.802449
+Date et heure de la mesure :2023-01-20T20:59:51
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0025
+Statut :Open
+date local : 2023-01-20 21:09:00.030021
+Date et heure de la mesure :2023-01-20T21:04:59
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0019
+Statut :Open
+date local : 2023-01-20 21:14:06.156033
+Date et heure de la mesure :2023-01-20T21:09:57
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0018
+Statut :Open
+date local : 2023-01-20 21:19:12.163721
+Date et heure de la mesure :2023-01-20T21:14:55
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0012
+Statut :Open
+date local : 2023-01-20 21:24:18.432196
+Date et heure de la mesure :2023-01-20T21:19:54
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0009
+Statut :Open
+date local : 2023-01-20 21:29:25.140929
+Date et heure de la mesure :2023-01-20T21:24:53
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0008
+Statut :Open
+date local : 2023-01-20 21:34:35.767158
+Date et heure de la mesure :2023-01-20T21:29:50
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0010
+Statut :Open
+date local : 2023-01-20 21:39:43.484334
+Date et heure de la mesure :2023-01-20T21:34:57
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0010
+Statut :Open
+date local : 2023-01-20 21:44:54.383473
+Date et heure de la mesure :2023-01-20T21:39:55
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0010
+Statut :Open
+date local : 2023-01-20 21:50:02.769604
+Date et heure de la mesure :2023-01-20T21:44:52
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0011
+Statut :Open
+date local : 2023-01-20 21:55:11.189531
+Date et heure de la mesure :2023-01-20T21:49:50
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0010
+Statut :Open
+date local : 2023-01-20 22:00:19.178736
+Date et heure de la mesure :2023-01-20T21:54:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0012
+Statut :Open
+date local : 2023-01-20 22:05:26.928723
+Date et heure de la mesure :2023-01-20T21:59:55
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0013
+Statut :Open
+date local : 2023-01-20 22:10:33.559272
+Date et heure de la mesure :2023-01-20T22:04:54
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0013
+Statut :Open
+date local : 2023-01-20 22:15:45.000025
+Date et heure de la mesure :2023-01-20T22:09:52
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0014
+Statut :Open
+date local : 2023-01-20 22:20:55.093415
+Date et heure de la mesure :2023-01-20T22:14:51
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0017
+Statut :Open
+date local : 2023-01-20 22:26:02.264737
+Date et heure de la mesure :2023-01-20T22:24:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0022
+Statut :Open
+date local : 2023-01-20 22:31:08.962470
+Date et heure de la mesure :2023-01-20T22:29:55
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0024
+Statut :Open
+date local : 2023-01-20 22:36:15.225629
+Date et heure de la mesure :2023-01-20T22:34:53
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0028
+Statut :Open
+date local : 2023-01-20 22:41:21.771319
+Date et heure de la mesure :2023-01-20T22:39:50
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0027
+Statut :Open
+date local : 2023-01-20 22:46:27.803989
+Date et heure de la mesure :2023-01-20T22:44:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0029
+Statut :Open
+date local : 2023-01-20 22:51:33.770314
+Date et heure de la mesure :2023-01-20T22:49:57
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0032
+Statut :Open
+date local : 2023-01-20 22:56:39.692994
+Date et heure de la mesure :2023-01-20T22:54:55
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0032
+Statut :Open
+date local : 2023-01-20 23:01:45.616209
+Date et heure de la mesure :2023-01-20T22:59:52
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0035
+Statut :Open
+date local : 2023-01-20 23:06:51.548473
+Date et heure de la mesure :2023-01-20T23:05:00
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0035
+Statut :Open
+date local : 2023-01-20 23:12:04.612658
+Date et heure de la mesure :2023-01-20T23:09:57
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0038
+Statut :Open
+date local : 2023-01-20 23:17:10.543374
+Date et heure de la mesure :2023-01-20T23:14:54
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0042
+Statut :Open
+date local : 2023-01-21 01:03:00.441964
+Date et heure de la mesure :2023-01-21T00:59:52
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0111
+Statut :Open
+date local : 2023-01-21 01:03:20.051223
+Date et heure de la mesure :2023-01-21T00:59:52
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0111
+Statut :Open
+date local : 2023-01-21 01:08:26.163156
+Date et heure de la mesure :2023-01-21T01:04:51
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0113
+Statut :Open
+date local : 2023-01-21 01:13:32.031767
+Date et heure de la mesure :2023-01-21T01:09:50
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0115
+Statut :Open
+date local : 2023-01-21 01:18:38.058264
+Date et heure de la mesure :2023-01-21T01:14:50
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0123
+Statut :Open
+date local : 2023-01-21 01:23:44.237048
+Date et heure de la mesure :2023-01-21T01:19:50
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0126
+Statut :Open
+date local : 2023-01-21 01:28:53.580580
+Date et heure de la mesure :2023-01-21T01:24:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0127
+Statut :Open
+date local : 2023-01-21 01:33:59.947194
+Date et heure de la mesure :2023-01-21T01:29:56
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0128
+Statut :Open
+date local : 2023-01-21 01:39:06.021486
+Date et heure de la mesure :2023-01-21T01:34:54
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0129
+Statut :Open
+date local : 2023-01-21 01:44:11.923439
+Date et heure de la mesure :2023-01-21T01:39:51
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0129
+Statut :Open
+date local : 2023-01-21 01:49:17.844163
+Date et heure de la mesure :2023-01-21T01:44:57
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0129
+Statut :Open
+date local : 2023-01-21 01:54:23.778726
+Date et heure de la mesure :2023-01-21T01:49:53
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0130
+Statut :Open
+date local : 2023-01-21 01:59:32.575747
+Date et heure de la mesure :2023-01-21T01:54:49
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0130
+Statut :Open
+date local : 2023-01-21 02:04:38.634362
+Date et heure de la mesure :2023-01-21T01:59:56
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0130
+Statut :Open
+date local : 2023-01-21 02:09:44.871354
+Date et heure de la mesure :2023-01-21T02:04:53
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0130
+Statut :Open
+date local : 2023-01-21 02:14:50.970316
+Date et heure de la mesure :2023-01-21T02:09:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0130
+Statut :Open
+date local : 2023-01-21 02:19:56.879714
+Date et heure de la mesure :2023-01-21T02:14:54
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0131
+Statut :Open
+date local : 2023-01-21 02:25:02.749992
+Date et heure de la mesure :2023-01-21T02:20:09
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0131
+Statut :Open
+date local : 2023-01-21 02:30:08.686012
+Date et heure de la mesure :2023-01-21T02:24:55
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0131
+Statut :Open
+date local : 2023-01-21 02:35:14.579503
+Date et heure de la mesure :2023-01-21T02:29:50
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0131
+Statut :Open
+date local : 2023-01-21 02:40:20.594388
+Date et heure de la mesure :2023-01-21T02:34:56
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0132
+Statut :Open
+date local : 2023-01-21 02:45:29.612419
+Date et heure de la mesure :2023-01-21T02:39:51
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0132
+Statut :Open
+date local : 2023-01-21 02:50:40.205374
+Date et heure de la mesure :2023-01-21T02:44:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0133
+Statut :Open
+date local : 2023-01-21 02:55:46.080263
+Date et heure de la mesure :2023-01-21T02:54:50
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0133
+Statut :Open
+date local : 2023-01-21 03:00:51.981085
+Date et heure de la mesure :2023-01-21T02:54:50
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0133
+Statut :Open
+date local : 2023-01-21 03:05:57.968588
+Date et heure de la mesure :2023-01-21T02:59:56
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0133
+Statut :Open
+date local : 2023-01-21 03:11:05.829499
+Date et heure de la mesure :2023-01-21T03:09:58
+Nom du parking :ARCT
+Nombre total de places :0450
+Nombre de places libres :0133
+Statut :Open

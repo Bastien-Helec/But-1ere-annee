@@ -1,0 +1,678 @@
+date local : 2023-01-20 15:41:58.920139
+Date et heure de la mesure :2023-01-20T15:39:53
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0140
+Statut :Open
+date local : 2023-01-20 15:47:05.359681
+Date et heure de la mesure :2023-01-20T15:44:50
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0139
+Statut :Open
+date local : 2023-01-20 15:52:15.243764
+Date et heure de la mesure :2023-01-20T15:49:56
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0138
+Statut :Open
+date local : 2023-01-20 15:57:21.353473
+Date et heure de la mesure :2023-01-20T15:54:51
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0141
+Statut :Open
+date local : 2023-01-20 16:02:31.082293
+Date et heure de la mesure :2023-01-20T15:59:57
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0141
+Statut :Open
+date local : 2023-01-20 16:07:37.536535
+Date et heure de la mesure :2023-01-20T16:04:54
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-20 16:12:45.176492
+Date et heure de la mesure :2023-01-20T16:09:50
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-20 16:17:53.790363
+Date et heure de la mesure :2023-01-20T16:14:56
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-20 16:23:02.625293
+Date et heure de la mesure :2023-01-20T16:19:52
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-20 16:28:09.008229
+Date et heure de la mesure :2023-01-20T16:24:50
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-20 16:33:15.226963
+Date et heure de la mesure :2023-01-20T16:29:57
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0151
+Statut :Open
+date local : 2023-01-20 16:38:22.878420
+Date et heure de la mesure :2023-01-20T16:34:53
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0156
+Statut :Open
+date local : 2023-01-20 16:43:30.619420
+Date et heure de la mesure :2023-01-20T16:39:59
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0161
+Statut :Open
+date local : 2023-01-20 16:48:36.861714
+Date et heure de la mesure :2023-01-20T16:44:55
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0164
+Statut :Open
+date local : 2023-01-20 16:53:43.034079
+Date et heure de la mesure :2023-01-20T16:49:51
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0168
+Statut :Open
+date local : 2023-01-20 16:58:49.224234
+Date et heure de la mesure :2023-01-20T16:54:57
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0169
+Statut :Open
+date local : 2023-01-20 17:03:55.672436
+Date et heure de la mesure :2023-01-20T16:59:52
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0175
+Statut :Open
+date local : 2023-01-20 17:09:02.917142
+Date et heure de la mesure :2023-01-20T17:04:59
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0174
+Statut :Open
+date local : 2023-01-20 17:14:09.372614
+Date et heure de la mesure :2023-01-20T17:09:53
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0176
+Statut :Open
+date local : 2023-01-20 17:19:19.345921
+Date et heure de la mesure :2023-01-20T17:14:59
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0179
+Statut :Open
+date local : 2023-01-20 17:24:26.016229
+Date et heure de la mesure :2023-01-20T17:19:56
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0181
+Statut :Open
+date local : 2023-01-20 17:29:32.312506
+Date et heure de la mesure :2023-01-20T17:24:53
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0185
+Statut :Open
+date local : 2023-01-20 17:34:38.817758
+Date et heure de la mesure :2023-01-20T17:29:50
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0193
+Statut :Open
+date local : 2023-01-20 17:39:49.241725
+Date et heure de la mesure :2023-01-20T17:34:55
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0201
+Statut :Open
+date local : 2023-01-20 17:44:55.525837
+Date et heure de la mesure :2023-01-20T17:39:50
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0207
+Statut :Open
+date local : 2023-01-20 17:50:01.629515
+Date et heure de la mesure :2023-01-20T17:44:55
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0208
+Statut :Open
+date local : 2023-01-20 17:55:07.839568
+Date et heure de la mesure :2023-01-20T17:49:51
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 18:00:16.809080
+Date et heure de la mesure :2023-01-20T17:54:55
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0227
+Statut :Open
+date local : 2023-01-20 18:05:23.252331
+Date et heure de la mesure :2023-01-20T17:59:50
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0232
+Statut :Open
+date local : 2023-01-20 18:10:29.499977
+Date et heure de la mesure :2023-01-20T18:04:55
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0233
+Statut :Open
+date local : 2023-01-20 18:15:35.938644
+Date et heure de la mesure :2023-01-20T18:09:50
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0236
+Statut :Open
+date local : 2023-01-20 18:20:45.734456
+Date et heure de la mesure :2023-01-20T18:14:56
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0240
+Statut :Open
+date local : 2023-01-20 18:25:52.340615
+Date et heure de la mesure :2023-01-20T18:19:50
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0241
+Statut :Open
+date local : 2023-01-20 18:30:58.789886
+Date et heure de la mesure :2023-01-20T18:24:57
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0242
+Statut :Open
+date local : 2023-01-20 18:36:04.970340
+Date et heure de la mesure :2023-01-20T18:34:58
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0248
+Statut :Open
+date local : 2023-01-20 18:41:11.313157
+Date et heure de la mesure :2023-01-20T18:39:53
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0251
+Statut :Open
+date local : 2023-01-20 18:46:17.544287
+Date et heure de la mesure :2023-01-20T18:44:58
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0253
+Statut :Open
+date local : 2023-01-20 18:51:23.760099
+Date et heure de la mesure :2023-01-20T18:49:53
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0256
+Statut :Open
+date local : 2023-01-20 18:56:33.653707
+Date et heure de la mesure :2023-01-20T18:54:58
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0258
+Statut :Open
+date local : 2023-01-20 19:01:39.786568
+Date et heure de la mesure :2023-01-20T18:59:54
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0259
+Statut :Open
+date local : 2023-01-20 19:06:46.078447
+Date et heure de la mesure :2023-01-20T19:04:59
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0261
+Statut :Open
+date local : 2023-01-20 19:11:57.086636
+Date et heure de la mesure :2023-01-20T19:09:55
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0265
+Statut :Open
+date local : 2023-01-20 19:17:04.057757
+Date et heure de la mesure :2023-01-20T19:14:52
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0265
+Statut :Open
+date local : 2023-01-20 19:22:10.406425
+Date et heure de la mesure :2023-01-20T19:19:56
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0267
+Statut :Open
+date local : 2023-01-20 19:27:16.521107
+Date et heure de la mesure :2023-01-20T19:24:52
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0271
+Statut :Open
+date local : 2023-01-20 19:32:22.688534
+Date et heure de la mesure :2023-01-20T19:29:58
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0273
+Statut :Open
+date local : 2023-01-20 19:37:28.809043
+Date et heure de la mesure :2023-01-20T19:34:54
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0273
+Statut :Open
+date local : 2023-01-20 19:42:35.024586
+Date et heure de la mesure :2023-01-20T19:39:59
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0275
+Statut :Open
+date local : 2023-01-20 19:47:41.415940
+Date et heure de la mesure :2023-01-20T19:44:55
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0274
+Statut :Open
+date local : 2023-01-20 19:52:47.672570
+Date et heure de la mesure :2023-01-20T19:49:51
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0273
+Statut :Open
+date local : 2023-01-20 19:57:54.630860
+Date et heure de la mesure :2023-01-20T19:54:56
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0274
+Statut :Open
+date local : 2023-01-20 20:27:51.673601
+Date et heure de la mesure :2023-01-20T20:24:51
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0278
+Statut :Open
+date local : 2023-01-20 20:28:11.498867
+Date et heure de la mesure :2023-01-20T20:24:51
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0278
+Statut :Open
+date local : 2023-01-20 20:33:17.551937
+Date et heure de la mesure :2023-01-20T20:29:56
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0278
+Statut :Open
+date local : 2023-01-20 20:38:23.587201
+Date et heure de la mesure :2023-01-20T20:34:51
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0279
+Statut :Open
+date local : 2023-01-20 20:43:29.590821
+Date et heure de la mesure :2023-01-20T20:39:56
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0281
+Statut :Open
+date local : 2023-01-20 20:48:35.645360
+Date et heure de la mesure :2023-01-20T20:44:51
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0281
+Statut :Open
+date local : 2023-01-20 20:53:41.617466
+Date et heure de la mesure :2023-01-20T20:49:57
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0281
+Statut :Open
+date local : 2023-01-20 20:58:48.774829
+Date et heure de la mesure :2023-01-20T20:54:52
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0281
+Statut :Open
+date local : 2023-01-20 21:03:55.070009
+Date et heure de la mesure :2023-01-20T20:59:57
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0281
+Statut :Open
+date local : 2023-01-20 21:09:01.210453
+Date et heure de la mesure :2023-01-20T21:04:52
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0281
+Statut :Open
+date local : 2023-01-20 21:14:07.327683
+Date et heure de la mesure :2023-01-20T21:09:57
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0281
+Statut :Open
+date local : 2023-01-20 21:19:13.335058
+Date et heure de la mesure :2023-01-20T21:14:52
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0281
+Statut :Open
+date local : 2023-01-20 21:24:19.745068
+Date et heure de la mesure :2023-01-20T21:19:56
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0281
+Statut :Open
+date local : 2023-01-20 21:29:30.058324
+Date et heure de la mesure :2023-01-20T21:24:52
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0281
+Statut :Open
+date local : 2023-01-20 21:34:37.171035
+Date et heure de la mesure :2023-01-20T21:29:59
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0282
+Statut :Open
+date local : 2023-01-20 21:39:45.235787
+Date et heure de la mesure :2023-01-20T21:34:55
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0282
+Statut :Open
+date local : 2023-01-20 21:44:56.046845
+Date et heure de la mesure :2023-01-20T21:39:50
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0282
+Statut :Open
+date local : 2023-01-20 21:50:04.509666
+Date et heure de la mesure :2023-01-20T21:44:55
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0282
+Statut :Open
+date local : 2023-01-20 21:55:12.716603
+Date et heure de la mesure :2023-01-20T21:49:51
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0282
+Statut :Open
+date local : 2023-01-20 22:00:21.016272
+Date et heure de la mesure :2023-01-20T21:54:56
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0282
+Statut :Open
+date local : 2023-01-20 22:05:28.347768
+Date et heure de la mesure :2023-01-20T21:59:50
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0282
+Statut :Open
+date local : 2023-01-20 22:10:34.917254
+Date et heure de la mesure :2023-01-20T22:04:56
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0283
+Statut :Open
+date local : 2023-01-20 22:15:46.667167
+Date et heure de la mesure :2023-01-20T22:09:52
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0283
+Statut :Open
+date local : 2023-01-20 22:20:56.263260
+Date et heure de la mesure :2023-01-20T22:14:57
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0282
+Statut :Open
+date local : 2023-01-20 22:26:03.521979
+Date et heure de la mesure :2023-01-20T22:24:59
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0282
+Statut :Open
+date local : 2023-01-20 22:31:10.135971
+Date et heure de la mesure :2023-01-20T22:29:53
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0282
+Statut :Open
+date local : 2023-01-20 22:36:16.626991
+Date et heure de la mesure :2023-01-20T22:34:58
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0282
+Statut :Open
+date local : 2023-01-20 22:41:22.947562
+Date et heure de la mesure :2023-01-20T22:39:54
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0282
+Statut :Open
+date local : 2023-01-20 22:46:28.998412
+Date et heure de la mesure :2023-01-20T22:44:59
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0282
+Statut :Open
+date local : 2023-01-20 22:51:34.943404
+Date et heure de la mesure :2023-01-20T22:49:55
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0283
+Statut :Open
+date local : 2023-01-20 22:56:40.868175
+Date et heure de la mesure :2023-01-20T22:54:50
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0283
+Statut :Open
+date local : 2023-01-20 23:01:46.782960
+Date et heure de la mesure :2023-01-20T22:59:55
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0284
+Statut :Open
+date local : 2023-01-20 23:06:56.418903
+Date et heure de la mesure :2023-01-20T23:04:52
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0284
+Statut :Open
+date local : 2023-01-20 23:12:05.807171
+Date et heure de la mesure :2023-01-20T23:09:58
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0284
+Statut :Open
+date local : 2023-01-20 23:17:11.716479
+Date et heure de la mesure :2023-01-20T23:14:53
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0284
+Statut :Open
+date local : 2023-01-21 01:03:01.651988
+Date et heure de la mesure :2023-01-21T00:59:51
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0291
+Statut :Open
+date local : 2023-01-21 01:03:21.306139
+Date et heure de la mesure :2023-01-21T00:59:51
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0291
+Statut :Open
+date local : 2023-01-21 01:08:27.340727
+Date et heure de la mesure :2023-01-21T01:04:58
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0292
+Statut :Open
+date local : 2023-01-21 01:13:33.198844
+Date et heure de la mesure :2023-01-21T01:09:54
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0292
+Statut :Open
+date local : 2023-01-21 01:18:39.260081
+Date et heure de la mesure :2023-01-21T01:14:50
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0292
+Statut :Open
+date local : 2023-01-21 01:23:45.408090
+Date et heure de la mesure :2023-01-21T01:19:55
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0293
+Statut :Open
+date local : 2023-01-21 01:28:54.762799
+Date et heure de la mesure :2023-01-21T01:24:51
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0293
+Statut :Open
+date local : 2023-01-21 01:34:01.134249
+Date et heure de la mesure :2023-01-21T01:29:57
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 01:39:07.181862
+Date et heure de la mesure :2023-01-21T01:34:52
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 01:44:13.111095
+Date et heure de la mesure :2023-01-21T01:39:58
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 01:49:19.016845
+Date et heure de la mesure :2023-01-21T01:44:53
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 01:54:24.940450
+Date et heure de la mesure :2023-01-21T01:49:58
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 01:59:33.737599
+Date et heure de la mesure :2023-01-21T01:54:54
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 02:04:39.900880
+Date et heure de la mesure :2023-01-21T01:59:59
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 02:09:46.041780
+Date et heure de la mesure :2023-01-21T02:04:55
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 02:14:52.136419
+Date et heure de la mesure :2023-01-21T02:09:51
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 02:19:58.040491
+Date et heure de la mesure :2023-01-21T02:14:59
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 02:25:03.933653
+Date et heure de la mesure :2023-01-21T02:19:54
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 02:30:09.856600
+Date et heure de la mesure :2023-01-21T02:24:59
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 02:35:15.746505
+Date et heure de la mesure :2023-01-21T02:29:54
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 02:40:21.763605
+Date et heure de la mesure :2023-01-21T02:34:49
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 02:45:35.358133
+Date et heure de la mesure :2023-01-21T02:39:56
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 02:50:41.377759
+Date et heure de la mesure :2023-01-21T02:44:52
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 02:55:47.247286
+Date et heure de la mesure :2023-01-21T02:49:58
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 03:00:53.158719
+Date et heure de la mesure :2023-01-21T02:54:53
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 03:05:59.142016
+Date et heure de la mesure :2023-01-21T02:59:59
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open
+date local : 2023-01-21 03:11:07.006344
+Date et heure de la mesure :2023-01-21T03:09:52
+Nom du parking :SABL
+Nombre total de places :0372
+Nombre de places libres :0294
+Statut :Open

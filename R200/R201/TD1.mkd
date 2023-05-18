@@ -1,0 +1,96 @@
+TD1 
+exercice 1 :
+a. 
+10010110.11000001.00000000. 00000000
+b.  combien de bits devez vous emprunter pour avoir au moins 50 sous -reseaux et au moins 750 hotes par sous réseau
+2**6 =64 sous réseaux
+2**10= 1024 -Addresse reseau -addresse broadcast donc 1022 
+
+c. /22
+255.255.252.0
+
+d. 11111111.11111111.111111 00.00000000
+
+
+autre : 
+
+
+220.100.80.0/24 
+
+4 réseau differents : 
+10 machines par réseau 
+
+1er réseau : 
+adresse reseau
+220.100.80.0/26
+adresse gateway
+220.100.80.62/26
+addresse broadcast
+220.100.80.63/26
+
+2eme réseau :
+adresse reseau
+220.100.80.64/26
+adresse gateway
+220.100.80.126/26
+addresse broadcast
+220.100.80.127/26
+
+3eme réseau :
+adresse reseau
+220.100.80.128/26
+adresse gateway
+220.100.80.190/26
+addresse broadcast
+220.100.80.191/26
+
+4eme réseau :
+adresse reseau
+220.100.80.192/26
+adresse gateway
+220.100.80.253/26
+addresse broadcast
+220.100.80.254/26
+
+exo 3 : 
+/30 
+
+
+exo 4 : 
+
+Binaire :
+
+56 = 00111000
+57 = 00111001
+58 = 00111010
+
+supernet = 195.47.56.0/22
+
+
+Exercice 5 : 
+a. pour 145.245.45.225 est de classe B
+pour 202.2.48.149 est de classe C
+pour 97.124.36.142 est de classe A
+
+b. pour 145.245.45.225/16
+pour 202.2.48.149/24
+pour 97.124.36.142/8
+
+c. 145.245.0.0
+202.2.48.0
+97.0.0.0
+
+d. 
+1) 60 sous réseaux pour le réseau de l'adresse 145.245.45.225/24 
+2**6 = 64 sous réseaux 
+il faut choisir un /23 pour avoir 64 sous réseaux
+145.245.44.0/22
+255.255.252.0
+
+2) 15 sous reseaux
+202.2.48.144/28 pas de 16 
+255.255.255.240
+
+3) 200 sous réseaux 
+97.124.0.0/16 
+255.255.0.0

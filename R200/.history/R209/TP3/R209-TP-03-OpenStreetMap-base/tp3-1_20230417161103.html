@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TP3-1 OpenStreetMap</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="tp3.css"/>
+  <link rel="stylesheet" href="leaflet-1.7.1/leaflet.css"/>
+  <!--script src="jquery-3.6.0.min.js"></script-->
+</head>
+<body>
+  <h1>Carte de Beziers</h1>
+  <div class="flex">
+    <div id="map" class="box"></div>
+  </div>
+  <script src="leaflet-1.7.1/leaflet.js"></script>
+  <script type="text/javascript">
+  // var paris=new L.latLng(48.8586111,2.2941666666);// 48°51'31" N et 2°17'39"
+  var beziers= new L.latLng(43.3468176,3.2195536); 
+  var statues= new L.latLng(43.341636,3.217471);
+  var arènes= new L.latLng(43.343938,3.228736);
+  var chateaudeau= new L.latLng(43.353019,3.227778);
+  var myIcon = L.icon({
+    iconUrl: 'cbMkrRed.png',
+    iconSize: [40, 42],
+    iconAnchor: [22, 94],});
+  var map=null;
+  function initMap() {
+    let mapOptions={center: beziers, zoom: 11};
+    let layerOptions={attribution: '(c) OpenStreetMap France', minZoom: 1, maxZoom: 20};
+    map=new L.map('map',mapOptions);
+    let layer=new L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png',layerOptions);
+    map.addLayer(layer);
+    L.marker(beziers).addTo(map).bindPopup('IUT de Beziers <br> <image src="logoIUT-100x50.png" alt="IUT de Beziers"><br> <a href="https://www.univ-beziers.fr/">Site WEB</a>');
+      L.marker(statues,{icon: myIcon, title: 'La statue de Paul Riquet'}).addTo(map);
+      L.marker(arènes,{icon: myIcon, title:'Les arènes'}).addTo(map);
+      L.marker(chateaudeau,{icon: myIcon, title: 'Le chateau d\'eau'}).addTo(map);
+
+      map.on('click', function(e) {
+        console.log(e.latlng);
+        L.marker(e.latlng,{icon: myIcon, title: 'Nouveau point'}).addTo(map);
+        document.getElementById("new").innerHTML += e.latlng + "<br>";
+      }
+    );}
+  window.onload=function(){
+    initMap();
+  };
+</script>
+
+</body>
+</html>

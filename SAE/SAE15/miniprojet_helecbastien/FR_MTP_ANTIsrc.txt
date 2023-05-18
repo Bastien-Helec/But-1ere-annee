@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2023-01-21T03:14:57</DateTime>
+	<Name>ANTI</Name>
+	<Status>Open</Status>
+	<Free>0147</Free>
+	<Total>0239</Total>
+</park>
+

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2022-06-01T11:46:47</DateTime>
+	<Name>GAUMONT-EST</Name>
+	<Status>Open</Status>
+	<Free>0099</Free>
+	<Total>0109</Total>
+</park>
+

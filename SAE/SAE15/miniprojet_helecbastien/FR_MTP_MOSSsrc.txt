@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2023-01-21T03:08:10</DateTime>
+	<Name>MOSS</Name>
+	<Status>Open</Status>
+	<Free>0342</Free>
+	<Total>0350</Total>
+</park>
+

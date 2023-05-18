@@ -1,0 +1,678 @@
+date local : 2023-01-20 15:42:00.383798
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 15:47:06.944930
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 15:52:16.652082
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 15:57:22.837863
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 16:02:32.552616
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 16:07:40.355369
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 16:12:46.662881
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 16:17:55.263308
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 16:23:04.166452
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 16:28:10.469623
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 16:33:16.727815
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 16:38:24.335407
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 16:43:32.090846
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 16:48:38.338458
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 16:53:44.531121
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 16:58:50.735427
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 17:03:57.181546
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 17:09:04.389222
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 17:14:10.872582
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 17:19:20.865653
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 17:24:27.516221
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 17:29:33.845602
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 17:34:40.244913
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 17:39:50.699713
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 17:44:56.942586
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 17:50:03.128481
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 17:55:09.304791
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 18:00:18.524955
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 18:05:24.739111
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 18:10:30.996029
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 18:15:37.397338
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 18:20:47.347138
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 18:25:53.948906
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 18:31:00.253096
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 18:36:06.492884
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 18:41:12.800670
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 18:46:18.993990
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 18:51:25.245027
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 18:56:35.149378
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 19:01:41.331707
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 19:06:50.831537
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 19:11:59.121173
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 19:17:05.540240
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 19:22:11.872389
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 19:27:18.053789
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 19:32:24.131695
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 19:37:30.268481
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 19:42:36.573786
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 19:47:43.003893
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 19:52:49.089539
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 19:57:56.435303
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 20:27:53.122988
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 20:28:12.954277
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 20:33:19.000314
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 20:38:24.995210
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 20:43:31.048132
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 20:48:37.062121
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 20:53:43.520260
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 20:58:50.185459
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 21:03:56.622892
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 21:09:02.641487
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 21:14:08.772892
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 21:19:14.748970
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 21:24:21.335202
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 21:29:31.713153
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 21:34:38.833439
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 21:39:47.376479
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 21:44:58.039896
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 21:50:06.507905
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 21:55:14.552456
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 22:00:22.925892
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 22:05:29.972387
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 22:10:36.374181
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 22:15:48.578098
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 22:20:57.665669
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 22:26:05.041212
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 22:31:11.538890
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 22:36:18.332383
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 22:41:24.357004
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 22:46:30.414094
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 22:51:36.350700
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 22:56:42.268038
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 23:01:48.181966
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 23:07:01.262262
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 23:12:07.228091
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 23:17:13.127504
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 01:03:03.074587
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 01:03:22.768115
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 01:08:28.736537
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 01:13:34.606378
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 01:18:40.748740
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 01:23:46.903761
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 01:28:56.174330
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 01:34:02.546523
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 01:39:08.578418
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 01:44:14.515063
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 01:49:20.424367
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 01:54:26.368431
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 01:59:35.132513
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 02:04:41.306970
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 02:09:47.467345
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 02:14:53.531406
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 02:19:59.434492
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 02:25:05.341973
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 02:30:11.270699
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 02:35:17.135372
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 02:40:26.315667
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 02:45:36.770256
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 02:50:42.770443
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 02:55:48.643298
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 03:00:54.565493
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 03:06:00.535370
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-21 03:11:08.408773
+Date et heure de la mesure :2022-06-01T11:46:47
+Nom du parking :GAUMONT-OUEST
+Nombre total de places :0250
+Nombre de places libres :0216
+Statut :Open

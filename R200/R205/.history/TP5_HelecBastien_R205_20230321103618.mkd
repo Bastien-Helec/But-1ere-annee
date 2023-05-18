@@ -1,0 +1,9 @@
+TP5_HelecBastien_R205
+
+3.3 Le son n'est pas monotone il varie des graves au aigues se qui veux donc indiqué que le son au début est grave donc des fréquences basses et au fur et a mesure il devient aigue donc des fréquences hautes
+
+3.4 
+!![alt](3.4.jpg)
+On peut voir que les frequences alterne entre des frequences hautes et des frequences basses, indique au debut des frequences basses et a la fin une frequences hautes
+La representation sur 0,7 seconde est plus claire car on peut voir que les frequences sont plus alternees
+

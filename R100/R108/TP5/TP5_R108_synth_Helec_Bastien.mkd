@@ -1,0 +1,180 @@
+#### Helec Bastien
+
+#### TP4 :  Flux, redirections, traitement de flux
+
+--- 
+
+1. Redirection de flux en sortie :
+   1.Utiliser la redirection pour obtenir un fichier qui contient la listes des dossiers présents dans/var;
+   
+    ```
+    ls -l /var > liste_dossier_var.txt
+    ```
+
+   2.Rajouter en fin de ce fichier la liste des dossiers contenus dans/var/spool.
+
+    ```
+    ls -l /var/spool >> liste_dossier_var.txt
+    ```
+
+2. Redirection du flux d’erreur et du flux de sortie : La commande find /var - name syslogcherche tous lesfichiers et dossier qui se nomme syslog et qui sont dans le dossier/var. 
+
+L’exécution de cette commande prend assez longtemps. 
+<br>
+1.Tester la commande et expliquer pourquoi il y ades erreurs.
+<br>
+``` 
+find /var -name syslog
+```
+<br>
+Il y a des erreurs car cette commande doit etre executé par root pour fonctionner
+<br><br>
+2.Modifier la commande pour avoir les erreurs dans un fichier~/erreuret le résultat àl’écran.
+
+```
+find /var -name syslog 2> ~/erreur
+```
+<br>
+3.Modifier la commande pour avoir les erreurs dans un fichier ~/erreur et le résultat dans un fichier ~/resultat.
+
+```
+find /var -name syslog 2> ~/erreur > ~/resultat
+```
+
+4.Modifier la commande pour avoir les erreurs et le résultat dans un fichier ~/tout.
+
+```
+find /var -name syslog 2>&1 > ~/tout
+```
+On utilisera le fichier d'utilisateurs comme base de travail.
+Ce fichier s'appelle /etc/passwd en local.
+Dans une utilisation réseau,on peut l'obtenir par la commande ypcatpasswd.  
+<br>
+    Ce fichier est formaté en colonne, et utilise « : » comme caractère séparateur de champs. Il est structuré de la façon suivante:
+<br>
+    login:mot_de_passe:UID:GID:nom complet:repertoire_personnel:shell_par_défaut
+
+
+3. Extraction de champs :La commande cut permet d'extraire des données dansune ligne :
+
+●cut - c 5- 10extrait les caractères 5 à 10 dans chaqueligne ;
+
+●cut  -c 5 -7,10extrait les caractères 5 à 7 et 10dans chaque ligne ;
+
+●cut  -c 5- extrait du 5ème au dernier ;
+
+●cut  -c -5extrait du premier au 5ème ;
+
+●cut  -f 3,1 extrait le 1er et le 3ème champ mais en affichant d'abord le 1er puis le. 3ème.
+
+L'extraction peut aussi se faire par champs en fonction d'un caractère séparateur de champs différent deceux utilisés par défaut. Les séparateurs par défaut sont visibles en examinant la variable IFS (Internal Field Separator). Il peut être modifié par l'option d:
+
+●cut  -d: -f 3 extrait le 3eme champ de chaque lignes en utilisant le caractère « : » comme séparateur. 
+
+1.rechercher la liste des séparateurs en utilisant la commande set. Dans chacun des cas trouver les options de cut permettant d'afficher :
+
+
+
+2. la liste des logins ;
+
+l'option de cut permettant d'afficher la liste des logins est : 
+cut -d: -f1 /etc/passwd
+
+3. la liste complète en éliminant les mots de passe ;
+
+l'option de cut permettant d'afficher la liste complète en éliminant les mots de passe est : 
+cut -d: -f1,3,4,5,6,7 /etc/passwd
+
+4. la liste des UID puis des login.
+   
+l'option de cut permettant d'afficher la liste des UID puis des login est : 
+cut -d: -f3,1 /etc/passwd
+
+
+4.Extraction de lignes :On utilisera la commande grep avec une expression rationnelle pertinente en fonction du tri demandé.Dans chacun des cas, trouver la commande qui permet de donner les lignes des utilisateurs qui ont :
+
+1.le shell bash par défaut ;
+
+```
+grep bash /etc/passwd
+```
+
+2.leur répertoire personnel dans/var;
+
+```
+grep /var /etc/passwd
+```
+
+3.leur répertoire personnel dans/bin; 
+
+```
+grep /bin /etc/passwd
+```
+
+4.leur nom de login qui ne contient que des caractères minuscules ;
+
+```
+grep ^[a-z]*$ /etc/passwd
+```
+
+1.  leur nom de login qui contient au moins 5 caractères.
+
+```
+grep ^.{5,} /etc/passwd
+```
+
+5. Tri de données :La commande sort permet de trier des lignes de textes en fonction d'options : 
+
+●-n tri numérique (par défaut il est alphanumérique);●-r tri décroissant (par défaut il est croissant);
+●-u unique (n'affiche qu'une fois les lignes semblables);
+●-t redéfinit le caractère séparateur de champ (comme-d pour cut) ;
+●-k spécifie le numéro de champ servant de base de tri.
+
+Donner les options de la commande sort permettant de trier le fichier/etc/passwd :
+
+1.par ordre alphabétique de nom de login ;
+    
+```
+sort /etc/passwd
+```
+
+2.par ordre croissant d'UID ;
+```
+sort -n /etc/passwd
+```
+
+3.par ordre décroissant de GID.
+
+```
+sort -r /etc/passwd
+```
+
+
+6. Redirections multiples :On rappelle que l'on peut rediriger le flux stdout d'une commande vers le flux stdin d'une autre grâce à un pipe ( | ).
+
+1.Afficher la liste des GID utilisés triés par ordre croissant et en éliminant les doublons ;
+
+```
+cut -d: -f4 /etc/passwd | sort -n | uniq
+```
+   2.Afficher la liste des logins (uniquement) par ordre croissant d'UID ;
+
+```
+cut -d: -f1 /etc/passwd | sort -n
+```
+
+   3.Afficher les noms de login qui sont entièrement numériques.
+```
+cut -d: -f1 /etc/passwd | grep ^[0-9]*$
+```
+
+1. Exemples à décoder : Tester et commenter les exemples suivants :
+
+1.ls  -l -d ~ | cut  -c 5-7 
+ 
+cette commande affiche les droits du repertoire personnel de l'utilisateur 
+
+
+2.ls  -l -d ~ | cut -d " " -f 4
+
+cette commande affiche le nom de l'utilisateur propriétaire du repertoire personnel de l'utilisateur

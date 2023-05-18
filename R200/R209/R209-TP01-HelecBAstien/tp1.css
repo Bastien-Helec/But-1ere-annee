@@ -1,0 +1,21 @@
+body{
+  background-color:white;
+  text-align:center;
+}
+canvas {
+  width:30%;
+  margin:5px;
+  border:thin solid red;
+  background-color:#feffe2;
+}
+div.contenu {
+  width:80%;
+  margin:5px auto;
+  padding:5px 10px;
+  border:thin solid blue;
+  border-radius:10px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+}

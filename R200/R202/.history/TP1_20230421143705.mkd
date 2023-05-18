@@ -1,0 +1,13 @@
+2. a) Systeme : 
+linux : 
+    ram : 3904MB
+    chipset : PIIX3
+    fonctions avancées : Activer IO-
+    accélerations : 
+windows :
+    ram : 
+    chipset :
+    fonctions avancées :
+    accélerations :
+
+

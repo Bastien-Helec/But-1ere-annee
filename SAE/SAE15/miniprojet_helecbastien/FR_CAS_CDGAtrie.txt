@@ -1,0 +1,672 @@
+date local : 2023-01-20 15:42:00.621636
+Date et heure de la mesure :2023-01-20T15:39:53
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0204
+Statut :Open
+date local : 2023-01-20 15:47:07.209483
+Date et heure de la mesure :2023-01-20T15:45:00
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0204
+Statut :Open
+date local : 2023-01-20 15:52:16.892977
+Date et heure de la mesure :2023-01-20T15:49:56
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0206
+Statut :Open
+date local : 2023-01-20 15:57:23.090878
+Date et heure de la mesure :2023-01-20T15:54:51
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0206
+Statut :Open
+date local : 2023-01-20 16:02:32.805843
+Date et heure de la mesure :2023-01-20T15:59:57
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0205
+Statut :Open
+date local : 2023-01-20 16:07:40.608865
+Date et heure de la mesure :2023-01-20T16:04:54
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0204
+Statut :Open
+date local : 2023-01-20 16:12:46.904935
+Date et heure de la mesure :2023-01-20T16:09:50
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0204
+Statut :Open
+date local : 2023-01-20 16:17:55.525789
+Date et heure de la mesure :2023-01-20T16:14:56
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0204
+Statut :Open
+date local : 2023-01-20 16:23:04.410875
+Date et heure de la mesure :2023-01-20T16:19:52
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0205
+Statut :Open
+date local : 2023-01-20 16:28:10.707391
+Date et heure de la mesure :2023-01-20T16:25:00
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0212
+Statut :Open
+date local : 2023-01-20 16:33:16.965924
+Date et heure de la mesure :2023-01-20T16:29:57
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0214
+Statut :Open
+date local : 2023-01-20 16:38:24.571394
+Date et heure de la mesure :2023-01-20T16:34:53
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0215
+Statut :Open
+date local : 2023-01-20 16:43:32.327449
+Date et heure de la mesure :2023-01-20T16:39:59
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0215
+Statut :Open
+date local : 2023-01-20 16:48:38.576928
+Date et heure de la mesure :2023-01-20T16:44:55
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0215
+Statut :Open
+date local : 2023-01-20 16:53:44.782450
+Date et heure de la mesure :2023-01-20T16:49:51
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0213
+Statut :Open
+date local : 2023-01-20 16:58:50.986105
+Date et heure de la mesure :2023-01-20T16:54:57
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0214
+Statut :Open
+date local : 2023-01-20 17:03:57.448196
+Date et heure de la mesure :2023-01-20T16:59:52
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0215
+Statut :Open
+date local : 2023-01-20 17:09:04.625329
+Date et heure de la mesure :2023-01-20T17:04:59
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0215
+Statut :Open
+date local : 2023-01-20 17:14:11.144449
+Date et heure de la mesure :2023-01-20T17:09:53
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 17:19:21.116111
+Date et heure de la mesure :2023-01-20T17:14:59
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0217
+Statut :Open
+date local : 2023-01-20 17:24:27.770410
+Date et heure de la mesure :2023-01-20T17:19:56
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0218
+Statut :Open
+date local : 2023-01-20 17:29:34.082893
+Date et heure de la mesure :2023-01-20T17:24:53
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0219
+Statut :Open
+date local : 2023-01-20 17:34:40.484746
+Date et heure de la mesure :2023-01-20T17:30:00
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0219
+Statut :Open
+date local : 2023-01-20 17:39:50.940392
+Date et heure de la mesure :2023-01-20T17:34:55
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0220
+Statut :Open
+date local : 2023-01-20 17:44:57.175764
+Date et heure de la mesure :2023-01-20T17:39:50
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0221
+Statut :Open
+date local : 2023-01-20 17:50:03.386847
+Date et heure de la mesure :2023-01-20T17:44:55
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0223
+Statut :Open
+date local : 2023-01-20 17:55:09.548275
+Date et heure de la mesure :2023-01-20T17:49:51
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0223
+Statut :Open
+date local : 2023-01-20 18:00:18.766238
+Date et heure de la mesure :2023-01-20T17:54:55
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0226
+Statut :Open
+date local : 2023-01-20 18:05:24.992607
+Date et heure de la mesure :2023-01-20T17:59:50
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0227
+Statut :Open
+date local : 2023-01-20 18:10:31.256187
+Date et heure de la mesure :2023-01-20T18:04:55
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0228
+Statut :Open
+date local : 2023-01-20 18:15:37.636913
+Date et heure de la mesure :2023-01-20T18:09:50
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0228
+Statut :Open
+date local : 2023-01-20 18:20:47.622442
+Date et heure de la mesure :2023-01-20T18:14:56
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0228
+Statut :Open
+date local : 2023-01-20 18:25:54.220769
+Date et heure de la mesure :2023-01-20T18:19:50
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0229
+Statut :Open
+date local : 2023-01-20 18:31:00.503134
+Date et heure de la mesure :2023-01-20T18:24:57
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0228
+Statut :Open
+date local : 2023-01-20 18:36:06.729344
+Date et heure de la mesure :2023-01-20T18:34:58
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0231
+Statut :Open
+date local : 2023-01-20 18:41:13.041027
+Date et heure de la mesure :2023-01-20T18:39:53
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0232
+Statut :Open
+date local : 2023-01-20 18:46:19.242940
+Date et heure de la mesure :2023-01-20T18:44:58
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0232
+Statut :Open
+date local : 2023-01-20 18:51:25.492780
+Date et heure de la mesure :2023-01-20T18:49:53
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0233
+Statut :Open
+date local : 2023-01-20 18:56:35.386308
+Date et heure de la mesure :2023-01-20T18:54:58
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0233
+Statut :Open
+date local : 2023-01-20 19:01:41.581279
+Date et heure de la mesure :2023-01-20T18:59:54
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0233
+Statut :Open
+date local : 2023-01-20 19:06:51.086395
+Date et heure de la mesure :2023-01-20T19:04:59
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0232
+Statut :Open
+date local : 2023-01-20 19:11:59.432928
+Date et heure de la mesure :2023-01-20T19:09:55
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0236
+Statut :Open
+date local : 2023-01-20 19:17:05.791198
+Date et heure de la mesure :2023-01-20T19:14:52
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0236
+Statut :Open
+date local : 2023-01-20 19:22:12.106949
+Date et heure de la mesure :2023-01-20T19:19:56
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0236
+Statut :Open
+date local : 2023-01-20 19:27:18.308237
+Date et heure de la mesure :2023-01-20T19:24:52
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0238
+Statut :Open
+date local : 2023-01-20 19:32:24.384769
+Date et heure de la mesure :2023-01-20T19:29:58
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0241
+Statut :Open
+date local : 2023-01-20 19:37:30.508967
+Date et heure de la mesure :2023-01-20T19:34:54
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0242
+Statut :Open
+date local : 2023-01-20 19:42:36.814212
+Date et heure de la mesure :2023-01-20T19:39:59
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0243
+Statut :Open
+date local : 2023-01-20 19:47:43.238070
+Date et heure de la mesure :2023-01-20T19:44:55
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0244
+Statut :Open
+date local : 2023-01-20 19:52:49.322560
+Date et heure de la mesure :2023-01-20T19:49:51
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0243
+Statut :Open
+date local : 2023-01-20 19:57:56.745805
+Date et heure de la mesure :2023-01-20T19:54:56
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0243
+Statut :Open
+date local : 2023-01-20 20:27:53.370791
+Date et heure de la mesure :2023-01-20T20:24:51
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0243
+Statut :Open
+date local : 2023-01-20 20:28:13.193945
+Date et heure de la mesure :2023-01-20T20:24:51
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0243
+Statut :Open
+date local : 2023-01-20 20:33:19.251102
+Date et heure de la mesure :2023-01-20T20:29:56
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0244
+Statut :Open
+date local : 2023-01-20 20:38:25.232938
+Date et heure de la mesure :2023-01-20T20:34:51
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0244
+Statut :Open
+date local : 2023-01-20 20:43:31.290166
+Date et heure de la mesure :2023-01-20T20:39:56
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0245
+Statut :Open
+date local : 2023-01-20 20:48:37.299192
+Date et heure de la mesure :2023-01-20T20:44:51
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0245
+Statut :Open
+date local : 2023-01-20 20:53:43.753559
+Date et heure de la mesure :2023-01-20T20:49:57
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0245
+Statut :Open
+date local : 2023-01-20 20:58:50.479751
+Date et heure de la mesure :2023-01-20T20:54:52
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0244
+Statut :Open
+date local : 2023-01-20 21:03:56.885321
+Date et heure de la mesure :2023-01-20T20:59:57
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0244
+Statut :Open
+date local : 2023-01-20 21:09:02.883155
+Date et heure de la mesure :2023-01-20T21:04:52
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0245
+Statut :Open
+date local : 2023-01-20 21:14:09.013191
+Date et heure de la mesure :2023-01-20T21:09:57
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0247
+Statut :Open
+date local : 2023-01-20 21:19:14.984530
+Date et heure de la mesure :2023-01-20T21:14:52
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0247
+Statut :Open
+date local : 2023-01-20 21:24:21.569668
+Date et heure de la mesure :2023-01-20T21:19:56
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0247
+Statut :Open
+date local : 2023-01-20 21:29:31.987564
+Date et heure de la mesure :2023-01-20T21:24:52
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0247
+Statut :Open
+date local : 2023-01-20 21:34:39.110426
+Date et heure de la mesure :2023-01-20T21:29:59
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0247
+Statut :Open
+date local : 2023-01-20 21:39:47.751299
+Date et heure de la mesure :2023-01-20T21:34:55
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0247
+Statut :Open
+date local : 2023-01-20 21:44:58.392685
+Date et heure de la mesure :2023-01-20T21:40:00
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0247
+Statut :Open
+date local : 2023-01-20 21:50:06.787506
+Date et heure de la mesure :2023-01-20T21:44:55
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0247
+Statut :Open
+date local : 2023-01-20 21:55:14.937495
+Date et heure de la mesure :2023-01-20T21:49:51
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0247
+Statut :Open
+date local : 2023-01-20 22:00:23.194274
+Date et heure de la mesure :2023-01-20T21:54:56
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0247
+Statut :Open
+date local : 2023-01-20 22:05:30.205349
+Date et heure de la mesure :2023-01-20T22:00:00
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0248
+Statut :Open
+date local : 2023-01-20 22:10:36.671084
+Date et heure de la mesure :2023-01-20T22:04:56
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0248
+Statut :Open
+date local : 2023-01-20 22:15:48.964054
+Date et heure de la mesure :2023-01-20T22:09:52
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0250
+Statut :Open
+date local : 2023-01-20 22:20:57.902296
+Date et heure de la mesure :2023-01-20T22:14:57
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0250
+Statut :Open
+date local : 2023-01-20 22:26:05.286654
+Date et heure de la mesure :2023-01-20T22:24:59
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0251
+Statut :Open
+date local : 2023-01-20 22:31:11.772241
+Date et heure de la mesure :2023-01-20T22:29:53
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0251
+Statut :Open
+date local : 2023-01-20 22:36:18.591083
+Date et heure de la mesure :2023-01-20T22:34:58
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0251
+Statut :Open
+date local : 2023-01-20 22:41:24.590805
+Date et heure de la mesure :2023-01-20T22:39:54
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0251
+Statut :Open
+date local : 2023-01-20 22:46:30.650791
+Date et heure de la mesure :2023-01-20T22:44:59
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0251
+Statut :Open
+date local : 2023-01-20 22:51:36.587200
+Date et heure de la mesure :2023-01-20T22:49:55
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0251
+Statut :Open
+date local : 2023-01-20 22:56:42.502124
+Date et heure de la mesure :2023-01-20T22:54:50
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0251
+Statut :Open
+date local : 2023-01-20 23:01:48.414147
+Date et heure de la mesure :2023-01-20T22:59:55
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0251
+Statut :Open
+date local : 2023-01-20 23:07:01.495705
+Date et heure de la mesure :2023-01-20T23:04:52
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0251
+Statut :Open
+date local : 2023-01-20 23:12:07.464471
+Date et heure de la mesure :2023-01-20T23:09:58
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0251
+Statut :Open
+date local : 2023-01-21 01:03:03.320400
+Date et heure de la mesure :2023-01-21T00:59:50
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 01:03:23.018093
+Date et heure de la mesure :2023-01-21T00:59:50
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 01:08:28.968075
+Date et heure de la mesure :2023-01-21T01:04:58
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 01:13:34.837311
+Date et heure de la mesure :2023-01-21T01:09:54
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 01:18:40.982631
+Date et heure de la mesure :2023-01-21T01:14:50
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 01:23:47.134762
+Date et heure de la mesure :2023-01-21T01:19:55
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 01:28:56.407331
+Date et heure de la mesure :2023-01-21T01:24:51
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 01:34:02.782521
+Date et heure de la mesure :2023-01-21T01:29:57
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 01:39:08.813418
+Date et heure de la mesure :2023-01-21T01:34:52
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 01:44:14.748063
+Date et heure de la mesure :2023-01-21T01:39:58
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 01:49:20.657367
+Date et heure de la mesure :2023-01-21T01:44:53
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 01:54:26.601432
+Date et heure de la mesure :2023-01-21T01:49:58
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 01:59:35.368516
+Date et heure de la mesure :2023-01-21T01:54:54
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 02:04:41.539969
+Date et heure de la mesure :2023-01-21T01:59:59
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 02:09:47.737346
+Date et heure de la mesure :2023-01-21T02:04:55
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 02:14:53.770419
+Date et heure de la mesure :2023-01-21T02:09:51
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 02:19:59.668494
+Date et heure de la mesure :2023-01-21T02:14:59
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 02:25:05.575030
+Date et heure de la mesure :2023-01-21T02:19:54
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 02:30:11.502698
+Date et heure de la mesure :2023-01-21T02:24:59
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 02:35:17.372480
+Date et heure de la mesure :2023-01-21T02:29:54
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 02:40:26.550845
+Date et heure de la mesure :2023-01-21T02:35:00
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 02:45:37.002256
+Date et heure de la mesure :2023-01-21T02:39:56
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 02:50:43.006601
+Date et heure de la mesure :2023-01-21T02:44:52
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 02:55:48.877297
+Date et heure de la mesure :2023-01-21T02:49:58
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 03:00:54.798494
+Date et heure de la mesure :2023-01-21T02:54:53
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 03:06:00.767470
+Date et heure de la mesure :2023-01-21T02:59:59
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-21 03:11:08.641772
+Date et heure de la mesure :2023-01-21T03:09:52
+Nom du parking :CDGA
+Nombre total de places :0260
+Nombre de places libres :0252
+Statut :Open

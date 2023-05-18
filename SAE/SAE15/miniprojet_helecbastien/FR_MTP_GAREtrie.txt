@@ -1,0 +1,684 @@
+date local : 2023-01-20 15:41:57.189139
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 15:47:03.483922
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 15:52:13.580216
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 15:57:19.645342
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 16:02:25.864826
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 16:07:35.810387
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 16:12:43.475051
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 16:17:52.072822
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 16:23:00.774060
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 16:28:07.329052
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 16:33:13.425793
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 16:38:21.147394
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 16:43:28.884122
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 16:48:35.045171
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 16:53:41.331223
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 16:58:47.514812
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 17:03:53.861965
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 17:09:01.091527
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 17:14:07.511708
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 17:19:13.998031
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 17:24:24.068141
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 17:29:30.535035
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 17:34:37.143733
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 17:39:43.284125
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 17:44:53.792954
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 17:49:59.865842
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 17:55:06.105908
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 18:00:12.193903
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 18:05:21.564178
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 18:10:27.750153
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 18:15:34.197325
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 18:20:40.598601
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 18:25:50.550731
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 18:30:57.065354
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 18:36:03.226210
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 18:41:09.534840
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 18:46:15.843571
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 18:51:21.996805
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 18:56:31.835673
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 19:01:38.110329
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 19:06:44.307846
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 19:11:55.268006
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 19:17:02.331107
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 19:22:08.663427
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 19:27:14.828125
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 19:32:21.003691
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 19:37:27.060275
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 19:42:33.312465
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 19:47:39.632180
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 19:52:45.950464
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 19:57:52.883016
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 20:27:50.001545
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 20:28:09.787782
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 20:33:15.883544
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 20:38:21.918646
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 20:43:27.896034
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 20:48:33.972115
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 20:53:39.958615
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 20:58:46.903187
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 21:03:53.283458
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 21:08:59.556486
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 21:14:05.680456
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 21:19:11.689651
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 21:24:17.947204
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 21:29:24.601734
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 21:34:35.199056
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 21:39:42.781768
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 21:44:53.024080
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 21:50:02.199494
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 21:55:10.420299
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 22:00:18.600858
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 22:05:26.444740
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 22:10:33.086950
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 22:15:44.185380
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 22:20:54.626630
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 22:26:01.578122
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 22:31:08.490535
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 22:36:14.708613
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 22:41:21.296491
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 22:46:27.336761
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 22:51:33.298920
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 22:56:39.224611
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 23:01:45.146427
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 23:06:51.078988
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 23:12:04.146482
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-20 23:17:10.076504
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 01:02:59.971861
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 01:03:19.556829
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 01:08:25.690572
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 01:13:31.561552
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 01:18:37.584300
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 01:23:43.771297
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 01:28:49.798151
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 01:33:59.475070
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 01:39:05.552510
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 01:44:11.452151
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 01:49:17.375245
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 01:54:23.311815
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 01:59:32.109752
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 02:04:38.122487
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 02:09:44.403106
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 02:14:50.503036
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 02:19:56.415411
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 02:25:02.284886
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 02:30:08.215886
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 02:35:14.107736
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 02:40:20.127090
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 02:45:29.142097
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 02:50:39.740782
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 02:55:45.614405
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 03:00:51.512511
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 03:05:57.499790
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 03:11:05.358637
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open
+date local : 2023-01-21 03:16:11.268911
+Date et heure de la mesure :2023-01-13T15:26:02
+Nom du parking :GARE
+Nombre total de places :656
+Nombre de places libres :321
+Statut :Open

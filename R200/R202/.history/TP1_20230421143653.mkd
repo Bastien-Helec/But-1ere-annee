@@ -1,0 +1,13 @@
+2. a) Systeme : 
+linux : 
+    ram : 3904MB
+    chipset : PII
+    fonctions avancées :
+    accélerations : 
+windows :
+    ram : 
+    chipset :
+    fonctions avancées :
+    accélerations :
+
+

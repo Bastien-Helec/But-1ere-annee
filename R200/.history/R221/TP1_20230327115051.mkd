@@ -1,0 +1,44 @@
+2.a) Le segment sol utilise 2 module : GS (Ground segment) et MCC (mission control center) encodage et decodage de l'information, le GS  utilse 2 antennes pour communiquer avec le satellite une antenne pour l'envoie du HUF (High ultra frequency) et une autre en S-Band , Le systeme utilise l'encodage et decodage des radiofrequences. Le systeme GSEG possede une boite a environ 10 metres des antennes , pour évité les pertes des cables coaxial. Le systeme complet utilise le modele TCP/IP 
+
+2.b) ![alt](2.b.png)
+
+3.a) Le MCC du SCUM  comprends l'encodage et le decodage de l'information , les bases de données et une interface de controle. 
+
+3.b) ![alt](3.b.png)
+
+4.a) La longueur d'onde HUF est de 10 centimetres a 1 metres pour une frequences de 300Mhz a 3Ghz. 
+Le longueur d'onde S-Band est de 3 metres a 30 metres pour une frequences de 2Ghz a 4Ghz.
+
+4.b) D'un point de vue telecoms cela impose des contraintes sur la taille des antennes et des cables, ainsi que des antennes et cables adaptées a l'envoie et a la reception de ses données 
+
+4.c) 
+Transmission de frequences: 
+435-438 Mhz
+Reception de frequences : 
+435-438 Mhz
+Modulation supporter : 
+AFSK 1k2 , GMSK 2k4 (GFSK avec 0.5 de bit rate de Transmission)
+Radio protocoles supporter: AX25 , CSP, unified CCSDS
+Maximeut bit rate erreur a la reception : 10^-5 
+Max transmission de sortie : 50.1dBm
+
+6.1.a) Le pointage "precis" des satellites est necessaires car les satellites sont en orbite geostationnaire et donc ne bougent pas. 
+6.1.b) Le systeme de poursuite est necessaires car il permet de suivre le satellite et de le garder dans le champ de vision de l'antenne et de garder des donnèes de haute qualité. 
+
+6.1.c) Le cas de poursuite n'est pas necessaires lorsque le satellite est en orbite geostationnaire car il ne bouge pas et donc il est toujours dans le champ de vision de l'antenne.
+
+6.2.a)
+Les TLE doivent etre actualisés regulierement car les satellites bougent et donc les coordonnées change.
+
+6.2.b)
+Les données propres a la station sont les coordonnées de la station et les coordonnées du satellite. 
+
+6.2.c) 
+Il faut utiliser un algorithme de propagation de l'orbite du satellite et de la station.
+
+
+Dernier point, la mise en station du tracker doit être précise.
+d) Selon vous comment régler le zéro de l’élévation ?
+Le zéro de l'élévation doit etre reglé pour que le satellite soit dans le champ de vision de l'antenne.  Comment regler cette elevation , 
+
+

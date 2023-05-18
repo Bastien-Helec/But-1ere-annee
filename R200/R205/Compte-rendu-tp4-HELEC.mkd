@@ -1,0 +1,89 @@
+## Helec Bastien 
+## R205 TP4
+
+1.1 
+![alt](tp4.png)
+
+2. La valeur de s(t)=Re(s(t))=I(t)e^2pife^t 
+Pour les suivantes les frequences associées sont : 2pideltaft et -2pideltaft
+
+3. dans le cas de e(t) correspondant a 1 bit :
+```
+m1(t)=e(t)*p(t)*(-1)
+m0(t)=e(t)*p(t)*(-1)+1
+IQ(t)=m1(t)+m0(t)
+IQ(t)=e(t)*p(t)*(-1)+1+e(t)*p(t)*(-1)
+IQ(t)=2e(t)*p(t)*(-1)
+IQ(t)=2e(t)*p(t)*(-1)*cos(2pifdt)
+IQ(t)=2e(t)*p(t)*(-1)*cos(2pifdt)*cos(2pifdt)
+```
+
+Dans le cas de e(t) correspondant a 0:
+```
+m1(t)=e(t)*p(t)*(-1)
+m0(t)=e(t)*p(t)*(-1)+1
+IQ(t)=m1(t)+m0(t)
+IQ(t)=e(t)*p(t)*(-1)+1+e(t)*p(t)*(-1)
+IQ(t)=2e(t)*p(t)*(-1)
+IQ(t)=2e(t)*p(t)*(-1)*cos(2pifdt)
+IQ(t)=2e(t)*p(t)*(-1)*cos(2pifdt)*cos(2pifdt)
+```
+4. En déduire le signal radio qui sera émis par l’Adalm-Pluto quand on transmet un bit à 1 puis
+quand on transmet un bit à 0.
+```
+IQ(t)=2e(t)*p(t)*(-1)*cos(2pifdt)*cos(2pifdt) pour 1 : 
+2cos(10000)-1*2cos(2pi10000*2,3)²= 2cos(10000)-1*2cos(2pi23000)²
+
+```
+Il emettra donc a 23 000 Hz et 10 000 Hz
+
+pour 0 : 
+```
+-1*2cos(2pi10000*2,3)²= -1*2cos(2pi23000)²
+```
+il emettra donc a 23 000 Hz et 10 000 Hz
+
+
+--- 
+2.2
+Le bloc emetteur
+![alt](blocemetteur.jpg)
+et le bloc recepteur 
+![alt](bloc1recepteur.jpg)
+2.3
+Le parametrage de la frequence de la porteuse d'emission est de reception est de 850 000HZ 
+
+2.4 l'amplification par defaut es a 30 Db en emission et -30 Db en reception
+
+2.5
+je vais modifier mes frequences de porteuses et d'emission en groupe pour eviter les brouillages. qui va etre a 864Mhz et 866Mhz 
+
+2.6 
+Dans le bloc emission la valeur qui doit etre changé est dans le bloc constant source on choisi la valeur 23
+
+2.7 
+attenuation a 30 db et amplification a 30 db 
+avec df a 50 000 Hz 
+
+2.8 
+La methode de decodage et d'afficher quand le signal emet un bit il se situe en frequence superieur a 0 quand il emet un 0 il est ça frequence est inferieur a 0
+
+2.9 
+![alt](screen.jpg)
+Le signal numerique envoyé est un signal carré de 1 et 0 d'amplitude
+Le signal reçu est un signal sinusoidale ici entre -5 000 et 5 000 Hz
+
+2.10 
+
+2.11 
+En modifiant la valeur df on peut voir le signal s'eloigner et ce rapprocher de 0 , il s'agit donc bien d'une modulation de fréquence 
+
+pour df = 7 000 Hz
+![alt](screen2.jpg)
+
+pour df = 10 000 Hz
+![alt](screen3.jpg)
+
+2.12 L'ecart entre les fréquences qui augmente emet a la suite sur les frequences entre cela veut simplement dire que l'emetteur emet a la suite sur les frequences quand l'ecart augmentent puis se stabilise sur la frequences voulu 
+![alt](screen4.jpg)
+

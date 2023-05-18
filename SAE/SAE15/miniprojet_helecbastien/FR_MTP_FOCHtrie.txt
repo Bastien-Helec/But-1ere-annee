@@ -1,0 +1,684 @@
+date local : 2023-01-20 15:41:56.687054
+Date et heure de la mesure :2023-01-20T15:39:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-20 15:47:02.939446
+Date et heure de la mesure :2023-01-20T15:44:56
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0145
+Statut :Open
+date local : 2023-01-20 15:52:09.515112
+Date et heure de la mesure :2023-01-20T15:49:52
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0149
+Statut :Open
+date local : 2023-01-20 15:57:19.140524
+Date et heure de la mesure :2023-01-20T15:54:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0152
+Statut :Open
+date local : 2023-01-20 16:02:25.376074
+Date et heure de la mesure :2023-01-20T15:59:56
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0150
+Statut :Open
+date local : 2023-01-20 16:07:35.326602
+Date et heure de la mesure :2023-01-20T16:04:51
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0156
+Statut :Open
+date local : 2023-01-20 16:12:42.960713
+Date et heure de la mesure :2023-01-20T16:09:58
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0159
+Statut :Open
+date local : 2023-01-20 16:17:51.596455
+Date et heure de la mesure :2023-01-20T16:14:54
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0157
+Statut :Open
+date local : 2023-01-20 16:23:00.233487
+Date et heure de la mesure :2023-01-20T16:19:51
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0153
+Statut :Open
+date local : 2023-01-20 16:28:06.834452
+Date et heure de la mesure :2023-01-20T16:24:51
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0156
+Statut :Open
+date local : 2023-01-20 16:33:12.935850
+Date et heure de la mesure :2023-01-20T16:29:49
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0155
+Statut :Open
+date local : 2023-01-20 16:38:20.661210
+Date et heure de la mesure :2023-01-20T16:34:57
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0162
+Statut :Open
+date local : 2023-01-20 16:43:28.402108
+Date et heure de la mesure :2023-01-20T16:39:55
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0170
+Statut :Open
+date local : 2023-01-20 16:48:34.558794
+Date et heure de la mesure :2023-01-20T16:44:52
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0170
+Statut :Open
+date local : 2023-01-20 16:53:40.825841
+Date et heure de la mesure :2023-01-20T16:49:50
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0166
+Statut :Open
+date local : 2023-01-20 16:58:46.997682
+Date et heure de la mesure :2023-01-20T16:54:55
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0166
+Statut :Open
+date local : 2023-01-20 17:03:53.358090
+Date et heure de la mesure :2023-01-20T16:59:53
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0169
+Statut :Open
+date local : 2023-01-20 17:09:00.620995
+Date et heure de la mesure :2023-01-20T17:04:50
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0174
+Statut :Open
+date local : 2023-01-20 17:14:07.005173
+Date et heure de la mesure :2023-01-20T17:09:57
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0172
+Statut :Open
+date local : 2023-01-20 17:19:13.517935
+Date et heure de la mesure :2023-01-20T17:14:54
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0176
+Statut :Open
+date local : 2023-01-20 17:24:23.579236
+Date et heure de la mesure :2023-01-20T17:19:50
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0175
+Statut :Open
+date local : 2023-01-20 17:29:30.015222
+Date et heure de la mesure :2023-01-20T17:24:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0177
+Statut :Open
+date local : 2023-01-20 17:34:36.645814
+Date et heure de la mesure :2023-01-20T17:29:55
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0171
+Statut :Open
+date local : 2023-01-20 17:39:42.781842
+Date et heure de la mesure :2023-01-20T17:34:52
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0170
+Statut :Open
+date local : 2023-01-20 17:44:53.324420
+Date et heure de la mesure :2023-01-20T17:40:00
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0173
+Statut :Open
+date local : 2023-01-20 17:49:59.384508
+Date et heure de la mesure :2023-01-20T17:44:55
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0172
+Statut :Open
+date local : 2023-01-20 17:55:05.591588
+Date et heure de la mesure :2023-01-20T17:49:52
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0168
+Statut :Open
+date local : 2023-01-20 18:00:11.714852
+Date et heure de la mesure :2023-01-20T17:54:58
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0176
+Statut :Open
+date local : 2023-01-20 18:05:21.052788
+Date et heure de la mesure :2023-01-20T17:59:53
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0172
+Statut :Open
+date local : 2023-01-20 18:10:27.202787
+Date et heure de la mesure :2023-01-20T18:04:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0169
+Statut :Open
+date local : 2023-01-20 18:15:33.676843
+Date et heure de la mesure :2023-01-20T18:09:54
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0171
+Statut :Open
+date local : 2023-01-20 18:20:40.091556
+Date et heure de la mesure :2023-01-20T18:14:51
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0169
+Statut :Open
+date local : 2023-01-20 18:25:50.069985
+Date et heure de la mesure :2023-01-20T18:19:57
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0165
+Statut :Open
+date local : 2023-01-20 18:30:56.563781
+Date et heure de la mesure :2023-01-20T18:24:54
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0167
+Statut :Open
+date local : 2023-01-20 18:36:02.735373
+Date et heure de la mesure :2023-01-20T18:29:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0174
+Statut :Open
+date local : 2023-01-20 18:41:09.005191
+Date et heure de la mesure :2023-01-20T18:39:51
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0166
+Statut :Open
+date local : 2023-01-20 18:46:15.347894
+Date et heure de la mesure :2023-01-20T18:44:56
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0167
+Statut :Open
+date local : 2023-01-20 18:51:21.527167
+Date et heure de la mesure :2023-01-20T18:49:54
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0162
+Statut :Open
+date local : 2023-01-20 18:56:31.347515
+Date et heure de la mesure :2023-01-20T18:54:53
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0164
+Statut :Open
+date local : 2023-01-20 19:01:37.638006
+Date et heure de la mesure :2023-01-20T18:59:51
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0169
+Statut :Open
+date local : 2023-01-20 19:06:43.829864
+Date et heure de la mesure :2023-01-20T19:04:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0172
+Statut :Open
+date local : 2023-01-20 19:11:54.546006
+Date et heure de la mesure :2023-01-20T19:09:58
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0172
+Statut :Open
+date local : 2023-01-20 19:17:01.856670
+Date et heure de la mesure :2023-01-20T19:14:55
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0168
+Statut :Open
+date local : 2023-01-20 19:22:08.160654
+Date et heure de la mesure :2023-01-20T19:19:52
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0162
+Statut :Open
+date local : 2023-01-20 19:27:14.358470
+Date et heure de la mesure :2023-01-20T19:24:52
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0159
+Statut :Open
+date local : 2023-01-20 19:32:20.534762
+Date et heure de la mesure :2023-01-20T19:29:51
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0152
+Statut :Open
+date local : 2023-01-20 19:37:26.593002
+Date et heure de la mesure :2023-01-20T19:34:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0138
+Statut :Open
+date local : 2023-01-20 19:42:32.804067
+Date et heure de la mesure :2023-01-20T19:39:58
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0124
+Statut :Open
+date local : 2023-01-20 19:47:39.164204
+Date et heure de la mesure :2023-01-20T19:44:57
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0115
+Statut :Open
+date local : 2023-01-20 19:52:45.476069
+Date et heure de la mesure :2023-01-20T19:49:55
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0104
+Statut :Open
+date local : 2023-01-20 19:57:52.400518
+Date et heure de la mesure :2023-01-20T19:54:53
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0086
+Statut :Open
+date local : 2023-01-20 20:27:49.523861
+Date et heure de la mesure :2023-01-20T20:24:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0038
+Statut :Full
+date local : 2023-01-20 20:28:09.207985
+Date et heure de la mesure :2023-01-20T20:24:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0038
+Statut :Full
+date local : 2023-01-20 20:33:15.406542
+Date et heure de la mesure :2023-01-20T20:29:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0039
+Statut :Open
+date local : 2023-01-20 20:38:21.442088
+Date et heure de la mesure :2023-01-20T20:34:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0038
+Statut :Full
+date local : 2023-01-20 20:43:27.415413
+Date et heure de la mesure :2023-01-20T20:39:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0037
+Statut :Full
+date local : 2023-01-20 20:48:33.493209
+Date et heure de la mesure :2023-01-20T20:44:58
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0039
+Statut :Full
+date local : 2023-01-20 20:53:39.487761
+Date et heure de la mesure :2023-01-20T20:49:57
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0040
+Statut :Full
+date local : 2023-01-20 20:58:46.418397
+Date et heure de la mesure :2023-01-20T20:54:56
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0040
+Statut :Full
+date local : 2023-01-20 21:03:52.780423
+Date et heure de la mesure :2023-01-20T20:59:55
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0041
+Statut :Full
+date local : 2023-01-20 21:08:59.088188
+Date et heure de la mesure :2023-01-20T21:04:54
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0041
+Statut :Full
+date local : 2023-01-20 21:14:05.207189
+Date et heure de la mesure :2023-01-20T21:09:53
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0039
+Statut :Full
+date local : 2023-01-20 21:19:11.212527
+Date et heure de la mesure :2023-01-20T21:14:51
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0041
+Statut :Open
+date local : 2023-01-20 21:24:17.475950
+Date et heure de la mesure :2023-01-20T21:19:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0039
+Statut :Full
+date local : 2023-01-20 21:29:24.035910
+Date et heure de la mesure :2023-01-20T21:24:58
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0040
+Statut :Full
+date local : 2023-01-20 21:34:34.638214
+Date et heure de la mesure :2023-01-20T21:29:57
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0040
+Statut :Full
+date local : 2023-01-20 21:39:42.075409
+Date et heure de la mesure :2023-01-20T21:34:55
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0040
+Statut :Full
+date local : 2023-01-20 21:44:52.272381
+Date et heure de la mesure :2023-01-20T21:39:53
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0040
+Statut :Full
+date local : 2023-01-20 21:50:01.320339
+Date et heure de la mesure :2023-01-20T21:44:52
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0042
+Statut :Open
+date local : 2023-01-20 21:55:09.869313
+Date et heure de la mesure :2023-01-20T21:49:50
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0048
+Statut :Open
+date local : 2023-01-20 22:00:17.767548
+Date et heure de la mesure :2023-01-20T21:54:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0048
+Statut :Open
+date local : 2023-01-20 22:05:25.979747
+Date et heure de la mesure :2023-01-20T21:59:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0044
+Statut :Open
+date local : 2023-01-20 22:10:32.535894
+Date et heure de la mesure :2023-01-20T22:04:58
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0042
+Statut :Open
+date local : 2023-01-20 22:15:43.053945
+Date et heure de la mesure :2023-01-20T22:09:57
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0039
+Statut :Open
+date local : 2023-01-20 22:20:54.155629
+Date et heure de la mesure :2023-01-20T22:14:56
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0041
+Statut :Open
+date local : 2023-01-20 22:26:00.831384
+Date et heure de la mesure :2023-01-20T22:19:54
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0044
+Statut :Open
+date local : 2023-01-20 22:31:08.019988
+Date et heure de la mesure :2023-01-20T22:29:53
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0048
+Statut :Open
+date local : 2023-01-20 22:36:14.182421
+Date et heure de la mesure :2023-01-20T22:29:53
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0048
+Statut :Open
+date local : 2023-01-20 22:41:20.826642
+Date et heure de la mesure :2023-01-20T22:39:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0055
+Statut :Open
+date local : 2023-01-20 22:46:26.866930
+Date et heure de la mesure :2023-01-20T22:44:58
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0058
+Statut :Open
+date local : 2023-01-20 22:51:32.828261
+Date et heure de la mesure :2023-01-20T22:49:57
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0065
+Statut :Open
+date local : 2023-01-20 22:56:38.755827
+Date et heure de la mesure :2023-01-20T22:54:54
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0066
+Statut :Open
+date local : 2023-01-20 23:01:44.676578
+Date et heure de la mesure :2023-01-20T22:59:52
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0074
+Statut :Open
+date local : 2023-01-20 23:06:50.609318
+Date et heure de la mesure :2023-01-20T23:04:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0083
+Statut :Open
+date local : 2023-01-20 23:12:03.669408
+Date et heure de la mesure :2023-01-20T23:09:55
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0082
+Statut :Open
+date local : 2023-01-20 23:17:09.611869
+Date et heure de la mesure :2023-01-20T23:14:52
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0092
+Statut :Open
+date local : 2023-01-21 01:02:59.498144
+Date et heure de la mesure :2023-01-21T00:59:52
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0191
+Statut :Open
+date local : 2023-01-21 01:03:19.057661
+Date et heure de la mesure :2023-01-21T00:59:52
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0191
+Statut :Open
+date local : 2023-01-21 01:08:25.221534
+Date et heure de la mesure :2023-01-21T01:04:50
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0195
+Statut :Open
+date local : 2023-01-21 01:13:31.092741
+Date et heure de la mesure :2023-01-21T01:09:57
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0207
+Statut :Open
+date local : 2023-01-21 01:18:37.112720
+Date et heure de la mesure :2023-01-21T01:14:55
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0220
+Statut :Open
+date local : 2023-01-21 01:23:43.303583
+Date et heure de la mesure :2023-01-21T01:19:53
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0222
+Statut :Open
+date local : 2023-01-21 01:28:49.322367
+Date et heure de la mesure :2023-01-21T01:24:51
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0226
+Statut :Open
+date local : 2023-01-21 01:33:59.011964
+Date et heure de la mesure :2023-01-21T01:29:50
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0234
+Statut :Open
+date local : 2023-01-21 01:39:05.089529
+Date et heure de la mesure :2023-01-21T01:34:58
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0234
+Statut :Open
+date local : 2023-01-21 01:44:10.986854
+Date et heure de la mesure :2023-01-21T01:39:56
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0236
+Statut :Open
+date local : 2023-01-21 01:49:16.905979
+Date et heure de la mesure :2023-01-21T01:44:54
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0241
+Statut :Open
+date local : 2023-01-21 01:54:22.841462
+Date et heure de la mesure :2023-01-21T01:49:51
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0244
+Statut :Open
+date local : 2023-01-21 01:59:31.640838
+Date et heure de la mesure :2023-01-21T01:54:49
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0244
+Statut :Open
+date local : 2023-01-21 02:04:37.625866
+Date et heure de la mesure :2023-01-21T01:59:57
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0246
+Statut :Open
+date local : 2023-01-21 02:09:43.936411
+Date et heure de la mesure :2023-01-21T02:04:56
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0250
+Statut :Open
+date local : 2023-01-21 02:14:50.035347
+Date et heure de la mesure :2023-01-21T02:09:53
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0251
+Statut :Open
+date local : 2023-01-21 02:19:55.944426
+Date et heure de la mesure :2023-01-21T02:14:50
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0255
+Statut :Open
+date local : 2023-01-21 02:25:01.821493
+Date et heure de la mesure :2023-01-21T02:20:08
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0257
+Statut :Open
+date local : 2023-01-21 02:30:07.749813
+Date et heure de la mesure :2023-01-21T02:25:16
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0257
+Statut :Open
+date local : 2023-01-21 02:35:13.640102
+Date et heure de la mesure :2023-01-21T02:30:45
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0258
+Statut :Open
+date local : 2023-01-21 02:40:19.666586
+Date et heure de la mesure :2023-01-21T02:34:51
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0259
+Statut :Open
+date local : 2023-01-21 02:45:28.675025
+Date et heure de la mesure :2023-01-21T02:39:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0262
+Statut :Open
+date local : 2023-01-21 02:50:39.274352
+Date et heure de la mesure :2023-01-21T02:44:57
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0261
+Statut :Open
+date local : 2023-01-21 02:55:45.152802
+Date et heure de la mesure :2023-01-21T02:49:54
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 03:00:51.042226
+Date et heure de la mesure :2023-01-21T02:54:51
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0264
+Statut :Open
+date local : 2023-01-21 03:05:57.031830
+Date et heure de la mesure :2023-01-21T02:59:59
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0265
+Statut :Open
+date local : 2023-01-21 03:11:04.894781
+Date et heure de la mesure :2023-01-21T03:09:55
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0267
+Statut :Open
+date local : 2023-01-21 03:16:10.785566
+Date et heure de la mesure :2023-01-21T03:14:53
+Nom du parking :FOCH
+Nombre total de places :0570
+Nombre de places libres :0267
+Statut :Open

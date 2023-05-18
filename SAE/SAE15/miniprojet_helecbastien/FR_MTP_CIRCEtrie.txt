@@ -1,0 +1,678 @@
+date local : 2023-01-20 15:41:58.158259
+Date et heure de la mesure :2023-01-20T15:37:46
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1048
+Statut :Open
+date local : 2023-01-20 15:47:04.546631
+Date et heure de la mesure :2023-01-20T15:42:29
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1053
+Statut :Open
+date local : 2023-01-20 15:52:14.528746
+Date et heure de la mesure :2023-01-20T15:47:44
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1053
+Statut :Open
+date local : 2023-01-20 15:57:20.611922
+Date et heure de la mesure :2023-01-20T15:52:59
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1055
+Statut :Open
+date local : 2023-01-20 16:02:30.369795
+Date et heure de la mesure :2023-01-20T15:57:43
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1058
+Statut :Open
+date local : 2023-01-20 16:07:36.822699
+Date et heure de la mesure :2023-01-20T16:02:58
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1062
+Statut :Open
+date local : 2023-01-20 16:12:44.452642
+Date et heure de la mesure :2023-01-20T16:07:42
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1061
+Statut :Open
+date local : 2023-01-20 16:17:53.074568
+Date et heure de la mesure :2023-01-20T16:12:57
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1060
+Statut :Open
+date local : 2023-01-20 16:23:01.814528
+Date et heure de la mesure :2023-01-20T16:17:39
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1065
+Statut :Open
+date local : 2023-01-20 16:28:08.306411
+Date et heure de la mesure :2023-01-20T16:22:54
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1070
+Statut :Open
+date local : 2023-01-20 16:33:14.482129
+Date et heure de la mesure :2023-01-20T16:27:37
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1072
+Statut :Open
+date local : 2023-01-20 16:38:22.095358
+Date et heure de la mesure :2023-01-20T16:32:50
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1075
+Statut :Open
+date local : 2023-01-20 16:43:29.837488
+Date et heure de la mesure :2023-01-20T16:37:33
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1091
+Statut :Open
+date local : 2023-01-20 16:48:36.069815
+Date et heure de la mesure :2023-01-20T16:42:48
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1100
+Statut :Open
+date local : 2023-01-20 16:53:42.300054
+Date et heure de la mesure :2023-01-20T16:47:31
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1110
+Statut :Open
+date local : 2023-01-20 16:58:48.478352
+Date et heure de la mesure :2023-01-20T16:52:45
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1119
+Statut :Open
+date local : 2023-01-20 17:03:54.895793
+Date et heure de la mesure :2023-01-20T16:57:59
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1126
+Statut :Open
+date local : 2023-01-20 17:09:02.140961
+Date et heure de la mesure :2023-01-20T17:07:55
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1136
+Statut :Open
+date local : 2023-01-20 17:14:08.556615
+Date et heure de la mesure :2023-01-20T17:12:38
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1145
+Statut :Open
+date local : 2023-01-20 17:19:14.962221
+Date et heure de la mesure :2023-01-20T17:17:52
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1152
+Statut :Open
+date local : 2023-01-20 17:24:25.294612
+Date et heure de la mesure :2023-01-20T17:22:36
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1161
+Statut :Open
+date local : 2023-01-20 17:29:31.516276
+Date et heure de la mesure :2023-01-20T17:27:50
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1166
+Statut :Open
+date local : 2023-01-20 17:34:38.093537
+Date et heure de la mesure :2023-01-20T17:32:33
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1177
+Statut :Open
+date local : 2023-01-20 17:39:48.528143
+Date et heure de la mesure :2023-01-20T17:37:46
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1183
+Statut :Open
+date local : 2023-01-20 17:44:54.764927
+Date et heure de la mesure :2023-01-20T17:42:29
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1186
+Statut :Open
+date local : 2023-01-20 17:50:00.881730
+Date et heure de la mesure :2023-01-20T17:47:44
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1191
+Statut :Open
+date local : 2023-01-20 17:55:07.073041
+Date et heure de la mesure :2023-01-20T17:52:59
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1213
+Statut :Open
+date local : 2023-01-20 18:00:13.145506
+Date et heure de la mesure :2023-01-20T17:57:42
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1225
+Statut :Open
+date local : 2023-01-20 18:05:22.521347
+Date et heure de la mesure :2023-01-20T18:02:55
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1235
+Statut :Open
+date local : 2023-01-20 18:10:28.772876
+Date et heure de la mesure :2023-01-20T18:07:38
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1240
+Statut :Open
+date local : 2023-01-20 18:15:35.194736
+Date et heure de la mesure :2023-01-20T18:12:53
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1251
+Statut :Open
+date local : 2023-01-20 18:20:41.661830
+Date et heure de la mesure :2023-01-20T18:17:36
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1255
+Statut :Open
+date local : 2023-01-20 18:25:51.537546
+Date et heure de la mesure :2023-01-20T18:22:51
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1260
+Statut :Open
+date local : 2023-01-20 18:30:58.045246
+Date et heure de la mesure :2023-01-20T18:27:34
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1265
+Statut :Open
+date local : 2023-01-20 18:36:04.250061
+Date et heure de la mesure :2023-01-20T18:32:49
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1270
+Statut :Open
+date local : 2023-01-20 18:41:10.562300
+Date et heure de la mesure :2023-01-20T18:37:31
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1275
+Statut :Open
+date local : 2023-01-20 18:46:16.822938
+Date et heure de la mesure :2023-01-20T18:42:44
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1280
+Statut :Open
+date local : 2023-01-20 18:51:22.987621
+Date et heure de la mesure :2023-01-20T18:47:57
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1284
+Statut :Open
+date local : 2023-01-20 18:56:32.854345
+Date et heure de la mesure :2023-01-20T18:52:39
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1282
+Statut :Open
+date local : 2023-01-20 19:01:39.048981
+Date et heure de la mesure :2023-01-20T18:57:52
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1281
+Statut :Open
+date local : 2023-01-20 19:06:45.287313
+Date et heure de la mesure :2023-01-20T19:02:35
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1282
+Statut :Open
+date local : 2023-01-20 19:11:56.360737
+Date et heure de la mesure :2023-01-20T19:07:49
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1282
+Statut :Open
+date local : 2023-01-20 19:17:03.317804
+Date et heure de la mesure :2023-01-20T19:12:33
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1282
+Statut :Open
+date local : 2023-01-20 19:22:09.656742
+Date et heure de la mesure :2023-01-20T19:17:46
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1282
+Statut :Open
+date local : 2023-01-20 19:27:15.770558
+Date et heure de la mesure :2023-01-20T19:22:29
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1283
+Statut :Open
+date local : 2023-01-20 19:32:21.970457
+Date et heure de la mesure :2023-01-20T19:27:43
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1281
+Statut :Open
+date local : 2023-01-20 19:37:28.038947
+Date et heure de la mesure :2023-01-20T19:32:56
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1278
+Statut :Open
+date local : 2023-01-20 19:42:34.293217
+Date et heure de la mesure :2023-01-20T19:37:39
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1277
+Statut :Open
+date local : 2023-01-20 19:47:40.589083
+Date et heure de la mesure :2023-01-20T19:42:53
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1272
+Statut :Open
+date local : 2023-01-20 19:52:46.913835
+Date et heure de la mesure :2023-01-20T19:47:35
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1276
+Statut :Open
+date local : 2023-01-20 19:57:53.878812
+Date et heure de la mesure :2023-01-20T19:52:48
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1279
+Statut :Open
+date local : 2023-01-20 20:27:50.954914
+Date et heure de la mesure :2023-01-20T20:22:37
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1279
+Statut :Open
+date local : 2023-01-20 20:28:10.788767
+Date et heure de la mesure :2023-01-20T20:22:37
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1279
+Statut :Open
+date local : 2023-01-20 20:33:16.838003
+Date et heure de la mesure :2023-01-20T20:27:50
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1280
+Statut :Open
+date local : 2023-01-20 20:38:22.867954
+Date et heure de la mesure :2023-01-20T20:32:32
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1278
+Statut :Open
+date local : 2023-01-20 20:43:28.869349
+Date et heure de la mesure :2023-01-20T20:37:46
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1276
+Statut :Open
+date local : 2023-01-20 20:48:34.927045
+Date et heure de la mesure :2023-01-20T20:42:29
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1274
+Statut :Open
+date local : 2023-01-20 20:53:40.912640
+Date et heure de la mesure :2023-01-20T20:47:43
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1271
+Statut :Open
+date local : 2023-01-20 20:58:47.854248
+Date et heure de la mesure :2023-01-20T20:52:58
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1273
+Statut :Open
+date local : 2023-01-20 21:03:54.306319
+Date et heure de la mesure :2023-01-20T20:57:41
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1272
+Statut :Open
+date local : 2023-01-20 21:09:00.501893
+Date et heure de la mesure :2023-01-20T21:02:56
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1273
+Statut :Open
+date local : 2023-01-20 21:14:06.626290
+Date et heure de la mesure :2023-01-20T21:12:54
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1266
+Statut :Open
+date local : 2023-01-20 21:19:12.627607
+Date et heure de la mesure :2023-01-20T21:17:37
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1265
+Statut :Open
+date local : 2023-01-20 21:24:19.023970
+Date et heure de la mesure :2023-01-20T21:22:52
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1265
+Statut :Open
+date local : 2023-01-20 21:29:29.047942
+Date et heure de la mesure :2023-01-20T21:27:35
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1265
+Statut :Open
+date local : 2023-01-20 21:34:36.322521
+Date et heure de la mesure :2023-01-20T21:32:50
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1265
+Statut :Open
+date local : 2023-01-20 21:39:44.164027
+Date et heure de la mesure :2023-01-20T21:37:32
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1264
+Statut :Open
+date local : 2023-01-20 21:44:55.109331
+Date et heure de la mesure :2023-01-20T21:42:46
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1266
+Statut :Open
+date local : 2023-01-20 21:50:03.336478
+Date et heure de la mesure :2023-01-20T21:47:30
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1269
+Statut :Open
+date local : 2023-01-20 21:55:11.806187
+Date et heure de la mesure :2023-01-20T21:52:44
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1266
+Statut :Open
+date local : 2023-01-20 22:00:19.789191
+Date et heure de la mesure :2023-01-20T21:57:57
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1270
+Statut :Open
+date local : 2023-01-20 22:05:27.633765
+Date et heure de la mesure :2023-01-20T22:02:40
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1273
+Statut :Open
+date local : 2023-01-20 22:10:34.031734
+Date et heure de la mesure :2023-01-20T22:07:54
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1276
+Statut :Open
+date local : 2023-01-20 22:15:45.751444
+Date et heure de la mesure :2023-01-20T22:12:36
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1278
+Statut :Open
+date local : 2023-01-20 22:20:55.559542
+Date et heure de la mesure :2023-01-20T22:17:51
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1283
+Statut :Open
+date local : 2023-01-20 22:26:02.775668
+Date et heure de la mesure :2023-01-20T22:22:35
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1285
+Statut :Open
+date local : 2023-01-20 22:31:09.432652
+Date et heure de la mesure :2023-01-20T22:27:49
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1288
+Statut :Open
+date local : 2023-01-20 22:36:15.723140
+Date et heure de la mesure :2023-01-20T22:32:32
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1294
+Statut :Open
+date local : 2023-01-20 22:41:22.243675
+Date et heure de la mesure :2023-01-20T22:37:47
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1296
+Statut :Open
+date local : 2023-01-20 22:46:28.285129
+Date et heure de la mesure :2023-01-20T22:42:30
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1300
+Statut :Open
+date local : 2023-01-20 22:51:34.238788
+Date et heure de la mesure :2023-01-20T22:47:44
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1302
+Statut :Open
+date local : 2023-01-20 22:56:40.165382
+Date et heure de la mesure :2023-01-20T22:52:57
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1305
+Statut :Open
+date local : 2023-01-20 23:01:46.083011
+Date et heure de la mesure :2023-01-20T22:57:41
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1309
+Statut :Open
+date local : 2023-01-20 23:06:55.711242
+Date et heure de la mesure :2023-01-20T23:02:55
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1311
+Statut :Open
+date local : 2023-01-20 23:12:05.080990
+Date et heure de la mesure :2023-01-20T23:07:38
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1317
+Statut :Open
+date local : 2023-01-20 23:17:11.010415
+Date et heure de la mesure :2023-01-20T23:12:52
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1325
+Statut :Open
+date local : 2023-01-21 01:03:00.921741
+Date et heure de la mesure :2023-01-21T00:57:59
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1392
+Statut :Open
+date local : 2023-01-21 01:03:20.541714
+Date et heure de la mesure :2023-01-21T00:57:59
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1392
+Statut :Open
+date local : 2023-01-21 01:08:26.631234
+Date et heure de la mesure :2023-01-21T01:02:42
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1394
+Statut :Open
+date local : 2023-01-21 01:13:32.495757
+Date et heure de la mesure :2023-01-21T01:07:56
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1394
+Statut :Open
+date local : 2023-01-21 01:18:38.528167
+Date et heure de la mesure :2023-01-21T01:12:39
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1394
+Statut :Open
+date local : 2023-01-21 01:23:44.705796
+Date et heure de la mesure :2023-01-21T01:17:53
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1394
+Statut :Open
+date local : 2023-01-21 01:28:54.056585
+Date et heure de la mesure :2023-01-21T01:22:36
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1394
+Statut :Open
+date local : 2023-01-21 01:34:00.415678
+Date et heure de la mesure :2023-01-21T01:27:49
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1394
+Statut :Open
+date local : 2023-01-21 01:39:06.487067
+Date et heure de la mesure :2023-01-21T01:37:47
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 01:44:12.393896
+Date et heure de la mesure :2023-01-21T01:42:30
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 01:49:18.310419
+Date et heure de la mesure :2023-01-21T01:47:44
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 01:54:24.245198
+Date et heure de la mesure :2023-01-21T01:52:58
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1394
+Statut :Open
+date local : 2023-01-21 01:59:33.042054
+Date et heure de la mesure :2023-01-21T01:57:40
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1394
+Statut :Open
+date local : 2023-01-21 02:04:39.139501
+Date et heure de la mesure :2023-01-21T02:02:56
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 02:09:45.337858
+Date et heure de la mesure :2023-01-21T02:07:39
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 02:14:51.438451
+Date et heure de la mesure :2023-01-21T02:12:53
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 02:19:57.343093
+Date et heure de la mesure :2023-01-21T02:17:36
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 02:25:03.225535
+Date et heure de la mesure :2023-01-21T02:22:50
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 02:30:09.152847
+Date et heure de la mesure :2023-01-21T02:27:34
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 02:35:15.046054
+Date et heure de la mesure :2023-01-21T02:32:47
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 02:40:21.059138
+Date et heure de la mesure :2023-01-21T02:37:29
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 02:45:34.649637
+Date et heure de la mesure :2023-01-21T02:42:42
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 02:50:40.672188
+Date et heure de la mesure :2023-01-21T02:47:57
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 02:55:46.543406
+Date et heure de la mesure :2023-01-21T02:52:40
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 03:00:52.451879
+Date et heure de la mesure :2023-01-21T02:57:54
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 03:05:58.438639
+Date et heure de la mesure :2023-01-21T03:02:37
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open
+date local : 2023-01-21 03:11:06.297886
+Date et heure de la mesure :2023-01-21T03:07:51
+Nom du parking :CIRCE
+Nombre total de places :1500
+Nombre de places libres :1395
+Statut :Open

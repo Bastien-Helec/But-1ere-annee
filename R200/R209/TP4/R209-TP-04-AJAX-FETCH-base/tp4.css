@@ -1,0 +1,45 @@
+body{
+  background-color:#90EE90;
+  text-align:center;
+}
+h1,.center{
+  text-align:center;
+}
+div{
+  padding:2px;
+  margin:10px auto 10px auto;
+}
+p.msg {
+  color:red;
+}
+p {
+  width:600px;
+  text-align:center;
+  margin:10px auto 10px auto;
+  border:thin solid pink;
+  border-radius:8px;
+}
+table {
+  border-style:none;
+  background-color:gray;
+  font-family:"Arial",serif;
+  font-size:100%;
+  text-align:center;
+  margin:5px auto 5px auto;
+}
+tr:nth-child(even) {background-color:#FFD9A3;}
+tr:nth-child(odd) {background-color:#FFC8E5;}
+th {
+  background-color:yellow;
+  text-align:center;
+  padding:1px;
+}
+td {
+  text-align:left;
+  padding:1px;
+}
+.center {
+  text-align:center;
+}
+.box{width:500px;height:400px;}
+div.flex{display:flex;align-items:center;justify-content:center;}

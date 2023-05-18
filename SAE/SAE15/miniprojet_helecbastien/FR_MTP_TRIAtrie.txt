@@ -1,0 +1,684 @@
+date local : 2023-01-20 15:41:57.433604
+Date et heure de la mesure :2023-01-20T15:40:09.914
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :108
+Statut :Open
+date local : 2023-01-20 15:47:03.758073
+Date et heure de la mesure :2023-01-20T15:46:09.897
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :108
+Statut :Open
+date local : 2023-01-20 15:52:13.818857
+Date et heure de la mesure :2023-01-20T15:51:09.936
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :108
+Statut :Open
+date local : 2023-01-20 15:57:19.886215
+Date et heure de la mesure :2023-01-20T15:56:09.970
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :104
+Statut :Open
+date local : 2023-01-20 16:02:26.100923
+Date et heure de la mesure :2023-01-20T16:01:09.975
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :105
+Statut :Open
+date local : 2023-01-20 16:07:36.050599
+Date et heure de la mesure :2023-01-20T16:06:10.060
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :110
+Statut :Open
+date local : 2023-01-20 16:12:43.736914
+Date et heure de la mesure :2023-01-20T16:11:10.004
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :106
+Statut :Open
+date local : 2023-01-20 16:17:52.328726
+Date et heure de la mesure :2023-01-20T16:16:10.044
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :107
+Statut :Open
+date local : 2023-01-20 16:23:01.040644
+Date et heure de la mesure :2023-01-20T16:21:10.048
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :113
+Statut :Open
+date local : 2023-01-20 16:28:07.573473
+Date et heure de la mesure :2023-01-20T16:27:10.067
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :114
+Statut :Open
+date local : 2023-01-20 16:33:13.673131
+Date et heure de la mesure :2023-01-20T16:32:09.899
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :110
+Statut :Open
+date local : 2023-01-20 16:38:21.384832
+Date et heure de la mesure :2023-01-20T16:37:09.951
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :112
+Statut :Open
+date local : 2023-01-20 16:43:29.122762
+Date et heure de la mesure :2023-01-20T16:42:09.989
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :111
+Statut :Open
+date local : 2023-01-20 16:48:35.308145
+Date et heure de la mesure :2023-01-20T16:47:10.146
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :113
+Statut :Open
+date local : 2023-01-20 16:53:41.566285
+Date et heure de la mesure :2023-01-20T16:52:10.046
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :115
+Statut :Open
+date local : 2023-01-20 16:58:47.749751
+Date et heure de la mesure :2023-01-20T16:57:10.069
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :124
+Statut :Open
+date local : 2023-01-20 17:03:54.103329
+Date et heure de la mesure :2023-01-20T17:02:10.059
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :130
+Statut :Open
+date local : 2023-01-20 17:09:01.353674
+Date et heure de la mesure :2023-01-20T17:07:10.063
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :135
+Statut :Open
+date local : 2023-01-20 17:14:07.785367
+Date et heure de la mesure :2023-01-20T17:13:10.066
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :139
+Statut :Open
+date local : 2023-01-20 17:19:14.237900
+Date et heure de la mesure :2023-01-20T17:18:10.072
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :145
+Statut :Open
+date local : 2023-01-20 17:24:24.317543
+Date et heure de la mesure :2023-01-20T17:23:10.110
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :150
+Statut :Open
+date local : 2023-01-20 17:29:30.786841
+Date et heure de la mesure :2023-01-20T17:28:10.151
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :148
+Statut :Open
+date local : 2023-01-20 17:34:37.383759
+Date et heure de la mesure :2023-01-20T17:33:09.870
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :155
+Statut :Open
+date local : 2023-01-20 17:39:43.554213
+Date et heure de la mesure :2023-01-20T17:38:09.922
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :160
+Statut :Open
+date local : 2023-01-20 17:44:54.047720
+Date et heure de la mesure :2023-01-20T17:43:09.942
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :165
+Statut :Open
+date local : 2023-01-20 17:50:00.120233
+Date et heure de la mesure :2023-01-20T17:48:09.968
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :164
+Statut :Open
+date local : 2023-01-20 17:55:06.342386
+Date et heure de la mesure :2023-01-20T17:54:09.983
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :180
+Statut :Open
+date local : 2023-01-20 18:00:12.432992
+Date et heure de la mesure :2023-01-20T17:59:10.055
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :186
+Statut :Open
+date local : 2023-01-20 18:05:21.805263
+Date et heure de la mesure :2023-01-20T18:04:10.012
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :187
+Statut :Open
+date local : 2023-01-20 18:10:28.020601
+Date et heure de la mesure :2023-01-20T18:09:10.065
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :193
+Statut :Open
+date local : 2023-01-20 18:15:34.468665
+Date et heure de la mesure :2023-01-20T18:14:10.087
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :204
+Statut :Open
+date local : 2023-01-20 18:20:40.857119
+Date et heure de la mesure :2023-01-20T18:19:10.092
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :208
+Statut :Open
+date local : 2023-01-20 18:25:50.796797
+Date et heure de la mesure :2023-01-20T18:24:09.176
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :211
+Statut :Open
+date local : 2023-01-20 18:30:57.298723
+Date et heure de la mesure :2023-01-20T18:29:09.183
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :216
+Statut :Open
+date local : 2023-01-20 18:36:03.462923
+Date et heure de la mesure :2023-01-20T18:35:09.838
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :220
+Statut :Open
+date local : 2023-01-20 18:41:09.795207
+Date et heure de la mesure :2023-01-20T18:40:09.878
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :216
+Statut :Open
+date local : 2023-01-20 18:46:16.091474
+Date et heure de la mesure :2023-01-20T18:45:09.881
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :226
+Statut :Open
+date local : 2023-01-20 18:51:22.261027
+Date et heure de la mesure :2023-01-20T18:50:09.886
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :224
+Statut :Open
+date local : 2023-01-20 18:56:32.072492
+Date et heure de la mesure :2023-01-20T18:55:09.923
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :224
+Statut :Open
+date local : 2023-01-20 19:01:38.343178
+Date et heure de la mesure :2023-01-20T19:00:09.980
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :222
+Statut :Open
+date local : 2023-01-20 19:06:44.557860
+Date et heure de la mesure :2023-01-20T19:05:09.949
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :225
+Statut :Open
+date local : 2023-01-20 19:11:55.523475
+Date et heure de la mesure :2023-01-20T19:10:09.969
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :224
+Statut :Open
+date local : 2023-01-20 19:17:02.570121
+Date et heure de la mesure :2023-01-20T19:15:09.976
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :225
+Statut :Open
+date local : 2023-01-20 19:22:08.925708
+Date et heure de la mesure :2023-01-20T19:21:09.983
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :225
+Statut :Open
+date local : 2023-01-20 19:27:15.065915
+Date et heure de la mesure :2023-01-20T19:26:10.034
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :222
+Statut :Open
+date local : 2023-01-20 19:32:21.238963
+Date et heure de la mesure :2023-01-20T19:31:09.866
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :220
+Statut :Open
+date local : 2023-01-20 19:37:27.308454
+Date et heure de la mesure :2023-01-20T19:36:09.858
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :221
+Statut :Open
+date local : 2023-01-20 19:42:33.562945
+Date et heure de la mesure :2023-01-20T19:41:09.880
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :220
+Statut :Open
+date local : 2023-01-20 19:47:39.865243
+Date et heure de la mesure :2023-01-20T19:46:09.855
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :217
+Statut :Open
+date local : 2023-01-20 19:52:46.189774
+Date et heure de la mesure :2023-01-20T19:51:09.842
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :216
+Statut :Open
+date local : 2023-01-20 19:57:53.120182
+Date et heure de la mesure :2023-01-20T19:56:09.893
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :212
+Statut :Open
+date local : 2023-01-20 20:27:50.236363
+Date et heure de la mesure :2023-01-20T20:26:09.978
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :197
+Statut :Open
+date local : 2023-01-20 20:28:10.049806
+Date et heure de la mesure :2023-01-20T20:27:09.970
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :197
+Statut :Open
+date local : 2023-01-20 20:33:16.118572
+Date et heure de la mesure :2023-01-20T20:32:09.854
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :193
+Statut :Open
+date local : 2023-01-20 20:38:22.156728
+Date et heure de la mesure :2023-01-20T20:37:09.939
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :187
+Statut :Open
+date local : 2023-01-20 20:43:28.141318
+Date et heure de la mesure :2023-01-20T20:42:09.941
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :185
+Statut :Open
+date local : 2023-01-20 20:48:34.213651
+Date et heure de la mesure :2023-01-20T20:47:09.967
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :185
+Statut :Open
+date local : 2023-01-20 20:53:40.196223
+Date et heure de la mesure :2023-01-20T20:52:09.999
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :183
+Statut :Open
+date local : 2023-01-20 20:58:47.144542
+Date et heure de la mesure :2023-01-20T20:57:10.024
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :182
+Statut :Open
+date local : 2023-01-20 21:03:53.541418
+Date et heure de la mesure :2023-01-20T21:02:10.058
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :179
+Statut :Open
+date local : 2023-01-20 21:08:59.792729
+Date et heure de la mesure :2023-01-20T21:07:10.061
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :175
+Statut :Open
+date local : 2023-01-20 21:14:05.915668
+Date et heure de la mesure :2023-01-20T21:13:10.033
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :173
+Statut :Open
+date local : 2023-01-20 21:19:11.928737
+Date et heure de la mesure :2023-01-20T21:18:10.054
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :173
+Statut :Open
+date local : 2023-01-20 21:24:18.187731
+Date et heure de la mesure :2023-01-20T21:23:10.060
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :174
+Statut :Open
+date local : 2023-01-20 21:29:24.878460
+Date et heure de la mesure :2023-01-20T21:28:10.036
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :170
+Statut :Open
+date local : 2023-01-20 21:34:35.486493
+Date et heure de la mesure :2023-01-20T21:33:09.843
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :170
+Statut :Open
+date local : 2023-01-20 21:39:43.153805
+Date et heure de la mesure :2023-01-20T21:38:09.844
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :169
+Statut :Open
+date local : 2023-01-20 21:44:54.039346
+Date et heure de la mesure :2023-01-20T21:43:09.849
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :172
+Statut :Open
+date local : 2023-01-20 21:50:02.487350
+Date et heure de la mesure :2023-01-20T21:49:09.854
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :170
+Statut :Open
+date local : 2023-01-20 21:55:10.744484
+Date et heure de la mesure :2023-01-20T21:54:09.862
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :168
+Statut :Open
+date local : 2023-01-20 22:00:18.886676
+Date et heure de la mesure :2023-01-20T21:59:09.881
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :166
+Statut :Open
+date local : 2023-01-20 22:05:26.675762
+Date et heure de la mesure :2023-01-20T22:04:09.901
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :168
+Statut :Open
+date local : 2023-01-20 22:10:33.323802
+Date et heure de la mesure :2023-01-20T22:09:09.923
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :168
+Statut :Open
+date local : 2023-01-20 22:15:44.653177
+Date et heure de la mesure :2023-01-20T22:14:09.976
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :169
+Statut :Open
+date local : 2023-01-20 22:20:54.859823
+Date et heure de la mesure :2023-01-20T22:19:09.934
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :170
+Statut :Open
+date local : 2023-01-20 22:26:02.016479
+Date et heure de la mesure :2023-01-20T22:24:09.927
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :174
+Statut :Open
+date local : 2023-01-20 22:31:08.726547
+Date et heure de la mesure :2023-01-20T22:30:09.834
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :178
+Statut :Open
+date local : 2023-01-20 22:36:14.969658
+Date et heure de la mesure :2023-01-20T22:35:09.805
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :177
+Statut :Open
+date local : 2023-01-20 22:41:21.534143
+Date et heure de la mesure :2023-01-20T22:40:09.817
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :179
+Statut :Open
+date local : 2023-01-20 22:46:27.570238
+Date et heure de la mesure :2023-01-20T22:45:09.838
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :186
+Statut :Open
+date local : 2023-01-20 22:51:33.535808
+Date et heure de la mesure :2023-01-20T22:50:09.843
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :194
+Statut :Open
+date local : 2023-01-20 22:56:39.457632
+Date et heure de la mesure :2023-01-20T22:55:09.862
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :202
+Statut :Open
+date local : 2023-01-20 23:01:45.381643
+Date et heure de la mesure :2023-01-20T23:00:09.880
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :203
+Statut :Open
+date local : 2023-01-20 23:06:51.313810
+Date et heure de la mesure :2023-01-20T23:05:09.888
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :204
+Statut :Open
+date local : 2023-01-20 23:12:04.379734
+Date et heure de la mesure :2023-01-20T23:11:09.922
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :207
+Statut :Open
+date local : 2023-01-20 23:17:10.310582
+Date et heure de la mesure :2023-01-20T23:16:09.910
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :206
+Statut :Open
+date local : 2023-01-21 01:03:00.204486
+Date et heure de la mesure :2023-01-21T01:01:09.979
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :254
+Statut :Open
+date local : 2023-01-21 01:03:19.803805
+Date et heure de la mesure :2023-01-21T01:02:09.998
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :254
+Statut :Open
+date local : 2023-01-21 01:08:25.928887
+Date et heure de la mesure :2023-01-21T01:07:10.017
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :256
+Statut :Open
+date local : 2023-01-21 01:13:31.796091
+Date et heure de la mesure :2023-01-21T01:12:10.035
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :257
+Statut :Open
+date local : 2023-01-21 01:18:37.823587
+Date et heure de la mesure :2023-01-21T01:17:09.108
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :264
+Statut :Open
+date local : 2023-01-21 01:23:44.005256
+Date et heure de la mesure :2023-01-21T01:22:09.177
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :266
+Statut :Open
+date local : 2023-01-21 01:28:50.031063
+Date et heure de la mesure :2023-01-21T01:27:09.210
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :270
+Statut :Open
+date local : 2023-01-21 01:33:59.711863
+Date et heure de la mesure :2023-01-21T01:32:09.860
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :272
+Statut :Open
+date local : 2023-01-21 01:39:05.788924
+Date et heure de la mesure :2023-01-21T01:38:09.894
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :274
+Statut :Open
+date local : 2023-01-21 01:44:11.686674
+Date et heure de la mesure :2023-01-21T01:43:09.926
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :274
+Statut :Open
+date local : 2023-01-21 01:49:17.609515
+Date et heure de la mesure :2023-01-21T01:48:09.932
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :274
+Statut :Open
+date local : 2023-01-21 01:54:23.545651
+Date et heure de la mesure :2023-01-21T01:53:10.001
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :273
+Statut :Open
+date local : 2023-01-21 01:59:32.342745
+Date et heure de la mesure :2023-01-21T01:58:10.020
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :275
+Statut :Open
+date local : 2023-01-21 02:04:38.378520
+Date et heure de la mesure :2023-01-21T02:03:10.044
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :275
+Statut :Open
+date local : 2023-01-21 02:09:44.639735
+Date et heure de la mesure :2023-01-21T02:08:10.047
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :275
+Statut :Open
+date local : 2023-01-21 02:14:50.737317
+Date et heure de la mesure :2023-01-21T02:13:10.153
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :276
+Statut :Open
+date local : 2023-01-21 02:19:56.647623
+Date et heure de la mesure :2023-01-21T02:18:10.061
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :276
+Statut :Open
+date local : 2023-01-21 02:25:02.516504
+Date et heure de la mesure :2023-01-21T02:23:10.033
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :275
+Statut :Open
+date local : 2023-01-21 02:30:08.451551
+Date et heure de la mesure :2023-01-21T02:29:10.020
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :275
+Statut :Open
+date local : 2023-01-21 02:35:14.341117
+Date et heure de la mesure :2023-01-21T02:34:09.922
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :276
+Statut :Open
+date local : 2023-01-21 02:40:20.360858
+Date et heure de la mesure :2023-01-21T02:39:09.894
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :277
+Statut :Open
+date local : 2023-01-21 02:45:29.377851
+Date et heure de la mesure :2023-01-21T02:44:09.945
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :279
+Statut :Open
+date local : 2023-01-21 02:50:39.973323
+Date et heure de la mesure :2023-01-21T02:49:09.967
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :280
+Statut :Open
+date local : 2023-01-21 02:55:45.847597
+Date et heure de la mesure :2023-01-21T02:54:10.037
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :281
+Statut :Open
+date local : 2023-01-21 03:00:51.747519
+Date et heure de la mesure :2023-01-21T02:59:10.088
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :281
+Statut :Open
+date local : 2023-01-21 03:05:57.734171
+Date et heure de la mesure :2023-01-21T03:04:10.094
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :282
+Statut :Open
+date local : 2023-01-21 03:11:05.593875
+Date et heure de la mesure :2023-01-21T03:10:10.095
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :282
+Statut :Open
+date local : 2023-01-21 03:16:11.505935
+Date et heure de la mesure :2023-01-21T03:15:09.137
+Nom du parking :Triangle
+Nombre total de places :436
+Nombre de places libres :282
+Statut :Open

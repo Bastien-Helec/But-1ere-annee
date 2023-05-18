@@ -1,0 +1,92 @@
+/* navbar start */
+header.menu{
+  position:sticky;
+  top:0;
+  overflow: hidden;
+  position: -webkit-sticky;
+  z-index: 30;
+  font-size: 20px; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #145561;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  #droite{
+    float: right;
+  }
+  /* navbar end */
+  
+  /* Acceuil */
+  #A1{
+    background-color: #145561;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Formation */
+  #F2{
+    background-color: #5f0f94;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Competences */
+  #C3{
+    background-color: #95b117;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Projet */
+  #P4{
+    background-color: #f9a602;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Loisirs */
+  #L5{
+    background-color: #f94802;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* A propos de moi */
+  #APP6{
+    background-color: #f9022b;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }

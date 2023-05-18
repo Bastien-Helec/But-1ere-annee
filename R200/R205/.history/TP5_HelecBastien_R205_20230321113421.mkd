@@ -1,0 +1,35 @@
+TP5_HelecBastien_R205
+
+3.3 Le son n'est pas monotone il varie des graves au aigues se qui veux donc indiqué que le son au début est grave donc des fréquences basses et au fur et a mesure il devient aigue donc des fréquences hautes
+
+3.4 
+![alt](3.4.jpg)
+On peut voir que les frequences alterne entre des frequences hautes et des frequences basses, indique au debut des frequences basses et a la fin une frequences hautes
+La representation sur 0,7 seconde est claire , on peut voir que les frequences sont plus alternees
+
+3.5
+Le spectogramme est legeremnt plus precis car on voit mieux les frequences et les amplitudes mais cela reduit aussi la representation fidele du son
+
+!![3.5]](3.5.jpg)
+
+3.6-7
+![alt](3.6-7.jpg)
+
+On peut voir que grace au waterfall on peut apercevoir comment le signal module et a quelle frequences il varie entre chaque seconde 
+
+3.8 
+![alt](3.8.1jpg)
+![alt](3.8.2.jpg)
+![alt](3.8.3.jpg)
+
+On peut voir a la suite que le spectogramme indique les frquences on emet le signal , mais on ne voit pas la modulation de gain , contrairement a la representation en dessus qui indique les frequences et la modulation de gain 
+
+3.9 
+On peut voir que les deux spectogramme sont tres proche l'un de l'autre , on peut voir que les frequences sont les memes et que la modulation de gain est la meme hors les deux ne sont pas identique car sur l'un des deux le musicien frappe plus fort contrairement a l'autre. 
+
+![alt](3.9.jpg)
+![alt](3.9.2.jpg)
+
+
+4.1 
+Pour regler les frequences de coupures de sortes a ce que les filtres ne filtres rien on doit regler les frequences avec les potienmetres  

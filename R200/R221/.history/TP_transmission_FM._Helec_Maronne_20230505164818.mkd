@@ -1,0 +1,17 @@
+## TP Transmission FM
+## Maronne Helec
+
+4. Experimentation
+.1  Nous utiliserons le VM dragon os preinstaller sur les ordinateurs de l'IUT 
+
+.2 Pour connecter l'ADALM PLUTO a la VM on a alors brancher le cable USB a l'ordinateur et a l'ADALM PLUTO puis sur le logiciels qui host le VM on es aller dans peripheriques puis USB et on a selectionner Analog Devices Inc.
+
+.3 Ce diagramme realise la liaison de 2 source constant au format float puis on les additionne et on les envois vers le sink qui est l'ADALM PLUTO
+
+Il emet donc un signal qui est la somme des 2 signaux constant sur la frequence de 840MHz 
+
+.4
+
+.5 Contrairement a la partie 4.3 on utilise ici un signal sinusoidale qui va donc réaliser un signal modulé en amplitude, d'apres nos predictions  
+
+.6 

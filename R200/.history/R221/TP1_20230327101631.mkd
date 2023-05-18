@@ -1,0 +1,1 @@
+2.a) Le segment sol utilise 2 module : GS (Ground segment) et MCC (mission control center) encodage et decodage de l'information, le GS  utilse 2 antennes pour communiquer avec le satellite une antenne pour l'envoie du HUF (High ultra frequency) et une autre en S-Band , Le systeme utilise l'encodage et decodage des radiofrequences. Le systeme GSEG possede une boite a 

@@ -1,0 +1,29 @@
+2. a) Systeme : 
+linux : 
+    ram : 3904 MB
+    chipset : PIIX3
+    fonctions avancées : Activer IO-APIC, Horloge interne UTC
+    accélerations :  par défaut, activer la pagination imbriquée
+windows :
+    ram : 4608 MB 
+    chipset : PIIX3
+    fonctions avancées : rien d'acitver
+    accélerations : par défaut, activer la pagination imbriquée
+b) Stockage :
+linux : 
+    type de controleurs: SATA 
+    cd : 
+    disks :  
+windows :
+    type de controleurs: SATA 
+    cd : WIN1.vdi
+    disks : Port SATA 0
+
+c) Réseau :
+linux : 
+    type de carte matérielles :
+windows :
+    type de carte matérielles : Intel PRO
+
+
+

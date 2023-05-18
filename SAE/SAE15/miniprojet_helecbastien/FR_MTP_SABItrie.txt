@@ -1,0 +1,678 @@
+date local : 2023-01-20 15:41:58.408735
+Date et heure de la mesure :2023-01-20T15:36:54
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0125
+Statut :Open
+date local : 2023-01-20 15:47:04.812838
+Date et heure de la mesure :2023-01-20T15:41:58
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0124
+Statut :Open
+date local : 2023-01-20 15:52:14.770399
+Date et heure de la mesure :2023-01-20T15:46:52
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0126
+Statut :Open
+date local : 2023-01-20 15:57:20.852219
+Date et heure de la mesure :2023-01-20T15:51:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0124
+Statut :Open
+date local : 2023-01-20 16:02:30.610343
+Date et heure de la mesure :2023-01-20T15:56:50
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0125
+Statut :Open
+date local : 2023-01-20 16:07:37.064428
+Date et heure de la mesure :2023-01-20T16:01:54
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0123
+Statut :Open
+date local : 2023-01-20 16:12:44.687858
+Date et heure de la mesure :2023-01-20T16:06:58
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0132
+Statut :Open
+date local : 2023-01-20 16:17:53.313439
+Date et heure de la mesure :2023-01-20T16:11:52
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0139
+Statut :Open
+date local : 2023-01-20 16:23:02.085211
+Date et heure de la mesure :2023-01-20T16:16:57
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-20 16:28:08.542128
+Date et heure de la mesure :2023-01-20T16:26:57
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0149
+Statut :Open
+date local : 2023-01-20 16:33:14.745841
+Date et heure de la mesure :2023-01-20T16:31:52
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0150
+Statut :Open
+date local : 2023-01-20 16:38:22.356696
+Date et heure de la mesure :2023-01-20T16:36:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0155
+Statut :Open
+date local : 2023-01-20 16:43:30.107224
+Date et heure de la mesure :2023-01-20T16:41:51
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0162
+Statut :Open
+date local : 2023-01-20 16:48:36.328141
+Date et heure de la mesure :2023-01-20T16:46:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0160
+Statut :Open
+date local : 2023-01-20 16:53:42.547124
+Date et heure de la mesure :2023-01-20T16:51:51
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0163
+Statut :Open
+date local : 2023-01-20 16:58:48.721132
+Date et heure de la mesure :2023-01-20T16:56:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0162
+Statut :Open
+date local : 2023-01-20 17:03:55.158301
+Date et heure de la mesure :2023-01-20T17:01:51
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0160
+Statut :Open
+date local : 2023-01-20 17:09:02.376196
+Date et heure de la mesure :2023-01-20T17:06:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0159
+Statut :Open
+date local : 2023-01-20 17:14:08.819681
+Date et heure de la mesure :2023-01-20T17:11:52
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0162
+Statut :Open
+date local : 2023-01-20 17:19:18.693879
+Date et heure de la mesure :2023-01-20T17:16:58
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0162
+Statut :Open
+date local : 2023-01-20 17:24:25.532735
+Date et heure de la mesure :2023-01-20T17:21:54
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0169
+Statut :Open
+date local : 2023-01-20 17:29:31.814707
+Date et heure de la mesure :2023-01-20T17:26:58
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0174
+Statut :Open
+date local : 2023-01-20 17:34:38.331280
+Date et heure de la mesure :2023-01-20T17:31:52
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0177
+Statut :Open
+date local : 2023-01-20 17:39:48.761032
+Date et heure de la mesure :2023-01-20T17:36:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0176
+Statut :Open
+date local : 2023-01-20 17:44:55.014265
+Date et heure de la mesure :2023-01-20T17:41:50
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0178
+Statut :Open
+date local : 2023-01-20 17:50:01.125928
+Date et heure de la mesure :2023-01-20T17:46:53
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0182
+Statut :Open
+date local : 2023-01-20 17:55:07.336334
+Date et heure de la mesure :2023-01-20T17:51:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0183
+Statut :Open
+date local : 2023-01-20 18:00:13.391528
+Date et heure de la mesure :2023-01-20T17:56:58
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0186
+Statut :Open
+date local : 2023-01-20 18:05:22.777667
+Date et heure de la mesure :2023-01-20T18:01:51
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0188
+Statut :Open
+date local : 2023-01-20 18:10:29.015096
+Date et heure de la mesure :2023-01-20T18:06:55
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0192
+Statut :Open
+date local : 2023-01-20 18:15:35.447037
+Date et heure de la mesure :2023-01-20T18:11:59
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0196
+Statut :Open
+date local : 2023-01-20 18:20:41.899804
+Date et heure de la mesure :2023-01-20T18:16:53
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0198
+Statut :Open
+date local : 2023-01-20 18:25:51.788823
+Date et heure de la mesure :2023-01-20T18:21:59
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0201
+Statut :Open
+date local : 2023-01-20 18:30:58.296371
+Date et heure de la mesure :2023-01-20T18:26:53
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0201
+Statut :Open
+date local : 2023-01-20 18:36:04.491643
+Date et heure de la mesure :2023-01-20T18:31:57
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0201
+Statut :Open
+date local : 2023-01-20 18:41:10.812801
+Date et heure de la mesure :2023-01-20T18:36:50
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0203
+Statut :Open
+date local : 2023-01-20 18:46:17.062048
+Date et heure de la mesure :2023-01-20T18:41:53
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0212
+Statut :Open
+date local : 2023-01-20 18:51:23.233564
+Date et heure de la mesure :2023-01-20T18:46:57
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0218
+Statut :Open
+date local : 2023-01-20 18:56:33.135111
+Date et heure de la mesure :2023-01-20T18:51:51
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0219
+Statut :Open
+date local : 2023-01-20 19:01:39.284349
+Date et heure de la mesure :2023-01-20T18:56:55
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0218
+Statut :Open
+date local : 2023-01-20 19:06:45.547593
+Date et heure de la mesure :2023-01-20T19:01:59
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0216
+Statut :Open
+date local : 2023-01-20 19:11:56.614776
+Date et heure de la mesure :2023-01-20T19:06:53
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0219
+Statut :Open
+date local : 2023-01-20 19:17:03.580613
+Date et heure de la mesure :2023-01-20T19:11:57
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0224
+Statut :Open
+date local : 2023-01-20 19:22:09.903755
+Date et heure de la mesure :2023-01-20T19:16:51
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0226
+Statut :Open
+date local : 2023-01-20 19:27:16.005881
+Date et heure de la mesure :2023-01-20T19:21:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0227
+Statut :Open
+date local : 2023-01-20 19:32:22.209481
+Date et heure de la mesure :2023-01-20T19:26:50
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0231
+Statut :Open
+date local : 2023-01-20 19:37:28.281444
+Date et heure de la mesure :2023-01-20T19:31:54
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0233
+Statut :Open
+date local : 2023-01-20 19:42:34.534042
+Date et heure de la mesure :2023-01-20T19:36:57
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0233
+Statut :Open
+date local : 2023-01-20 19:47:40.915776
+Date et heure de la mesure :2023-01-20T19:41:51
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0233
+Statut :Open
+date local : 2023-01-20 19:52:47.165458
+Date et heure de la mesure :2023-01-20T19:46:55
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0237
+Statut :Open
+date local : 2023-01-20 19:57:54.138223
+Date et heure de la mesure :2023-01-20T19:51:59
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0238
+Statut :Open
+date local : 2023-01-20 20:27:51.193606
+Date et heure de la mesure :2023-01-20T20:21:53
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0241
+Statut :Open
+date local : 2023-01-20 20:28:11.024398
+Date et heure de la mesure :2023-01-20T20:26:57
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0239
+Statut :Open
+date local : 2023-01-20 20:33:17.077304
+Date et heure de la mesure :2023-01-20T20:31:51
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0241
+Statut :Open
+date local : 2023-01-20 20:38:23.113045
+Date et heure de la mesure :2023-01-20T20:36:55
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0240
+Statut :Open
+date local : 2023-01-20 20:43:29.103130
+Date et heure de la mesure :2023-01-20T20:41:58
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0244
+Statut :Open
+date local : 2023-01-20 20:48:35.164579
+Date et heure de la mesure :2023-01-20T20:46:52
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0245
+Statut :Open
+date local : 2023-01-20 20:53:41.147639
+Date et heure de la mesure :2023-01-20T20:51:55
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0249
+Statut :Open
+date local : 2023-01-20 20:58:48.198186
+Date et heure de la mesure :2023-01-20T20:56:59
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-20 21:03:54.558637
+Date et heure de la mesure :2023-01-20T21:01:53
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-20 21:09:00.739820
+Date et heure de la mesure :2023-01-20T21:06:57
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0253
+Statut :Open
+date local : 2023-01-20 21:14:06.858886
+Date et heure de la mesure :2023-01-20T21:11:51
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0251
+Statut :Open
+date local : 2023-01-20 21:19:12.861397
+Date et heure de la mesure :2023-01-20T21:16:55
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0251
+Statut :Open
+date local : 2023-01-20 21:24:19.273635
+Date et heure de la mesure :2023-01-20T21:21:50
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0253
+Statut :Open
+date local : 2023-01-20 21:29:29.485158
+Date et heure de la mesure :2023-01-20T21:26:54
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0252
+Statut :Open
+date local : 2023-01-20 21:34:36.603154
+Date et heure de la mesure :2023-01-20T21:31:57
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0254
+Statut :Open
+date local : 2023-01-20 21:39:44.529709
+Date et heure de la mesure :2023-01-20T21:36:50
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0253
+Statut :Open
+date local : 2023-01-20 21:44:55.432097
+Date et heure de la mesure :2023-01-20T21:41:54
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0255
+Statut :Open
+date local : 2023-01-20 21:50:03.863748
+Date et heure de la mesure :2023-01-20T21:46:58
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0254
+Statut :Open
+date local : 2023-01-20 21:55:12.080242
+Date et heure de la mesure :2023-01-20T21:51:52
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0254
+Statut :Open
+date local : 2023-01-20 22:00:20.361055
+Date et heure de la mesure :2023-01-20T21:56:55
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0255
+Statut :Open
+date local : 2023-01-20 22:05:27.871449
+Date et heure de la mesure :2023-01-20T22:01:49
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0256
+Statut :Open
+date local : 2023-01-20 22:10:34.303557
+Date et heure de la mesure :2023-01-20T22:06:53
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0256
+Statut :Open
+date local : 2023-01-20 22:15:46.088197
+Date et heure de la mesure :2023-01-20T22:11:59
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0256
+Statut :Open
+date local : 2023-01-20 22:20:55.793678
+Date et heure de la mesure :2023-01-20T22:16:55
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0257
+Statut :Open
+date local : 2023-01-20 22:26:03.020841
+Date et heure de la mesure :2023-01-20T22:21:53
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0256
+Statut :Open
+date local : 2023-01-20 22:31:09.668579
+Date et heure de la mesure :2023-01-20T22:26:59
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0256
+Statut :Open
+date local : 2023-01-20 22:36:15.977589
+Date et heure de la mesure :2023-01-20T22:31:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0256
+Statut :Open
+date local : 2023-01-20 22:41:22.478736
+Date et heure de la mesure :2023-01-20T22:36:53
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0257
+Statut :Open
+date local : 2023-01-20 22:46:28.525808
+Date et heure de la mesure :2023-01-20T22:41:49
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0257
+Statut :Open
+date local : 2023-01-20 22:51:34.473595
+Date et heure de la mesure :2023-01-20T22:46:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0256
+Statut :Open
+date local : 2023-01-20 22:56:40.399378
+Date et heure de la mesure :2023-01-20T22:51:51
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0257
+Statut :Open
+date local : 2023-01-20 23:01:46.315846
+Date et heure de la mesure :2023-01-20T22:56:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0257
+Statut :Open
+date local : 2023-01-20 23:06:55.947302
+Date et heure de la mesure :2023-01-20T23:01:51
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0258
+Statut :Open
+date local : 2023-01-20 23:12:05.314023
+Date et heure de la mesure :2023-01-20T23:06:58
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0259
+Statut :Open
+date local : 2023-01-20 23:17:11.246092
+Date et heure de la mesure :2023-01-20T23:11:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0258
+Statut :Open
+date local : 2023-01-21 01:03:01.160661
+Date et heure de la mesure :2023-01-21T00:56:59
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 01:03:20.785143
+Date et heure de la mesure :2023-01-21T01:01:54
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 01:08:26.866360
+Date et heure de la mesure :2023-01-21T01:06:57
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 01:13:32.729983
+Date et heure de la mesure :2023-01-21T01:11:51
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 01:18:38.763602
+Date et heure de la mesure :2023-01-21T01:16:55
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0264
+Statut :Open
+date local : 2023-01-21 01:23:44.937792
+Date et heure de la mesure :2023-01-21T01:21:59
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0264
+Statut :Open
+date local : 2023-01-21 01:28:54.293794
+Date et heure de la mesure :2023-01-21T01:26:54
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0264
+Statut :Open
+date local : 2023-01-21 01:34:00.650967
+Date et heure de la mesure :2023-01-21T01:31:58
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 01:39:06.718046
+Date et heure de la mesure :2023-01-21T01:36:52
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 01:44:12.629734
+Date et heure de la mesure :2023-01-21T01:41:57
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 01:49:18.547723
+Date et heure de la mesure :2023-01-21T01:46:52
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 01:54:24.479473
+Date et heure de la mesure :2023-01-21T01:51:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 01:59:33.274988
+Date et heure de la mesure :2023-01-21T01:56:51
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 02:04:39.394363
+Date et heure de la mesure :2023-01-21T02:01:57
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0264
+Statut :Open
+date local : 2023-01-21 02:09:45.572462
+Date et heure de la mesure :2023-01-21T02:06:51
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0264
+Statut :Open
+date local : 2023-01-21 02:14:51.669115
+Date et heure de la mesure :2023-01-21T02:11:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0264
+Statut :Open
+date local : 2023-01-21 02:19:57.574427
+Date et heure de la mesure :2023-01-21T02:16:50
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0264
+Statut :Open
+date local : 2023-01-21 02:25:03.458942
+Date et heure de la mesure :2023-01-21T02:21:54
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0264
+Statut :Open
+date local : 2023-01-21 02:30:09.387763
+Date et heure de la mesure :2023-01-21T02:26:58
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0264
+Statut :Open
+date local : 2023-01-21 02:35:15.277575
+Date et heure de la mesure :2023-01-21T02:31:52
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0265
+Statut :Open
+date local : 2023-01-21 02:40:21.291592
+Date et heure de la mesure :2023-01-21T02:36:55
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0265
+Statut :Open
+date local : 2023-01-21 02:45:34.888622
+Date et heure de la mesure :2023-01-21T02:41:59
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0264
+Statut :Open
+date local : 2023-01-21 02:50:40.909255
+Date et heure de la mesure :2023-01-21T02:46:53
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 02:55:46.778262
+Date et heure de la mesure :2023-01-21T02:51:56
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 03:00:52.686272
+Date et heure de la mesure :2023-01-21T02:56:50
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 03:05:58.672246
+Date et heure de la mesure :2023-01-21T03:01:54
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open
+date local : 2023-01-21 03:11:06.532832
+Date et heure de la mesure :2023-01-21T03:06:58
+Nom du parking :SABI
+Nombre total de places :0283
+Nombre de places libres :0263
+Statut :Open

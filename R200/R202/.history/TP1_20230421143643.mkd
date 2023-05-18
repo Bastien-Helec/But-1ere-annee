@@ -1,0 +1,13 @@
+2. a) Systeme : 
+linux : 
+    ram : 3
+    chipset :
+    fonctions avancées :
+    accélerations : 
+windows :
+    ram : 
+    chipset :
+    fonctions avancées :
+    accélerations :
+
+

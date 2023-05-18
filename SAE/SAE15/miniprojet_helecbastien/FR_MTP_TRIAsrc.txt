@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<park>
+<DateTime>2023-01-21T03:15:09.137</DateTime>
+<Name>Triangle</Name>
+<Status>Open</Status>
+<Free>282</Free>
+<Total>436</Total>
+<DisplayOpenIf>100</DisplayOpenIf>
+<Reserve></Reserve>
+</park>
+

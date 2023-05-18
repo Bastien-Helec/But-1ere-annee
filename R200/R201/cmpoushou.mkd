@@ -1,0 +1,13 @@
+show run config
+start run config
+copy running-config
+
+le temps de convergence : le temps mis par le réseau pour trouver une solution de secours pour continuer de router 
+
+round robin 
+qos = quality of service (pour la voix)
+ifconfig (affiche les perte de paquets)
+
+mtr = traceroute avec plus d'info
+
+path mtu : 

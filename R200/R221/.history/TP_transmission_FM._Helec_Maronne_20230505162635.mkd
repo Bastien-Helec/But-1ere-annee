@@ -1,0 +1,9 @@
+## TP Transmission FM
+## Maronne Helec
+
+4. Experimentation
+.1  Nous utiliserons le VM dragon os preinstaller sur les ordinateurs de l'IUT 
+
+.2 Pour connecter l'ADALM PLUTO a la VM on a alors brancher le cable USB a l'ordinateur et a l'ADALM PLUTO puis sur le logiciels qui host le VM on es aller dans peripheriques puis USB et on a selectionner Analog Devices Inc.
+
+.3 Ce diagramme realise la liaison de 2 source constant au format float vers 

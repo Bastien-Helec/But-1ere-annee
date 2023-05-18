@@ -1,0 +1,26 @@
+1. 
+   ```sql
+   SELECT * FROM equipes order by groupe,points DESC , marques DESC, gagnes DESC, joues ASC; 
+    ```
+2. ```sql
+   update matchs set score1=5, score2=1 where eq1=7 and eq2=5 and journee=5 ;
+   ```
+3. ```sql
+update equipes set points=points+3, joues=joues+1, gagnes=gagnes+1, marques=marques+5, encaisses=encaisses+1, where id=7 ;
+update equipes set points=points+0, joues=joues+1, gagnes=gagnes+0, marques=marques+1, encaisses=encaisses+5, where id=5 ;
+```
+4. ```sql
+select matchs.*,e1.nom,e2.nom from matchs,equipes as e1,equipes as a2 where id=35 and matchs.e1=equipes.id and matchs.e2=equipes.id;
+```
+
+5. ```sql
+select e1.nom as e1nom,matchs.score1,matchs.score2,e2.nom as e2nom, dateMatch FROM matchs, equipes as e1,equipes as e2 where matchs.eq1=e1.id and matchs.eq2=e2.id and e1.groupe ='C' and e2.groupe='C' and journee=4 order by dateMatch;
+```
+
+6. ```sql
+select SUM(score1+score2) as n  from match where journee=4;
+``` 
+
+7. ```sql
+select count(*) as n from matchs where eq1=14 and score1>score2; 
+```

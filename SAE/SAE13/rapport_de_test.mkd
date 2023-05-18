@@ -1,0 +1,40 @@
+## ©Helec Bastien 2022 - All rights reserved 
+
+
+## Comprendre un rapport de test du DSX602
+
+1. Sur la troisieme page du rapport de test, on trouve les informations suivantes:
+
+![rapport de test](rapport_test.png)
+
+2. Puis la propriété global du cable 
+
+![propriété du cable](rapport_test2.png)
+
+3. Le schema du systeme :
+![schema](rapport_test3.png)
+
+4. et le rapport de test :
+![rapport de test nombre](rapport_test4.png)
+![rapport de test graphes](rapport_test5.png)
+
+Le rapport de test :
+NEXT : c'est la paradiaphonie* du cable 
+PS NEXT : C'est la somme de toutes les paradiaphonie*
+du cable
+
+ACR-F : Rapport entre diaphonie* et atténuation au niveau du coté distant  du cable
+
+PS ACR-F :rapport entre attenuation et diaphonie* du cumul des puissances du coté distant du cable
+
+ACR-N : rapport entre atténuation et diaphonie* du coté rapproché du cable
+
+PS ACR-N :raport entre attenuation et diaphonie* du cumul des puissances du coté rapproché du cable
+
+RL : return loss (perte de retour)
+
+NVP : force nominal de propagation (nominal velocity of propagation)
+
+paradiaphonie: Diaphonie d'un câble du côté de la source du signal. La diaphonie est la capacité d'un câble à transmettre un signal sans le déformer. Elle est mesurée en décibels (dB). Plus la diaphonie est élevée, plus le câble est capable de transmettre un signal sans le déformer. La diaphonie est une propriété du câble et non du signal. Elle est mesurée en décibels (dB). 
+
+diaphonie : interférence parasites des tensions electriques d'un circuit a un autre circuit qui peut entrainer la perception des conversations du circuit voisin 

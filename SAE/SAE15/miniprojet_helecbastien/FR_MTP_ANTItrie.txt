@@ -1,0 +1,684 @@
+date local : 2023-01-20 15:41:55.747201
+Date et heure de la mesure :2023-01-20T15:38:55
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0124
+Statut :Open
+date local : 2023-01-20 15:47:01.907736
+Date et heure de la mesure :2023-01-20T15:44:52
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0124
+Statut :Open
+date local : 2023-01-20 15:52:08.533518
+Date et heure de la mesure :2023-01-20T15:50:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0125
+Statut :Open
+date local : 2023-01-20 15:57:18.178732
+Date et heure de la mesure :2023-01-20T15:53:51
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0125
+Statut :Open
+date local : 2023-01-20 16:02:24.377997
+Date et heure de la mesure :2023-01-20T15:59:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0125
+Statut :Open
+date local : 2023-01-20 16:07:34.283973
+Date et heure de la mesure :2023-01-20T16:05:55
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0127
+Statut :Open
+date local : 2023-01-20 16:12:41.994210
+Date et heure de la mesure :2023-01-20T16:08:59
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0127
+Statut :Open
+date local : 2023-01-20 16:17:48.297619
+Date et heure de la mesure :2023-01-20T16:14:56
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0127
+Statut :Open
+date local : 2023-01-20 16:22:59.216473
+Date et heure de la mesure :2023-01-20T16:20:53
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0128
+Statut :Open
+date local : 2023-01-20 16:28:05.862487
+Date et heure de la mesure :2023-01-20T16:26:49
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0127
+Statut :Open
+date local : 2023-01-20 16:33:11.976669
+Date et heure de la mesure :2023-01-20T16:29:53
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0125
+Statut :Open
+date local : 2023-01-20 16:38:19.696803
+Date et heure de la mesure :2023-01-20T16:35:59
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0127
+Statut :Open
+date local : 2023-01-20 16:43:27.192313
+Date et heure de la mesure :2023-01-20T16:41:55
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0126
+Statut :Open
+date local : 2023-01-20 16:48:33.569982
+Date et heure de la mesure :2023-01-20T16:44:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0126
+Statut :Open
+date local : 2023-01-20 16:53:39.811242
+Date et heure de la mesure :2023-01-20T16:50:54
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0126
+Statut :Open
+date local : 2023-01-20 16:58:46.037980
+Date et heure de la mesure :2023-01-20T16:56:50
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0127
+Statut :Open
+date local : 2023-01-20 17:03:52.323721
+Date et heure de la mesure :2023-01-20T16:59:53
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0127
+Statut :Open
+date local : 2023-01-20 17:08:59.621707
+Date et heure de la mesure :2023-01-20T17:05:59
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0128
+Statut :Open
+date local : 2023-01-20 17:14:05.928152
+Date et heure de la mesure :2023-01-20T17:11:54
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0129
+Statut :Open
+date local : 2023-01-20 17:19:12.516944
+Date et heure de la mesure :2023-01-20T17:17:59
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0129
+Statut :Open
+date local : 2023-01-20 17:24:22.607720
+Date et heure de la mesure :2023-01-20T17:20:51
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0131
+Statut :Open
+date local : 2023-01-20 17:29:29.024815
+Date et heure de la mesure :2023-01-20T17:26:56
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0130
+Statut :Open
+date local : 2023-01-20 17:34:35.371451
+Date et heure de la mesure :2023-01-20T17:32:50
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0133
+Statut :Open
+date local : 2023-01-20 17:39:41.806144
+Date et heure de la mesure :2023-01-20T17:35:52
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0135
+Statut :Open
+date local : 2023-01-20 17:44:52.268645
+Date et heure de la mesure :2023-01-20T17:41:56
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0134
+Statut :Open
+date local : 2023-01-20 17:49:58.435846
+Date et heure de la mesure :2023-01-20T17:47:50
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0133
+Statut :Open
+date local : 2023-01-20 17:55:04.638628
+Date et heure de la mesure :2023-01-20T17:53:54
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0133
+Statut :Open
+date local : 2023-01-20 18:00:10.771063
+Date et heure de la mesure :2023-01-20T17:56:57
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0133
+Statut :Open
+date local : 2023-01-20 18:05:20.061554
+Date et heure de la mesure :2023-01-20T18:02:53
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0136
+Statut :Open
+date local : 2023-01-20 18:10:26.232099
+Date et heure de la mesure :2023-01-20T18:08:59
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0138
+Statut :Open
+date local : 2023-01-20 18:15:32.626377
+Date et heure de la mesure :2023-01-20T18:11:52
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0138
+Statut :Open
+date local : 2023-01-20 18:20:38.911511
+Date et heure de la mesure :2023-01-20T18:17:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0137
+Statut :Open
+date local : 2023-01-20 18:25:49.045722
+Date et heure de la mesure :2023-01-20T18:23:55
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0137
+Statut :Open
+date local : 2023-01-20 18:30:55.583357
+Date et heure de la mesure :2023-01-20T18:26:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0138
+Statut :Open
+date local : 2023-01-20 18:36:01.788909
+Date et heure de la mesure :2023-01-20T18:32:55
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0138
+Statut :Open
+date local : 2023-01-20 18:41:08.028526
+Date et heure de la mesure :2023-01-20T18:38:50
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0140
+Statut :Open
+date local : 2023-01-20 18:46:14.335066
+Date et heure de la mesure :2023-01-20T18:44:57
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0140
+Statut :Open
+date local : 2023-01-20 18:51:20.537875
+Date et heure de la mesure :2023-01-20T18:47:50
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0140
+Statut :Open
+date local : 2023-01-20 18:56:26.735118
+Date et heure de la mesure :2023-01-20T18:53:57
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0140
+Statut :Open
+date local : 2023-01-20 19:01:36.677131
+Date et heure de la mesure :2023-01-20T18:59:55
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0139
+Statut :Open
+date local : 2023-01-20 19:06:42.857817
+Date et heure de la mesure :2023-01-20T19:02:59
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0139
+Statut :Open
+date local : 2023-01-20 19:11:52.487666
+Date et heure de la mesure :2023-01-20T19:08:57
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0140
+Statut :Open
+date local : 2023-01-20 19:17:00.743541
+Date et heure de la mesure :2023-01-20T19:14:54
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0139
+Statut :Open
+date local : 2023-01-20 19:22:07.101977
+Date et heure de la mesure :2023-01-20T19:20:53
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0140
+Statut :Open
+date local : 2023-01-20 19:27:13.417139
+Date et heure de la mesure :2023-01-20T19:23:57
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0140
+Statut :Open
+date local : 2023-01-20 19:32:19.564603
+Date et heure de la mesure :2023-01-20T19:29:55
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0140
+Statut :Open
+date local : 2023-01-20 19:37:25.651913
+Date et heure de la mesure :2023-01-20T19:35:53
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0140
+Statut :Open
+date local : 2023-01-20 19:42:31.785645
+Date et heure de la mesure :2023-01-20T19:38:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0140
+Statut :Open
+date local : 2023-01-20 19:47:38.213861
+Date et heure de la mesure :2023-01-20T19:44:55
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0139
+Statut :Open
+date local : 2023-01-20 19:52:44.477349
+Date et heure de la mesure :2023-01-20T19:50:54
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0142
+Statut :Open
+date local : 2023-01-20 19:57:51.451341
+Date et heure de la mesure :2023-01-20T19:53:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0142
+Statut :Open
+date local : 2023-01-20 20:27:48.574518
+Date et heure de la mesure :2023-01-20T20:23:49
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0143
+Statut :Open
+date local : 2023-01-20 20:28:08.242770
+Date et heure de la mesure :2023-01-20T20:26:53
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0143
+Statut :Open
+date local : 2023-01-20 20:33:14.462938
+Date et heure de la mesure :2023-01-20T20:29:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0143
+Statut :Open
+date local : 2023-01-20 20:38:20.488133
+Date et heure de la mesure :2023-01-20T20:35:56
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-20 20:43:26.465421
+Date et heure de la mesure :2023-01-20T20:41:53
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-20 20:48:32.545514
+Date et heure de la mesure :2023-01-20T20:44:57
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0145
+Statut :Open
+date local : 2023-01-20 20:53:38.534174
+Date et heure de la mesure :2023-01-20T20:50:53
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0145
+Statut :Open
+date local : 2023-01-20 20:58:45.139559
+Date et heure de la mesure :2023-01-20T20:56:51
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0145
+Statut :Open
+date local : 2023-01-20 21:03:51.769650
+Date et heure de la mesure :2023-01-20T20:59:54
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0145
+Statut :Open
+date local : 2023-01-20 21:08:58.152296
+Date et heure de la mesure :2023-01-20T21:05:51
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-20 21:14:04.261185
+Date et heure de la mesure :2023-01-20T21:11:59
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-20 21:19:10.259387
+Date et heure de la mesure :2023-01-20T21:17:55
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-20 21:24:16.236639
+Date et heure de la mesure :2023-01-20T21:20:59
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-20 21:29:22.881777
+Date et heure de la mesure :2023-01-20T21:26:56
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-20 21:34:33.540694
+Date et heure de la mesure :2023-01-20T21:32:52
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0145
+Statut :Open
+date local : 2023-01-20 21:39:40.637525
+Date et heure de la mesure :2023-01-20T21:35:55
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0145
+Statut :Open
+date local : 2023-01-20 21:44:51.016817
+Date et heure de la mesure :2023-01-20T21:41:51
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0145
+Statut :Open
+date local : 2023-01-20 21:50:00.208022
+Date et heure de la mesure :2023-01-20T21:47:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-20 21:55:08.486280
+Date et heure de la mesure :2023-01-20T21:53:54
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-20 22:00:16.647982
+Date et heure de la mesure :2023-01-20T21:56:57
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0142
+Statut :Open
+date local : 2023-01-20 22:05:24.869200
+Date et heure de la mesure :2023-01-20T22:02:55
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0142
+Statut :Open
+date local : 2023-01-20 22:10:31.518158
+Date et heure de la mesure :2023-01-20T22:08:53
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0141
+Statut :Open
+date local : 2023-01-20 22:15:38.519104
+Date et heure de la mesure :2023-01-20T22:11:57
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0141
+Statut :Open
+date local : 2023-01-20 22:20:52.812576
+Date et heure de la mesure :2023-01-20T22:17:56
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0141
+Statut :Open
+date local : 2023-01-20 22:25:59.349963
+Date et heure de la mesure :2023-01-20T22:23:54
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0141
+Statut :Open
+date local : 2023-01-20 22:31:06.607296
+Date et heure de la mesure :2023-01-20T22:29:51
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0141
+Statut :Open
+date local : 2023-01-20 22:36:13.122661
+Date et heure de la mesure :2023-01-20T22:32:54
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0141
+Statut :Open
+date local : 2023-01-20 22:41:19.889167
+Date et heure de la mesure :2023-01-20T22:38:50
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0142
+Statut :Open
+date local : 2023-01-20 22:46:25.925324
+Date et heure de la mesure :2023-01-20T22:44:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0142
+Statut :Open
+date local : 2023-01-20 22:51:31.886061
+Date et heure de la mesure :2023-01-20T22:47:52
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0141
+Statut :Open
+date local : 2023-01-20 22:56:37.816123
+Date et heure de la mesure :2023-01-20T22:53:50
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0142
+Statut :Open
+date local : 2023-01-20 23:01:43.732105
+Date et heure de la mesure :2023-01-20T22:59:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0143
+Statut :Open
+date local : 2023-01-20 23:06:49.674834
+Date et heure de la mesure :2023-01-20T23:02:52
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0143
+Statut :Open
+date local : 2023-01-20 23:12:02.728053
+Date et heure de la mesure :2023-01-20T23:08:50
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-20 23:17:08.684204
+Date et heure de la mesure :2023-01-20T23:14:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-21 01:02:58.552485
+Date et heure de la mesure :2023-01-21T00:59:51
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-21 01:03:18.045075
+Date et heure de la mesure :2023-01-21T00:59:51
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-21 01:08:24.270991
+Date et heure de la mesure :2023-01-21T01:05:49
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-21 01:13:30.158280
+Date et heure de la mesure :2023-01-21T01:11:57
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-21 01:18:36.172276
+Date et heure de la mesure :2023-01-21T01:14:51
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-21 01:23:42.365091
+Date et heure de la mesure :2023-01-21T01:21:00
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0144
+Statut :Open
+date local : 2023-01-21 01:28:48.371630
+Date et heure de la mesure :2023-01-21T01:26:56
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-21 01:33:58.065954
+Date et heure de la mesure :2023-01-21T01:29:50
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-21 01:39:04.144256
+Date et heure de la mesure :2023-01-21T01:35:59
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-21 01:44:10.051514
+Date et heure de la mesure :2023-01-21T01:41:57
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-21 01:49:15.973041
+Date et heure de la mesure :2023-01-21T01:47:55
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-21 01:54:21.892000
+Date et heure de la mesure :2023-01-21T01:50:59
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0146
+Statut :Open
+date local : 2023-01-21 01:59:27.967970
+Date et heure de la mesure :2023-01-21T01:56:57
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 02:04:36.608255
+Date et heure de la mesure :2023-01-21T02:02:55
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 02:09:42.976822
+Date et heure de la mesure :2023-01-21T02:05:59
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 02:14:49.102320
+Date et heure de la mesure :2023-01-21T02:11:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 02:19:55.013182
+Date et heure de la mesure :2023-01-21T02:17:55
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 02:25:00.894759
+Date et heure de la mesure :2023-01-21T02:20:50
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 02:30:06.814357
+Date et heure de la mesure :2023-01-21T02:26:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 02:35:12.696613
+Date et heure de la mesure :2023-01-21T02:32:56
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 02:40:18.720581
+Date et heure de la mesure :2023-01-21T02:38:54
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 02:45:27.744197
+Date et heure de la mesure :2023-01-21T02:41:58
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 02:50:38.335711
+Date et heure de la mesure :2023-01-21T02:47:57
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 02:55:44.229767
+Date et heure de la mesure :2023-01-21T02:53:56
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 03:00:50.104344
+Date et heure de la mesure :2023-01-21T02:56:50
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 03:05:56.084911
+Date et heure de la mesure :2023-01-21T03:02:49
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 03:11:03.958195
+Date et heure de la mesure :2023-01-21T03:08:59
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open
+date local : 2023-01-21 03:16:09.847565
+Date et heure de la mesure :2023-01-21T03:14:57
+Nom du parking :ANTI
+Nombre total de places :0239
+Nombre de places libres :0147
+Statut :Open

@@ -1,0 +1,8 @@
+TP5_HelecBastien_R205
+
+3.3 Le son n'est pas monotone il varie des graves au aigues si qui veux donc indique que le son au debut est grave donc une fréquence basse et au fur et a mesure il devient aigue donc une fréquence haute
+
+
+3.4 
+!![alt](3.4.jpg)
+On peut voir que les frequences sont plutot entre des basses et autres frequences , mais ne depasse pas

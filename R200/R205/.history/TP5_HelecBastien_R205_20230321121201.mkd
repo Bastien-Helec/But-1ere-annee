@@ -1,0 +1,74 @@
+TP5_HelecBastien_R205
+
+3.3 Le son n'est pas monotone il varie des graves au aigues se qui veux donc indiqué que le son au début est grave donc des fréquences basses et au fur et a mesure il devient aigue donc des fréquences hautes
+
+3.4 
+![alt](3.4.jpg)
+On peut voir que les frequences alterne entre des frequences hautes et des frequences basses, indique au debut des frequences basses et a la fin une frequences hautes
+La representation sur 0,7 seconde est claire , on peut voir que les frequences sont plus alternees
+
+3.5
+Le spectrogramme est legeremnt plus precis car on voit mieux les frequences et les amplitudes mais cela reduit aussi la representation fidele du son
+
+!![3.5]](3.5.jpg)
+
+3.6-7
+![alt](3.6-7.jpg)
+
+On peut voir que grace au waterfall on peut apercevoir comment le signal module et a quelle frequences il varie entre chaque seconde 
+
+3.8 
+![alt](3.8.1jpg)
+![alt](3.8.2.jpg)
+![alt](3.8.3.jpg)
+
+On peut voir a la suite que le spectogramme indique les frquences on emet le signal , mais on ne voit pas la modulation de gain , contrairement a la representation en dessus qui indique les frequences et la modulation de gain 
+
+3.9 
+On peut voir que les deux spectrogramme sont tres proche l'un de l'autre , on peut voir que les frequences sont les memes et que la modulation de gain est la meme hors les deux ne sont pas identique car sur l'un des deux le musicien frappe plus fort contrairement a l'autre. 
+
+![alt](3.9.jpg)
+![alt](3.9.2.jpg)
+
+
+4.1 
+Pour regler les frequences de coupures de sortes a ce que les filtres ne filtres rien on doit regler les frequences avec les potienmetres de sorte a ce que les frequences de coupures soient egales a la frequences de coupure du filtre passe bas et passe haut 
+
+![alt](4.1.jpg)
+
+4.2 
+![alt](4.2.jpg)
+
+Quand on coupe les frequences superieur a 5kHz on voit que le son est plus grave et que les frequences sont plus basses sur le spectrogramme on peut voir que rien n'est emis au dessus. On  niveau de la perception auditive on peut entendre une genance on les aigues ne sont pas presents ce qui rend le son moins agreable a l'ecoute et pas clair 
+
+4.3 
+![alt](4.3.jpg)
+
+Pour regler les frequences entre 300 HZ et 3400 HZ on doit regler les potentiometres de sorte a ce que les frequences de coupures soient egales a 300 HZ et 3400 Hz pour le filtre passe bas a 3400 et le filtre pass haut a 300 HZ 
+
+Le signal est clair et plus etouffé a l'ecoute on peut entendre les differents sons et les differents instruments. au niveau du spectrogramme on peut voir que les frequences au dessus de 3400 et inferieur a 300 Hz ne sont pas affiché ce qui indique que les seules frequences qui sont emises sont entre 300 et 3400 HZ
+
+4.4 
+
+baladeur :
+compris entre 80Khz et 5Hz 
+![alt](4.4.1jpg)
+
+cassette : de type IV 
+10 Hz et 30 30Khz
+![alt](4.4.2.jpg)
+
+
+5.1 
+![alt](5.1.jpg) 
+
+5.2 on appel ça un bruit blanc car il correspond a un bruit constant identique 
+
+5.3 
+![alt](5.3.jpg)
+
+5.4 
+![alt](5.4.jpg) 
+Le lien avec la fonction de trasnfert harmoniques est que les frequences sont les memes que les frequences de coupures du filtre passe bas et passe haut
+
+la transition des filtres etant a la meme valeur 

@@ -1,0 +1,5 @@
+### Helec Bastien
+
+Suite a des erreurs de parsage et de triage de données je joint avec le projet un document indiquant ce manque de probleme j'ai alors joint mon fichier lib.py et le main.py qui execute tout le projet 
+
+La partie graph du projet n'etant pas realiser , je me penalise moi meme je sais

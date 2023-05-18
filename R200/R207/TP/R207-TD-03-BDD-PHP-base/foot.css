@@ -1,0 +1,25 @@
+body {
+  background-color:#B5DFC9;
+  text-align:center;
+}
+h1 {
+  color:maroon;
+  text-align:center;
+  font-size:250%;
+  margin:0;
+  padding:5px;
+}
+table {
+  border-style:none;
+  background-color:gray;
+  text-align:center;
+  margin:5px auto 5px auto;
+}
+tr:nth-child(even){background-color:pink;}
+tr:nth-child(odd){background-color:yellow;}
+th {
+  background-color:aqua;
+  padding:2px;
+}
+td {padding:2px;}
+

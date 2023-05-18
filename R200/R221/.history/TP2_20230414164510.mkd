@@ -1,0 +1,12 @@
+Helec Bastien 
+TP2 : reception d'images meteorologiques des satellites NOAA
+
+3.1 pour pouvoir realiser la prediction de l'un des trois sattlitte il faut d'abord lancer le logiciel Gpredict qui permet d'observer les positions des satellites et de les predire. Pour cela il faut lancer le logiciel Gpredict et choisir le satellite que l'on veut predire. Pour cela il faut aller dans le menu "satellites" puis "satellites database" et choisir le satellite que l'on veut predire. Pour ce TP nous allons predire le satellite NOAA 18 NOAA 15 et NOAA 19 . 
+
+J'ai ensuite vue en cliquant sur vie du ciel et j'ai obetnu ça : 
+
+![alt]()
+
+La disposition de la reception est une antenne en V avec pour diametre 90 cm et en angle de 120°. la disposition de cette anetenne permet de reduire les bruits et perturbations provennant des autres directions. 
+
+Une fois la donnée recuperer nous obtenons un fichiers wav qui p

@@ -1,0 +1,195 @@
+## Sommaire : 
+    i) definitions
+    ii) principaux schémas de communication :
+        1) shannon-weaver un modele systèmiques(1948)
+        2) Le modele de lasswell, analyser la communication de masse (1948)
+        3) Le modele de jakobson (1960)
+        4) Ecole de palo alto (annees 50)
+    iii) Objectifs de la communications
+    iv) types de communications:
+        1) Communication ecrite
+        2) communication verbale
+        3) le paralangage
+    V) les obstacles a la communication :
+       1) Le bruit
+       2) Les obstacles culturels et sociologiques
+
+Conclusion :
+- Pourquoi etudier la communication ?
+- L'importance de la culture general en entreprise
+
+## i definitions :
+Interaction.
+Communiquer c'est interagir avec une ou plusieurs personnes c'est a dire : transmettre une information, une pensée, un ressenti ou une donnée. Communiquer est donc differents d'informer, parce que l'information est une tramission de données a sens unique. 
+3 éléments : 
+- l'action de communiquer en elles memes(etablir , echanger , etc ...) pour transmettre un message 
+- Tout les moyens utilisés dont l'aspect technique dedie a la diffusion d'un message plus ou moins vastes plus ou moins étérogène.  
+- La communcation d'entreprise , c'est l'action de promouvoir l'entreprise. 
+
+II) Principaux schémas de communication :
+Peut importe la forme que prend la communcation elle respecte toujours les memes repères. 
+1) shannon-weaver un modele systèmiques :
+    shannon etait un ingenieur et weaver un philosophe leurs preoccupations essentielles etait de regler des problemes de transmission télégraphiques, parce que le signal pouvait etre affecter ou brouiller entre la source et la cible.
+    l'objectif etait que le signal arrive le plus similaire possible entre la source et la cible. d'ou le liens qui est fait avec l'être humain. 
+    Shannon et weaver on montrer que la communication repose sur 7 éléments :
+
+    - Emetteur : c'est la personne qui va avoir la volonté de transmettre
+    
+    - Recepteur(s) : c'est la\les personne(s) qui recoivent l'information 
+    
+    - Message : c'est le contenu de l'information
+    
+    - Canal : Le premier canal c'est le canal physiologique (l'oreille, l'oeil, le nez, la bouche, le toucher, etc ...), le deuxieme canal c'est le canal technologique (le telephone, la radio, la television, internet, etc ...), le troisieme canal c'est le canal symbolique (le langage, les signes, les symboles, etc ...).   
+    
+    - code : pour communiquer il faut que l'emetteur et le recepteur utilise les memes codes (langage, signes, symboles, etc ...), les signaux , iconographiques, etc ...). 
+    
+    - Feedback : c'est la reponse du recepteur a l'emetteur.pour qu'on soit en situation de communication il faut que le recepteur soit en capacité de répondre
+    
+    -obstacles : c'est tout ce qui peut entraver la communication (le bruit, les obstacles culturels et sociologiques, etc ...).
+
+![forme theorique](schema1.png)
+
+en faire une mise en application : 
+
+![mise en app](miseen%20application.png)
+
+2) Analyser la com de masse (Lasswell, 1948): 
+   chercheur americain en science politique, en 1948 il s'interesse a la communication de masse. Pionier de l'etude de la communicationde masse, pour lui on peut resumer une prise de parole de masse en 5 question :
+   - qui ? "il faut prendre en compte le millieux sociologiques du public et ça motivation a etre la"
+   - A qui ? "L'audience , les auditeurs qui il sont, exemple mouvement des gilets jaunes (toutes les categories de la population) "
+   - Quoi ? "Le contenu "
+   - par qu'elle canal ?" quelle media de diffusion ou qu'elle support de diffusion "
+   - A quel effet ?"anticipe et mesurer l'effet sur le public on cherche l'effet d'influence du message " 
+  Il montre que la communicationde est un processus d'influence et de persuasion. 
+
+  Analyser la communication va donc permettre de comprendre les ressorts de la propagande et de la publicité 
+
+  qu'elle message je veux faire passer ? 
+  si on est clair du message que l'on veut envoyer , 
+  a chaque fois qu'on prend la parole on a 7 fonction :
+  
+3) Jackobson et les fonctions du langage:
+linguiste qui montre que chaque interaction a une fonction 
+il y en a 6 :
+
+- Réferentielle ("panneau de signalisation", glothographique) permet au language de donnée de informations on retrouve cette fonction autant dans les recits que dans les panneaux de signalisation
+
+- Expressive le language de l'emetteur va traduire ses emotions il va donc adapter sont intonations , le timbre de sa voix et son vocabulaire
+
+- impressive permet a l'emetteur d'agir sur le recepteur pour l'amener a realiser une action l'emetteur emploi donc l'imperatif ou le vocabulaire de l'injonction mais aussi des procédées de manipulation  
+
+- phatique le language qui sert a creer assurer ou entretenir le langagage elle doit etablir une connexion entre l'emetteur et le recepteur. Ex:"allo" au telephone.  
+
+- Metalinguistique c'est le language qui sert a parler du language. Ex: "je vais vous expliquer comment on fait pour faire un gateau" on la retrouve dans les cours de francais , dans les dictionnaires etc ...
+
+- Poetique c'est le language qui sert a exprimer des sentiments. Ex: "je t'apprecie beaucoup" 
+
+
+4) l'ecole de palo alto :
+    c'est une ecole de communication qui a ete creer en 1969 par un groupe de chercheurs americains pluridisciplinaire. "Il est impossible de ne pas communiquer" 
+    
+- C'est une activité social permanente , c'est un processus par lequel la culture s'actualise ce renouvelle. 
+
+- La communication sert davantage a appartenir a un groupe qu'a l'information. 
+
+- La communication est principalement non verbale.
+
+- La communication ne se résume pas a l'action intentionnel de communiquer. 
+
+Quand on communique notament de le milieu professionnel il est important de connaitre nos objectifs nos intention afin d'adapter notre strategie de communication (paralangage, niveau de langue, nos support , etc ...)
+
+finalement on communique soit pour informer soit pour se positionner par rapport a quelqu'un soit pour avoir de l'influence sur l'autre, soit pour concretiser une relation ou encore pour poser des regles, des normes. 
+
+III) Les types de communication :
+1) La communication verbale:
+tout les messages exprimer dans le language naturel (le langage parlé ou ecrit), On l'apprend pour savoir s'adapter au recepteur et au contexte. 
+
+Language soutenu : 
+c'est le langage qui est employé dans les discours officiels, les discours politiques, les discours administratifs, les discours scientifiques, les discours techniques, les discours juridiques, les discours religieux, les discours artistiques, etc ...
+
+Language courant : 
+c'est le langage qui est employé dans les discours informels, les discours familiaux, les discours amicaux, les discours de la vie quotidienne, les discours de la vie professionnelle, les discours de la vie sociale, etc ...
+
+Language familier :
+c'est le langage qui est employé dans les discours intimes, les discours de la vie
+
+Le choix du niveau de langue decoule de l'intention et d'enjeux 
+
+2) La communication non verbale :
+
+- Les gestes :  ponctué la transmission du message et vont manifesté des reactions a la reception du message il es tres difficile de controlé nos gestes 
+- Le regard : le regard et la premiere phase d'entrée en contact avec le recpeteur il traduit la sincerité de l'echange, Les gimiques l'expression du visage , elle sont essentielles dans la perceptions des emotions 
+
+les 6 emotions fondamental : la joie , la tristesse , la colere , la peur , la surprise , le degout 
+que veut dire etre degouté : c'est une expression qui traduit une emotion qui est une reaction a un stimulus externe
+
+- Le ton : peut etre ferme , aimable , desagreable , etc ... . Il es difficile de controler son ton de voix. Il va transcrire ce qu'on ressent. 
+
+- Le silence :  Il es puissant , notre language est structuré par des silences plus ou moins long. Le silence plein : c'est un silence qui fais que l'on es bien . Le silence creux : silence qui gêne . 
+
+Il faut apprendre a vivre sans silence. Le sens donnée a une conversation repose a 55% sur les mimiques et a 38% sur l'elocution et seulement a 7% sur les mots. 
+
+La globalité de cette communication non verbale c'est le paralanguages , si le paralanguages n'est pas en accord avec le message alors il n'y a pas de sincérité dans la communication.
+
+Dans le language non verbal on ne dois pas oublier ce qu'on percoit :
+-l'habillement 
+-l'estethiques
+-l'odeur 
+
+V) Difficultés de la communication :
+La communication depend de la propention a percevoir les eventuels obstacles a la communication.
+Nous somme dans une socièté ou l'envrionnement et constamment bruyant donc on ne s'en mefie plus. Ce qui vient parasité la communication. 
+1) Le bruit : de nature le message , il vont causer la perte partielle ou totale du message.
+
+2) les obstacles culturels : 
+C'est obstacles sont difficiles a contourner car ils touche a l'inconscient, Parce qu'il vont concerner les modes de pensées , il vont toucher les valeurs reconnues et toucher par un groupe mais aussi les opinions l'usage du language les proccupation de chacun etc ... 
+L'emetteur et recpeteur ne sont pas forcement au meme statut social et va dependre du milieu economique de chacun , si les origine economique sont differentes , l'education , les preoccupations, les valeurs, vont etre differentes.
+C'est differences peuvent provoquer des malentendus et peu donc creer une situation conflictuelle.   
+niveau d'education : correspond au niveau de connaissance mais aussi du niveau socio-economique de chacun, peuvent aussi etre des freins a la communication. 
+L'emetteur dois donc faire attention et avoir conscience au mot complexe ou insuffisant connu et adapter son message a son recepteur, peut etre intrasequement un obstacle a la communication
+
+3) Obstacles physiques ou affectifs ou psychologiques :
+Les obstacles les plus difficiles a percevoir et a anticiper sont d'ordre psychologique ou affectif. Les gestions des conflits dans un groupe et d'autant plus dans le monde du travail passe par un management qui tiens compte de ces facteurs de mauvaises communication. 
+
+1) La sympathie et l'antipathie :
+Dans en groupe les deux d'entre elle peuvent avoir des consequences similaires.
+
+L'attitude subjective de la sympathie : peut avoir des consequences sur la fluidité de la communication. elle se transmette par le dialogue ,par le sourrire ,par les gestes. On parle de degres de sympathie (estime, bienvaillance , amitie , affection , amour).
+
+A l'inverse la communcation peut etre entravé par l'antipathie. Et donc la communication n'est pas fluide et donc la transmission du message n'est pas productifs 
+La crainte resssentis vis a vis de la heirarchie peut etre un frein a la communication ou une rupture. 
+
+Insuffisance d'ecoute peut aussi etre un frein a la communcation et entraver la bonne communication du message. L'absence d'ecoute rends la communication superficiels
+
+Le stresse et le premier type d'obstacle a la communication. La maladie peut aussi etre un frein a la communication.
+
+l'etat physique de l'emetteur comme du recepteur,sont un element ensetielles de la transmission du message. Les connexions neuronales sont altéres par la fatigue , la maladie, le stress, la douleur, la faim, la soif, la chaleur, le froid, etc ...
+
+La peur du jugement peut alterer la communication
+pour la raison : que l'on releve une partie de notre personnalité. 
+
+
+Pourquoi etudier la communication ? 
+Comprendre l'autre pour un echange plus efficace et plus productif et ainsi eviter les conflits. 
+pour pouvoir s'adapter a l'autre et a son milieu. Mieux comprendre notre moyen de communication et nous connaitre nous.  
+
+Etudier la communication c'est aller vers d'avantage de comprehension du monde es td es individues qui le compose . L' etudes de la communication et donc source de connaissance et de comprehension , parce que c'est en communiquant que nous nous inserons dans une culture mais aussi de creer des liens et de les maintenir. 
+
+Entrée dans une demarche analytique de communication c'est s'interesser a un champ qui n'est pas specifiques et donc qui va apporter des connaissances a la jonction de multiples discipline : 
+-la litterature
+-la sociologie
+-la psychologie
+-la philosophie
+-l'histoire 
+-les sciences de l'informations 
+-les sciences de l'education
+-la linguistique
+-mais aussi les sciences et technique liées a la mecaniques de transmission
+
+L'essentielles pour moi c'est qu'apprendre a communiquer est un outils de constructions de la pensées, de travailler la reflexion, de travailler la logique a la fois individuel et collectif. 
+
+La culture general est un cadre a l'interieur du quel un groupe ou une societe reconnais accepte et exiges des savoirs , des opinions et des valeurs. importance de la culture g en entreprise , la culture d'un groupe  est indispensable pour comprehension entre ces membres et donc une communication efficace. 
+
+renforce les competences relationnelles et la capacite a travailler en equipe. 
+
+

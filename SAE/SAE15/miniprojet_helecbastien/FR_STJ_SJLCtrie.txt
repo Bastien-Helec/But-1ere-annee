@@ -1,0 +1,678 @@
+date local : 2023-01-20 15:41:59.407665
+Date et heure de la mesure :2023-01-20T15:39:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 15:47:05.887588
+Date et heure de la mesure :2023-01-20T15:44:53
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 15:52:15.706820
+Date et heure de la mesure :2023-01-20T15:49:56
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 15:57:21.863599
+Date et heure de la mesure :2023-01-20T15:54:50
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 16:02:31.592766
+Date et heure de la mesure :2023-01-20T15:59:53
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 16:07:38.006881
+Date et heure de la mesure :2023-01-20T16:04:57
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 16:12:45.676681
+Date et heure de la mesure :2023-01-20T16:09:50
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 16:17:54.281425
+Date et heure de la mesure :2023-01-20T16:14:53
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 16:23:03.165723
+Date et heure de la mesure :2023-01-20T16:19:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 16:28:09.483785
+Date et heure de la mesure :2023-01-20T16:24:55
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 16:33:15.756581
+Date et heure de la mesure :2023-01-20T16:29:53
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 16:38:23.356607
+Date et heure de la mesure :2023-01-20T16:34:50
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 16:43:31.120147
+Date et heure de la mesure :2023-01-20T16:39:56
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 16:48:37.347161
+Date et heure de la mesure :2023-01-20T16:44:52
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 16:53:43.526283
+Date et heure de la mesure :2023-01-20T16:49:58
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 16:58:49.731050
+Date et heure de la mesure :2023-01-20T16:54:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 17:03:56.180220
+Date et heure de la mesure :2023-01-20T16:59:51
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 17:09:03.402881
+Date et heure de la mesure :2023-01-20T17:04:57
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 17:14:09.879150
+Date et heure de la mesure :2023-01-20T17:09:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 17:19:19.837773
+Date et heure de la mesure :2023-01-20T17:14:51
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 17:24:26.495214
+Date et heure de la mesure :2023-01-20T17:19:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 17:29:32.867848
+Date et heure de la mesure :2023-01-20T17:24:56
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 17:34:39.288264
+Date et heure de la mesure :2023-01-20T17:29:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 17:39:49.720501
+Date et heure de la mesure :2023-01-20T17:34:51
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 17:44:56.001585
+Date et heure de la mesure :2023-01-20T17:39:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 17:50:02.141758
+Date et heure de la mesure :2023-01-20T17:44:56
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 17:55:08.314007
+Date et heure de la mesure :2023-01-20T17:49:52
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 18:00:17.345716
+Date et heure de la mesure :2023-01-20T17:54:58
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 18:05:23.779071
+Date et heure de la mesure :2023-01-20T17:59:55
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 18:10:29.998889
+Date et heure de la mesure :2023-01-20T18:04:51
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 18:15:36.412749
+Date et heure de la mesure :2023-01-20T18:09:57
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 18:20:46.302158
+Date et heure de la mesure :2023-01-20T18:14:53
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 18:25:52.905117
+Date et heure de la mesure :2023-01-20T18:19:49
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 18:30:59.272774
+Date et heure de la mesure :2023-01-20T18:24:56
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 18:36:05.468395
+Date et heure de la mesure :2023-01-20T18:34:50
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 18:41:11.789272
+Date et heure de la mesure :2023-01-20T18:39:57
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 18:46:18.016903
+Date et heure de la mesure :2023-01-20T18:44:53
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 18:51:24.268216
+Date et heure de la mesure :2023-01-20T18:49:51
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 18:56:34.127641
+Date et heure de la mesure :2023-01-20T18:54:58
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 19:01:40.283495
+Date et heure de la mesure :2023-01-20T18:59:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 19:06:49.631798
+Date et heure de la mesure :2023-01-20T19:04:51
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 19:11:57.669716
+Date et heure de la mesure :2023-01-20T19:09:57
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 19:17:04.538641
+Date et heure de la mesure :2023-01-20T19:14:53
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 19:22:10.893871
+Date et heure de la mesure :2023-01-20T19:19:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 19:27:17.034528
+Date et heure de la mesure :2023-01-20T19:24:56
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 19:32:23.160129
+Date et heure de la mesure :2023-01-20T19:29:52
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 19:37:29.304499
+Date et heure de la mesure :2023-01-20T19:34:58
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 19:42:35.547087
+Date et heure de la mesure :2023-01-20T19:39:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 19:47:41.957187
+Date et heure de la mesure :2023-01-20T19:44:50
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 19:52:48.144048
+Date et heure de la mesure :2023-01-20T19:49:56
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 19:57:55.209217
+Date et heure de la mesure :2023-01-20T19:54:53
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 20:27:52.155683
+Date et heure de la mesure :2023-01-20T20:24:51
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 20:28:11.980429
+Date et heure de la mesure :2023-01-20T20:24:51
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 20:33:18.028830
+Date et heure de la mesure :2023-01-20T20:29:57
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 20:38:24.056178
+Date et heure de la mesure :2023-01-20T20:34:53
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 20:43:30.072427
+Date et heure de la mesure :2023-01-20T20:39:50
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 20:48:36.122888
+Date et heure de la mesure :2023-01-20T20:44:57
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 20:53:42.122121
+Date et heure de la mesure :2023-01-20T20:49:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 20:58:49.242585
+Date et heure de la mesure :2023-01-20T20:54:51
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 21:03:55.571300
+Date et heure de la mesure :2023-01-20T20:59:58
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 21:09:01.688482
+Date et heure de la mesure :2023-01-20T21:04:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 21:14:07.812572
+Date et heure de la mesure :2023-01-20T21:09:51
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 21:19:13.811732
+Date et heure de la mesure :2023-01-20T21:14:56
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 21:24:20.235278
+Date et heure de la mesure :2023-01-20T21:19:52
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 21:29:30.611097
+Date et heure de la mesure :2023-01-20T21:24:58
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 21:34:37.723950
+Date et heure de la mesure :2023-01-20T21:29:53
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 21:39:45.955239
+Date et heure de la mesure :2023-01-20T21:34:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 21:44:56.766454
+Date et heure de la mesure :2023-01-20T21:39:55
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 21:50:05.062393
+Date et heure de la mesure :2023-01-20T21:44:50
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 21:55:13.391873
+Date et heure de la mesure :2023-01-20T21:49:55
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 22:00:21.570137
+Date et heure de la mesure :2023-01-20T21:54:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 22:05:28.819505
+Date et heure de la mesure :2023-01-20T21:59:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 22:10:35.388028
+Date et heure de la mesure :2023-01-20T22:04:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 22:15:47.261285
+Date et heure de la mesure :2023-01-20T22:09:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 22:20:56.727697
+Date et heure de la mesure :2023-01-20T22:14:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 22:26:04.022428
+Date et heure de la mesure :2023-01-20T22:24:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 22:31:10.602556
+Date et heure de la mesure :2023-01-20T22:29:53
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 22:36:17.327602
+Date et heure de la mesure :2023-01-20T22:34:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 22:41:23.421100
+Date et heure de la mesure :2023-01-20T22:39:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 22:46:29.475374
+Date et heure de la mesure :2023-01-20T22:44:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 22:51:35.410265
+Date et heure de la mesure :2023-01-20T22:49:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 22:56:41.333107
+Date et heure de la mesure :2023-01-20T22:54:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 23:01:47.248044
+Date et heure de la mesure :2023-01-20T22:59:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 23:06:56.892250
+Date et heure de la mesure :2023-01-20T23:04:50
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 23:12:06.272364
+Date et heure de la mesure :2023-01-20T23:09:55
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-20 23:17:12.187398
+Date et heure de la mesure :2023-01-20T23:14:50
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 01:03:02.126623
+Date et heure de la mesure :2023-01-21T00:59:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 01:03:21.797281
+Date et heure de la mesure :2023-01-21T00:59:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 01:08:27.806031
+Date et heure de la mesure :2023-01-21T01:04:55
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 01:13:33.669494
+Date et heure de la mesure :2023-01-21T01:09:52
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 01:18:39.730217
+Date et heure de la mesure :2023-01-21T01:14:58
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 01:23:45.880086
+Date et heure de la mesure :2023-01-21T01:19:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 01:28:55.232802
+Date et heure de la mesure :2023-01-21T01:24:50
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 01:34:01.607674
+Date et heure de la mesure :2023-01-21T01:29:56
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 01:39:07.648418
+Date et heure de la mesure :2023-01-21T01:34:52
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 01:44:13.578545
+Date et heure de la mesure :2023-01-21T01:39:58
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 01:49:19.481067
+Date et heure de la mesure :2023-01-21T01:44:53
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 01:54:25.406366
+Date et heure de la mesure :2023-01-21T01:49:58
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 01:59:34.201601
+Date et heure de la mesure :2023-01-21T01:54:52
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 02:04:40.364881
+Date et heure de la mesure :2023-01-21T01:59:57
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 02:09:46.512887
+Date et heure de la mesure :2023-01-21T02:04:52
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 02:14:52.601111
+Date et heure de la mesure :2023-01-21T02:09:58
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 02:19:58.506055
+Date et heure de la mesure :2023-01-21T02:14:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 02:25:04.401879
+Date et heure de la mesure :2023-01-21T02:19:57
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 02:30:10.322637
+Date et heure de la mesure :2023-01-21T02:24:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 02:35:16.208836
+Date et heure de la mesure :2023-01-21T02:29:51
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 02:40:25.187789
+Date et heure de la mesure :2023-01-21T02:34:59
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 02:45:35.838136
+Date et heure de la mesure :2023-01-21T02:39:57
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 02:50:41.841777
+Date et heure de la mesure :2023-01-21T02:44:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 02:55:47.715236
+Date et heure de la mesure :2023-01-21T02:49:52
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 03:00:53.632893
+Date et heure de la mesure :2023-01-21T02:54:50
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 03:05:59.607861
+Date et heure de la mesure :2023-01-21T02:59:58
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full
+date local : 2023-01-21 03:11:07.475741
+Date et heure de la mesure :2023-01-21T03:09:54
+Nom du parking :SJLC
+Nombre total de places :0290
+Nombre de places libres :0018
+Statut :Full

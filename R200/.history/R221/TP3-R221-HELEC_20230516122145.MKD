@@ -1,0 +1,88 @@
+TP AX25 Helec
+
+Protocole AX25
+a) Écrire le programme en Python qui lit les données des trames AX25 issue d’un satellite depuis un fichier texte. Le fichier texte est compatible avec le format utilisé sur le site satnogs.org (voir question suivante) : chaque octet est représenté en hexadécimal, codé en ASCII, séparée par un espace. Votre programme doit décoder et afficher l’entête AX25. On donne sur moodle quelques fichiers que vous pouvez utiliser
+
+def decodage():
+    global liste
+    liste = []
+    # fichier = str(input("Entrez le nom du fichier a decoder : "))
+    fichier = "/home/bastien/But-1ere-annee/R200/R221/trames AX25/robusta1B-1-5-2023.txt"
+    f = open(fichier, "r", encoding="utf-8")
+    contenu = f.read()
+    # print(contenu)
+    f.close()
+    # print(type(contenu))
+    contenu=contenu.split()
+    for i in range(len(contenu)):
+        # print(contenu[i])
+        liste.append(contenu[i])
+
+    for x in range(len(liste)):
+        result=int(liste[x], 16)
+        # print(result)
+decodage()
+def entete():
+    decodage()
+    global info
+    destnmb=[]
+    destname=[]
+    dest = liste[0:6]
+    Dssid=liste[6]
+    Src=liste[7:13]
+    Srcnmb=[]
+    Srcname=[]
+    Sssid=liste[13]
+    ctrl=liste[14]
+    pid=liste[15]
+    info=liste[16:-1]
+    # print(dest)
+    for i in range(len(dest)):
+        # print(int(dest[i], 16),end=" ")
+        destnmb.append(int(dest[i], 16))
+        destname.append(chr(destnmb[i]>>1))
+        print(destname[i],end=" ")
+    print(end="\n")    
+    # print(Dssid)
+    print(int(Dssid, 16))
+    # print(Src)
+    for i in range(len(Src)):
+        # print(int(dest[i], 16),end=" ")
+        Srcnmb.append(int(Src[i], 16))
+        Srcname.append(chr(Srcnmb[i]>>1))
+        print(Srcname[i],end=" ")
+    print(end="\n")
+    print(int(Sssid, 16))
+    print(int(ctrl, 16))
+    print(int(pid, 16))
+    print(info)
+
+
+entete()
+F 4 K J E   
+96
+F X 6 F R   
+97
+3
+240
+['21', '94', '44', '4F', '64', 'FF', 'FF', 'FF', 'FF', 'FF', 'FF', '01', '02', '01', '2C', '01', '2C', '01', 'FF', 'FF', 'FF', 'FF', 'FF', 'FF', '01', '00', '01', '00', '08', '02', 'FB', '02', 'E2', '00', 'E3', '01', 'E3', '00', 'E6', '01', 'F4', '02', 'F4', '02', 'F4', '02', 'F3', '02', 'FF', '03', 'FF', '03', 'FF', '03', 'FF', '03', '00', '00', '00', '00', '00', '00', '00', '00', '0C', '00', '0C', '00', '0C', '00', '0C', '00', 'FC', '01', 'B5', '02', 'FB', '01', 'F3', '02', '6B', '00', 'E5', '00', '69', '00', 'E1', '00', 'F2', '02', 'F2', '02', 'F2', '02', 'F2', '02', 'FF', '03', 'FF', '03', 'FF', '03', 'FF', '03', '00', '00', '00', '00', '00', '00', '00', '00', '0C', '00', '0C', '00', '19', '00', '0C', '00', '09', '00', '36', '00', '92', '0D', '0A', '00', '36', '00', '81', '0D', '37', '01', '96', '00', '96', '00', '02', '04', '1F', '03', 'DB', '03', 'D2', '14', 'F4', '05', '2C', '01', 'DE', '13', 'E6', '03', '8D', '13', 'E2', '03', 'DC', '0F', '07', '07', '4A', '12', '6E', '03', '99', '03', '5E', '12', '62', '02', '73', '00', '00', '00', '48', '94', 'FE', '4E', '64', '8F', '00', '00', '4E', '94', '44', '4F', '64', '00', '00', '00', '53', '9D', '44', '4F', '64', '00', '00', '00', '53', 'F3', '4D', 'F5', '63', '00', '00', '00', '4E', '75', 'F6', '5C', '59', '00', '00', '00', '53', '7E', 'F6', '5C', '59', '00', '00', '00', '53', '33', '82', '53', '59', '00', '00', '00', '4E', 'E6', '39', '51', '59', '00', '00', '00', '53', 'EF', '39', '51', '59', '00', '00', '00', '77', '73', '0C', '64', '52', '00', '00']
+Décodage des données du satellite Robusta-1B
+Vous trouverez en annexe un extrait du format des données encapsulées dans la trame AX25 pour le satellite Robusta-1B. Ce satellite embarque plusieurs expériences de mesures de l’effet des rayons cosmique sur des composants électroniques. Pour visualiser ces données vous pouvez rejoindre l’onglet de la mission Robusta-1B du MCC de la machine virtuelle du segment sol (vgseg).
+
+a) Selon moi les données de télémétrie du satellite sont les données de température , de localisation et de tension de la batterie. Les données de température sont les données les plus importantes car elles permettent de savoir si le satellite est en surchauffe ou non. Les données de localisation permettent de savoir où se trouve le satellite et les données de tension de la batterie permettent de savoir si le satellite est en train de se décharger ou non.
+
+b) les données de télémétrie sont un atout majeur dans le bon finctionnement du satellite car elles permettent de savoir si le satellite est en surchauffe ou non, si il est en train de se décharger ou non et où il se trouve, on encore simplement du coté scientifique pour obtenir la température actuelle du satellite pour certains composant et ainsi de suite.
+
+c) a quoi servent les données de événements passés ?
+Les données d'événements passés servent à savoir si le satellite a subit des événements particuliers comme par exemple une surchauffe ou une décharge de la batterie.
+
+d) Compléter le programme précédent pour afficher les données de télémétrie du satellite.
+
+entete()
+F 4 K J E   
+96
+F X 6 F R   
+97
+3
+240
+['21', '94', '44', '4F', '64', 'FF', 'FF', 'FF', 'FF', 'FF', 'FF', '01', '02', '01', '2C', '01', '2C', '01', 'FF', 'FF', 'FF', 'FF', 'FF', 'FF', '01', '00', '01', '00', '08', '02', 'FB', '02', 'E2', '00', 'E3', '01', 'E3', '00', 'E6', '01', 'F4', '02', 'F4', '02', 'F4', '02', 'F3', '02', 'FF', '03', 'FF', '03', 'FF', '03', 'FF', '03', '00', '00', '00', '00', '00', '00', '00', '00', '0C', '00', '0C', '00', '0C', '00', '0C', '00', 'FC', '01', 'B5', '02', 'FB', '01', 'F3', '02', '6B', '00', 'E5', '00', '69', '00', 'E1', '00', 'F2', '02', 'F2', '02', 'F2', '02', 'F2', '02', 'FF', '03', 'FF', '03', 'FF', '03', 'FF', '03', '00', '00', '00', '00', '00', '00', '00', '00', '0C', '00', '0C', '00', '19', '00', '0C', '00', '09', '00', '36', '00', '92', '0D', '0A', '00', '36', '00', '81', '0D', '37', '01', '96', '00', '96', '00', '02', '04', '1F', '03', 'DB', '03', 'D2', '14', 'F4', '05', '2C', '01', 'DE', '13', 'E6', '03', '8D', '13', 'E2', '03', 'DC', '0F', '07', '07', '4A', '12', '6E', '03', '99', '03', '5E', '12', '62', '02', '73', '00', '00', '00', '48', '94', 'FE', '4E', '64', '8F', '00', '00', '4E', '94', '44', '4F', '64', '00', '00', '00', '53', '9D', '44', '4F', '64', '00', '00', '00', '53', 'F3', '4D', 'F5', '63', '00', '00', '00', '4E', '75', 'F6', '5C', '59', '00', '00', '00', '53', '7E', 'F6', '5C', '59', '00', '00', '00', '53', '33', '82', '53', '59', '00', '00', '00', '4E', 'E6', '39', '51', '59', '00', '00', '00', '53', 'EF', '39', '51', '59', '00', '00', '00', '77', '73', '0C', '64', '52', '00', '00']

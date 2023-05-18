@@ -1,0 +1,3 @@
+2.a) Le satellite du CSUM Robsuta est un cube sat qui comprends : un compartiment batteries , un compartiment avionique : OBDH, EPS ADCS, TTC-HUF , Bloc des actionneurs ADCS, Espace libre , récepteur Fugro , Espace charge utile (bande S) , 3 capteurs solaires , 4 charnieres , 4 panneaux solaires deployables en configuration "fleur" , profilé , 4 systemes de tenue et de relache des panneaux solaires.
+
+Le nano sat a pour segment sol : Sur bande UHF TMC/TC + beacon  sur 5 support de segment so (GSE) et 4 segment de sol (GS) 

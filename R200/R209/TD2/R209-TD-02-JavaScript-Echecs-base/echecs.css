@@ -1,0 +1,30 @@
+body{
+  background-color:white;
+}
+h1,h2,.center{
+  float:none;
+  display:block;
+  text-align:center;
+  margin:auto;
+}
+p {
+  margin:2px;
+  padding:2px;
+}
+ol {padding:10px;}
+.blue{color:blue;}
+
+div {padding:0;margin:0;display:table-cell;text-align:center;vertical-align:middle;}
+div.numeroH {float:left;width:50px;height:20px;font-size:20px;line-height:20px;background-color:orange;}
+div.numeroV {float:left;width:20px;height:50px;font-size:20px;line-height:50px;background-color:orange;}
+div.numeroHV {float:left;width:20px;height:20px;font-size:20px;line-height:20px;background-color:orange;}
+div.echiquier > div.case {float:left;width:48px;height:48px;font-size:20px;line-height:20px;border:1px solid black;}
+div.echiquier > div.blanc {float:left;width:50px;height:50px;font-size:50px;line-height:50px;background-color:white;}
+div.echiquier > div.noir {float:left;width:50px;height:50px;font-size:50px;line-height:50px;background-color:#A3A3A3;}
+div.echiquier {
+  width:440px;
+  height:440px;
+  display:block;
+  margin:auto;
+  border:25px solid #333;
+}

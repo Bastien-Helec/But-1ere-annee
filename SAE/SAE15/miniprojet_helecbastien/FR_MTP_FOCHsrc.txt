@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<park>
+	<DateTime>2023-01-21T03:14:53</DateTime>
+	<Name>FOCH</Name>
+	<Status>Open</Status>
+	<Free>0267</Free>
+	<Total>0570</Total>
+</park>
+
