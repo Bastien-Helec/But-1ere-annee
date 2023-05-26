@@ -1,0 +1,77 @@
+# Helec
+# R202 - TD capabilities
+
+## 2 Lecture des capabilities :
+1. Quelles sont les pouvoirs des "capabilities" suivantes: CAP_NET_ADMIN,CAP_NET_RAW, CAP_NET_BIND_S
+CAP_SYS_ADMIN.
+
+`` CAP_NET_ADMIN `` : Permet de modifier les paramètres réseaux, de créer ou supprimer des interfaces réseaux, de modifier les tables de routage, de modifier les règles de pare-feu, de capturer ou injecter des paquets, etc.
+
+`` CAP_NET_RAW `` : Permet de créer des sockets de type RAW, de modifier les adresses MAC, de modifier les adresses IP, de modifier les ports, etc.
+
+`` CAP_NET_BIND_S `` : Permet de créer des sockets de type STREAM, de modifier les adresses MAC, de modifier les adresses IP, de modifier les ports, etc.
+
+`` CAP_SYS_ADMIN `` : Permet de modifier les paramètres du système, de monter ou démonter des systèmes de fichiers, de modifier les quotas, de modifier les priorités, de modif 
+
+2. Retrouvez les capabilities de votre kernel à l'aide la commande ``firejail --debug-caps``.
+
+``firejail --debug-caps`` : En laçant cette commande j'ai obtenu :
+```
+0 -Chown
+1 -Dac_override
+2 -Dac_read_search
+3 -Fowner
+4 -Fsetid
+5 -Kill
+6 -Setgid
+7 -Setuid
+8 -Setpcap
+9 -Linux_immutable
+10 -Net_bind_service
+11 -Net_broadcast
+12 -Net_admin
+13 -Net_raw
+14 -IPC_lock
+15 -IPC_owner
+16 -Sys_module
+17 -Sys_rawio
+18 -Sys_chroot
+19 -Sys_ptrace
+20 -Sys_pacct
+21 -Sys_admin
+22 -Sys_boot
+23 -Sys_nice
+24 -Sys_resource
+25 -Sys_time
+26 -Sys_tty_config
+27 -Mknod
+28 -Lease
+29 -Audit_write
+30 -Audit_control
+31 -Setfcap
+32 -Mac_override
+33 -Mac_admin
+34 -Syslog
+35 -Wake_alarm
+36 -Block_suspend
+37 -Audit_read
+```
+
+3. Listez tous les programmes de votre machine avec "capabilities" avec la commande suivante:
+
+``getcap -r / 2>/dev/null``
+
+4. A l'aide de la commande getcaps retrouvez les capabilities attachées au programme ping.
+
+``getcap /bin/ping`` : En lançant cette commande j'ai obtenu :
+```
+/bin/ping = cap_net_raw+ep
+```
+
+5. Sous l'utilisateur "test" visualisez les capabilities de votre processus bash dans /proc à l'aide de la
+commande suivante:
+
+``cat /proc/$$/status | egrep "^Cap"`` :
+
+
+
