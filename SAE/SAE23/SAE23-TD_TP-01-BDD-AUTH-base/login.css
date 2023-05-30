@@ -1,0 +1,42 @@
+body {
+text-align:center;
+}
+h2 {
+text-align:center;
+margin:0;
+padding:2px;
+}
+fieldset.loginForm {
+width:30%;
+border:thick double rgb(122,0,145);
+border-radius:10px;
+margin:2px auto 2px auto;
+}
+table.loginForm {
+background-color:gray;
+margin:2px auto 2px auto;
+}
+th.loginForm {
+border-style:none;
+background-color:aqua;
+vertical-align:middle;
+text-align:left;
+margin:0;
+padding:2px;
+}
+th.loginFormCenter {
+border-style:none;
+background-color:aqua;
+vertical-align:middle;
+text-align:center;
+margin:0;
+padding:2px;
+}
+td.loginForm {
+border-style:none;
+background-color:white;
+vertical-align:middle;
+text-align:left;
+margin:0;
+padding:2px;
+}

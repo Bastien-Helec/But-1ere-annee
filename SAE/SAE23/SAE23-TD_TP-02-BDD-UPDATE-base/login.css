@@ -1,0 +1,46 @@
+body {text-align:center;}
+.ok {color:blue;}
+.err {color:red;}
+h2 {text-align:center;margin:0;padding:2px;}
+table {margin:2px auto 2px auto;background-color:gray;}
+td {padding:2px;}
+table.update tr th {text-align:right;}
+table.menu {margin-top:10px;}
+tr.menu {background-color:#D6FFAC;}
+tr:nth-child(even){background-color:pink;}
+tr:nth-child(odd){background-color:yellow;}
+tr:hover{background-color:red;}
+fieldset.loginForm {
+  width:30%;
+  border:thick double rgb(122,0,145);
+  border-radius:10px;
+  margin:2px auto 2px auto;
+}
+table.loginForm {
+  background-color:gray;
+  margin:2px auto 2px auto;
+}
+th.loginForm {
+  border-style:none;
+  background-color:aqua;
+  vertical-align:middle;
+  text-align:left;
+  margin:0;
+  padding:2px;
+}
+th.loginFormCenter {
+  border-style:none;
+  background-color:aqua;
+  vertical-align:middle;
+  text-align:center;
+  margin:0;
+  padding:2px;
+}
+td.loginForm {
+  border-style:none;
+  background-color:white;
+  vertical-align:middle;
+  text-align:left;
+  margin:0;
+  padding:2px;
+}
