@@ -1,0 +1,20 @@
+# Helec bastien
+# TD Cgroups
+
+1. Que donne la répartition du CPU entre les deux commandes ? Utilisez la commande top pour le voir.
+Le cpu est surcharger a 100%
+
+On va maintenant grâce au cgroups attribuer 80% du CPU au premier (xterm orange) et 20% du
+CPU au second (xterm bleu).
+
+2. Utilisez cgcreate , cgset, cgexec an d'affecter 80% du CPU au premier xterm (orange) et 20% du
+CPU au second xterm (bleu). Lancez les commandes suivantes :
+cgcreate -g cpu,cpuset:quatrevingtpourcentcpu
+cgcreate -g cpu,cpuset:vingtpourcentcpu
+cgset -r cpu.shares=2 vingtpourcentcpu
+cgset -r cpu.shares=8 quatrevingtpourcentcpu
+cgget -r cpu.shares quatrevingtpourcentcpu
+cgget -r cpu.shares vingtpourcentcpu
+cgexec -g cpu:quatrevingtpourcentcpu xterm -bg orange -e "md5sum /dev/urandom" &
+cgexec -g cpu:vingtpourcentcpu xterm -bg blue -e "md5sum /dev/urandom" &
+top -d2

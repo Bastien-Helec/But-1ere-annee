@@ -1,0 +1,9 @@
+# Helec bastien
+# TD Cgroups
+
+1. Que donne la répartition du CPU entre les deux commandes ? Utilisez la commande top pour le voir.
+Le cpu est surcharger 
+
+On va maintenant grâce au cgroups attribuer 80% du CPU au premier (xterm orange) et 20% du
+CPU au second (xterm bleu).
+
