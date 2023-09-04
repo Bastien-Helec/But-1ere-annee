@@ -1,6 +1,0 @@
-
-# Helec
-# R202 - TP systemd
----
-
-On empeche une connexion ssh sur 

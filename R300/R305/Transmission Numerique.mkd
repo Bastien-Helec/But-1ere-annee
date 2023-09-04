@@ -1,0 +1,21 @@
+# Transmission Numeriques R305
+---
+## Chaines de transmission numeriques 
+
+```
+Professeur :  Escaig
+Date : 04/09/2023
+Cours sur moodle : a mettre en lien 
+``` 
+Rappel sur les signaux numeriques et analogiques 
+
+analogiques : transmission direct du signal
+
+numeriques : transmission d'un signal discret (0 ou 1)
+
+```
+Partie premiere de l'année
+Codage , Comprehension , code correcteur ...  
+```
+Pourquoi numeriques ?
+

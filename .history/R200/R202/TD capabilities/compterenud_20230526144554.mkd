@@ -1,8 +1,0 @@
-# Helec
-# R202 - TD capabilities
-
-## 2 Lecture des capabilities :
-1. Quelles sont les pouvoirs des "capabilities" suivantes: CAP_NET_ADMIN,CAP_NET_RAW, CAP_NET_BIND_S
-CAP_SYS_ADMIN.
-
-''' _NET_ADMIN 

@@ -1,9 +1,0 @@
-
-# Helec
-# R202 - TP systemd
----
-
-On empeche une connexion ssh sur la machine pour la durée de la session il suffit d'arreter le service ssh :
-``systemctl stop ssh``
-
-On va utiliser ssh.socket qui a pour 

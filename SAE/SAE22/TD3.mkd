@@ -1,0 +1,12 @@
+## Garcia , Helec
+## 2023
+## SAE22 - TD3
+
+1. Rappeler la plage de fréquences utilisée pour la "bande FM" en France.
+
+88 MHz , 108Mhz
+
+
+
+
+

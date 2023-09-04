@@ -1,0 +1,439 @@
+## Administrer (portfolio )
+#### Helec Bastien
+
+---
+
+*  [Apprentissage critiques](#apprentissage-critiques): 
+
+-[ Comprendre l'architecture et les fondements des systèmes numériques, les principes du codage de l'information , des communications et de l'Internet](#1-0) 
+  * [1](#1-1)
+  * [2](#1-2)
+  * [3](#1-3)
+  * [4](#1-4)
+
+-[ Configurer les fonctions de base du réseau et des systèmes usuels](#configurer-les-fonctions-de-base-du-réseau-et-des-systèmes-usuels)
+  - [1](#2-1)  
+
+-[ Maitriser les rôles et les principes fondamentaux des systèmes d'exploitation](#maitriser-les-rôles-et-les-principes-fondamentaux-des-systèmes-dexploitation)
+- [1](#3-1)
+
+    -[ Identifier les dysfonctionnements du réseau local et des réseaux de campus](#identifier-les-dysfonctionnements-du-réseau-local-et-des-réseaux-de-campus)
+- [1](#4-1)
+- [2](#4-2)
+
+    -[ Installer un système d'exploitation , linux et windows par differents moyens](#installer-un-système-dexploitation--linux-et-windows-par-differents-moyens)
+- [1](#5-1)
+  
+    -[ Installer un poste de burautique en réseau](#installer-un-poste-de-burautique-en-réseau)
+- [1](#6-1)
+- [2](#6-2)
+- [3](#6-3)
+- [4](#6-4)
+
+*  [Composantes essentielles](#composantes-essentielles):
+  <br>
+    -[ En communiquant avec les clients et les differents acteurs impliqués](#en-communiquant-avec-les-clients-et-les-differents-acteurs-impliqués)
+ <br>
+    -[ En choisissant les solutions et technologies adaptées](#en-choisissant-les-solutions-et-technologies-adaptées)
+    <br>
+    -[ En respectant les principes fondamentaux de la securité informatique](#en-respectant-les-principes-fondamentaux-de-la-securité-informatique)
+    <br>
+    -[ En utilisant une approche rigoureuse et méthodique (demarche scientifique)](#en-utilisant-une-approche-rigoureuse-et-méthodique-demarche-scientifique)
+    <br>
+    - [En assurant une veille technologique](#en-assurant-une-veille-technologique)
+<br>
+*  [Composantes à respecter](#composantes-à-respecter):
+
+
+### Apprentissage critiques :
+
+#### <a id="1-0" style="textdecoration:none;color:black;"> Comprendre l'architecture et les fondements des systèmes numériques, les principes du codage de l'information , des communications et de l'Internet : </a>
+
+[1](#1-1)
+[2](#1-2)
+[3](#1-3)
+[4](#1-4)
+
+###### <a id="1-1" style="textdecoration:none;color:black;"> 1. </a>
+A la recherche d'un nouvelle ordinateur il y a quelques temps, j'ai cherché a savoir si elle était plus intéressant pour moi d'utilisé l'architecture Harvard ou Von-Neumann. 
+
+
+Cette recherche a mobilisé mes connaissances provenant des ressources R106 sur la connaissances des architectures physique des microprocesseurs 
+J'ai alors compris que Harvard n'allait pas me servir a grand chose est aller me ralentir dans mon utilisation quotidienne et serait plus cher, c'est pourquoi j'ai alors choisi l'architecture Von-Neumann qui permet une rapidité supérieur au Microprocesseur plutôt que celle d'Harvard. 
+
+J'aurai du mettre en place une recherche encore plus poussé permettant de choisir au mieux sur qu'elle utilisation quotidienne aujourd'hui j'utilise , car je suis limité au niveau du stockage qui si j'y consacrer plus de temps j'aurai probablement moins de problèmes.
+
+
+<!-- ##### 2.
+(a mettre dans connecter)
+Dans l'optique de pouvoir communiquer par cables RJ45 entre 2 appareils (SAE13). Il ma était demander de realiser une certification de cable RJ45.Avec pour objectif final de certifié que la communication entre les deux appareils fonctionne.
+
+Pour cela , j'ai du me renseigner sur l'utilisation du certificateur DSX 500 de Fluke, et comprendre les fonctionnement de celui-ci pour savoir d'ou peux venir le problème. 
+
+La certification du cable a été un succès, mais j'ai eu du mal a comprendre le fonctionnement du certificateur et a expliquer le problème et la solution.
+
+<!-- image -->
+<!-- ![Certification](rapport_test2.png)
+![Certification](rapport_test3.png)
+![Certification](rapport_test4.png)
+![Certification](rapport_test5.png)
+
+Avec du recul je pense qu'aujourd'hui il aurait etait important de travailler plus sur la documentation du DSX500 pour permettre une meilleurs explication du problème et de la solution. -->
+
+##### <a id="1-2" style="textdecoration:none;color:black;"> 2 </a>.
+
+J'ai pu apprendre le codage de l'Information grâce a la SAE22 qui faisait appel a la ressource R205 sur le codage de l'information.
+
+J'ai donc compris que les informations sont codés en binaire (0 et 1) et que les informations sont codés en octets (8 bits) et que les octets sont codés en Hexadécimal (16 bits). 
+
+ainsi que la mise en place d'un CAN CNA pour la conversion analogique numérique et numérique analogique. 
+
+Puis j'ai pu developper mes connaissances sur la mise en application des echantillonnages en respectant le théorème de Shannon, quantification via le bloqueur d'ordre 0 et la mise en place des palliers de quantification.
+
+Je pense que j'aurai du mettre en place une recherche plus poussé sur le codage de l'information pour mieux comprendre les enjeux de celui-ci et mieux comprendre les enjeux de la conversion analogique numérique et numérique analogique. 
+
+##### <a id="1-3" style="textdecoration:none;color:black;"> 3 </a>.
+Lors de la ressource R106 il nous a été demander de realiser un petit programme en assembleur 
+
+J'ai pu comprendre que l'assembleur est un langage de bas niveau qui permet de communiquer avec le microprocesseur sans application externe.
+
+On a ainsi realiser un programme grace a une application web en ligne en ARM qui a la specifité de precharger les ordres 2 lignes apres l'instructions actuelle. 
+
+J'aurai du prendre un temps superieur pour comprendre un maximum l'assembleur car c'est un language de programmation qui m'intéresse beaucoup et qui est très utile pour comprendre le fonctionnement des microprocesseurs et ainsi pouvoir optimisé les systemes au dessus. Je pense qu'en connaissant l'assembleur il est ainsi plus facile de comprendre les languages de programmation haut niveau.
+
+
+##### <a id="1-4" style="textdecoration:none;color:black;">4 </a>. 
+
+Les trames et IP 
+
+Grace a la ressource R101 a R103 j'ai pu comprendre le fonctionnement initial des trames et des IP. 
+
+Je me suis alors renseigner sur l'IPV4 en allant sur les RFC associées tout comme les trames.
+
+Les trames sont des paquets de données qui sont envoyés sur le réseau et qui sont composés de plusieurs couches dans l'IP et les adresses MAC font parti des premières couche. 
+
+Toutes les trames font parti du modèle théorique OSI  
+![modele osi](osi.png)
+
+Utilisant en grande parti l'Internent le modele utilisé en application et le modele TCP/IP
+![modele tcp/ip](osi-tcpip.png) 
+
+Sur cette parti je trouve que j'ai tres bien compris tout le fonctionnement est je suis capable de l'expliquer a quelqu'un d'autre.
+
+#### Configurer les fonctions de base du réseau et des systèmes usuels
+
+[1](#2-1)
+
+###### <a id="2-1" style="textdecoration:none;color:black;"> 1 </a>.
+Mise en place d'un guide de paramétrages pour configurer un réseau local : 
+
+La SAE13 nous demander de mettre en place un guide de paramétrage pour configurer un réseau local.
+
+J'ai alors créer un guide de paramétrages pour configurer un client linux ou windows via CLI (IP , routage , DNS , DHCP , etc...,)
+
+De plus j'ai pu mettre en place un guide pour installer une VM linux ou windows il faut juste changer le fichier ISO. 
+
+Ainsi qu'un compte rendu de la configuration mikrotik réaliser
+
+Sur cette partie j'ai compris comment configurer via CLI les appareils sous Linux ou Windows et comment configurer un routeur. La seule chose changeante etant la syntaxe 
+
+Il aurait peut etre fallu durant cette SAE que je cherche plus loin dans les configurations windows pour faire un guide plus complet. 
+
+
+#### Maitriser les rôles et les principes fondamentaux des systèmes d'exploitation
+
+[1](#3-1)
+
+
+###### <a id="3-1" style="textdecoration:none;color:black;"> 1 </a>. 
+En etudes sur les  systèmes d'exploitation j'ai pu comprendre les rôles et les principes fondamentaux des systèmes d'exploitation cela a mobilisé les ressources: R201, R103 et R206. 
+
+Sous windows j'ai entre autre pu comprendre que le systeme etait composé d'un BIOS qui permettait l'execution du programme de demarrage qui permettait de charger le noyau du systeme d'exploitation qui permettait de charger les drivers et les services qui permettait de charger les applications, de plus windows utilise un systeme interne qui es composé de son propre dns et routeur permettant de subvenir au besoin auquel windows correspond.  
+
+Sous linux j'ai compris que le kernel (noyau du systeme) permetté de lancer systemd (le programme de demarrage et l'utilitaire qui permet de gerer les processus du système) et nous donné ainsi accès a une interface graphique pour le client ou un terminal pour le serveur qui lié les differents services et applications.
+
+En résumé le système d'exploitation permet de faire le lien entre le matériel et les applications et les processus.
+
+J'ai appris l'utilité d'avoir un systeme d'exploitation et comment celui-ci fonctionne. sur ce sujet la je pense que j'aurai pu travailler beaucoup plus pour comprendre kubernettes qui me semble etre une chose interessante et les differents processus utilisé sous windows (windows faisant parti d'une grande quantité d'utilisation en entreprise)
+
+
+#### Identifier les dysfonctionnements du réseau local et des réseaux de campus
+
+[1](#4-1)
+[2](#4-2)
+
+###### <a id="4-1" style="textdecoration:none;color:black;"> 1 </a>.
+
+En voulant optimiser ma connexion j'avais pu observer que mon ping etait tres elevé et que ma connexion etait tres instable , au depart connecter via un boitier CPL au routeur je comprennais les pertes que je pouvais avoir. 
+
+Puis plus tard on a pu installer une connexion filaire RJ45 relié en domino . En premier temps j'ai testé de modifié le MTU de ma connexion pour voir si cela pouvait améliorer ma connexion mais cela n'a pas fonctionné.
+
+J'ai alors realisé la modification du mtu sous windows pour faire en sorte que mon ordinateur n'est pas a couper les paquets d'envoie pour une optimisation de l'envoie des données. ce qui a accelerer ma connexion internet. 
+
+Le probleme de depart que j'avais etait une latence assez grande en terme de recepetions de connexion. Avec l'aide de la ressources R106 j'ai alors decouvert le principe du MTU et de son utilité. 
+
+
+
+J'ai alors realisé la modification du mtu sous windows pour faire en sorte que mon ordinateur n'est pas a couper les paquets d'envoie pour une optimisation de l'envoie des données. ce qui a accelerer ma connexion internet. 
+
+![MTU](MTU.png)
+![MTU](Modification%20MTU%20(3).png)
+
+
+###### <a id="4-2" style="textdecoration:none;color:black;"> 2 </a>.
+Pour pouvoir accéder au configuration pc d'un linux sous windows, j'ai installé virtual box. 
+
+1. J'ai d'abord tester virtual box avec les options deja indiquer , problèmes : il n'y avait pas d'images 
+
+2. J'ai donc installer l'image de Kali linux sur mon PC.
+
+3. J'ai ensuite cliquer sur l'engrenage bleu, 
+
+4. Une autre page c'est afficher j'ai alors renseigner un nom : "Kali" 
+
+
+
+5. J'ai modifier les sections "types" et "versions" pour les mettres sur "Other 64 bits" car kali linux n'a pas de notion spécifique dans virtualbox
+
+6.J'ai ensuite alloué 2048MB(minimum) à ma machine virtuel
+
+7. Et pour finir j'ai ajouté le chemin de mon image que je venais de télécharger dans Configuration/stockage/connexionIDE j'ai laisser le .vdi et j'ai mis l'image iso dedans en mettant l'espace vide en Primary : 
+
+
+
+8. J'ai ensuite modifier l'option périphériques sur l'options glisser-déposer j'ai alors mis bidirectionnel (ce qui permet de switcher entre la vm et le pc physique)
+
+9.J'ai modifier aussi le nombre de coeur alloué pour le mettre a 3 (ça tourne mieux sourire )
+
+10. J'ai demarrer la machine virtuel et j'ai commencer l'installation du systeme d'exploitation Kali linux
+
+
+
+
+
+11. J'ai alors choisi l'option 2 car l'option graphical install prend plus de ressource et donc plus lent pour l'installation 
+
+12. On renseigne ensuite notre langue notre localisation et la disposition du clavier (qwerty azerty ... avec la langue (anglais , france ...))
+
+ 
+
+Des barres de chargements devrait s'afficher comme celle-ci : 
+
+
+
+
+
+On nous demandera alors le nom du système rentrer le nom que vous voulez ici on va laisser kali 
+
+
+
+Puis creer un utilisateurs classique attention sur d'autre système d'exploitation on vous demandera d'abord le mot de passe du compte administrateur 
+
+Une demande de partitions de disques va être afficher suivez les étapes de bases en suivant simplement la première option
+
+
+
+Le systeme va finir par nous demander un environnement de travail dans le cas d'une installation pour particulier on a besoin alors de prendre la première option dans le cas d'un serveur il n'y a pas a cocher la premiere option puisqu'il utilisera simplement des lignes de commandes
+
+
+
+13. Une fois la machine virtuel un autre problème est arrivé, pas de clavier Français
+
+
+
+14.J'ai essayer de résoudre le problème sur la machine virtuel directement , en allant dans les registrer mais une fonctionnalité clavier n'était pas disponible 
+
+15.Alors j'ai refais la config avec une image qui accepte la version azerty
+
+
+Le tuto permet d'expliquer que j'ai bien acqueri la creation du systeme d'exploitation kali linux sur une machine virtuel avec virtual box
+
+
+#### Installer un poste de burautique en réseau
+
+[1](#5-1)
+
+##### <a id=5-1 style="textdecoration:none;color:black;">1.
+
+On arrive sur la page de BIOS qui nous demande de choisir une option, j'ai alors choisi la solution installation (2eme option) car cela demande moins de ressource 
+
+
+
+On arrive alors sur cette page :
+
+
+
+Il faut suivre ensuite les préférences de l'utilisateurs comme par exemple ici choisir l'option French
+
+Il faudra alors suivre les demandent de l'installation en fonction de localisation etc ... 
+
+des barres de chargement vont alors s'afficher : 
+
+
+
+Ici il faudra renseigner le nom du système ici (kali):
+
+
+
+La suite afficher un domaine par defaut (DNS) pour le cas d'une entreprise il faudra mettre l'addresse du serveur DNS en .net .org .com etc ...
+
+Dans le cas d'un particulier rien n'a besoin d'être spécifier et continuer
+
+Le systeme va creer un root par defaut (le compte administrateur du système cela permet de ne pas lancer n'importe quoi en admin et peut corrompre l'ordinateur) vous arrivez alors sur une pages de creation d'utilisateur : 
+
+   
+
+Suivez les Informations demander et continuer 
+
+Le système va demander de paramétrer un disque dur  , cela permet de créer des partitions dans le disque dans le cadre d'un ordinateur avec un double OS (dual boot) ou plus: 
+
+ 
+
+Dans notre cas assigner tout le disque dur
+
+Suivre les indications 
+
+Le système va alors s'installer la vitesse d'installation peut prendre un peu de temps 
+
+
+
+Ici on demande si notre système d'exploitation aura besoin d'une interface ou non , comme on ce met dans le cadre d'une installation de particulier on sélectionne la première option en haut "environnement de bureau" avec ici xcfe mais ca aurait pu etre gnome ou autre c'est le choix de chacun. 
+
+Dans le cadre d'un serveur on aura besoin de désactiver la première option on sera alors sur de la ligne de commande avec fond noir
+
+
+
+puis continuer 
+
+Le tutoriel d'installation qui viens d'être montrer permet de montrer que j'ai bien acquis la création d'un système d'exploitation linux ou windows sur une machine physique l'installation VM etant du meme ressort que l'installation physique 
+
+Durant cette phase ou après l'installation j'ai pu obtenir des modifications et des informations qui aurait pu me permettre de résoudre des problèmes plus rapidement et faire une installation plus rapide et plus efficace  
+
+#### Installer un poste de burautique en réseau
+
+[1](#6-1)
+[2](#6-2)
+[3](#6-3)
+[4](#6-4)
+
+##### <a id="6-1"> 1 </a>.
+
+Pour pouvoir accéder au configuration pc d'un linux sous windows, j'ai installé virtual box. 
+
+1. J'ai d'abord tester virtual box avec les options deja indiquer , problèmes : il n'y avait pas d'images 
+
+2. J'ai donc installer l'image de Kali linux sur mon PC.
+
+3. J'ai ensuite cliquer sur l'engrenage bleu, 
+
+4. Une autre page c'est afficher j'ai alors renseigner un nom : "Kali" 
+
+
+
+5. J'ai modifier les sections "types" et "versions" pour les mettres sur "Other 64 bits" car kali linux n'a pas de notion spécifique dans virtualbox
+
+6.J'ai ensuite alloué 2048MB(minimum) à ma machine virtuel
+
+7.  Et pour finir j'ai ajouté le chemin de mon image que je venais de télécharger dans Configuration/stockage/connexionIDE j'ai laisser le .vdi et j'ai mis l'image iso dedans en mettant l'espace vide en Primary : 
+
+
+
+8. J'ai ensuite modifier l'option périphériques sur l'options glisser-déposer j'ai alors mis bidirectionnel (ce qui permet de switcher entre la vm et le pc physique)
+
+9.J'ai modifier aussi le nombre de coeur alloué pour le mettre a 3 (ça tourne mieux sourire )
+
+10. J'ai demarrer la machine virtuel et j'ai commencer l'installation du systeme d'exploitation Kali linux
+
+
+
+
+
+11. J'ai alors choisi l'option 2 car l'option graphical install prend plus de ressource et donc plus lent pour l'installation 
+
+12. On renseigne ensuite notre langue notre localisation et la disposition du clavier (qwerty azerty ... avec la langue (anglais , france ...))
+
+ 
+
+Des barres de chargements devrait s'afficher comme celle-ci : 
+
+
+
+
+
+On nous demandera alors le nom du système rentrer le nom que vous voulez ici on va laisser kali 
+
+
+
+Puis creer un utilisateurs classique attention sur d'autre système d'exploitation on vous demandera d'abord le mot de passe du compte administrateur 
+
+Une demande de partitions de disques va être afficher suivez les étapes de bases en suivant simplement la première option
+
+
+
+Le systeme va finir par nous demander un environnement de travail dans le cas d'une installation pour particulier on a besoin alors de prendre la première option dans le cas d'un serveur il n'y a pas a cocher la premiere option puisqu'il utilisera simplement des lignes de commandes
+
+
+
+13. Une fois la machine virtuel un autre problème est arrivé, pas de clavier Français
+
+
+
+14.J'ai essayer de résoudre le problème sur la machine virtuel directement , en allant dans les registrer mais une fonctionnalité clavier n'était pas disponible 
+
+15.Alors j'ai refais la config avec une image qui accepte la version azerty
+
+
+#### <a id="6-2" style="textdecoration:none;color:black;" >2.</a>
+Installation de zellij. 
+
+Dans l'optique d'avoir un terminal de couleur noir et qui peut ce "splitter" en plusieurs terminaux dans un terminal central j'ai suivi le tuto officiel de zellij.
+
+J'ai eu des problemes sur l'installation de zellij car il n'avait pas accès a un fichier interne , heureusement en suivant le tuto j'ai pu au final reussir a l'installer. 
+
+![img1](zellij_enligne.png)
+l'utilisation du zellij en ligne
+
+![img2](nouvelleinstallzellij.png)
+
+Zellij ma permis ainsi de creer derriere un layout qui au lancement d'une commande nous permet de creer un espace de travail préprogrammer avec des terminaux ouvert et des commandes deja lancer.
+
+Sur ce projet interne a moi-meme j'ai pu voir mon obstination a realiser une installation complete qui etait pour moi un peu compliqué 
+
+#### <a id="6-3" style="textdecoration:none;color:black;" >3.</a>
+
+Installation d'alacritty 
+
+Alacritty est un terminal qui permet de faire des choses plus pousser que le terminal de base de linux
+
+En suivant le tuto officiel j'ai pu installer alacritty sur mon pc 
+
+![img3](installation_alacritty.png)
+
+Sur ce projet j'ai pu voir que j'etais capable de suivre un tuto et de l'appliquer sans trop de difficulté 
+
+#### <a id="6-4" style="textdecoration:none;color:black;" >4.</a>
+
+Installation de navi 
+
+Navi est un outil utilisé par les terminaux linux qui permet d'executer des commandes preprogrammer ce qui fait de l'auto completion dynamique mais pour ça il faut importer des données avant de pouvoir l'utilisé , j'avais pris pour l'installation le tuto officiel de navi. 
+
+![img4](installationbrew_navi.png)
+![img5](installnavi.png)
+![img5](installnavi2.png)
+
+Sur ce projet j'ai pu a nouveau voir que la difficulté d'installation est très peu complexe et surtout de comprendre les commandes executer. J'avais commencer a entreprendre de faire un script permettant d'enregistrer tout les commandes utilisant en réseau et télécoms me permettant ainsi de gagner du temps et de l'experience, malheureusement je n'ai pas pu le commencer.  
+
+### Composantes essentielles :
+
+#### En communiquant avec les clients et les differents acteurs impliqués
+
+#### En choisissant les solutions et technologies adaptées
+
+#### En respectant les principes fondamentaux de la securité informatique
+
+#### En utilisant une approche rigoureuse et méthodique (demarche scientifique)
+
+#### En assurant une veille technologique
+
+### Composantes à respecter :
+
