@@ -1,0 +1,35 @@
+# Codes numeriques. 
+
+1. Code du RNIS :
+NRZ AMI inversé 
+
+a) Que vaut l'ITE ? 
+
+1/64Kbit= 15,625µqs
+b) a 2) e) voir le cahier de brouillon 
+
+3) Code RZ Bipolaire :
+a) On considere le codage RZ bipolaire. rappeler son principe. 
+b)Représenter le signal-valeur absolue de ce code ?
+c) A quel signal correspond-il ?
+d) Quel est l'intérêt de récuperer l'horloge en recpetion ?
+
+a) 0 en bas 1 en haut
+b) tout en positif
+c) Cela correspond a l'horloge de l'emetteur 
+d) Pour synchroniser le recepteur sur l'emetteur et eviter la perte de bits.
+
+4) Code Manchester :
+a) Preciser le probleme que l'on peut rencontrer si on se trompe lorsqu'on connecte les paires d'émission et de reception.
+b) rappeler le principe de codage du code manchester differentiel.
+c) Montrer qu'il peut résoudre ce probleme. 
+
+a) On recevra un 1 à la place d'un 0 est inversement 
+
+b) 
+Il ne perd pas l'horloge la valeur moyenne est a 0 et si les paires sont inversées on recevra les bon bits
+
+c) comme tout est inverser alors on aura les bon bits.
+
+5) Code MILLER : 
+voir cahier de brouillon

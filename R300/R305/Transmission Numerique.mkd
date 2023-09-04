@@ -19,3 +19,92 @@ Codage , Comprehension , code correcteur ...
 ```
 Pourquoi numeriques ?
 
+-Signal transmis va etre deformer par le canal de transmission ( perturbation ) 
+
+(Voir le diapo)
+
+3 types de transmission : 
+- Filaire : signal electrique , signal doit avoir le maximum de puissance doit etre superieur a la frequence du signal 
+- Hertzienne : bande passante doit etre compris entre Fmin et Fmax via modulation
+
+- fibre optique 2*10^14 Hz
+
+---
+
+I.1
+
+Un symbole (bit) est représenté par une tension , cette tension est maintenue pendant un certain temps 
+
+ITE :  Intervalle de temps élémentaire (en general d'un bit) (durée de maintien de la tension pour un bit)
+R : Rapidité de modulation (en Baud) (s^-1)
+
+R=1/ITE
+
+Trois codes  : NRZ , RZ , Biphase 
+sous trois type : Unipolaire ,  bipolaire et AMI
+
+NRZ : Non Return to Zero (Unipolaire : Un seule niveau de tension)
+RZ : Return to Zero (Unipolaire : la moitié d'une ITE correspond au bit transmis)
+AMI : Alternate Mark Inversion
+Bipolaire : 2 niveaux de tension (tension negative et positive) jamais a 0
+
+L'equivalent d'un courant alternatif pour le bipolaire ? 
+le bipolaire n'est jamais a tension nulle donc ça peut correspondre a un courant alternatif
+
+---
+### Changement de niveau de tension pendant L'ITE:
+
+AMI : ça part du unipolaire puis 1 coder soit positive soit negatif alternativement
+quand 2 1 a la suite le premiere positive et le 2eme negative (pour que la valeur moyenne soit completement nulle)
+
+
+NRZ Bipolaire valeur moyenne autour de 0 
+NRZ Unipolaire valeur moyenne autour de 1
+RZ Unipolaire valeur moyenne autour de 0.5
+RZ Bipolaire valeur moyenne autour de 0
+NRZ AMI valeur moyenne autour de 0
+RZ AMI valeur moyenne autour de 0
+
+Horloge : chaque ITE 
+
+Synchrone : durée longue doit absolument avoir l'horloge donc dans le message on doit avoir l'horloge
+
+Asynchrone : durée courte pas besoin d'horloge mais peut etre utilisé pour la synchronisation 
+
+Biphase unipolaire :
+0 tout seule et 1 en front descendant 
+
+Biphase Bipolaire(Manchester) :
+
+0 en front montant et 1 en front descendant
+
+Puis trois code plus compliqué : 
+Manchester , HDB3
+
+---
+
+Code a memoire Manchester Differentiel :
+Part du code Mancheste : 
+0 : meme symbole que l'ITE précedent 
+1 : Symoble opposé au syomble de l'ITE précedent. 
+
+HDB3 : High Density Bipolar 3 Zeros
+Bit de bourrage : S'assure que la valeur moyenne du signal est nulle 
+Il vaut 0, -5 ou +5 de manière a ce que la valeurs du signal après lui soit nulle.
+Bit de viol : 
+Permet au récepteur de reconnaitre la suite de 4 zéros ; 
+viole l'alternance 
+donc identique au dernier symbole nul. 
+
+Quand tu as 4 0 a la suite tu met un bit de bourrage et tu met un bit de viol pour que le bit de bourrage au debut et un bit de viol a la fin pour que la valeur moyenne soit nulle.
+
+Code MILLER : 
+0 : pas de transition au milieu de l'ITE , au debut de l'ITE , conserve le meme niveau de tension si le précedent etait un 1. Ne le conserve pas sinon 
+
+1: Transition au milieu de l'ITE , au debut de l'ITE , conserve le meme niveau de tension précedent.
+
+Choix d'un code :
+* Les criteres de choix dependent principalement du support de transmission et aussi de contraintes economiques : 
+- facilité de mise en oeuvre , immunité aux bruits
+
+Bande passante = Bande de frequence - bande du canal 
