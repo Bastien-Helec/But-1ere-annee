@@ -1,0 +1,24 @@
+Elements sur la propragation de la lumieres 
+
+Ensemble de rayons fu :  
+    -A une vitesse v dans un milieu 
+    -Reflechis lorsqu'il rencontre un millieu different
+    -Sont refractes 
+
+DPDV (du point de vue) de la lumiere , un milie se considere dans par indice de refraction (optique) n  : 
+
+
+n = c/v (c = vitesse de la lumiere dans un milieu parfaitement transparent ) (v =vitesse de la lumiere dans le vide = 3*10^8 m/s)
+
+donc :
+n=1 dans le vide ou dans l'air 
+superieur a 1 dans tout les autres milieux
+ 
+l'indice de refraction est une vitesse 
+
+exemple : 
+    -n=1.5 dans le verre 
+    -n=1.33 dans l'eau de robinet
+    -n= 1.45 dans l'eau de mer 25% 
+    -n= 1.55 dans l'eau salé a 70%
+    -n=1.0003 dans l'air 
