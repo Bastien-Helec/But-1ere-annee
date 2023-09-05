@@ -108,3 +108,5 @@ Choix d'un code :
 - facilité de mise en oeuvre , immunité aux bruits
 
 Bande passante = Bande de frequence - bande du canal 
+
+---

@@ -1,0 +1,22 @@
+## Etude d'une trame Ethernet 
+
+a) Niveau Haut : 0 , Niveau bas : -4 tension au repos : 0 
+b) Car le signal NRZ AMI est alternativement positive negative et ici il n'y a pas de tension superieur a 0 
+c) Non RZ Bipolaire , RZ AMI, Biphase unipolaire : 3 niveau de tension
+
+d) on peut en deduire l'ITE :
+D = 10Mbit/s 
+l'ITE = 1/D = 0,1µs
+
+ça ne peut pas etre du NRZ Unipolaire et bipolaire, RZ et Unipolaire car il a changement de modulation durant la transmission (au depart 10 ITE puis 20 ITE).
+
+e) Parmis c'est codes le code qui semble fonctionner serait du biphase bipolaire soit du codage manchester pour au depart une alternance de 0 et de 1 et a la fin du signal un suite de 1 ou de 0 
+
+### De plus prêt
+
+a) Preambule 7x8bits = 56bits soit 5,6µs
+Delimiteur 8bits soit 0,8µs
+b) Pour obtenir l'horloge du signal 
+c) 10101010... 10101011 
+d) le 1 est inversé au code manchester
+e) FFFFFF
