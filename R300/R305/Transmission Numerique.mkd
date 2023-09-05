@@ -86,7 +86,7 @@ Manchester , HDB3
 Code a memoire Manchester Differentiel :
 Part du code Mancheste : 
 0 : meme symbole que l'ITE précedent 
-1 : Symoble opposé au syomble de l'ITE précedent. 
+1 : Symbole opposé au symbole de l'ITE précedent. 
 
 HDB3 : High Density Bipolar 3 Zeros
 Bit de bourrage : S'assure que la valeur moyenne du signal est nulle 

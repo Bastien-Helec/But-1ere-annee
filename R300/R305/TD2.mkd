@@ -1,0 +1,33 @@
+# Codes Numeriques 2 : 
+
+- Signal 1 en HDB3 : 
+ITE = 2µs
+
+R= 1/ITE = 500KBd
+Decodage du signal : 
+11000100001000010100000101110000
+
+Signal 2 en MILLER: 
+
+ITE= 4µs 
+R= 1/ITE = 250KBd
+Decodage du signal :
+1000111000101010011
+
+Signal 3 en Manchester differentiel :
+
+ITE= 4µs
+R= 1/ITE = 250KBd
+Decodage du signal :
+100111010011101
+
+Coder la suite de bit du signal 3 avec le code RZ Unipolaire puis avec le code Manchester (biphase bipolaire): 
+
+RZ Unipolaire :
+
+
+Manchester : 
+
+
+Exercice 2 : 
+
