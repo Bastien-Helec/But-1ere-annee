@@ -1,4 +1,4 @@
-Elements sur la propragation de la lumieres 
+Elements sur la propragation de la lumière 
 
 Ensemble de rayons fu :  
     -A une vitesse v dans un milieu 
@@ -8,7 +8,7 @@ Ensemble de rayons fu :
 DPDV (du point de vue) de la lumiere , un milie se considere dans par indice de refraction (optique) n  : 
 
 
-n = c/v (c = vitesse de la lumiere dans un milieu parfaitement transparent ) (v =vitesse de la lumiere dans le vide = 3*10^8 m/s)
+n = c/v (c = vitesse de la lumiere dans un milieu parfaitement transparent = 3*10^8 m/s ) (v =vitesse de la lumiere dans le milieu concerner )
 
 donc :
 n=1 dans le vide ou dans l'air 
@@ -17,8 +17,78 @@ superieur a 1 dans tout les autres milieux
 l'indice de refraction est une vitesse 
 
 exemple : 
-    -n=1.5 dans le verre 
-    -n=1.33 dans l'eau de robinet
-    -n= 1.45 dans l'eau de mer 25% 
-    -n= 1.55 dans l'eau salé a 70%
-    -n=1.0003 dans l'air 
+* n=1.5 dans le verre 
+* n=1.33 dans l'eau de robinet
+* n= 1.45 dans l'eau de mer 25% 
+* n= 1.55 dans l'eau salé a 70%
+* n=1.0003 dans l'air 
+
+Le rayons va changer de milieu de l'air a la fibre 
+dioptrie : unite de mesure de la puissance d'un systeme optique convergent ou divergent
+dioptre = interface entre 2 milieu d'indices optiques differents n1 et n2 
+
+Loi des directions des reflechis et transmis sur un dioptre = loi de snell-descartes :  
+
+voir le cours  
+les rayons : 
+incidents , transmis et reflechis sont dans un meme plan 2D  qui est perpendiculaire au dioptre
+La loi de snell descartes au point O : 
+n1 sin($\theta_i$)= n1 sin($\theta_r$) = n2 sin($\theta_t$) ($\theta_i$)= ($\theta_r$) et n1 sin($\theta_i$)= n2 sin($\theta_t$)
+
+donc si n1 < n2 alors $\theta_t$ < $\theta_i$ et le rayon transmis se rapproche de la normal 
+
+si n1 > n2 alors $\theta_t$ > $\theta_i$ et le rayon transmis s'eloigne de la normal
+
+su $\theta_i$ > $\theta_{ilim}$  , il n'y a plus de transmission dans le milieu 2 -> reflexion totale. 
+
+Calcul de l'angle $\theta_{ilim}$ :
+a la reflexion totale , $\theta_t$ = pi/2 
+s-d en O : n1 sin theta_ilim = n2 sin theta_t
+
+n1 sin theta_ilim = n2 sin pi/2 (1)
+n1 sin theta i lim = n2
+
+theta ilim = arcsin(n2/n1)
+
+Donc , si theta _i > ,theta ilim (condition de reflexion totale) = arcsin (n2/n1) -> reflexion totale.
+
+Remarque importante : il ne peut y avoir reflexion total que si n1 > n2 car sin (n2/n1) ne peut pas etre > 1. 
+La lumiere doit provenir d'un milieu plus dense donc un indice optique plus élevée.
+
+donc si thetai >= theta ilim , la lumiere est "confinée" dans le milieu 1 -> principe à la base des fibres optiques. 
+
+---
+## Constitution de la fibre optique : 
+
+
+aplha max = arcsin ((sqrt(nc^2 - ng^2))) = angle d'acceptance 
+donc, un rayon est guidé si l'angle alpha qu'il fait avec l'axe de symétrie de la fibre est <= alpha max. 
+
+Condition de guidage : alpha <= alpha max = arcsin ((sqrt(nc^2 - ng^2)))
+
+Cône d'acceptance = cône incluant tous les rayons pouvant etre guidés (angle de resolution alpha max)
+
+trajets des rayons dans la fibre = MODES 
+
+vitesse du rayon : c/nc = vitesse de la lumiere dans le coeur de la fibre
+
+--- 
+page 19 
+
+Le retard du rayons le plus reflechis par rapport à celui qui n'est pas reflechis du tout : delta_tho_im = tmax - tmin = L/C * nc²/ng -L/C Nc = L/C Nc (nc/ng -1) = L/C NC * nc-ng / ng 
+
+Delta_tho_im = L/C NC NC-NG/Ng : Dispersion intermodale 
+
+Consequences : 
+
+la dispersion intermodale doit etre la plut petite possible pour eviter les problemes , nc - ng doit etre le plus faible possible , l'indice de gaine doit etre au plus proche de l'indice de coeur . 
+
+Pour que le recepteur n'interprete pas les 2 signaux comme un seul signal -> erreur , il faut que T > delta_Tho_im
+
+Si on note fb = 1/T = debit binaire , ou q :
+fb <= 1/delta_tho_im
+en pratique on prend fb<= 1/2delta_tho_im 
+
+Pour limiter les baisses de debit , il faut limiter Delta_tho_im -> nc-ng doit être tres faible , en pratique delta =nc-ng ~= < 1% 
+
+
