@@ -110,3 +110,45 @@ Choix d'un code :
 Bande passante = Bande de frequence - bande du canal 
 
 ---
+Choix d'un code  : 
+
+Depend de la bande passante du canal. 
+
+On etudie donc la densité spectrale de puissance du code : repartition moyenne de la puissance en fonction de la fréquence. Elle indique l'occupation spectrale du code. 
+l'occupation spectrale : bande de fréquence qui transporte 90% de la puissance total du code.  
+
+## Densité des differents codes  : 
+
+---
+
+### NRZ unipolaire : 
+* Raie a f=0(valeur moyenne)
+* pas d'energie pour f=R 
+* OS(occupation spectrale) "Faible". 
+pour f=R le recpeteur ne peux pas recuperer l'Horloge. 
+
+### Code manchester : 
+* Pas d'energie pour f=0
+*  energie a f=R.
+* OS "forte" ou Large
+
+Dans le cas ou l'on veut obligatoirement l'utilisé on diminue R donc on augmente la durée de l'ITE donc on augmente la durée de transmission du message. 
+
+Caracterisitique importantes des codes  :
+
+Occupation spectrale : voir diapo 
+
+Transmission asynchrone  : 
+Caractères de facon irreguliere dans le temps 
+
+Transmission synchrone : Emetteur et recepteur cadencés a la même horloge.
+Necessité de "recevoir" l'horloge pour le recepteur (le recepteur peu recuperer l'horloge via le code envoyer).
+
+Math : 
+Pbf ; part de la puissance totale contenue entre =0 et f=0,1R
+voir diapo
+
+
+---
+
+# Copyright © Helec Bastien : All Rights Reserved
