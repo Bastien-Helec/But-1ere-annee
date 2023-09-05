@@ -1,0 +1,60 @@
+
+[comment]: # (Initialisation des couleurs et autres styles)
+<style>
+r { color: #c42f3c }
+o { color: Orange }
+g { color: #019d00}
+bl { color: #0100c8}
+
+</style>
+
+
+# Fibre Optiques 
+
+
+```
+Professeur :  M.Notingher , Mme.Pujas et M.Bouennec 
+Date : 05/09/2023
+Cours sur moodle : a mettre en lien 
+Module : R306
+```
+
+## Systeme de transmission :
+
+---
+[schema complets](faire par drawio)
+
+---
+
+<!-- Couleur texte vert -->
+####  <g>Definition :</g>
+
+<details><summary><r><b> Interface de transmission de l'information : </b></r> </summary>  LEDs ou LASERs </details> 
+
+<details><summary><r><b> Multiplexeur/ Demutiplexeur en longueur d'onde : </b></r></summary> <o> (WDM = Wavelength Division Multiplexer) </o>  Permet de multiplexer plusieurs signaux sur la meme fibre → Centaines de Gbits/s
+</details>
+
+<details><summary><r><b> Répéteur :  </b></r></summary> Amplificateurs optiques </details>
+
+<r><b>Fibre Optique </b></r>
+
+<details><summary><r><b> Interface optique de réception :  </b></r> </summary> Photodiodes </details>
+
+<details><summary> <r><b> Optique : </b></r> </summary>   Domaine de la physique qui traite : 
+
+* De la <u>lumière</u> et ses propriétés
+* Du <u>rayonnement électromagnétique </u>
+* De <u>la vision </u>
+* Des <u> systèmes utilisant ou émettant</u> de la lumière 
+
+
+Sous differents types :
+* Géométrique (analyse de la propagation de la lumiere la plus simple , purement phénoménologique , la nature de la lumiere n'etant pas abordée)
+* Ondulatoire (la lumiere est une onde electromagnetique)
+* Quantique (la lumiere est composée de particules appelées photons)
+
+</details>
+
+---
+
+
