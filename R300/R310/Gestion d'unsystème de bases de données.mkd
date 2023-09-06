@@ -5,7 +5,6 @@ r { color: #c42f3c }
 o { color: Orange }
 g { color: #019d00}
 bl { color: #0100c8}
-
 </style> 
 
 # Gestion d'un système de bases de données
@@ -56,7 +55,7 @@ mysql -u user -p
     MariaDB [BDD]>
 
 Page 8 : les differents format MySQL 
-[Lien](../R310/cb--R310-GestionSystemeBasesDeDonnees.pdf#page=8)
+[Lien](../R310/cb--R310-GestionSystemeBasesDeDonnees.pdf#Page=8)
 
 ## La base mysql de MySQL :
 

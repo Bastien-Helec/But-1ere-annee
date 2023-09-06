@@ -1,0 +1,54 @@
+## TD1 : 
+1. Base de données des avis de poursuite d'études pour un lycée :
+
+Table avis :
+
+|ID | IDLycéens | IDPoursuiteEtudes | AvisPhysique| AvisMaths | AvisFrancais|
+|---|-----------|-------------------|-------------|-----------|-------------|
+|1 | 5 | 4 | En physique Kevin fait des experiences autre que le cours | Kevin comptes le moutons pour s'endormir | Kevin a un français douteux , il correspond peut etre a celui des années 1770 |  
+
+2. Requete SQL permettant d'Ajouter l'avis favorable pour la poursuite numero 2  
+```SQL
+Insert Into avis (IDLycéens, AvisMaths) Values (2, 'Avis favorable')
+```
+
+3. Donner alors la requetes SQL d'autorisation a executer pour permettre aux enseignants de donner leurs avis (il faut qui puissent lire les données des tables poursuite et lyceens et ecrire dans la table avis)  
+
+Pour autorisation d'une table complete
+```SQL
+Create user math@localhost identified by '....';
+Grant Insert Gdl.AvisMath to math@localhost;
+Grant select on gdl.* to math@localhost;
+```
+Idem pour francais et physique
+
+Pour autorisation d'une colonne
+```SQL
+Create user math@localhost identified by '....';
+Grant Select (avisMaths) Insert (avisMaths) on Gdl.avis to math@localhost; 
+```
+
+4.
+```SQL
+select password ('xxxxx');
+Set password for 'francais@localhost' = password('....');
+```
+
+
+5. Pour toute la table
+```SQL
+Revoke select on Gdl.avis from math@localhost;
+Grant Update on Gdl.avis to math@localhost;
+```
+idem pour francais et physique
+
+Pour une colonne
+```SQL
+Revoke select (avisMaths) insert (avisMaths) on Gdl.avis from math@localhost;
+Grant Update (avisMaths) on Gdl.avis to math@localhost;
+```
+6. 
+```SQL
+Insert Into avis (IDLycéens, AvisPhysique, AvisMaths, AvisFrancais) Values (2, 'Avis favorable', 'Avis favorable', 'Avis favorable');
+Select Pid from PoursuiteEtudes as P, listeLycéens where classe = "TC2" and listelyceens = IDLycéens;
+```
