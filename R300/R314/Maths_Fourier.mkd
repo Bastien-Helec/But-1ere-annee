@@ -1,0 +1,98 @@
+[comment]: # (Initialisation des couleurs et autres styles)
+<style>
+r { color: #c42f3c }
+o { color: Orange }
+g { color: #019d00}
+bl { color: #0100c8}
+</style> 
+
+# Analyse de Fourier : 
+```
+Professeur : y.Haddab
+Date : 06/09/2023
+Cours sur moodle
+```
+<r><b>Rappel : </b></r>
+La presences des ondes dans le monde 
+
+
+<b>2 types de signaux : </b>
+
+
+<details><summary> Aleatoires : </summary>
+Ne peux pas etres predit : <u>bruit</u>
+</details>
+
+<details><summary> Deterministes : </summary> evolution dans le temps peut etre predite : <u>sinusoidale</u>
+</details>
+
+<b>Avec 2 caractéristiques :</b>
+
+<details><summary> continue : </summary> 
+La valeur peut etre determiner a tout les instants 
+</details>
+<details> <summary> discret : 
+</summary>
+La valeur n'est pas connu a tout les instants
+</details>
+
+<b>Quelques signaux typiques :</b>
+
+<details> <summary>Impulsion de dirac : </summary> 
+Signal non réalisbale (mais on peut s'en approcher). Modeliser par une signal porte avec pour largeur tends vers 0 et pour amplitude tends vers l'infini. bref mais fort en energie.  
+</details>
+<details> <summary> Fonction d'Heaviside (ou fonction échelon unitaire):   </summary>
+nul pour les temps negatif et 1 pour les temps positif.
+
+</details> 
+
+<details><summary> Signaux periodiques : </summary>
+Signaux répétitifs ( a chaque periode T) :
+
+Sinus , Triangle , Rectangle , dent de scie etc ... 
+
+</details>
+<br>
+
+Un signal periodique important : le Signal sinusoïdal 
+Le periode T d'un signal c'est le plus petit motif qUi ce répète.
+
+$\omega$t + $\varphi$ = Phase du signal
+
+La valeur moyenne d'un signal sinusoïdal est nulle. 
+
+La valeur efficace est toujours inferieur a la valeur maximal 
+
+page 10 pour sin cos sans offset 
+
+La sinusoïde passant par un systeme lineaire elle restera sinusoïde avec des valeurs modifier. 
+
+Il y a ainsi 2 representation du signal : 
+
+<details><summary>Temporelle :  </summary>
+Evolution en fonction du temps
+</details>
+
+<details><summary>Frequentielle  :  </summary>
+Evolution en fonction de la fréquence
+</details>
+
+La representation frequentielle necessite du spectre d'amplitude et du spectre de phase .
+
+Dans un signal quelconque on utilise la décomposition de Fourier 
+
+consideront x(t) un signal periodique de periode T de frequence 1/T et integrable sur l'intervalle T
+
+On peut toujours remplacer x(t) par son developpement en série de Fourier qui s'ecrit comme ci : 
+
+$$x(t) = a_0 \sum_{n=1}^{+\infty} (a_n \cos(2 \pi \frac{nt}{T}) + b_n \sin(2 \pi \frac{nt}{T}))$$
+
+pour obtenir
+* $$a_0 = 1/T \int_0^{T}x(t)dt$$
+et 
+
+
+* $$a_n = 2/T\int_0^{T}x(t)\cos(\frac{2\pi nt}{T})dt$$
+
+* $$b_n = 2/T\int_0^{T}x(t)\sin(\frac{2\pi nt}{T})dt$$
+
