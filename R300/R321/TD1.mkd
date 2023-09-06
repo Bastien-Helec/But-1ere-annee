@@ -1,0 +1,33 @@
+# R321 
+
+Revision : des operations de base de la trigonometrie
+
+Soit un signal modulant : 
+$$X_m(t) = 2 \cos(2\pi 500t)$$
+avec une porteuse : 
+$$X_p(t) = 3\cos(2\pi 10^6t)$$
+
+
+1) Donner X(t) avec h=0,5
+
+2) Donner la representation spectrale de
+
+$$x_m, x_p \text{ et }x$$ 
+
+
+1)
+Porteuse : Fp= 100Khz
+Modulant : Fm= 500Hz
+
+$$x(t)=A_p[1+0,5\times\cos(\omega_m\times t)]\times\cos(\omega_p\times t)$$
+
+$$x(t)=3[1+0,5\times\cos(2\pi 500t)]\times\cos(2\pi 10^6t) $$
+
+$$x(t)=[3+1,5 \cos(2\pi 500t)] \times \cos(2\pi10^6t)$$
+
+$$x(t)=3\cos(2\pi10^6t)+1,5\cos(2\pi10^6t)\cos(2\pi500t)$$
+
+$$x(t)=3\cos(2\pi10^6t)+0,75\cos(2\pi \times 100 500t)+0,75\cos(2\pi \times 99 500t)$$ 
+
+2) Creation des representations spectrales des 3 signaux 
+

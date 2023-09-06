@@ -1,0 +1,38 @@
+# Telecoms spatial : 
+
+```
+Professeur : Haddab
+Date : 06/09/2023
+Cours sur moodle
+```
+
+## La modulation : 
+Une porteuse : un signal electromagnetique qui transporte l'information.
+
+DAB+  = Digital Audio Broadcasting
+
+AM: Amplitude Modulation
+
+
+$$ x(t)=x_p(t)+k.x_p(t).x_m(t)$$
+$$ x(t)=[1+k.x_m(t)].x_p(t)$$
+
+
+x_p = La porteuse
+x_m = Le signal modulant
+k = Le coefficient de modulation
+
+supposons que le signal modulant est simplement un cosinus : 
+$$ x_m(t)=\Alpha_mcos(\omega_m.t)$$
+
+alors 
+$$x(t)=A_p[1+k.\cos(\omega_m.t)].\cos(\omega_p.t)$$
+
+on pose : 
+$$h=k\times A_m$$
+
+h = indice de modulation
+
+$$x(t)=A_p[1+h.\cos(\omega_m.t)].\cos(\omega_p.t)$$
+
+## La modulation d'amplitude :
