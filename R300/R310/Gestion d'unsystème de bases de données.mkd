@@ -1,0 +1,96 @@
+
+[comment]: # (Initialisation des couleurs et autres styles)
+<style>
+r { color: #c42f3c }
+o { color: Orange }
+g { color: #019d00}
+bl { color: #0100c8}
+
+</style> 
+
+# Gestion d'un système de bases de données
+
+```
+Professeur : Borelly
+Date : 06/09/2023
+cours : www.borelly.net
+```
+
+### Mysql /MariaDB :
+
+<details> <summary>outils : </summary> 
+
+-mysql , mysqladmin, mysqldump, mysqlimport, mysqlshow, mysqlcheck, mysql_upgrade, muysql_install etc ... 
+</details>
+
+<details> <summary> serveur : </summary> mysqld_safe </details>
+
+<details> <summary> fichier de configuration : </summary>
+/etc/my.cnf et /etc/my.cnf.d</details>
+
+
+<details> <summary>Repertoire de donées : </summary> /var/lib/mysql </details>
+<br>
+
+Installation Linux : 
+
+    Apt update 
+    apt install mysql-server
+    
+ou (MariaDB)
+
+    mysql_secure_installation
+    
+Paramétrage serveur : 
+* <r>Port TCP : <u>3306 (par défaut)</u> </r>
+* --skip-networking => Socket mysql.socket
+* <b>default-storage-engine = <r><u> myISAM (1 reperoire par base de données et 3 fichiers par table) </u></r></b>
+* bind-address = 127.0.0.1 
+
+Utilisation client : 
+
+```
+mysql -u user -p
+```
+    MariaDB [(none)]> use BDD;
+    MariaDB [BDD]>
+
+Page 8 : les differents format MySQL 
+[Lien](../R310/cb--R310-GestionSystemeBasesDeDonnees.pdf#page=8)
+
+## La base mysql de MySQL :
+
+Plusieurs tables de gestion des utilisateurs et des droits :
+
+### Instructions : 
+* <o>Grant</o> : Permet <u>d'attribuer</u> des droits à un utilisateur sur une base de données ou une table.
+
+* <g> Revoke </g> : Permet de <u>supprimer</u> des droits à un utilisateur sur une base de données ou une table.
+
+
+Les droits de MySQL : 
+etapes : 
+1 :  verification de l'utilisateur via le host 
+2 : (voir diapo )
+
+---
+
+Exemples : Page 11 [lien]
+
+    *.* : droit a toutes les bases de données et toutes les tables
+
+---
+
+Create USER (TLS Options) : Exemples Page 12 [lien]
+
+---
+
+Modifier les mots de passe : Page 14 [lien]
+
+--- 
+Sauvegare et restaurer les bases de données : Page 15 [lien]
+
+---
+
+<g><b> Les references sont fin du document </b></g> Page 16 [lien] 
+
