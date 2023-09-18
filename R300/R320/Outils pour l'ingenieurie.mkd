@@ -1,0 +1,84 @@
+# Outils ingenieur
+
+Definition :
+Energie : Force en action , grandeur physique qui caracterisent un systeme. Ecahnge par traail (une force : force en action)
+Echange par chaleur
+Autres methodes 
+L'energie d'un systele idolé se conserve dans toutes ses transformations
+
+Predire les changements d'état : 
+On decoupe la description on petit morceau plus facile a traiter
+On isole ce qui change de ce qui ne change pas. Par exemple en etudiant les forces en jeu.
+
+On definit alors differents types d'energie (qui n'interagissent pas)
+
+L'energie totale du système est la somme de toutes ces énergies 
+
+Mais en général on ne s'occupe pas de l'energie total 
+
+les differentes formes d'energie sont :
+- L'energie mecanique
+- L'energie thermique
+- L'energie chimique
+- L'energie electrique
+- L'energie sonore 
+... 
+
+L'energie mecanique est la somme de l'energie cinetique et de l'energie potentielle
+elle permet de donner de la vitesse a un objet mettre ,en rotation, compresser/etendre un objet, compresser un gaz.
+
+Conversion energie de pesanteur en cinétique : 
+
+1/2mv² = mgh ==> v² = 2gh
+
+dans le vide tout descend a la meme vitesse
+
+L'energie photonique = E=hf(mu)
+Emise par un laser , dans les fibres 
+
+2 types d'energie nucleaires : 
+Force nucleaire forte : maintient les protons et neutrons ensemble
+fission et fusion
+
+Force nucleaire faible : permet la desintegration des neutrons en protons
+fission 
+
+L'unite d'energie est le Joule (j) 
+comment s'echange l'energie : 
+tout s'echange par un mediatur : 
+Photon pour toutes les energie sauf 
+Gravitons pour l'energie de pesanteur
+Gluons pour l'energie nucleaire forte
+Bosons W et Z pour l'energie nucleaire faible
+
+Etat initial : 
+pesanteur Ep = Mghi
+cinetique Ec = 0
+total Et=Mghi
+Etat final 
+pesanteur E'p = Mghf
+cinetique E'c = 1/2Mvf²
+total E't=Mghf+1/2Mvf²
+Converse de l'energie Et=E't
+
+$$Mg(h_i-h_f)=1/2M_{v^2}$$
+
+$$ v= \sqrt{(2g(h_i-h_f))}= \sqrt{2g\Delta h} $$
+
+Etat initial :
+chimique Ec
+Temeprature intial T0 energie thermique Et=Eto
+Energie totale Et=Ec+Eto
+Etat final :
+chimique E'c=0
+Temeprature finale Tf energie thermique E't=Eto + M*4184 (Tf-T0)
+Energie totale E't=E't+E'c
+
+1J = energie pour soulever de 1 metre une petite pomme 
+
+1 Wh = 3600J energie pour alimenter 1 ordinateur portable pour 1 minutes
+1eV= 1.6*10^-19J 
+
+1 cal = energie pour chauffer 1° 1g d'eau a 15° 1cal = 4.184J 
+1Th = energie pour chauffer 1° 1T d'eau a 15° 1Th = 4,184MJ
+1TEP énergie consommée par un porte conteneur géant (19000 Contenurs) en 5 minutes (1TEP = 42GJ)

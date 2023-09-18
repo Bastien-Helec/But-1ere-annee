@@ -1,7 +1,7 @@
 # Telecoms spatial : 
 
 ```
-Professeur : Haddab
+Professeur : Y.Haddab , P.Pujas
 Date : 06/09/2023
 Cours sur moodle
 ```
@@ -36,3 +36,8 @@ h = indice de modulation
 $$x(t)=A_p[1+h.\cos(\omega_m.t)].\cos(\omega_p.t)$$
 
 ## La modulation d'amplitude :
+
+
+---
+Revision du cours de l'an dernier. 
+

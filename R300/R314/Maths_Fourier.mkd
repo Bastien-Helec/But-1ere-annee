@@ -96,3 +96,11 @@ et
 
 * $$b_n = 2/T\int_0^{T}x(t)\sin(\frac{2\pi nt}{T})dt$$
 
+La transposition de phase permet le multiplexage des signaux , partir d'une frequence basse puis ajouter une frequence haute et on obtient un signal de fréquence haute. ON peut ainsi envoyer de la musique ou d'autre audio via les hautes fréquences si le recepteur  permet remoduler le signal pour les haut parleurs. 
+
+Pour un signal pair : les coefficients Bn sont nul 
+
+Pour un signal impair les coefficients An sont nul.
+
+$x_n(t) = a_n\cos(n\omega_0t) + b_n\sin(n\omega_0t)  ->  x_n(t) = a_n\cos(n\omega_0t - \varphi_n)$
+

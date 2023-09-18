@@ -92,3 +92,22 @@ en pratique on prend fb<= 1/2delta_tho_im
 Pour limiter les baisses de debit , il faut limiter Delta_tho_im -> nc-ng doit être tres faible , en pratique delta =nc-ng ~= < 1% 
 
 
+tg theta i = r/h
+
+
+### 3 Dispertion intermodale 
+
+si entre 2 faisceau du meme sens : 2eme phase = 1 phase ou d'un multiplicateur 2 pi
+
+monode = que de la dispersion chromatique. 
+
+
+### 5. Lumiere cohérente et principe des lasers 
+
+notion des photons : quantiques et explications des quanta , constance de planck et vue rapide des phonos (energie de vibrations)
+
+
+
+
+### 6. Fibres optiques 
+
