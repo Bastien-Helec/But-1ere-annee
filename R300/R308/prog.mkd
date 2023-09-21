@@ -19,3 +19,7 @@ z= azerty
 6 : yrz
 7 : ytreza
 
+
+regarder le package collections 
+cast  : transformation d'objet
+gli 
