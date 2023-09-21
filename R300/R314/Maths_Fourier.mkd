@@ -104,3 +104,36 @@ Pour un signal impair les coefficients An sont nul.
 
 $x_n(t) = a_n\cos(n\omega_0t) + b_n\sin(n\omega_0t)  ->  x_n(t) = a_n\cos(n\omega_0t - \varphi_n)$
 
+## Puissance moyenne d'un signal periodique
+
+La puissance moyenne d'un signal periodique est la moyenne de la puissance instantanée sur une periode T cettz caractéristique est importante pour d'un signal periodique car elle caracterise l'energie du signal.
+
+Par exemple plus la puissance moyenne est importante plus le signal est a une grande distance.
+
+La puissance moyenne d'un signal periodique de la periode T peut etre evaluée par : 
+
+$P= \frac{1}{T} \int_{0}^{T} x^2(t) dt$
+
+La puissance moyenne est le carré de la valeur efficace : 
+
+Pour un signal sinusoïdal : $x(t) = A \sin (\omega t + \varphi) -> P= \frac {A} {\sqrt(2)^2}$ = $\frac {A^2}{2}$
+
+pour une composante continue : x(t) = a0 -> P = a0^2
+
+formule de Bessel-Parseval :
+
+$\frac{1}{T} \int_{0}^{T} x^2(t) dt = a_0^2 + \frac{1}{2} + \sum_{n=1}^{+\infty} (a_n^2 + b_n^2)$
+
+La formule de Bessel-Parseval permet de calculer la puissance moyenne d'un signal periodique a partir de ses coefficients de Fourier.
+
+## Cas des signaux non periodiques :
+
+Pour un signal non periodique on peut utiliser la transformée de Fourier qui permet de passer du domaine temporelle au domaine frequentielle.
+
+$X(f)=\int_{-\infty}^{+\infty} x(t) e^{-j2\pi ft} dt$
+
+Le Graphe |X(f)| represente le spectre d'amplitude et le graphe arg(X(f)) represente le spectre de phase.
+
+### <r> Rappel: </r>
+Formule d'Euler : 
+$e^{j\theta} = \cos(\theta) + j\sin(\theta)$

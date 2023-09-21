@@ -41,3 +41,9 @@ $$x(t)=A_p[1+h.\cos(\omega_m.t)].\cos(\omega_p.t)$$
 ---
 Revision du cours de l'an dernier. 
 
+le melangeur permet de faire passer le signal d'une bande a une autre , d'un canal a un autre.
+
+En augmentant ou en diminuant la fréquence , sans modifier la forme du spectre du signal.
+
+un melangeur est un multiplieur.
+

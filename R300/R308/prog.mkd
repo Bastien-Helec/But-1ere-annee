@@ -1,0 +1,21 @@
+definition :
+Python 
+
+garbage collector c'est un processus qui permet de liberer la memoire des objets.
+
+JAVA 
+C sharp
+Rust
+Ruby 
+
+R = statistiques
+
+z= azerty 
+1 . zerty
+2 : azer
+3 : t
+4 : y
+5 : ty
+6 : yrz
+7 : ytreza
+

@@ -148,6 +148,35 @@ Math :
 Pbf ; part de la puissance totale contenue entre =0 et f=0,1R
 voir diapo
 
+---
+
+### Transmission en bande transposée :
+
+Modulation FSK :
+principe : Transmission d'une sinusoïde d'amplitude constante et de fréquence variable (valeur des bits a transmettre).
+
+Modulation ASK :
+principe : Transmission d'une sinusoïde d'amplitude variable et de fréquence constante (valeur des bits a transmettre).
+Modulation : multiplication du signal codé par la porteuse 
+Demodulation : détection d'enveloppe , multiplication du signal par la porteuse + filtre passe bas
+
+
+Modulation PSK  et DPSK :
+principe PSK : Transmission d'une sinusoïde d'amplitude constante et de fréquence constante mais de phase variable (valeur des bits a transmettre).
+
+principe DPSK : Transmission d'une sinusoïde d'amplitude constante et de fréquence constante mais de phase variable (valeur des bits a transmettre).
+
+Modulation 4-PSK :
+principe : Transmission d'une sinusoïde d'amplitude constante et de fréquence constante mais de phase variable (valeur des bits a transmettre).
+
+Constellation : 
+Représentation dans un plan : Amplitude du signal et phase du signal
+
+Modulation 
+
+
+
+
 
 ---
     

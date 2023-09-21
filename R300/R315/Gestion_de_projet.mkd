@@ -1,0 +1,85 @@
+En gestion 2007 : SYRHEN , du droit , process , SOA (Service Oriented Architect) -> XML en 2011 non , 2014 arriver mes complètement dépassé
+
+Effet tunnel : On donne quelque chose a une personne puis plusieurs de temps apres il revient en indiquant qu'il a fini mais que ne correspond plus au besoin
+
+Moyens. 
+
+Methode cycle en V 
+
+Methode agile : des petites boucles de 2 semaines et fournir a la fin 
+
+SAVINGS : 
+
+La gestion de projet c'est complexe . 
+
+REFLECHIR comment gagner du temps sur le projet. 
+
+Un effort unique mettant en oeuvre des moyens humains, financiers importants ou services pur atteindre un objectif défini , dans les délais fixés (AFNOR).
+
+Une démarche spécifique qui permet de structurer méthodiquement et progressivement une réalité a venir (ISO). la gestion de projet ce n'est pas du quotidien 
+
+Un processus unique qui consiste en un ensemble d'activités coordonnées et maitrisées comportant des dates de début et de fin, entrepris dans le but d'atteindre un objectif conforme a des exigences spécifiques telles que des contraintes de délais , de coût et de ressources (ISO 1006).
+
+Un projet dans l'EN :
+Une epuiqe projet : 
+-un chef de projet
+-une organisation , une méthode
+-Des moyens 
+-Humains , financ  , matériels
+
+Un projet c'est : par exemple un projet de construction d'une maison , un mariage , etc ...
+
+Contrainte imposée par un commanditaire 
+
+un objectif ou une tache doivent etre SMART :
+
+S : Specific. (L'objectif doit etre précis et non ambigu) 
+
+M : Mesurable (Il faut pouvoir évaluer quel est le degré de réalisation de l'objectif et sans contestation ni interprétation)
+
+A : Atteignable (L'objectif doit être réalisable , et les moyens doivent être donnés pour l'atteindre)
+
+R : Realiste (il est pertinent vis a vis de l'activité de l'intéressé)
+
+T : Temporellement défini (un calendrier avec un début et une fin)
+
+Gestionnaire de projet : Il s'agit de l'ensemble des actes organisationnels nécessaires à l'accomplissement du projet. Il faut s'assurer que  : 
+
+-Les objectifs sont bien compris de tous.
+
+-D'organiser la communications aupres des acteurs.
+
+-De planifier les actions pour atteindre les objectifs.
+
+-De prevoir les ressources nécessaires a l'accomplissement du projet en réalisant. 
+
+Anticiper en réalisant une analyse de risques avant le debut du projet . 
+
+Le chef de projet n'est pas un expert du domaine 
+
+apte a communiquer
+apte a analyser les risques 
+.
+.
+.
+
+maitrise d'ouvrage : les demandeurs du projet.  
+maitrise d'oeuvre :  les réalisateurs du projet.
+
+Plan do check act (PDCA) :
+la roue de deminx 
+
+plan On decide de ce qu'on va faire
+do on le fait
+check On veriie qu'on était conforme aux objectifs (SMART)
+Act : on corrige le tir et on inclu ce qui ne marche pas de les nouveaux objectifs 
+
+Les réunions : 
+Lister les participants et les absents 
+Préparer et suivre l'ordre du jour
+Noter les remarques des participants sur les points essentiels
+Lister les décisions et liste d'actions. En profiter pour valider les realisation des actions ayant eu lieu lors de la précédente réunion sinon les rajouter à faire.
+
+Eventuellement date de la prochaine réunion. 
+Faire le compte rendu , diffuser et faire valider par les participants a la réunion.
+
