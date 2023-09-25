@@ -23,3 +23,9 @@ z= azerty
 regarder le package collections 
 cast  : transformation d'objet
 gli 
+
+MVC : 
+Modele = donnees
+Vue = interface/navigateur
+controleur = logique: "https://www.youtube.com/saise/get" ...
+
