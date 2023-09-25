@@ -31,3 +31,57 @@ $$x(t)=3\cos(2\pi10^6t)+0,75\cos(2\pi \times 100 500t)+0,75\cos(2\pi \times 99 5
 
 2) Creation des representations spectrales des 3 signaux 
 
+
+
+## TD Mélangeurs :
+
+
+1) schema a faire sur papier
+2) Quelle doit être la plage de fréquence du premier l'oscillateur local pour pouvoir selectionner tous les canaux FM 
+
+LNA : Amplificateurs a faible puissance 
+
+[87Mhz - 108Mhz]
+
+
+On regle le poste radio FM pour selectionner le canal à la porteuse 100Mhz. 
+
+3) Quelle est la frequence de l'oscillateur local ?
+
+$$f_{ol}=f_{canal}-f_{fc}$$
+
+$$f_{ol}=89,3Mhz$$
+
+
+4) quelle doit etre la reponse fréquentielle du filtre rejecteur qui suit le melangeur : 
+ 
+La reponse fréquentielle doit etre dans 10,7Mhz avec une bande passante de 200Khz
+
+En faite l'antenne capte les signaux radio dans une large bande de fréquence. En même temps qu'on ecoute le canal 100Mhz , l'antenne reçoit un signal (parasite) autour de 79 Mhz 
+
+5) Comment agit le mélangeur pour ce signal.
+
+Le melangeur va additionner le signal parasite avec le signal de la porteuse.
+
+
+
+
+6) Pourquoi le filtre réjecteur n'est-il pas suffisant ? 
+
+Le filtre réjecteur n'est pas suffisant car il ne peut pas rejeter le signal parasite qui est trop proche de la porteuse.
+On appelle fréquence image de la porteuse la fréquence qui produit ce phenomène. 
+
+7) Exprimer la valeur de la fréquence image en fonction de la fréquence de la porteuse et de la fréquence de l'oscillateur local.
+
+$$f_{image}=f_{ol} - f_{fc}$$
+
+$$f_{image}=89,3Mhz - 10,7Mhz$$
+
+$$f_{image}=78,6Mhz$$
+
+8) On ajoute alors un filtre d'accord juste avant le mélangeur. Quelle doit etre la reponse fréquentielle du filtre d'accord lorsqu'on selectionne le canal 100Mhz ? et si on veut maintenant ecouter le canal 98 ? 
+
+$$²fo = 9,7Mhz$$
+
+
+
