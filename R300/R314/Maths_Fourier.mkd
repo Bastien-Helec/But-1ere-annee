@@ -138,4 +138,3 @@ Le Graphe |X(f)| represente le spectre d'amplitude et le graphe arg(X(f)) repres
 Formule d'Euler : 
 $e^{j\theta} = \cos(\theta) + j\sin(\theta)$
 
-
