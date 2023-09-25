@@ -1,0 +1,165 @@
+[comment]: # (Initialisation des couleurs et autres styles)
+<style>
+r { color: #c42f3c }
+o { color: Orange }
+g { color: #019d00}
+bl { color: #0100c8}
+</style> 
+
+# Aide github pour les 1er année :
+
+```
+Date : 25/09/2023
+@Bastien-Helec
+description : 
+
+Bonjour les premieres années je vous fait ce petit tuto pour vous aidez a comprendre github et comment l'utiliser
+```
+---
+
+## 1) Qu'est ce que github ? 
+
+```
+Je vous laisse vous demerdez, non je rigole.
+```
+
+
+- Github c'est une plateforme en ligne qui permet de partager du code, de faire du travail collaboratif et plein d'autres chose que vous decouvrirez. 
+
+- Si vous voulez github c'est un peu comme un cloud pour les codeurs.
+
+<r> - Faite attention a ce que vous postez dessus, rien que les **Mot de passe** ou les **Tokens** sont a ne pas mettre sur github encore plus si le repository est public. </r>
+
+----
+
+## Les definitions :
+
+-**Repository** : C'est un dossier qui contient des fichiers et des sous dossiers.
+
+-**Branch** : C'est une branche de votre repository, c'est a dire que vous pouvez avoir plusieurs version de votre code ça vous permet de faire des testes sans toucher au code prêt. par ailleurs je vous conseille de faire une branche quand vous etes pas sur de vos modifs.
+
+-**Commit** : C'est ce qui permet de definir un texte pour chaque modif que vous voulez envoyer sur github.
+
+-**Pull request** : C'est une demande de modification, c'est a dire que vous demandez a ce que votre code soit ajouter au code de base. (c'est en realtion avec les branchs et la fonction merge 
+
+-**Merge** : C'est la fusion de deux branches, c'est a dire que vous fusionnez votre branche avec la branche principale.
+
+-**Fork** : C'est une copie d'un repository, c'est a dire que vous copiez le code de quelqu'un d'autre pour le modifier.
+
+-**Issue** : C'est un probleme, c'est a dire que vous pouvez signaler un probleme sur le code de quelqu'un d'autre ou le votre.
+
+-**Pull** : C'est la recuperation du code de quelqu'un d'autre.
+
+-**Push** : C'est l'envoie de votre code sur github.
+
+-**Clone** : C'est la copie d'un repository sur votre ordinateur.
+
+-**Token** : C'est comme un mot de passe. 
+
+---
+
+## 2) Comment utiliser github ?
+
+```
+Vous avez un petit cheatsheet que je vous ai joint pour vous aider a utiliser github. 
+```
+
+1) Vous pouvez utiliser github sur plusieurs ordinateurs mais attention a ne pas faire de conflit :
+
+<r>- Si vous faite un commit sur un ordinateur et que vous faite un commit sur un autre ordinateur sans avoir fait de pull avant vous allez avoir un conflit, et pour faire la réparer tout ça bon courage. </r>
+
+<g>**point conseil** : si vous changez d'ordinateur ou que vous travaillez sur un autre ordinateur (fixe par exemple) des que vous commencez a travailler sur votre code avant de faire des modifs faite un pull pour recuperer le code de github et vous n'aurez pas de conflit, **C'est tres important !!**. </g>
+
+---
+
+## 3) Comment faire un repository ?
+
+- Pour faire un repository c'est tres simple, vous cliquez sur le petit plus en haut a droite de votre ecran et vous cliquez sur **New repository**.
+
+- ou directement via vos dossiers sur votre ordinateur. Mais pour cette parti je vous laisse regarder sur internet. 
+```
+Je vais pas tout vous donnez non plus :p
+```
+
+---
+## 4) Se connecter et les extensions vscode : 
+
+1) Deja creer vous un code github :
+[Prenom_Nom] ou [Prenom.nom] du moins pour l'IUT vous allez travailler avec aussi. 
+
+```
+Une fois ça fait, ben vous pouvez faire tranquillement la connexion. 
+```
+
+### Installer git sur votre ordinateur :
+
+```bash
+sudo apt install git
+```
+---
+
+### Ajouter une clefs au github :
+
+**Ensuite vous devez generer une clefs ssh :**
+
+```bash 
+ssh-keygen -t rsa -b 4096 "your_email@example.com"
+```
+ 
+<r>N'oubliez votre passphrase sinon vas 
+falloir tout recommencer</r>
+
+**Ajouter la clefs ssh a votre agent ssh :**
+
+```bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+```
+
+
+- Vous aurez deux fichiers qui vont se creer rsa et rsa.pub dans le dossier cacher .ssh dans votre dossier utilisateur.
+
+- Pour y acceder 2 moyens : 
+vous affichez les dossiers cacher ou vous faites. 
+```bash
+cd .ssh
+```
+
+- Une fois ça fait vous allez dans votre **compte github > parametres > clefs-ssh (ou l'équivalent)**  et vous ajoutez votre clefs ssh **RSA.pub** 
+  
+- rsa.pub est la clefs public
+- "rsa" est la clefs de votre pc donc ne la donnez a personne.
+
+<o>Quand vous allez vous connectez sur votre terminal vous aurez besoin de la passphrase github va vous le demandez des que vous allez commencez a faire des actions avec git sur votre terminal.
+</o>
+
+
+
+---
+
+### Les extensions vscode :
+
+Pour les extensions vscode je vous conseille de prendre celle la :
+
+
+Github entre autre : 
+
+https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
+
+Apres a vous de voir pour prendre les autres extensions que vous voulez.
+
+
+---
+
+## INDEX :
+
+https://git-scm.com/docs
+
+https://docs.github.com/fr
+
+### ssh key :
+
+https://docs.github.com/fr/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+
+@Bastien-Helec &copy; Copyright 2023
