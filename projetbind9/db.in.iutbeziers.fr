@@ -1,0 +1,13 @@
+$TTL 1h;
+$ORIGIN db.in.iutbeziers.fr
+@	IN	SOA dnsin-01 mail (
+			2022090901 ; Serial
+			3600 ; Refresh(6h)
+			3600 ; Retry(6h)
+			3600000 ; Expire (41j)
+			86400 ; Minimum(24h)
+	IN	NS dnsin-01
+	IN	MX 0 smtp
+dnsin-01 IN	A 172.29.170.152
+smtp IN		A 172.29.170.153
+

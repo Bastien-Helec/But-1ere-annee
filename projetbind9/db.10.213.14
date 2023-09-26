@@ -1,0 +1,13 @@
+$TTL 1d;
+$ORIGIN 10.213.14.in-addr.arpa.
+@	IN	SOA	dnsin-01.db.in.iutbeziers.fr mail.db.in.iutbeziers.fr(
+			2022090901 ; Serial
+			43200 ; Refresh
+			21600 ; Retry 
+			3600000 ; Expire
+			86400) ; Minimum
+	IN NS dnsin-01.db.in.iutbeziers.fr
+	IN MX 0 smtp.db.in.iutbeziers.fr
+
+152	IN	PTR	dnsin-01.db.in.iutbeziers.fr
+153	IN	PTR	smtp.db.in.iutbeziers.fr

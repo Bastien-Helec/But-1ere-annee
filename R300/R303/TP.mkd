@@ -1,0 +1,108 @@
+# TP1 : DNS 
+
+```
+Cours : TP R303
+Date : 26/09/2023 14:48  
+Auteur : @Bastien-Helec
+```
+
+---
+
+## Zone de d'aide :
+
+```
+Nsswitch, resolv.conf, systemd/resolvd.conf : fichier de configuration de la résolution de noms
+```
+
+# 1 Objectif du TP :
+L’objectif de ce TP est d’installer un serveur DNS. Le logiciel utilisé est Bind qui est la solution la
+plus utilisée dans le domaine. Le TP va nécessiter de travailler avec un container sous DEBIAN. Le
+domaine à conﬁgurer va être in.iutbeziers.fr ( le in indiquant qu’il s’agit d’un domaine interne , mais il
+s’agit d’une convention, on aurait très bien pu prendre un autre sub-domaine ) Le livre suivant http:
+//www.zytrax.com/books/dns/ est une référence accessible en licence CC sur Bind et peut vous être
+utile.
+
+# 2 Organisation et Notation du TP : 
+
+Le TP est réaliser seul. Vous utiliserez le container registry.iutbeziers.fr/debianiut pour vos installations.
+Prenez des notes et des copies d’écrans qui vont alimenter votre porte-folio.
+L’enseignant validera votre progression. Appelez-le quand :
+1. Votre serveur bind fonctionne et résout.
+2. La résolution fonctionne sur in.iutbeziers.fr répond avec comme enregistrement le nom de votre
+container.
+3. La zone inverse fonctionne.
+
+# 3 Installation d'un serveur DNS Bind :
+
+Créez d’abord un réseau net-salle-x (x=numéro de poste) pour votre container (exemple à adapter en
+fonction de la salle) : On est en salle 213, vous avez le poste (x=2) et c’est votre carte réseau eno1 qui
+est branchée sur le réseau physique :
+
+Mon numero de poste est le 14, donc je crée le réseau net-salle-213-14 :
+
+```bash 
+docker network create -d "macvlan" --subnet=10.213.0.0/16 --gateway=10.213.255.254 --ip-range=10.213.14.64/26 -o parent=eno1 net-213-14
+# On liste les dockers
+docker network ls
+```
+
+Lancez le container : 
+
+```bash
+docker pull registry.iutbeziers.fr/debianiut:latest
+# puis on lance le docker 
+docker run --network=net-213-1 -v /home/test/bind :/etc/bind --dns=10.255.255.200 --name c-213-2-64 --hostname c-213-2-64 -it registry.iutbeziers.fr/debianiut bash
+```
+# 3.1 Installation de Bind :
+
+```bash
+apt-get install bind9 dnsutils
+# demarrage du DNS
+service named start
+```
+
+# 3.2 Configuration de Bind :
+
+```bash
+# Rédemarrer le service 
+service named restart
+# On dig notre localhost 
+dig @localhost localhost 
+# Nous renvoi l'addresse du localhost
+
+# On dig notre adresse ip
+dig @127.0.0.1 
+# Nous renvoi les addresse ip des root servers
+
+```
+
+Le fichier named.conf.default-zones contient les zones par défaut du localhost de l'addresse de broadcast et de l'addresse de réseau par defaut 0.0.0.0 la configuration du serveur root
+
+2. A quoi sert le fichier /etc/nsswitch.conf ?
+
+Le fichier /etc/nsswitch.conf permet de définir l'ordre de recherche des services et d'indiquer au aller chercher les informations pour le DNS.
+
+Le fichier qui fait la resolution de localhost est le fichier /etc/resolv.conf cela signifie que le systeme a son propre resolver.
+
+# 3.3 Configuration de la zone de recherche in.iutbeziers.fr :
+
+Dans le fichier /etc/bind/named.conf.local on ajoute les zones de recherche :
+```bash
+# On crée le fichier de zone
+zone "in.iutbeziers.fr" {
+    type master ;
+    ﬁle "/etc/bind/db.in.iutbeziers.fr" ;
+};
+zone "14.213.10.in-addr.arpa" {
+    type master ;
+    ﬁle "/etc/bind/db.10.213.14" ;
+};
+```
+et dans le fichier /etc/bind/named.conf.options on ajoute les options de recherche :
+```bash
+# On ajoute les options de recherche
+allow-query-cache { any ; } ;
+allow-query { any ; } ;
+```
+
+voir le reste des config sur bind9 repository

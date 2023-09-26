@@ -1,0 +1,17 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "in.iutbeziers.fr" {
+	type master;
+	file "/etc/bind/db.in.iutbeziers.fr";
+};
+zone "14.213.10.in-addr.arpa"{
+	type master;
+	file "/etc/bind/db.10.213.14";
+};
+
