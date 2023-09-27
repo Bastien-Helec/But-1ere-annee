@@ -82,3 +82,172 @@ Energie totale E't=E't+E'c
 1 cal = energie pour chauffer 1° 1g d'eau a 15° 1cal = 4.184J 
 1Th = energie pour chauffer 1° 1T d'eau a 15° 1Th = 4,184MJ
 1TEP énergie consommée par un porte conteneur géant (19000 Contenurs) en 5 minutes (1TEP = 42GJ)
+
+Transfert Thermique : 
+
+Definition : 
+La chaleur est une forme d'energie (energie thermique ) [Q] en J
+1 cal =4,85 J 
+Pour chauffer 1g d'eau de 1°
+1 Kcal = 4185 J
+1 Kwh = 3,6 MJ
+
+Lors d'un apport de chaleur $\Delta_Q$ le resultat est une augmentation de la température T 
+
+La temperature T est un manfestation mesurable de la chaleur
+
+T = Kelvin = °C + 273.15
+
+## Le but des échanges thermiques :
+Maitriser la temperature d'un systeme en creant et en gérant des echanges de chaleur  
+
+Le principe de base des echanges thermiques = conservation de l'energie (ou de la puissance)
+$Qi$ = chaleur intiale du systeme
+$Qf$ = chaleur finale du systeme
+$$Q --> \Delta_Q  --> Q'$$
+$$\Delta_Q=Q'-Q = Q_F-Q_i$$
+c) Flux thermique (puissance thermique) :
+$$\phi = \frac{\Delta_Q}{\Delta_t}=P$$
+$$[\phi]=1W$$
+
+Pour creer de la puissance il faut qu'il y est variation de la chaleur 
+
+d) Echange thermique :
+3 types s'operant simultanement :
+Parfois on peut negliger un ou 2 des trois mais seulement après les avoirs évaluer, si ça ce trouve le mode negliger est peut etre le mode preponderant.  
+
+conduction : echange de chaleur par contact direct entre 2 solides, liquides ou gaz opaque et immobile.
+
+convection : echange de chaleur par un fluide (air, eau, huile, gaz, etc.) qui se déplace et une paroi , avec transport de chaleur par le fluide
+
+rayonnement : echange de chaleur séparées par un milieu transparent (par rayons éléctromagnetiques). 
+
+La puissance de soleil = 1kw/m²
+
+Conduction : La chaleur est canalisé dans le corps à partir des parties les plus chaudes(T+) vers les parties les plus froides (T-).
+Todo : Un parallepipede  avec un coté $\theta_1$ [T1] (chaud) et un coté $\theta_2$ [T2] (froid) et une longueur L.
+$$\theta_1 > \theta_2$$
+$$T1 > T2$$
+$$\varphi = \frac{\Delta_Q}{\Delta_t}$$ 
+
+Donc transfert du chaud vers le froid
+
+Pour caractérisé la capacité d'un matériau a conduire la chaleur , on définit la condition de conductivité thermique 
+$\lambda$ en W/m/K
+
+ex :
+
+$\lambda$ du cuivre = 375 W/m/K
+
+$\lambda$ de l'air = 0.028 W/m/K
+
+$\lambda$ du plastique = 0.1 à 0.2 W/m/K
+
+Loi de Fourier : (a une dimension)
+
+q=-$\lambda$ * $\frac{\Delta_\theta}{\Delta_x}$
+
+q= densité surfarcique du flux thermique w/m²
+
+integrale :
+
+$\int\limits_{x_1}^{x_2} qdx = -1 \int\limits_{\theta_1}^{\theta_2} d\theta$
+
+$\int\limits_{x_1}^{x_2} qdx = -\lambda \int\limits_{\theta_1}^{\theta_2} d\theta$
+
+$\int\limits_{x_1}^{x_2} qdx = -\lambda (\theta_2 - \theta_1)$
+
+$\int\limits_{x_1}^{x_2} qdx = -\lambda \Delta_\theta$
+
+$qL=-\lambda \Delta_\theta$
+
+$\phi=-\lambda \frac{S}{L}(\Delta_\theta)$
+
+On definit : Rth = $\frac{1}{\lambda}\times\frac{L}{S}$
+: Resistance thermique 
+
+alors $\phi=\frac{\Delta_\theta}{Rth}$
+donc $\Delta_\theta=\phi \times Rth$
+
+On peu decrire la conduction thermique par la loi voltampere : U=R$\times$I
+
+en prenant : 
+
+$\Delta_\theta$ [K,°C]=U[V]
+
+$\phi$[W]=I[A]
+
+Rth[K/W]=R[$\Omega$]
+
+[V] $\gamma$= $\theta$ [K,°C]
+
+Cela permet de décrire les échanges par conduction avec des schémas équivalents similaire au schémas électrique.
+
+Ex1 : 3 corps avec des X differents , parcourus par le meme flux thermique
+
+Todo : voir schemas sur cahier brouillons orange 
+
+Rth1 = $\frac{1}{\lambda_1}\times\frac{L_1}{S_1}$
+Rth2 = $\frac{1}{\lambda_2}\times\frac{L_2}{S_2}$
+Rth3 = $\frac{1}{\lambda_3}\times\frac{L_3}{S_3}$
+
+$$\Delta_\theta = \Delta_{\theta_1} + \Delta_{\theta_2} + \Delta_{\theta_3}=
+\theta_Rth1 + \theta_Rth2 + \theta_Rth3$$
+= $\phi \times Rth1 + \phi \times Rth2 + \phi \times Rth3$
+
+= $\Delta_\theta = \phi \times Rtheq$
+
+Ex2 : 3 corps parcours par 3 flux differents :
+
+voir cahiers de brouillons orange
+
+$$\phi=\phi_1+\phi_2+\phi_3$$
+$$= \frac{\Delta_\theta}{Rth1} + \frac{\Delta_\theta}{Rth2} + \frac{\Delta_\theta}{Rth3}$$
+$$= \Delta_\theta (\frac{1}{Rth1} + \frac{1}{Rth2} + \frac{1}{Rth3})$$
+$$\phi = \Delta_\theta \times \frac{1}{Rtheq}$$
+
+
+Convection : Echange de chaleur par un fluide (air, eau, huile, gaz, etc.) en mouvement a partir d'une paroi. 
+
+Idée (mecanisme) : densite d'un fluide chaud < celle d'un fluide froid -> le fluide chaud monte et le fluide froid descend
+
+coefficients d'échange par convection :
+
+$$ \theta= hS(\theta_{paroi} - \theta_{fluide})$$
+[h]= 
+$$\frac{1W}{m^2K}$$
+
+Le transfert thermique par convection est proportionnel a la surface d'echange S et a la difference de temperature entre la paroi et le fluide.
+
+Convection peut etre naturel ou forcée(ajouter un pompe ou un ventilateur -> augmentation du coefficient de convection de [h] $\times$ 10 ou +)
+
+ordre de grandeur : h= 1 .. 10 pour les gaz ; h= 10 .. 1000 pour les liquides 
+
+Remarque : 
+$$\Delta_{\theta}= \frac{1}{hS}\times \phi$$
+
+$$Rth=\frac{1}{hS}$$
+h=f (vitesse du fluide augmente lorsque v augmente; position du corps ; hauteur du corps ; état de la surface ; chaleur massique du (cp) corps) 
+
+Rayonnement :  Echange de chaleur par rayon electromagnetique entre 2 corps a travers un milieu transparent. 
+
+Existe meme en l'absence de milieu entre les 2 corps (ex :  dans le vide)
+
+Soit un corps à $\theta_1$ dans un milieu $\theta_2$ 
+
+$\phi_1$= flux capté par le corps par rayonnement 
+$\phi_2$= flux emis par le corps par rayonnement
+
+$$\phi_1 = \sigma{\epsilon S T^4_1}$$
+$$\phi_2 = \sigma{\epsilon S T^4_2}$$
+
+$$\phi=\phi_1-\phi_2=\sigma{\epsilon S}(T1-T2)  $$
+
+
+$\epsilon$=f(nature du corps
+couleur du corps 
+$\epsilon$ augmente quand le corps est foncé)
+
+$\sigma$= constante de Stefan-Boltzmann = 5.67 $\times$ 10^-8 W/m²/K^4
+
+$\epsilon$ = émissivité (sans dimensions), 0 < $\epsilon$ < 1 = fonction d'énergie que le corps peut émettre

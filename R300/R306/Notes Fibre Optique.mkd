@@ -111,3 +111,64 @@ notion des photons : quantiques et explications des quanta , constance de planck
 
 ### 6. Fibres optiques 
 
+Monomode : diametre du coeur = 8-10 micrometre , diametre de la gaine = 125 micrometre
+Multimode : diametre du coeur = 50-100 micrometre , diametre de la gaine = 125 micrometre
+
+
+fabrication des fibres optiques 
+
+retroreflexion : la lumiere est renvoyé dans le meme sens qu'elle est arrivé
+
+type de connecteurs :
+PC : contact physique (polissage)
+APC : contact physique angulaire (polissage)
+SC/APC : connecteur SC avec un polissage angulaire(embout verts)
+SC/PC : connecteur SC avec un polissage physique (embout bleu)
+
+Bilan de puissance : 
+
+"Budget" optique : 
+
+P0= PC1+PC2+Pem+Pr+Pef+PC3+PC4+$\alpha d$+(P -> doit etre superieur a 3dB)
+
+## COupleur optique : 
+
+Réalisent un partage ou un regroupement (constant dans le temps) des signaux optiques. 
+
+Trois types principaux :
+En X , En Y , En étoile= répartiteurs.
+
+dans pertes dans un coupleur 
+
+Taux de partages :
+
+RC2 = P2/(P2+P3) en dB
+
+Pexcess=A1+RC1 en dB
+transformer dbm en w :
+
+Diffusion Rayleigh , rétrodiffusion et réflectrométrie :
+
+Reflectomètre (OTDR) et courbe de la retrodiffusion :
+
+OTDR : Optical Time Domain Reflectometer
+v= vitesse de propagation dans la fibre 
+t= temps de propagation dans la fibre
+puissance retrodifuser = -50dB 
+pic de fresnel 
+a la fin de la fibre apparait le bruit de l'appareil 
+
+A = 10 log(puissance avant l'évenenment / puissance apres l'évennement)
+
+pic de fresnels :
+h: hauteur du pic de fresnel
+d: distance 
+A= 10 log (puissance incidente / puissance incidente - puissance reflechie)
+R= 10 log (puissance reflechi / puissance incidente)
+
+ajouter 2 bobine : bobine amorce et bobine de fin qui permet de ne pas avoir les evenements de branchement de la fibre au OTDR et de la fin de la fibre
+
+
+
+
+
