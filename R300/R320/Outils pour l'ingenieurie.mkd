@@ -250,4 +250,4 @@ $\epsilon$ augmente quand le corps est foncé)
 
 $\sigma$= constante de Stefan-Boltzmann = 5.67 $\times$ 10^-8 W/m²/K^4
 
-$\epsilon$ = émissivité (sans dimensions), 0 < $\epsilon$ < 1 = fonction d'énergie que le corps peut émettre
+$\epsilon$ = émissivité (sans dimensions), 0 < $\epsilon$ < 1 = fonction d'énergie que le corps peut capter
