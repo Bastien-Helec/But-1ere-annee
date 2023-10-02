@@ -1,0 +1,229 @@
+# R321 TP2 filtrage 
+
+```
+@Bastien-Helec
+```
+---
+## 1. Etude du passage d'un signal sinusoïdal a travers un filtre : 
+
+1. Réaliser sous GNURadio, un filtre passe-bas « Low Pass » dont la fréquence de coupure est de
+20 kHz et la plage de transition de 3 KHz. On choisira une fréquence d’échantillonnage globale
+de 1 MHz. Ne pas oublier le bloc « Throttle ».
+
+<!-- images -->
+![alt text](1.1.PNG)
+
+2. Appliquer à l’entrée de ce filtre un signal sinusoïdal de fréquence 1 KHz et observer la sortie du filtre. Quel est la forme du signal en sortie du filtre ? Mesurer son amplitude.
+
+<!-- images -->
+![alt text](1.2(1).PNG)
+![alt text](1.2(2).PNG "1.2")
+
+La forme du signal en sortie du filtre est une sinusoïde d'amplitude 1V.
+
+3. Refaire la question précédente avec un signal sinusoïdal de fréquence 10 KHz, 18 KHz, 20 KHz et 25 KHz. Que constatez-vous ?
+
+frequence de 10 KHz :
+<!-- images -->
+![alt text](1.3.10khz(1).PNG "1.3")
+![alt text](1.3.10khz(2).PNG"1.3")
+
+L'amplitude du signal en sortie du filtre est de 1V et la forme du signal est une sinusoïde.
+
+frequence de 18 KHz :
+<!-- images -->
+![alt text](1.3.18khz(1).PNG "1.3")
+![alt text](1.3.18khz(2).PNG "1.3")
+
+L'amplitude du signal en sortie du filtre est de 1V et la forme du signal est une sinusoïde.
+
+frequence de 20 KHz :
+<!-- images -->
+![alt text](1.3.20khz(1).PNG "1.3")
+![alt text](1.3.20khz(2).PNG "1.3")
+
+L'amplitude du signal en sortie du filtre est de 0.5V et la forme du signal est une sinusoïde.
+
+frequence de 25 KHz :
+<!-- images -->
+![alt text](1.3.25khz(1).PNG "1.3")
+![alt text](1.3.25khz(2).PNG "1.3")
+
+L'amplitude du signal en sortie du filtre est de 0.001V et la forme du signal est une sinusoïde. 
+
+4. Quelle est l’amplitude du signal de sortie à la fréquence de 20 KHz ? Est-elle conforme à vos
+attentes ? Expliquer.
+
+A la sortie du filtre, l'amplitude du signal est de 0.5V soit la moitié de l'amplitude au fréquence plus basse. Cela est conforme à nos attentes car la fréquence de coupure du filtre est de 20KHz.
+
+5. Utiliser à présent un curseur « QT Gui Range » pour faire varier la fréquence du signal d’entrée
+de manière interactive.
+
+<!-- images -->
+![alt text](1.5(1).PNG "1.5")
+
+6. Comparer les résultats obtenus avec une plage de transition de 10 KHz, 1 KHz puis 100 Hz.Commentez.
+On choisi comme frequence de porteuse 25KHz.
+
+
+![alt text](1.6.PNG "1.6")
+
+plage de transition de 10 KHz :
+(oublie de ma part de prendre les captures)
+plage de transition de 1 KHz :
+<!-- images -->
+![alt text](1.6.1khz(1).PNG "1.6")
+![alt text](1.6.1khz(2).PNG "1.6")
+
+plahe de transition de 100 Hz :
+<!-- images -->
+![alt text](1.6.100hz(1).PNG "1.6")
+![alt text](1.6.100hz(2).PNG "1.6")
+
+Plus la fréquence de transition est faible, plus l'amplitude augmente.
+
+7. Tester le comportement d’autres filtres (passe-haut, passe-bande et réjecteur de bande (blocs High Pass, Band Pass et Band Reject).
+
+Filtre passe-haut :
+<!-- images -->
+![alt text](1.7(1).PNG "1.7")
+![alt text](1.7(2).PNG "1.7")
+
+Filtre passe-bande :
+<!-- images -->
+![alt text](1.7(3).PNG "1.7")
+![alt text](1.7(4).PNG)
+
+Filtre réjecteur de bande :
+<!-- images -->
+![alt text](1.7(5).PNG "1.7")
+![alt text](1.7(6).PNG "1.7")
+
+1. Vous pouvez également tester des combinaisons de plusieurs filtres (par exemple deux filtres
+en série).
+
+<!-- images -->
+![alt text](1.8(1).PNG "1.8")
+![alt text](1.8(2).PNG "1.8")
+![alt text](1.8(3).PNG "1.8")
+
+
+## 2 Caractérisation d’un filtre à l’aide d’une source de bruit blanc
+La caractérisation du comportement d’un filtre à une fréquence donnée peut être réalisée en
+appliquant à son entrée, un signal sinusoïdal à cette fréquence et en relevant le signal disponible à sa
+sortie (c’est ce que nous avons fait dans la partie précédente). Afin de caractériser complètement un
+filtre, il convient de recommencer l’expérimentation à diverses fréquences (balayage de toutes les fréquences) ce qui peut être long et fastidieux. Dans cette partie, nous mettrons en œuvre un procédé
+de caractérisation rapide fondé sur l’utilisation d’un bruit blanc.
+Un bruit blanc est un signal très utilisé en télécommunications. Sa caractéristique principale est le fait
+que son spectre d’amplitude est continu et « plat » (amplitude constante à toutes les fréquences).
+
+9. Réaliser un diagramme de flux sous GNU Radio contenant un bloc Noise Source (ne pas oublier
+le bloc habituel Throttle). Ce bloc permet de générer un bruit blanc. On choisira une fréquence
+d’échantillonnage globale de 1 Mhz. Afficher l’évolution temporelle ainsi que le spectre
+d’amplitude de ce bruit. Commentez. Pour le spectre d’amplitude, on utilisera un bloc « QT
+GUI Frequency Sink » pour lequel on choisira la propriété « Spectrum Width » à Half afin de
+ne voir que les fréquences positives.
+
+<!-- images -->
+![alt text](2.9(1).PNG "2.9")
+![alt text](2.9(2).PNG "2.9")
+![alt text](2.9(3).PNG "2.9")
+
+On peut voir que l'evolution temporelle en rouge a une amplitude aléatoire et que le spectre d'amplitude est constant dans l'ensemble des fréquences ( pas de variation d'amplitude) en rouge.   
+
+10. Utiliser ce bruit pour caractériser un filtre passe-bas dont la fréquence de coupure est de 20
+kHz et la plage de transition de 100 Hz. Pour cela afficher et relever le spectre d’amplitude de
+la sortie du filtre. Ce spectre donne une vue instantanée de la caractéristique fréquentielle du
+filtre.
+
+<!-- images -->
+![alt text](2.10(1).PNG "2.10")
+![alt text](2.10(2).PNG "2.10")
+![alt text](2.10(3).PNG "2.10")
+
+
+11. Refaire l’expérimentation avec une plage de transition de 1 kHz puis de 10 kHz (aidez-vous de
+blocs « QT Gui Range »). Que constatez-vous ?
+
+plage de transition de 1 kHz :
+<!-- images -->
+![alt text](2.11.1khz(1).PNG "2.11")
+![alt text](2.11.1khz(2).PNG "2.11")
+
+plage de transition de 10 kHz :
+<!-- images -->
+![alt text](2.11.10khz(1).PNG "2.11")
+![alt text](2.11.10khz(2).PNG "2.11")
+
+
+Je constate que la plage de transition permet de modifier et d'agrandir ou de reduire ainsi la fréquence du signal bruit. 
+
+12. Tester le comportement d’autres filtres (passe-haut, passe-bande et réjecteur de bande (blocs
+High Pass, Band Pass et Band Reject).
+on choisi comme frequence de coupure 20KHz. et une plage de transition de 10kHz.
+
+Filtre passe-haut :
+<!-- images -->
+![alt text](2.12(1).PNG "2.12")
+![alt text](2.12(2).PNG "2.12")
+![alt text](2.12(3).PNG "2.12")
+
+Filtre passe-bande :
+<!-- images -->
+![alt text](2.12(4).PNG "2.12")
+![alt text](2.12(5).PNG "2.12")
+![alt text](2.12(6).PNG "2.12")
+
+Filtre réjecteur de bande :
+<!-- images -->
+![alt text](2.12(7).PNG "2.12")
+![alt text](2.12(8).PNG "2.12")
+![alt text](2.12(9).PNG "2.12")
+
+13. Quel est, en pratique, l’inconvénient d’avoir des transitions abruptes (plages de transitions
+abruptes) ?
+
+L'inconvénient d'avoir des transitions abruptes est que l'amplitude du signal diminue ou augmente d'un coup.
+
+## 3. Pour aller plus loin (et si le temps le permet) :  réalisation d'un égaliseur "musical".
+
+Un égaliseur musical (ou equalizer) permet de modifier un son ou un morceau musical en renforçant
+ou en atténuant certaines plages de fréquences. L’usage d’un equalizer est très fréquent dans le
+monde de la production musicale ou de l’écoute. Il permet par exemple d’ajouter des effets à une
+musique ou à compenser la mauvaise reproduction d’un casque d’écoute. De nombreux lecteurs de
+musiques intègrent aujourd’hui un equalizer.
+Vous possédez, à présent, toutes les compétences pour réaliser un tel dispositif avec GNU Radio.
+Dans cette dernière partie, il est demandé de réaliser un equalizer minimaliste constitué de trois
+filtres :
+- Un filtre passe bas pour renforcer ou atténuer les basses fréquences et dont la fréquence de
+coupure pourra être réglée à l’aide d’un curseur entre 0 Hz et 1 kHz,
+- Un filtre passe bande pour agir sur les fréquences moyennes et dont la limite basse peut être
+réglée entre 0 Hz et 6 kHz et la limite haute entre 6,1 kHz et 15 kHz,
+- Un filtre passe haut pour agir sur les hautes fréquences et dont la fréquence de coupure peut
+être réglée entre 10 kHz et 20 kHz.
+On choisira une fréquence d’échantillonnage globale de 44 kHz.
+
+14. Réaliser un diagramme de flux permettant de tester cet equalizer en utilisant comme signal
+d’origine, un bruit blanc.
+
+<!-- images -->
+![alt text](3.14(1).PNG "3.14")
+![alt text](3.14(2).PNG "3.14")
+
+
+
+1.  Vérifier le fonctionnement des différents filtres et des différents curseurs de réglage.
+
+2.  Enfin, utiliser un véritable morceau musical pour tester le résultat en affichant son spectre
+d’amplitude ou un diagramme chute (QT GUI Waterfall Sink) qui représente l’évolution du
+spectre d’amplitude au cours du temps. Pour cela, on utilisera un bloc Wave File Source dans
+lequel on chargera le fichier drums_loop.wav fourni.
+
+1.  Si vous disposez d’un écouteur, écouter le résultat en modifiant les réglages en temps réel. On
+utilisera pour cela un bloc Audio Sink.
+Attention ! Régler le volume de son à un niveau bas avant d’exécuter votre
+diagramme de flux.
+
+1.  Décrire les résultats obtenus.
+
+
