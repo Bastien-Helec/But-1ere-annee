@@ -47,4 +47,41 @@ En augmentant ou en diminuant la fréquence , sans modifier la forme du spectre 
 
 un melangeur est un multiplieur.
 
+Theroeme de superposition : 
+si le systeme est linéaire alors il respecte le principe de superposition. 
 
+si e1(t)-> s1(t) et e2(t)-> s2(t) alors 
+
+si a et b ER alors :
+
+ae1(t)+be2(t) -> as1(t)+bs2(t)
+
+
+filtre :
+Reponse d'un filtre linéaire a l'application d'une entrée sinusoïdale 
+
+La fréquence de s(t) est egale a la meme fréquence de e(t).
+Il y a un ecart en amplitude et en phase entre s(t) et e(t).
+Les ecarts d'amplitude et de phase dependent de la frequence :warning:.
+
+diagramme de bode :
+diagramme d'amplitude et bode , donne l'amplitude ou l'attenuation. 
+et le diagramme de phase
+en dessous de 3dB par convention on designe comme fréquence de coupure. 
+
+Les differents types de filtres : 
+- filtre passe bas fc= 10KHz
+- filtre passe haut fc= 100KHz
+- passe bande fcb= < fch
+- coupe bande (ou rejecteur de bande) fcb < fch
+
+
+
+
+dns : 172.217.18.238
+reseau : 172.24.102.237/16
+passerelle : 172.24.0.1/16
+
+
+
+ 
