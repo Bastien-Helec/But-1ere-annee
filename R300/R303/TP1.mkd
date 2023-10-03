@@ -105,4 +105,12 @@ allow-query-cache { any ; } ;
 allow-query { any ; } ;
 ```
 
-voir le reste des config sur bind9 repository
+les conf de projets bind9
+
+puis on verifie le systeme :
+```bash
+dig -t SAO @127.0.0.1 in.iutbeziers.fr
+dig @127.0.0.1 -x 10.213.14.152
+dig @127.0.0.1 -x 10.213.14.153
+```
+
