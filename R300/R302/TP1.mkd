@@ -284,7 +284,8 @@ atteindre ici.
 Metric, LocPrf et Weight sont des attributs de chemin (vus dans les parties II à IV).
 2 types de codes : Status codes à gauche, et Origin codes à droite
 * : valid route
-> : best path
+: best path
+
 r : RIB failure (Routing Information Base) – le préfixe obtenu par BGP et montré dans cette
 table BGP n'intègre pas la table de routage général du routeur, construit par les différents
 protocoles de routage (IGP, tels OSPF, RIP, etc, et BGP) parce-que, par exemple, sa distance
@@ -312,6 +313,8 @@ caractéristiques et expliquer ce qu'est [20/0].
 show ip route
 ```
 
+|||||||
+|---|---|---|---|---|---|
 |C|192.168.12.0/24 | directly connected, FastEthernet2/0 |
 |C|192.168.13.0/24 | directly connected, FastEthernet0/0 |
 |C|192.168.14.0/24 | directly connected, FastEthernet1/0 |
