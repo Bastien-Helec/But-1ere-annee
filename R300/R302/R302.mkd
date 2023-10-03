@@ -1,2 +1,13 @@
 IBGP pas prioriatrie sur l'OSPF 
 
+MPLS : 
+MPLS definition = Multi Protocol Label Switching
+
+VRF : dans MPLS 
+VRF = Virtual Routing and Forwarding
+LER , LSR
+FEC 
+
+64512 a 65535 : AS privé
+entre 1 et 65535 
+donc 1 a 64511 : AS public
