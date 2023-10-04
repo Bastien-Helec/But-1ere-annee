@@ -1,0 +1,35 @@
+```python
+
+Class tasse:
+    def __init__(self, name, cost, color, matiere, fill, position,state, typeliquid):
+        self.name = name
+        self.cost = cost
+        self.color = color
+        self.matiere = matiere
+        self.fill = False
+        self.position= position 
+        self.state=state
+        self.typeliquid=typeliquid
+    
+    def getliquid(self):
+        return self.typeliquid
+
+    def getetat(self):
+        return self.state
+    
+    def fall(self):
+        self.state="cassé"
+        self.typeliquid="renversé"
+        self.fill=False
+    
+    def fill(self):
+        self.fill=True
+    
+    def empty(self):
+        self.fill=False
+    
+    tasse(typeliquid)= "café"
+
+print(tasse.typeliquid)
+
+```
