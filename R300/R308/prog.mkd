@@ -29,3 +29,4 @@ Modele = donnees
 Vue = interface/navigateur
 controleur = logique: "https://www.youtube.com/saise/get" ...
 
+MRO : Method Resolution Order
