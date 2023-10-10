@@ -15,7 +15,7 @@ docker network create -d macvlan --subent=10.213.0.0/16 --gateway=10.213.255.254
 
 docker run --network=net-213-14 -v ~/postfix:/etc/postfix --dns=10.255.255.200 --name c-213-2-64 --hostname c-213-14-64 -it registry.iutbeziers.fr/debianiut bash
 
-```bash
+```
 
 Installation de postfix
 
@@ -25,4 +25,33 @@ apt -y install postfix swaks rsyslog mailutils
 /etc/init.d/rsyslog start
 ```
 
+Desactivation du chroot et smtpd en mode debug :
 
+```bash
+#Dans le fichiers /etc/postfix/master.cf
+#On change la ligne 5 le "-" par "n"
+postfix reload 
+
+#smtpd en mode debug 
+#Dans le fichiers /etc/postfix/master.cf
+#Premiere ligne des non commenter on rajoute -v a smtpd
+```
+
+
+1. envoyez un message a l'utilisateur test de votre machine locale via une commande telnet 
+
+```bash 
+telnet localhost 25
+```
+2. Regardez le ﬁchier /var/spool/mail/test pour voir comment sont conservés les messages au format
+mailbox. Que pensez-vous de ce format ? comparez les deux formats (avantages/inconvénients) ?
+Conﬁgurez Postﬁx aﬁn d’utiliser le format MailDir.
+
+Le format mailbox est un format de fichier qui contient les mails.
+
+setup postfix for maildir 
+```bash
+sudo postconf -e "home_mailbox = Maildir/"
+sudo postconf -e "mailbox_command = "
+sudo /etc/init.d/postfix restart
+```

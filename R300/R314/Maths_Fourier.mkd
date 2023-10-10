@@ -145,3 +145,19 @@ Il permet de quantifier l'efet d'un système de n'importe quel signal d'entrée
 
 On utilise ainsi la reponse impulsionnelle afin de connaitre la reponse du systeme a un signal d'entrée quelconque.
 
+transformer de fourier :
+
+$X(f) = \int_{-\infty}^{+\infty} x(t) e^{-j2\pi ft} dt$
+
+pour paire : 
+
+$X(f) = \int_{0}^{+\infty} x(t) \cos(2\pi ft) dt$
+
+pour impair :
+
+$X(f) = \int_{0}^{+\infty} x(t) \sin(2\pi ft) dt$
+
+fonction sous la forme $\sin(x)/x$ :
+
+$\sin()cardinal$
+

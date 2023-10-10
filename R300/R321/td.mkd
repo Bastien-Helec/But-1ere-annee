@@ -1,0 +1,34 @@
+1. determiner le type du filtre :
+2. determiner sa ou ses frequences de coupure : 
+3. tracer la sortie du filtre lorsque l'on applique a son entrée un signal 
+
+$e(t)=\sin(2\pi{f}t)$  avec f=10kHz
+
+4. etudier la sortie du filtre pour une entrée sinusoïdale de frequence f=3kHz puis f=100kHz
+
+Premier filtre  : 
+1. Le type de filtre est un filtre passe bas 
+2. La fréquence de coupure est de 10^4 Hz soit 10kHz
+3. tracer (sur feuille) :
+a 10Khz le G = -3dB 
+$10^\frac{-3}{20} ~ 0.707$
+
+$\varphi = \frac{-\pi}{4}$
+
+S=0.708
+
+conclusion $s(t) = 0.708\sin(\frac{-\pi}{4})$ = -0.5 
+
+s(t) est donc en retard de $\pi/4$
+
+4. A 3Khz : 
+amplitude presque a 1 
+phase a peine en retard par rapport au signal initial 
+
+Donc plus la fréquence en basse plus on ce rapproche du signal initial
+
+100Khz : 
+amplitude = -20dB donc entre -0,1 et +0,1 
+phase presque a $\pi/2$
+
+Plus la fréquence est haute plus on s'eloigne du signal initial
