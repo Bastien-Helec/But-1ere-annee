@@ -1,0 +1,95 @@
+# TP : VRF
+
+```
+R302 
+@Bastien-Helec
+```
+
+1. Regardez et notez la configuration des interfaces présentes sur chaque routeurs, notamment les
+interfaces de loopback non-représentées sur la figure
+
+cust1_siege : 
+LO: 1.1.1.1
+f0/0: 192.168.1.1 /24
+
+cust2_siege :
+LO : 3.3.3.3
+f0/0: 192.168.1.1 /24
+
+cust1_agence :
+LO : 2.2.2.2
+f0/0: 192.168.2.1 /24
+
+cust2_agence :
+LO: 4.4.4.4
+f0/0: 192.168.2.1 /24
+
+2. Créer 2 VRFs , nommées CUST1 et CUST2, sur le routeur ISP :
+
+```cisco
+ip vrf CUST1
+ip vrf CUST2
+```
+3. Pour chaque interface du routeur ISP, 
+```cisco
+conf t
+int f0/0
+ip vrf forwarding [CUST1/CUST2]
+ip address [IP] [MASK]
+no shut
+exit
+```
+
+4. Vérifier que vous pouvez pinger depuis ISP chaque interface des 4 routeurs clients : dès que des
+VRFs sont configurées sur un routeur, il faut systématiquement spécifier lors du ping depuis ce routeur quelle VRF utiliser (c'est-à-dire dans quelle table de routage chercher l'adresse IP cible).
+Ceci est fait par : 
+```cisco
+ping vrf [CUST1/CUST2] [IP]
+```
+
+5. Une fois que la connectivité est assurée entre chaque interface directement reliée, on peut
+configurer un protocole de routage par client pour que les routeurs d'un même client puissent
+communiquer à travers l'ISP. Pour cela, commencer par activer un process OSPF sur chaque
+routeur client, qui annonce tous les réseaux accessibles :
+
+```cisco 
+conf t
+router ospf 1
+network 0.0.0.0 255.255.255.255 area 0
+```
+
+6. ensuite sur ISP configurer un processus de routage par VRF : 
+```cisco
+router ospf 1 vrf CUST1
+network 0.0.0.0 255.255.255.255 area 0
+exit
+router ospf 2 vrf CUST2
+network 0.0.0.0 255.255.255.255 area 0
+```
+note a savoir : sur le routage ospf le numero correspond a un CUST ici par exemple on a pris le numero des CUST pour chaque VRF 
+
+7. Verifier que le router HQ de chaque client peut pinger le Branch :
+
+```cisco
+ping [IP_branch]
+```
+
+8. Visualiser les tables de routage : 
+sur les routers clients : 
+```cisco
+show ip route
+```
+sur le router ISP : 
+```cisco
+show ip route vrf [CUST1/CUST2]
+```
+On constate que les 2 réseaux clients et maitres sont bien présent dans la table de routage sur le CUST associé uniquement 
+
+9. Lancez une capture sur l'interface Fa0/0 de ISP, puis sur ISP faire :
+
+```cisco
+clear ip ospf process
+```
+Les updates OSPF fonctionne comme si c'était 2 réseau différents 
+
+
