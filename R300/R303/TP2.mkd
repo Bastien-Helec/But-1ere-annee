@@ -1,4 +1,4 @@
-# TP1 : DNS 
+# TP2 : Messagerie 
 
 ```
 Cours : TP R303
