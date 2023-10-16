@@ -1,0 +1,206 @@
+[comment]: # (Initialisation des couleurs et autres styles)
+<style>
+    
+r { color: #c42f3c }
+o { color: Orange }
+g { color: #019d00}
+bl { color: #0100c8}
+
+</style>
+
+# TP1 R314 
+
+```
+Helec Bastien
+```
+---
+
+## 1 - Etude de la transmission d'un signal rectangulaire.
+
+Dans cette partie nous allons nous intéresser à l’étude de la transmission d’un signal rectangulaire sur
+un canal de transmission.
+
+
+1.1  Réaliser un diagramme de flux dans GNU Radio permettant de générer un signal rectangulaire
+et d’observer son évolution temporelle à l’aide d’un oscilloscope virtuel. Pour cela, nous
+choisirons une fréquence d’échantillonnage globale de 100 kHz. Cette fréquence est
+suffisamment grande comparativement aux fréquences des signaux considérés, de sorte à être
+en situation de fonctionnement quasi-continu. On utilisera un bloc de fonction Signal Source
+pour générer un signal rectangulaire de fréquence 1 kHz et d’amplitude 1.
+
+[alt text](1.1.png)
+
+
+
+1.2 Observer ce signal à l’aide d’un bloc QT GUI Time sink. Régler cet oscilloscope de manière à
+pouvoir observer quelques périodes de ce signal. Tracer l’allure temporelle de ce signal.
+
+[alt text](1.2.png)
+
+1.3 Ne pas oublier d’inclure dans votre diagramme de flux, un bloc Throttle. Rappeler quelle est
+l’utilité de ce bloc.
+
+<bl>Le bloc Throttle permet de limiter le débit de données en sortie du bloc Signal Source. Il permet de limiter la consommation de ressources de l'ordinateur.</bl>
+
+1.4 Compléter votre diagramme de flux en y ajoutant un bloc QT GUI Frequency sink. Observer et
+décrire le diagramme d’amplitude du signal.
+
+[alt text](1.4.png)
+[alt text](1.4(1).png)
+
+<bl>l'amplitude max du signal est a 1 et -1 et la fréquence est de 1kHz c'est un signal sinusoïdal.
+</bl>
+
+1.5 Quel est l’écart fréquentiel entre deux raies du spectre d’amplitude ? 
+
+<bl>
+L'ecart frequentielle entre 2 raie est de 1,89 Khz
+</bl>
+
+Ce résultat est-il conforme à la théorie concernant la décomposition d’un signal en série de Fourier ? Expliquer.
+
+<bl>
+Oui, car la théorie de Fourier indique que tout signal périodique peut être exprimé sous la forme d’une somme constituée d’une composante continue (la valeur moyenne du signal) et une infinité de fonctions sinusoïdales (harmoniques).
+
+la formule :
+$$f(t) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n cos(n\omega t) + b_n sin(n\omega t) $$
+
+</bl>
+
+
+1.6  La théorie sur la décomposition d’un signal périodique en série de Fourier indique que pour
+reproduire entièrement ce signal, il convient de considérer une infinité d’harmoniques.
+
+En pratique, si l’on souhaite transmettre un signal rectangulaire à travers un support de
+transmission, on ne pourra pas considérer une infinité d’harmoniques pour au moins deux raisons :
+
+a. la transmission du signal nécessiterait une bande passante de largeur infinie, ce qui
+n’est pas physiquement réaliste,
+
+b. un canal de transmission est souvent utilisé pour véhiculer de nombreux signaux
+partageant la bande passante disponible (exemple : câble téléphonique, fibre optique,
+etc.).
+
+Nous limiterons donc la bande passante réservée à ce signal. Cela conduit à négliger les harmoniques d’ordre supérieur (c’est-à-dire à tronquer la série).
+
+Utiliser un bloc Low Pass Filter qui est un filtre passe bas pour filtrer les harmoniques de haute
+fréquence de ce signal.
+
+On réglera la fréquence de coupure (Cutoff Freq) à 10 kHz et la largeur
+de transition à 100 Hz. 
+
+[alt text](1.6.png)
+
+Choisir dans FIR Type : Float->Float (Interpolation).
+Relever et analyser l’effet de ce filtre sur la représentation temporelle et la représentation
+fréquentielle du signal en sortie de filtre.
+
+[alt text](1.6(1).png)
+[alt text](1.6(2).png)
+
+
+
+On pourra afficher deux signaux simultanément sur un oscilloscope unique en augmentant le nombre d’entrées de l’oscilloscope (Number of inputs)
+
+[alt text](1.6(3).png)
+[alt text](1.6(4).png)
+[alt text](1.6(5).png)
+
+
+
+1.7 Refaire l’étude précédente en choisissant une fréquence de coupure de 8 kHz puis 6 kHz puis
+4 kHz et enfin 2 kHz.
+
+<bl>
+
+Pour 8Khz :
+[alt text](1.7.8Khz(1).png)
+[alt text](1.7.8Khz(2).png)
+
+Pour 6Khz :
+[alt text](1.7.6Khz(1).png)
+[alt text](1.7.6Khz(2).png)
+
+Pour 4Khz :
+[alt text](1.7.4Khz(1).png)
+[alt text](1.7.4Khz(2).png)
+
+Pour 2Khz :
+[alt text](1.7.2Khz(1).png)
+[alt text](1.7.2Khz(2).png)
+
+
+</bl>
+
+1.8 Commenter les résultats obtenus. Que peut-on dire sur la bande passante nécessaire à la
+transmission du signal et la fidélité du signal transmis ?
+
+<bl>
+Plus la fréquence est basse plus le signal devient une sinusoïde ce qui est normal car on filtre . malheureusement la reproduction du signal est moins fidèle jusqu'a devenir une simple sinusoïde sur les fréquences basse. 
+</bl>
+
+## 2 Réalisation d’un synthétiseur universel de signaux
+
+La théorie de Fourier indique que tout signal périodique peut être exprimé sous la forme d’une somme
+constituée d’une composante continue (la valeur moyenne du signal) et une infinité de fonctions
+sinusoïdales. Bien entendu, en pratique, il ne sera pas possible de générer une infinité de signaux !
+
+2.1 Ouvrir le fichier intitulé Partie2_1.grc fourni (en passant par un clic-droit enregistrer la cible
+du lien sous). Que réalise ce diagramme de flux ?
+
+
+<bl>
+Ce diagramme de flux realise une addition de signaux sinusoïdaux d'amplitude variable. 
+</bl>
+
+2.2 Expliquer en détail le fonctionnement des différents blocs apparaissant dans ce diagramme.
+
+<bl>
+Les blocs variable correspondent aux paramètres du signal.Pour l'ID samp_rate c'est la fréquence d'échantillonage, pour l'ID freq_fondamentale c'est la fréquence du signal.
+
+<br>
+Les blocs QT Gui range permettent de régler les paramètres du signal via un selecteur dans l'affichage de la sinusoïde il y en a 2 dans le signal pour regler l'amplitude de chacun des 2 signaux d'origine.
+<br>
+Les blocs Signal Source permettent de générer des signaux sinusoïdaux. 
+
+<br>
+le bloc throttle : permet de limiter le débit de données en sortie du bloc Signal Source. Il permet de limiter la consommation de ressources de l'ordinateur.
+
+<br>
+Le bloc Add permet d'additionner les 2 signaux d'origine.
+
+<br>
+
+Le bloc QT Gui Time Sink permet d'afficher le signal temporel.
+
+</bl>
+
+2.3 Compléter le fichier fourni pour réaliser un synthétiseur de signaux capable de générer une
+composante continue et 5 harmoniques.
+
+[alt text](2.3.png)
+
+
+2.4 Utiliser ce synthétiseur pour produire un signal rectangulaire (voir annexe).
+
+
+
+2.5 Utiliser ce synthétiseur pour produire un signal en dent de scie (voir annexe).
+
+2.6 Expérimenter d’autres réglages afin d’obtenir d’autres formes de signaux.
+
+## 3 Le saviez-vous 
+
+Les deux principes étudiés constituent la base de la génération de signaux dans les synthétiseurs
+musicaux. La première méthode est appelée synthèse soustractive car elle est fondée sur la génération
+de formes d’ondes riches en harmoniques (comme le signal rectangulaire étudié) auxquelles on retire
+certains harmoniques pour produire des sonorités différentes. La seconde méthode est appelée
+synthèse additive car elle est fondée sur la sommation de signaux sinusoïdaux pour produire divers
+sons.
+En analysant le spectre des sons générés par un instrument de musique, il est possible de reproduire
+ces sons (ou de s’en approcher) en utilisant l’une ou l’autre de ces méthodes.
+Qu’attendez-vous pour fabriquer votre synthétiseur musical sur GNU Radio ?
+
+
+
+

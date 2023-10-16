@@ -1,6 +1,7 @@
 
 [comment]: # (Initialisation des couleurs et autres styles)
 <style>
+    
 r { color: #c42f3c }
 o { color: Orange }
 g { color: #019d00}
