@@ -252,6 +252,135 @@ $\sigma$= constante de Stefan-Boltzmann = 5.67 $\times$ 10^-8 W/m²/K^4
 
 $\epsilon$ = émissivité (sans dimensions), 0 < $\epsilon$ < 1 = fonction d'énergie que le corps peut capter
 
+Rappel : 
+
+$$\delta_\theta=P\times Rth$$
+avec P= puissance en W
+
+Rth= resistance thermique en K/W
+
+
+Convection : 
+$$\delta_\theta=\frac{1}{hS}\times \phi$$
+Avec h = coefficient de convection en W/m²/K
+
+S = surface d'échange en m²
+
+$\phi$ = flux thermique en W
+
+
+
+Conduction :
+$$\delta_\theta=\frac{L}{\lambda S}\times \phi$$
+
+avec L = longueur en m
+$\lambda$ = conductivité thermique en W/m/K
+S = surface d'échange en m²
+$\phi$ = flux thermique en W
+
+Rayonnement :
+
+$$\delta_\theta=\frac{1}{\sigma \epsilon S}\times \phi$$
+
+avec $\sigma$ = constante de Stefan-Boltzmann = $5.67$ $\times$ $10^-8$ W/m²/K^4
+
+$\epsilon$ = émissivité (sans dimensions), 0 < epsilon < 1 = fonction d'énergie que le corps peut capter
+
+S = surface d'échange en m²
+
 
 ### Energie magnétique : 
 l'energie electrique est stocker dans le champs electrique
+
+6: Energie thermique en energie permanent  : conclusion
+
+Pour Faciliter les energies thermiques :
+
+* Utiliser le (vitre)
+* utilise la convection forcée
+* utiliser des surfaces noirs ( $\epsilon$ -> 1)
+* augmeter les surfaces d'echange
+
+Pour Diminuer les energies thermiques :
+
+* Réduire les surfaces d'echange
+* utiliser de l'air emprisonné (plumes , mousse, laine de verre,...)
+* Si possible utiliser le vide avec des parois réfléchissantes seul rayonnement qui passe (thermos)
+* utiliser le moins de matiere possible
+
+Echanges thermiques en regime :
+
+* Transitoire : $\theta = f(t)$
+
+cas d'études : bouilloire rempli d'eau a chauffer avec une puissance connue
+
+quelques notions : 
+Chaleur masique : quantité de chaleur nécessaire pour élever la température d'une unité de masse d'une substance d'un degré kelvin
+
+$$c_p = \frac{\Delta_Q}{m \Delta_\theta}$$ 
+en J/kg/K
+
+Cpeau= 4185 J/Kg K
+
+1 calorie = chaleur pour augmenter de 1K la T° de 1g d'eau 
+
+Pour un corps de masse m, de chaleur massique cp, de température initiale $\theta_i$ et de température finale $\theta_f$ :
+
+$$Cp = m\times cp $$
+
+Cp : capacité calorifique en J/K
+
+Quantité de chaleur necessaire pour élever la T° d'un corps de Tinitiale à Tfinale :
+
+$$Q = mcp(\theta_f - \theta_i)=mcp\Delta_\theta$$
+
+
+$$P=dQ/dt = mcp d\theta/dt$$
+
+equation differentielle de premier ordre a coefficient constant :
+$$Pf=Mcp \frac{d\theta}{dt}+ \frac{\delta_\theta}{Rth}$$
+
+$$Mcp Rth \frac{d\theta}{dt}+ \theta = Pf\times Rth$$
+
+solution du type :
+$$\delta_\theta(t)=A+Be^\frac{t}{\tau}$$
+
+Identification de A et de B :
+
+t=0 $\delta_\theta$=0
+
+$$t-> \infty \frac{\delta_\theta(\infty)}{dt}=0 $$
+$$\delta_\theta(\infty)=Pf\times Rth$$
+
+Donc A= Pf$\times$Rth
+
+A+B = 0 -> B = -A -> -Pf$\times$Rth
+
+$$\delta_\theta(t)=Pf\times Rth(1-e^\frac{t}{\tau})$$
+
+$$\tau = McpRth$$
+
+$$\delta_\theta(t)=\theta(t)-\theta_a$$
+
+$$\theta(t)=\theta_a+Pf\times Rth(1-e^\frac{t}{\tau})$$
+
+$$\theta(\infty) = A+Be^-\frac{\infty}{\tau}$$
+ 
+$$ -> A=Pf\times Rth$$
+
+
+pour t=tau 
+$$\theta(\tau)=\theta_a+Pf\times Rth(1-e^\frac{\tau}{\tau})$$
+t=3tau = 95% de la valeur finale
+t=4tau = 98% de la valeur finale
+t=5tau = 99% de la valeur finale
+
+
+3tau 5% de pertes 
+5tau 0,7% de pertes
+
+$$t =0, A+B=P\times Rth$$
+
+$$t-> \infty , = \theta_a+Pf\times Rth$$
+
+$$\theta(t)= \theta_1 + P\times Rth(1-e^\frac{t}{\tau})$$
