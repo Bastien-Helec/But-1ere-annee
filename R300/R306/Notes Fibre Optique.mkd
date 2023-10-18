@@ -168,6 +168,7 @@ R= 10 log (puissance reflechi / puissance incidente)
 
 ajouter 2 bobine : bobine amorce et bobine de fin qui permet de ne pas avoir les evenements de branchement de la fibre au OTDR et de la fin de la fibre
 
+Un isolateur permet de ne pas faire sortir de l'amplificateur le signal parasite lorsque l'on génère une amplification. faire une amplification ce fait avec une pompe laser. 
 
 
 
