@@ -27,4 +27,4 @@ medium.json.
 ```bash
 curl https://ec2.shop?region=eu-west-1&filter=t1,t2.micro > medium.json
 ```
-rtest
+delete repo
