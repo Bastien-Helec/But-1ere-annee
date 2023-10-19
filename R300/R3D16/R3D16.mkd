@@ -1,0 +1,46 @@
+La regle de pushou : sauvegarder 3 fois (github, snapshot, clefs usb ou disque, ... )
+
+On premise : technologie cloud en local 
+FINops: Devops + Finances
+Virtualisation 
+Containerisation 
+API 
+cloud public : partage de l'infrastructure
+Managed Cloud Services : managé par une infrastructure
+Observatility : application qui renvoi une metrique. 
+SRE : System Reliability Engineer
+
+crontab : application de nettoyage de log ? a voir 
+
+Platform Enginer managed : 
+
+CI : continous integration (commit et test application après un exe generer ) 
+CD : continous Deployement (commit du CI vers la production)
+
+cloud native : application pour le cloud 
+
+lockin : verouiller une application sur une technologie
+
+pour l'IOT moins de 15 ms pour que ça fonctionne
+
+
+Architecture REST : architecture avec des ordres http
+
+SOP : Same Origin Policy : meme origine de domaine
+
+virsh : commande pour gérer les VM
+
+scalable : capacité d'un systeme a s'adapter a la charge 
+
+AMI : Amazon Machine Image
+time to market : temps que le dev mets a corriger 
+
+FAC : fournisseurs d'accès cloud (FAC)
+
+openstack
+
+caas : container as a service deploiment dans un cluster de container manager. 
+API Gateway : API qui permet de gerer les API
+
+Faas 
+

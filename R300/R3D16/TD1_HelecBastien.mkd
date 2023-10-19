@@ -1,0 +1,29 @@
+# TP1 R3D16 
+
+```
+@Bastien-Helec
+```
+
+## 1 Obtention des prix au format json des instances "COMPUTE" d'aws via curl
+
+1.1 Installez via docker-compose le container "EC2 shop" permettant de récupérer des prix.
+voir: https://github.com/yeo/ec2.shop et https://ec2.shop/
+
+1. Récuperez es prix des instances m5 et m6 de la region us-east puis eu-west-1 et sauvegardez les dans
+un fichier tiny.json .
+
+```bash 
+git clone https://github.com/yeo/ec2.shop
+cd ec2.shop
+docker-compose up -d
+curl https://ec2.shop?region=us-est-1&filter=m5,m6 > tiny.json
+echo "--------">> tiny.json
+curl https://ec2.shop?region=eu-west-1&filter=m5,m6 > tiny.json
+```
+
+2. Récupérez les prix des instances t1 et t2.micro de la region eu-west-1 sauvegardez les dans un fichier
+medium.json.
+
+```bash
+curl https://ec2.shop?region=eu-west-1&filter=t1,t2.micro > medium.json
+```
