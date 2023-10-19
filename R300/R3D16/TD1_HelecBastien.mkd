@@ -16,15 +16,85 @@ un fichier tiny.json .
 git clone https://github.com/yeo/ec2.shop
 cd ec2.shop
 docker-compose up -d
-curl https://ec2.shop?region=us-est-1&filter=m5,m6 > tiny.json
-echo "--------">> tiny.json
-curl https://ec2.shop?region=eu-west-1&filter=m5,m6 > tiny.json
+curl 'https://ec2.shop?region=us-east-1&filter=m5,json' > tiny.json && curl 'https://ec2.shop?region=eu-west-1&filter=m6,json' >> tiny.json && curl 'https://ec2.shop?region=eu-west-1&filter=m5,json' >> tiny.json && curl 'https://ec2.shop?region=us-east-1&filter=m6,json' >> tiny.json
 ```
 
 2. Récupérez les prix des instances t1 et t2.micro de la region eu-west-1 sauvegardez les dans un fichier
 medium.json.
 
 ```bash
-curl https://ec2.shop?region=eu-west-1&filter=t1,t2.micro > medium.json
-``
+curl 'https://ec2.shop?region=eu-west-1&filter=t1.micro,json' > medium.json && curl 'https://ec2.shop?region=eu-west-1&filter=t2.micro,json' >> medium.json
+```
 
+3. A quoi correspondent les données extraites ? 
+
+elles correspondent aux prix des instances par heure et par mois de la region demandée avec le nom de l'instance sont réseau , sa mémoire , son cpu et son type de stockage (SSD ou HDD, NVME , ...)
+
+4. Quel est la difference de prix au mois entre une m6a.48xlarge et une t1.micro ?
+
+```bash
+curl https://ec2.shop?region=eu-west-1&filter=m6a.48xlarge,json  > m6a_t1.json && curl https://ec2.shop?region=eu-west-1&filter=t1.micro,json >> m6a_t1.json
+
+jq -r '.Prices[0].MonthlyPrice' m6a_t1.json
+```
+
+La difference de prix est par mois est de 6748.704-14.600 = 6734.104 dollars
+
+## 2 Transformation des fichiers json en csv
+
+Utilisez l'utilitaire jq pour repondre au questions. Pour afficher 
+
+```bash
+jq -r '-' medium.json
+jq -r '-' tiny.json
+```
+
+1. A quoi sert l'option '-r' ?
+
+L'option -r permet d'afficher les données en format raw les données brut.
+
+
+2. éliminez la clef 'Prices' de la sortie json ? 
+
+```bash
+jq -r '.Prices' tiny.json
+```
+
+3. quelles sont les clefs des entrées (utilisez '|keys|@csv') ?
+
+```bash
+
+jq -r '.Prices[0]|keys|@csv' tiny.json
+
+```
+"Cost","InstanceType","MonthlyPrice,"Memory","Network","SpotPrice,"Storage","VCPUS"
+
+4. n'affichez qu'une seule ligne pour les clefs qui constituera les en-têtes de votre fichier csv.
+
+```bash
+
+jq -r '.Prices[0]|keys|@csv' tiny.json | head -n 1
+
+```
+
+5. utilisez l'ordre join pour produire les lignes du fichier csv.
+
+```bash
+
+jq -r '.Prices[0]|join(",")' tiny.json
+
+```
+
+6.  l'aide de bash assemblez le header et les lignes pour créez le csv. Vérifiez que le fichier csv produit
+est importable dans libre office.
+
+```bash
+
+jq -r '.Prices[0]|keys|@csv' tiny.json | head -n 1 > tiny.csv && jq -r '.Prices[0]|join(",")' tiny.json >> tiny.csv
+
+```
+Le fichier csv produit est importable dans libre office.
+
+7. trouvez une autre solution pour extraire.
+
+La commande jq -r '.Prices[0]|join(",")' tiny.json >> tiny.csv peut être remplacée par la commande jq -r '.Prices[0]|@csv' tiny.json >> tiny.csv
