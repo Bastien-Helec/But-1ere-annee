@@ -1,0 +1,33 @@
+# TD8 Deformation du signal dans un canal 
+
+```
+@Bastien-Helec
+```
+
+---
+
+OH = longueur oeil ouvert/ITE * 100
+OV = Hauteur Oeil ouvert / $\delta_v$ *100
+
+
+Exercice 1 :
+
+a) Quelle est la suite de bits emise ?
+
+0 1 1 0 1 1 0 0 1 1
+
+b) Quelle est l'atténuation introduite par le canal ? 
+$$Ps = \frac{Vs^2}{R}$$
+
+$$A= 10 log \frac{Ps}{Pe} = 10 log (\frac{Vs}{Ve})^2 $$
+
+$$ = 20log (\frac{Vs}{Ve})$$
+$$~= 20 log(\frac{3,5}{5}) $$
+$$ = -3,1 dB $$
+
+c) Définir l'instant de décision et le seuil de décision. 
+
+
+
+e) td = 1s = 1ITE et sd= 1,7V 
+
