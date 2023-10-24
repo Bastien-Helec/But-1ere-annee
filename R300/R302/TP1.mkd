@@ -368,3 +368,99 @@ neighbor 192.168.13.1 next-hop-self
 ```
 Le prefixe est passé a 2 donc la route préferé est celle a R2
 
+
+## 2  Manipulation de l'attribut Weight
+
+Chaque route stockée dans la table BGP a un attribut weight. Ces caracteristiques sont : 
+
+-Il indique comme sortir de l'AS, en donnant plus de poids aux annonces reçues d'un voisin BGP donné. Ceci permet de favoriser des lien de transit moins cher (ou de peering), tout en gardant d'autres en secours (backup)par exemple.
+- Cet attribut est local au routeur BGP sur lequel on le définit : il n’est pas communiqué à d’autres
+routeurs, même au sein du même AS.
+- Il est propriétaire Cisco.
+
+Téléchargez et ouvrez Topo_weight_initiale. Suivez la topologie de la Figure 2 pour toutes les
+configurations à faire.
+1. Démarrez les routeurs et vérifiez que seules les interfaces sont configurées (aucun protocole de
+routage).
+
+2. Configurez les voisins BGP sur R1, R2, R3 et R4, avec sur chacun ses 2 voisins respectifs
+désignés par leur plus proche interface. Exemple pour R1 :
+
+(Mettre en place pour les loopbacks aussi)
+
+
+```cisco
+neighbor 10.0.12.2 remote-as 200
+neighbor 10.0.12.2 update-source FastEthernet0/0
+```
+
+3. Quel est l'interêt de la ligne avec update-source ?
+
+L'interet de la ligne avec update-source est de spécifier l'interface source pour les paquets BGP.
+
+4. Verifiez le bn établissement des sessions BGP désirées sur les 4 routeurs et indiquez la commande. 
+
+```cisco
+show ip bgp summary
+```
+
+5. Sur R1, afficher la table BGP et la table de routage. Indiquer les 2 commandes et expliquez leurs résultats. 
+
+```cisco
+show ip bgp
+show ip route
+```
+
+6. Configurez OSPF sur les 2 routeurs de l'AS 200. Il faut définir les interfaces passives vers les autres AS. Exemple de configuration OSPF pour R2: 
+
+```cisco
+R2# router ospf 1
+network 10.0.221.0 255.255.255.0 area 0
+R21# router ospf 1
+network 10.0.221.0 255.255.255.0 area 0
+```
+
+7. Expliquez ce que signifie qu'une interface est passive. 
+
+Une interface passive est une interface qui ne participe pas au protocole OSPF.
+
+8. Configurez EIGRP sur les 3 routeurs de l'AS 100. Exemple our R12 ci-dessous. Attention à
+déclarer les bonnes interfaces passives sur R1. Indiquez toutes les commandes utilisées sur R1. 
+
+```cisco 
+router eigrp 10
+network 0.0.0.0 255.255.255.255
+```
+
+9. Donnez les numéros des routeurs sur lesquels les tables de routage ont changé après cette
+opération, et pourquoi les autres routeurs sont inchangés ?
+
+La table de routage a changé sur le routeur 1, 12, 13 uniquement. Les autres routeurs sont inchangés car ils ne sont pas concernés par le protocole EIGRP.
+
+10. Effectuez la redistribution des routes apprises par l’IGP dans BGP :
+
+```cisco
+router bgp 100
+redistribute eigrp 10
+```
+
+Quel effet constatez-vous dans les tables BGP et de routage de R1 et R2 ? Pourquoi n’y a t-il
+pas d’effet sur R21, R12 et R13 ?
+
+La table de routage a perdu les routes apprises par EIGRP et a gagné les routes apprises par BGP. les routes BGP on etait ajouté a la table BGP. Et les routes OSPF on etait supprimé et la table de routage a gagné les routes apprises par BGP.
+
+Il n'y a pas d'effet sur R21, R12 et R13 car ils ne sont pas concernés par le redistrubute de chaque routeur
+
+11. Effectuez la redistribution des routes apprises par BGP dans l’IGP  :
+
+```cisco
+router eigrp 10
+redistribute bgp 100
+default-metric 100000 100 255 1 1500
+
+router ospf 1 
+redistribute bgp 200 subnets
+```
+
+Vérifiez que votre configuration est bonne en faisant un ping de R13 vers R21.
+
