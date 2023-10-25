@@ -140,7 +140,7 @@ $e^{j\theta} = \cos(\theta) + j\sin(\theta)$
 
 ## Convolutions : 
 <r>definition : </r>
-La convolution sert a permettre de traduire l'effet des systèmes sur l'allure des signaux qui leurs sont appliqués. 
+La convolution sert a traduire l'effet des systèmes sur l'allure des signaux qui leurs sont appliqués. 
 Il permet de quantifier l'efet d'un système de n'importe quel signal d'entrée
 
 On utilise ainsi la reponse impulsionnelle afin de connaitre la reponse du systeme a un signal d'entrée quelconque.
