@@ -1,0 +1,51 @@
+# TD1 Puissance energie : vehicule thermique
+
+```
+@Bastien-Helec
+```
+
+a) 
+$$\frac{56,4kWh}{100 km}  ;Ec = 1/2 mv^2$$
+
+b) 
+$$Ec= 913 kJ = 0,253 kWh$$
+
+c) 
+$$Eelectrique=0,4kWh$$
+
+à 130km/h pour 100 km il faut : 100/130 ~= 0,77h = 2736s
+
+donc 
+$$Eelectrique = 500\times 0,76 ~= 400kWh$$
+ou 
+$$Eelectrique = 500\times 2736 ~= 1,36Mj$$
+
+d) 
+$$1400\times 9,81= 13,734KN$$
+La force de pesante de notre mégane est de 13,734KN
+
+$$13,734\times 0,01= 137,34$$
+la force de frottement est de 137,34N
+
+e)
+$$137,34\times 100 = 13,7MJ = 3,8kWh$$
+la puissance de frottement est de 13,7 MJ
+$$ Wfrott= Frott x l $$ 
+
+f) 
+6l d'essence  = 56,4kWh
+r=0,35
+meca+eloc = 19kWh
+
+frottair = 15,3 kWh 
+on est globalement à 19,7kWh
+
+100 kmh prennent : 100/110 = 0,91h = 3276s
+
+ordi : 450 Wh
+Frott : 3,8kWh
+frottair : 11kWh
+total : 15,25 kWh
+
+Energie essence = 15,25/ 0,35 = 43,57 kWh= 5,06 l 
+j) en diminuant de 23% notre vitesse on diminue notre consommation de 23% soit 1,17l
