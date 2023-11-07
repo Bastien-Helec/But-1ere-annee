@@ -6,8 +6,9 @@
 
 ---
 
-OH = longueur oeil ouvert/ITE * 100
-OV = Hauteur Oeil ouvert / $\delta_v$ *100
+$$OH = longueur oeil ouvert/ITE * 100$$
+
+$$OV = Hauteur Oeil ouvert / \delta_v *100$$
 
 
 Exercice 1 :
