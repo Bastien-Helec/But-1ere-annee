@@ -1,0 +1,149 @@
+[comment]: # (Initialisation des couleurs et autres styles)
+<style>
+    
+r { color: #c42f3c }
+o { color: Orange }
+g { color: #019d00}
+bl { color: #0100c8}
+
+</style>
+
+
+# Etude du réseau d'accès optique en France
+
+```
+@Bastien-Helec
+```
+
+### I. Aspects structurels
+
+1/ Question très générale pour commencer : faire les recherches adéquates afin de pouvoir faire
+un schéma faisant apparaître les différents segments du réseau de manière générale :
+collecte, transport, distribution, branchement, desserte, réseau domestique. Et indiquer sur votre
+schéma ce qu’on appelle réseau d’accès. Trouver l’autre nom du réseau d’accès.
+
+<bl>
+
+![Schéma Réseau d'accès](schema1.png)
+
+<b><r><u>
+Les noms et definitions adaptés sont les suivants :
+</u></r></b>
+
+- <b>BLOM</b> : <u>entre Collecte et Transport</u>,  Boucle locale optique mutualisée, elle permet la connectivité d'une zone qui est ensuite relié a un NRO
+
+- <b>NRO</b> : <u>entre Collecte et Transport </u>, Noeud de raccordement optique, il est le coeur du réseau d'accès il relie les BLOM a la zone qu'il dessert
+
+- <b>SRO</b>:  <u>entre Transport et Distribution</u>, Sous répartiteur optique, Noeud intermediaire de brassage qui NRO ou PBO  (ça fait parti de la desserte)
+
+- <b>PBO</b> : <u>entre Distribution et Branchement</u>, Point de branchement optique, il est le point de branchement au plus proche du logement de l'abonné.
+
+- <b> DTIO </b> : <u>entre Branchement et Desserte</u>, Dispositif de terminaison intérieur optique, il est le point de terminaison de la fibre optique dans le logement de l'abonné.
+
+L'autre nom de réseau d'accès est Boucle Locale Optique (BLO)
+
+https://www.gersnumerique.fr/harmonisation-des-reseaux/architecture-et-terminologie-du-reseau.html
+
+</bl>
+
+2/ Décrire rapidement les réseaux d'accès xDSL. 
+
+<bl>
+
+Le DSL (digital subscriber line) est une technologie qui permet d'obtenir un accès internet via les cables téléphoniques. Malheureusement l'un des problèmes concernant cette technologie est la perte en distance plus la distance sera grande moins le debit sera important voir nul (zone blanche de DSL). Elle ce derive via plusieurs technologies :
+
+- ADSL (Asymetric DSL) : Une porter de 5km pour les lignes en calibre (4/10) et une porter de 3,5km , Le debit max est a 8Mbits/s possible uniquement sur les courtes lignes < 2km,Le debit montant max est de 1Mbits/s (client vers internet) et le debit descendant max est de 8Mbits/s (internet vers client)
+
+- SDSL ( symetric DSL) : une porter de 2km pour un debit max 20Mbits/s. La symetrie n'ou indique donc que le debit montant et descendant sont indentiques. 
+
+- VDSL2 : (Very high bit-rate DSL) : une porter de 1,5km pour un debit max de 100Mbits/s. Le debit montant max est de 30Mbits/s (client vers internet) et le debit descendant max est de 90Mbits/s (internet vers client) en pratique.
+
+https://smart-city.cerema.fr/sites/smartcity/files/fichiers/2020/07/NV_SITE_151124_LPS_Les%20technologies_xDSL.pdf
+
+page 1 et 2
+
+
+https://www.wixxim.fr/fiches/comparaison-entre-adsl-et-sdsl 
+"Les specificités du SDSL"
+
+https://www.ariase.com/box/dossiers/vdsl2
+
+
+</bl>
+
+3/ Rechercher les differents acronynmes FTTxx et ce qu'ils signifient (jusqu'où arrive la fibre). il n'est pas necessaire d'être exhaustif. 
+
+<bl>
+
+- <b>FTTH</b> : Fiber To The Home, la fibre arrive jusqu'au logement de l'abonné
+
+- <b> FTTLA </b> : Fiber To The Last Amplifier, la fibre arrive jusqu'au dernier amplificateur
+
+- <b> FTTB </b> : Fiber To The Building, la fibre arrive jusqu'au batiment
+
+- <b> FTTN </b> : Fiber To The Node, la fibre arrive jusqu'au noeud
+
+- <b> FTTDP </b> : Fiber To The Distribution Point, la fibre arrive jusqu'au point de distribution
+
+- <b> FTTO </b> : Fiber To The Office, la fibre arrive jusqu'au bureau
+
+<br/>
+
+https://fibre.guide/deploiement/technologies
+
+</bl>
+
+4/ Dans le cas de la fibre optique, expliquer ce qu'est une architecture point à point, et une architecture point multipoint.
+
+<bl>
+
+- <b> Point à point </b> : Chaque abonné est relié directement au NRO, il n'y a pas de partage de la fibre optique. C'est une architecture qui est plus couteuse mais qui permet d'avoir un debit plus important et plus stable.
+  
+- <b> Point multipoint (PON : passive optical network) </b> : Est une fibre qui relie jusqu'a 64 utilisateurs a un meme Nœud. C'est une architecture qui est moins couteuse mais qui permet d'avoir un debit moins important et moins stable.
+
+
+https://www.fibre-pro.fr/2020/03/03/fibre-p2p/
+
+
+</bl>
+
+5/ Les boucles locales optiques sont mutualisées (BLOM) ou dédiées (BLOD). Expliquer. Dans la suite, on ne s'intéressera pas aux BLOD. 
+
+<bl>
+Les boulces locales optiques sont mutualisées pour les FTTH autrement dit ils sont partagés par plusieurs abonnées
+
+Les boucles locales dédiées sont utilisées pour des choses specifiques comme les entreprises utilisant ainsi les FTTO ou FTTE.
+
+https://wholesalefrance.orange.fr/fr/nos-reseaux/fibre-optique/
+
+</bl>
+
+6/ On considère un réseau GPON. Que veut dire le sigle GPON ? Qu'est ce qu'un réseau GPON ? Préciser quelle est la norme des réseaux GPON. 
+
+<bl>
+Le sigle GPON signifie : Gigabitethernet Passive Optical Network 
+Un réseau GPON est un réseau fibre qui ce base sur PON et améliorer c'est performance , il peut aller jusqu'a 20 km de porter, synchroniser a 2,5 Gbits. La GPON est composer de l'ONU , OLT ,et ODN. 
+
+- <b> ONU</b> : Optical Network Unit : C'est une unité ou un terminal coté utilisateurs qui fournit diverses interfaces aux utilisateurs au niveau clients 
+
+- <b> OLT </b> : Optical Line Terminal : Dispositif d'agregation qui termine le protocole PON au niveau du central
+- <b> ODN </b> : Optical Distribution Network : C'est le réseau de distribution optique qui relie l'OLT et l'ONU il est composé de dispositifs optiques passif tels que des repartiteurs optiques.
+
+La norme des réseaux GPON est la norme G.984
+
+https://www.tp-link.com/fr/blog/289/qu-est-ce-que-gpon-et-pourquoi-le-choisir-/
+
+</bl>
+
+7/ Faire un schéma représentatif d’un réseau GPON avec :
+un NRO, plusieurs SRO, plusieurs PBO, plusieurs PTO, des clients.
+Le but est de visualiser l’architecture globale : un NRO peut-il être relié à un seul SRO ou plusieurs,
+etc. Les différents segments de réseau vus question 1 doivent apparaître.
+Pour chaque élément (NRO, SRO, PBO, PTO) donner une description rapide et significative pour
+vous.
+Trouver où se trouvent les PM (Points de mutualisation) sur le schéma et expliquer ce que cela signifie
+(pourquoi on les appelle ainsi).
+Chercher ensuite ce qu’est un OLT et préciser sur le schéma où il sera.
+Chercher aussi ce qu’est un ONU et préciser sur le schéma où il sera.
+1
+
