@@ -5,3 +5,210 @@
 
 ```
 
+## 3 Environnement du TP
+
+1. installations necessaires au TP :
+
+```bash
+#le support des flags de virtualisation sur le CPU.
+grep -E '(vmx|svm)' /proc/cpuinfo
+virt-host-validate
+```
+
+![verif_virt_cpu1](verif_virt_cpu1.png)
+![verif_virt_cpu2](verif_virt_cpu2.png)
+
+
+Completion pour virsh :
+
+https://github.com/LuyaoHuang/virsh-bash-completion
+
+
+Pour pouvoir utilisé la commande :
+
+```bash 
+osinfo-query os
+```
+on doit d'abord installer libosinfo-bin 
+
+![osinfo-query_os](osinfo-query_os.png)
+
+4. Création de machines virtuelles K-VMs: 
+
+4.1 création de VMs avec virt-manager
+
+Assignation du port série de la console pour KVM : 
+    
+```bash
+systemctl start serial-getty@ttySO
+systemctl enable serial-getty@ttySO
+```
+
+![serial-getty@ttyS0](serial-getty@ttyS0.png)
+
+4.1.2 Installation d'une VM Centos avec virt-manager : 
+
+Installation une VM Centos-stream de 2 Go de RAM et de 11 Go de disque a l'aide de virt-manager.  Vous
+essaierez de faire une NetInstall en spécifiant lors du processus d'installation l'utilisation du serveur
+(ftp|http) et les URL ci-dessus. Vous pouvez aussi récupérer sur ce même serveur une iso complète si la
+net-install prend trop de temps. Lors de l'installation pensez à connecter le réseau de la K-VM.
+
+![installation_centosviavirtmanager](installation_centosviavirtmanager.png)
+
+1. Pour pouvoir utiliser le shell avec kvm on doit d'abord ce connecter au terminal : 
+
+```bash
+virsh connect qemu:///session
+sudo virsh list --all 
+```
+
+![virsh1](virsh1.png)
+
+```bash
+date && virsh nodeinfo
+```
+
+2. Listez les domaines (comprendre les KVMs) actifs de votre noeud KVM: 
+
+```bash
+date && sudo virsh list --all
+```
+
+![virsh2](list_all_virsh.png)
+
+
+3. Listez les domaines actifs et inactifs de votre noeud KVM: 
+
+```bash
+date && echo "------Actif------" && sudo virsh list && echo "------Inactif------" && sudo virsh list --inactive
+```
+
+![actif_inactif](actif_inactif_virsh.png)
+
+4. Demarrez la K-VM. 
+
+```bash
+date && sudo virsh start centos-stream8
+```
+![start_virsh](start_virsh.png)
+
+5. Faite en sorte que cette K-VM démarre automatiquement au demarrage de l'hôte. 
+
+```bash
+date && sudo virsh autostart centos-stream8
+```
+
+![autostart_virsh](autostart_virsh.png)
+
+6. Récuperez des informations la K-VM (en interrogeant son "domain"). 
+
+```bash
+date && sudo virsh dominfo centos-stream8
+```
+
+![dominfo_virsh](dominfo_virsh.png)
+
+7. Faite un "gracefull shutdown" de la K-VM. Redémarrez la, puis forcez l'arrêt de la machine. 
+
+```bash
+date && sudo virsh shutdown centos-stream8
+date && sudo virsh start centos-stream8
+date && sudo virsh destroy centos-stream8
+```
+
+4.2 Création d'une K-VM Debian avec virt-install : 
+
+1. Batissez une K-VM debian en utilisant la commande virt-install a partir d'une iso minimal et une console SPICE : 
+Elle aura les caractérisitques suivantes : 
+1 VCPU , 1024 Go de RAM , 5Go de disque 
+
+```bash
+date && sudo virt-install --name debian11 --ram 1024 --vcpus 1 --disk path=/var/lib/libvirt/images/debian11.qcow2,size=5 --graphics spice --cdrom /media/test/Ventoy/debian-11.6.0-amd64-netinst.iso 
+```
+
+![virt-install](virt-install.png)
+![virt-install2](virt-install2.png)
+
+2. récupérer des informations sur la vm ( virsh dominfo/schedinfo/domifilist/domvlklist/vcpucount ... )
+
+```bash
+date && sudo virsh dominfo debian11
+date && sudo virsh schedinfo debian11
+date && sudo virsh domiflist debian11
+date && sudo virsh domblklist debian11
+date && sudo virsh vcpucount debian11
+```
+![dominfodeb11_virsh](dominfodeb11_virsh.png)
+![schedinfo_virsh](schedinfo_virsh.png)
+![domiflist_virsh](domiflist_virsh.png)
+![domblklist_virsh](domblklist_virsh.png)
+![vcpucount_virsh](vcpucount_virsh.png)
+
+3. Attribuez a froid  2 V-cpus a cette K-VM
+
+```bash
+sudo virsh shutdown debian12 
+date && sudo virsh setvcpus debian12 2
+```
+
+![setvcpus_virsh](setvcpus_virsh.png)
+
+4.3 Création de VMs avec virt-builder
+
+1. virt-builder permet de créer rapidement une VM à partir d'une image téléchargée sans avoir à
+la construire. Utilisez cette commande afin de personnaliser l'image de centos-8 (taille 10G pass-
+word=root) (LIBGUESTFS_BACKEND=direct) 
+
+```bash
+date && sudo virt-builder centos-8.2 --root-password password:root --size 10G --format qcow2 --output /var/lib/libvirt/images/centos-8.2.qcow2
+```
+
+![virt-builder](virt-builder.png) 
+
+
+Utilisez-la ensuite pour créer une VM avec virt-manager à partir de cette image modifiée ou utilisez virt-install. (images centos-8.2.qcow2)
+    
+fait en format graphiques 
+
+![virt-install_centos-8.2](virt-install_centos-8.2.png)
+
+4.4 Création de VMs avec virt-customize 
+
+Utilisez virt-customize afin de modifier l'image qcow2 5 debian 11 avec un mot de passe "root".
+Utilisez-la ensuite pour créer une VM avec virt-manager à partir de cette image modifiée.
+
+```bash
+sudo apt install libguestfs-tools
+date && sudo virt-customize -a /var/lib/libvirt/images/debian11.qcow2 --root-password password:root
+```
+
+![virt-customize](virt-customize.png)
+
+## 5 Decouverte de l'architecture KVM
+
+5.1 gestion du réseau : 
+
+1. Listez les bridges virtuels de la machine avec brctl et virsh Quel est le nom du bridge K-VM Debian créée précèdemment ? 
+
+```bash
+date && brctl show
+date && sudo virsh net-list --all
+```
+
+Le nom du bridge K-VM Debian créée précèdemment est virbr0 et default
+
+![brctl_show](brctl_show.png)
+![virsh_net-list](virsh_net-list.png)
+
+2. Faites un petit schéma de l'accès de la K-VM au réseau de la salle. Quel est le principe apppliqué et
+l'outil utilisé par KVM pour metre en oeuvre cet accès au réseau.
+
+![schema5.1](schema5.1.png)
+
+
+3. Créez un nouveau bridge appelé monbridge. Pour cela "dumpez" la configuration du "défault net-
+work" afin de générer un nouveau fichier et modifiez-le afin de créer le nouveau réseau.
+
+```bash
+
+```
