@@ -141,9 +141,38 @@ Le but est de visualiser l’architecture globale : un NRO peut-il être relié 
 etc. Les différents segments de réseau vus question 1 doivent apparaître.
 Pour chaque élément (NRO, SRO, PBO, PTO) donner une description rapide et significative pour
 vous.
+
 Trouver où se trouvent les PM (Points de mutualisation) sur le schéma et expliquer ce que cela signifie
 (pourquoi on les appelle ainsi).
 Chercher ensuite ce qu’est un OLT et préciser sur le schéma où il sera.
+
 Chercher aussi ce qu’est un ONU et préciser sur le schéma où il sera.
-1
+
+<bl>
+Un NRO peut etre relié par plusieurs SRO et un SRO peut etre relié par plusieurs PBO. Les PM sont les points de mutualisation entre le NRO et le SRO. L'OLT est au niveau du NRO et l'ONU est au niveau du PBO.
+
+
+![schema2](schema2.png)
+
+Le PM ce situe entre le SRO et le PBO. Il permette de regrouper les differents opérateurs a une seul armoire et permette d'utilisé le meme deploiment fibre pour plusieurs opérateurs.
+
+Le ONU sera present dans le schema du coté du PBO, il permet de fournir une interface aux utilisateurs au niveau client.
+
+https://www.gersnumerique.fr/harmonisation-des-reseaux/architecture-et-terminologie-du-reseau.html
+
+</bl>
+
+8. Toujours dans le cas d'un réseau GPON, on considère une fibre qui arrrive sur un SRO depuis le NRO. Quel est l'équipement qui va permettre à partir de cette fibre de desservir plusieurs PBO ? 
+
+<bl> Le SRO </bl>
+
+
+9. On distingue les zones de déploiement très denses (ZTD) des zones de déploiement moins denses (ZMD). De plus, dans les ZTD sont définies des zones de basse densité, ZTD-BD. Trouver
+comment, en France, se répartit le nombre total de lignes entre les trois types de zones.
+
+<bl>
+
+
+
+
 
