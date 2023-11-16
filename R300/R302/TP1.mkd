@@ -428,7 +428,7 @@ Une interface passive est une interface qui ne participe pas au protocole OSPF.
 déclarer les bonnes interfaces passives sur R1. Indiquez toutes les commandes utilisées sur R1. 
 
 ```cisco 
-router eigrp 10
+router eigrp 100
 network 0.0.0.0 255.255.255.255
 ```
 
@@ -441,11 +441,13 @@ La table de routage a changé sur le routeur 1, 12, 13 uniquement. Les autres ro
 
 ```cisco
 router bgp 100
-redistribute eigrp 10
+redistribute eigrp 100 
 ```
+
 
 Quel effet constatez-vous dans les tables BGP et de routage de R1 et R2 ? Pourquoi n’y a t-il
 pas d’effet sur R21, R12 et R13 ?
+
 
 La table de routage a perdu les routes apprises par EIGRP et a gagné les routes apprises par BGP. les routes BGP on etait ajouté a la table BGP. Et les routes OSPF on etait supprimé et la table de routage a gagné les routes apprises par BGP.
 
@@ -454,13 +456,142 @@ Il n'y a pas d'effet sur R21, R12 et R13 car ils ne sont pas concernés par le r
 11. Effectuez la redistribution des routes apprises par BGP dans l’IGP  :
 
 ```cisco
-router eigrp 10
-redistribute bgp 100
-default-metric 100000 100 255 1 1500
+router eigrp 100
+redistribute static
+redistribute bgp 100 metric 100 1 255 1 1500
 
 router ospf 1 
 redistribute bgp 200 subnets
 ```
 
 Vérifiez que votre configuration est bonne en faisant un ping de R13 vers R21.
+
+ping ok
+
+12. Quel effet constatez-vous dans les tables BGP et de routage de R21, R12 ? Copiez leur contenu.
+
+R21 : 
+```cisco
+show ip route  
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     100.0.0.0/8 is variably subnetted, 4 subnets, 3 masks
+O       100.2.0.2/32 [110/2] via 10.0.221.2, 00:02:43, FastEthernet0/0
+O E2    100.0.0.0/8 [110/1] via 10.0.221.2, 00:02:43, FastEthernet0/0
+O E2    100.1.0.0/24 [110/1] via 10.0.221.2, 00:02:43, FastEthernet0/0
+C       100.2.0.0/24 is directly connected, Loopback0
+     10.0.0.0/8 is variably subnetted, 7 subnets, 2 masks
+O E2    10.0.14.0/24 [110/1] via 10.0.221.2, 00:02:43, FastEthernet0/0
+O       10.0.12.0/24 [110/2] via 10.0.221.2, 00:02:44, FastEthernet0/0
+O E2    10.0.0.0/8 [110/1] via 10.0.221.2, 00:02:44, FastEthernet0/0
+O       10.0.23.0/24 [110/2] via 10.0.221.2, 00:02:44, FastEthernet0/0
+O E2    10.0.112.0/24 [110/1] via 10.0.221.2, 00:02:44, FastEthernet0/0
+O E2    10.0.113.0/24 [110/1] via 10.0.221.2, 00:02:44, FastEthernet0/0
+C       10.0.221.0/24 is directly connected, FastEthernet0/0
+
+
+```
+
+R12 : 
+```cisco
+show ip route
+
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     100.0.0.0/8 is variably subnetted, 2 subnets, 2 masks
+D       100.0.0.0/8 is a summary, 00:30:36, Null0
+C       100.1.0.0/24 is directly connected, Loopback0
+     10.0.0.0/8 is variably subnetted, 7 subnets, 2 masks
+D       10.0.14.0/24 [90/30720] via 10.0.112.1, 00:30:36, FastEthernet0/0
+D       10.0.12.0/24 [90/30720] via 10.0.112.1, 00:30:36, FastEthernet0/0
+D       10.0.0.0/8 is a summary, 00:30:37, Null0
+D EX    10.0.23.0/24 [170/25602816] via 10.0.112.1, 00:30:36, FastEthernet0/0
+C       10.0.112.0/24 is directly connected, FastEthernet0/0
+D       10.0.113.0/24 [90/30720] via 10.0.112.1, 00:30:39, FastEthernet0/0
+D EX    10.0.221.0/24 [170/25602816] via 10.0.112.1, 00:30:39, FastEthernet0/0
+
+```
+
+13. A quoi sert la ligne avec default-metric ?
+
+La ligne avec default-metric sert a definir la metrique par defaut pour les routes redistribuées.
+
+14. Copiez la table BGP de R3 et commentez les routes choisies :quels sont les choix possibles,
+quelle est la route choisie comme meilleure et pourquoi, pour atteindre : 10.0.23.0/24, 10.0.221.0/24
+
+```cisco
+show ip bgp
+
+BGP table version is 27, local router ID is 100.3.0.3
+Status codes: s suppressed, d damped, h history, * valid, > best, i - internal,
+              r RIB-failure, S Stale
+Origin codes: i - IGP, e - EGP, ? - incomplete
+
+
+r> 10.0.23.0/24     100.2.0.2                0             0 200 ?
+
+> 10.0.221.0/24    100.2.0.2                0             0 200 ?
+
+```
+il on etait choisis via le routeur 2 car ils sont plus rapides et demandes moi de saut que d'autre
+
+15. Quelle est la route choisie sur R1 et R13 pour aller sur 10.0.221.0/24 ? Confirmez par une capture sur le lien R1-R2 en faisant un ping de R13 vers R21.
+
+```cisco
+# pour R1 
+  10.0.221.0/24    100.4.0.4                              0 400 300 200 ?
+
+# pour R13
+10.0.221.0/24 [170/25602816] via 10.0.113.1, 00:56:29, FastEthernet0/0
+```
+
+![capture](capture%20II%2015.png)
+
+16. Nous configurons maintenant weight sur R1 pour préférer sortir par R4 que R2.
+
+```cisco
+
+router bgp 100
+table-map set-weight
+neighbor 100.4.0.4 weight 100
+end
+clear ip bgp *
+```
+
+17. Que constatez-vous dans la table BGP de R1 pour aller vers 10.0.221.0/24 ? A quoi est-ce dû ?
+
+```cisco
+
+*> 10.0.221.0/24    100.4.0.4                            100 400 300 200 ?
+
+```
+
+Cela est du a la changement de weight l'obligeant a passer d'abord par le router R4 
+
+18. Lancez 2 captures sur les liens entre R1 et R2, et R2 et R3. Faîtes un ping depuis R13 vers
+10.0.221.21, et commentez le résultat de la capture.
+
+A defaut de ne pas avoir la permission de lancer les captures sur les liens je fais via un traceroute :
+
+![capture weight](capture%20weight%20active.png)
+
+
+
+
 

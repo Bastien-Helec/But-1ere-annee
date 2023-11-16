@@ -151,7 +151,7 @@ sudo virsh shutdown debian12
 date && sudo virsh setvcpus debian12 2
 ```
 
-![setvcpus_virsh](setvcpus_virsh.png)
+![setvcpus_virsh](.setvcpus_virsh.png)
 
 4.3 Création de VMs avec virt-builder
 
@@ -182,7 +182,7 @@ sudo apt install libguestfs-tools
 date && sudo virt-customize -a /var/lib/libvirt/images/debian11.qcow2 --root-password password:root
 ```
 
-![virt-customize](virt-customize.png)
+![virt-customize](virt_customize.png)
 
 ## 5 Decouverte de l'architecture KVM
 
@@ -210,5 +210,33 @@ l'outil utilisé par KVM pour metre en oeuvre cet accès au réseau.
 work" afin de générer un nouveau fichier et modifiez-le afin de créer le nouveau réseau.
 
 ```bash
-
+date && sudo virsh net-dumpxml default > monbridge.xml
+date && uuidgen
+nano monbridge.xml
+date && sudo virsh net-define monbridge.xml
+date && sudo virsh net-start monbridge
+date && sudo virsh net-autostart monbridge
 ```
+
+![monbridge_1](monbridge_1.png)
+![monbridge_2](monbridge_2.png)
+![monbridge_3](monbridge_3.png)
+
+4. Rattachez la K-VM Debian a monbridge
+
+```bash
+sudo virsh edit debian11
+```
+
+![update-device](update-device.png)
+
+
+1. Créez deux K-VMs en la rattachant à des interfaces macvtap. Explorez les différents modes de ce
+type de réseau.
+
+```bash
+sudo  ip link ad macvtap0 link enp0s3 type macvtap
+sudo ip link set macvtap0 up
+sudo dhclient macvtap0
+```
+
