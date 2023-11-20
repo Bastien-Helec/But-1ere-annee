@@ -37,4 +37,79 @@ Pour le PC3 a PC5
 
 2. Manipulation 2:
 
-a. 
+switch 2
+
+![bridgenonroot](bridgenonroot.png)
+b.
+
+Bridge ID = 32769.
+Par le faite de sont plus petit numero de bridge
+c. 
+
+d. 
+![ping2](ping2.png)
+Oui le test est concluant car le ping est reussi
+
+
+e. 
+![BridgeID](BridgeID.png)
+
+f. Quel critère a fait choisir le port qui est à l’étal bloqué ?
+
+Le critere qui a fait choisir le port qui est a l'etat bloqué est le port qui a le plus petit numero de port
+
+g. Supprimez le lien actif (forward) entre les deux commutateurs puis refaites un test
+de communication entre PC0 et PC1. Concluez.
+
+![ping3](ping3.png)
+
+
+3. Manipulation 3:
+
+b.
+![switch0](switch0.png)
+![switch1](switch1.png)
+![switch1](switch1-2.png)
+![switch2](switch2.png)
+![switch3](switch3.png)
+![switch3](switch3-2.png)
+![switch4](switch4.png)
+![switch4](switch4-2.png)
+![switch5](switch5.png)
+![switch5](switch5-2.png)
+![switch6](switch6.png)
+![switch6](switch6-2.png)
+![switch7](switch7.png)
+![switch12](switch12.png)
+![switch12](switch12-2.png)
+![ms1](ms1.png)
+![ms1](ms1-2.png)
+![ms0](ms0.png)
+![ms0](ms0-2.png)
+
+Le switch root est le ms1 mais cela depend de ou va la destination du ping 
+
+c. On peut influence l'éléction de mutlilayer switch en coupant le lien entre le switch root et ms0. On peut aussi influencer l'éléction en mettant un bridge priority plus petit sur le mutlilayers switch  pour qu'il devienne root
+
+d. Exécutez les commandes nécessaires et après un temps de mise à jour vérifiez la
+prise en compte du changement. (capture)
+
+```cisco
+ms0(config)#spanning-tree vlan 1 root primary
+```
+
+![ms0](ms0-3.png)
+![ms0](ms0-4.png)
+
+
+e. Quel est le coût du lien vers le Root Bridge depuis Switch5 ? justifiez par calcul et par
+CLI.
+
+```cisco
+ms0#show spanning-tree vlan 1
+```
+
+Le cout du lien vers le root bridge depuis le switch5 est de 4 car il y a 4 switch entre le switch5 et le root bridge
+
+![show_spanningtree](show_spanningtree.png)
+
