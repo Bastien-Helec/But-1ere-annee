@@ -1,0 +1,55 @@
+# TP2 R304 
+
+```
+@Bastien-Helec
+```
+
+
+1. Authentification Apache sur l'annuaire de l'IUT :
+
+Retrouvez le DN de votre entrée dans l’annuaire de l’IUT:
+— ip: 10.255.255.200
+— base: o=gouv,c=fr
+Faites valider le DN récupéré par l’enseignant.(check1) Le DN permet de connaître ou se situe votre entrée dans l’annuaire de l’IUT et vous est utile à la question suivante
+
+via apache directory studio :
+filtre : (cn=bastien.helec)
+
+DN:
+uid=bastien.helec,ou=local,ou=eleves,ou=utilisateurs, ou=0341884N,ou=ac-montpellier,ou=education,o=gouv,c=fr
+
+
+1.2 Installez le serveur web apache sur votre VM et activez les modules ldap et authnz_ldap
+
+```bash
+<Location />
+AuthName "ldap auth"
+AuthType Basic
+AuthBasicProvider ldap
+AuthLDAPURL ldap://10.255.255.200/o=gouv,c=fr?uid?sub?
+Require valid-user
+</Location>
+
+a2enconf auth
+```
+
+2. Préparation d'un annuaire sur la VM afin d'avoir une BASE LDAP des utilisateurs. 
+
+```bash
+apt-get install slapd ldap-utils
+```
+configurez le pour avoir un domaine iutbeziers.fr
+
+```bash
+dpkg-reconfigure slapd
+
+BASE dc=iutbeziers,dc=fr
+URI ldap://localhost
+
+service slapd restart
+```
+
+verification de fonctionnement : 
+```bash
+slapcat
+```

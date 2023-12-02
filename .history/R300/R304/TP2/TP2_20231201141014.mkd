@@ -1,0 +1,18 @@
+# TP2 R304 
+
+```
+@Bastien-Helec
+```
+
+
+1. Authentification Apache sur l'annuaire de l'IUT :
+
+Retrouvez le DN de votre entrée dans l’annuaire de l’IUT:
+— ip: 10.255.255.200
+— base: o=gouv,c=fr
+Faites valider le DN récupéré par l’enseignant.(check1) Le DN permet de connaître ou se situe votre
+entrée dans l’annuaire de l’IUT et vous est utile à la question suivante
+
+```bash 
+
+```

@@ -1,0 +1,31 @@
+# TP4 Télécoms spatiales - Bastien Helec 
+
+```
+@Bastien-Helec
+```
+
+# 3 Décodage de données numériques : 
+
+1. Réaliser un diagramme GNURadio pour recevoir le signal numérique transmis. 
+
+![Diagramme GNURadio](Diagramme_GNURadio.PNG)
+
+
+2. Relever son allure temporelle a l'aide d'un bloc "QT GUI Time Sink" sous GNURadio. 
+
+![Alure temporelle](Alure_temporelle.PNG)
+
+
+
+3. La durée d'un symbole est de 1ms. 
+
+4. La séquence binaire qui est diffusée de manière répétée est : 010111010
+
+
+# 4 Réception de signaux audio :
+
+5. Réaliser un diagramme GNURadio pour recevoir le signal numérique transmis et afficher son spectre.
+
+![Diagramme_Son1](Diagramme_son1.PNG)
+
+
