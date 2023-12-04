@@ -1,9 +1,0 @@
-# TP1 R3D17 - Vagrant
-
-```
-@Bastien-Helec
-```
-
-1 Vagrant :
-
-1.1 

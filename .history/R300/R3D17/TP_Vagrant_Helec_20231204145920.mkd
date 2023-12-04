@@ -1,2 +1,0 @@
-# TP1 R3D17 - Vagrant
-
