@@ -211,37 +211,51 @@ temp_line = None
 
 # Get the first point
 def CTRL_first_point(event):
-    global start_point
+    global start_point , point_start_name
+    point_start_name=event.widget.cget("text")
+    print(point_start_name)
     print("line")
     start_point = event.widget.winfo_x(), event.widget.winfo_y()
     print(start_point)
 
 # Update the line while dragging
-def on_label_drag(event):
-    canvas.delete("horizontal")
-    canvas.delete("vertical")
-    global start_point, temp_line
-    delta_x = event.x - dragged_label.start_x
-    delta_y = event.y - dragged_label.start_y
-    x = dragged_label.winfo_x() + delta_x
-    y = dragged_label.winfo_y() + delta_y
-    dragged_label.place(x=x,y=y)
+# def on_label_drag(event):
+#     global temp_line, start_point, end_point
+#     canvas.delete("horizontal")
+#     canvas.delete("vertical")
+#     if dragged_label is start_point:
+#         delta_x = event.x - dragged_label.start_x
+#         delta_y = event.y - dragged_label.start_y
+#         x = dragged_label.winfo_x() + delta_x
+#         y = dragged_label.winfo_y() + delta_y
+#         dragged_label.place(x=x,y=y)
+#     elif dragged_label is end_point:
+#         delta_x = event.x - dragged_label.start_x
+#         delta_y = event.y - dragged_label.start_y
+#         x = dragged_label.winfo_x() + delta_x
+#         y = dragged_label.winfo_y() + delta_y
+#         dragged_label.place(x=x,y=y)
 
-    # Update the temporary line
-    if temp_line is not None:
-        canvas.delete(temp_line)
-    temp_line = None
 
-    # Create horizontal and vertical lines
-    horizontal_line = canvas.create_line(start_point[0], start_point[1], x, start_point[1], fill="black", width=2, tags="horizontal")
-    vertical_line = canvas.create_line(x, start_point[1], x, y, fill="black", width=2, tags="vertical")
-    temp_line = (horizontal_line, vertical_line)
+
+    # # Update the temporary line
+    # if temp_line is not None:
+    #     canvas.delete(temp_line)
+    # temp_line = None
+
+    # # Create horizontal and vertical lines
+    # horizontal_line = canvas.create_line(start_point[0], start_point[1], x, start_point[1], fill="black", width=2, tags="horizontal")
+    # vertical_line = canvas.create_line(x, start_point[1], x, y, fill="black", width=2, tags="vertical")
+    # temp_line = (horizontal_line, vertical_line)
+
+
+
+
 
 # Get the second point and create the line
 def CTRL_Shift_second_point(event):
-    canvas.delete("vertical")
-    canvas.delete("horizontal")
-    global start_point, temp_line
+    global start_point, temp_line, horizontal_1, horizontal_2, vertical_1, vertical_2, point_end_name
+    point_end_name=event.widget.cget("text")
     print("line")
 
     horizontal_1= (start_point[0], start_point[1])
@@ -250,17 +264,46 @@ def CTRL_Shift_second_point(event):
     vertical_1= (event.widget.winfo_x(), event.widget.winfo_y())
     vertical_2= (event.widget.winfo_x(), start_point[1])
 
-    # Delete the temporary line
-    if temp_line is not None:
-        canvas.delete(temp_line)
-        temp_line = None
+    check_if_line_between_points_exists(event)
 
+# Set to store existing lines
+existing_lines = set()
+print(existing_lines, " : 1")
+
+def check_if_line_between_points_exists(event):
+    global point_start_name, point_end_name
+    print(point_start_name)
+    print(point_end_name)
+    name_start=point_start_name
+    name_end=point_end_name
+    print(f"name1 = {name_start},name2=  {name_end}")
+    print("check")
+    print(existing_lines, " : 2")
+    if point_start_name == point_end_name:
+        print("same")
+        canvas.delete("horizontal")
+        canvas.delete("vertical")
+    elif (name_start, name_end) in existing_lines or (name_end, name_start) in existing_lines:
+        print("line already exists")
+        print(existing_lines, " : 3")
+    else:
+        print("different")
+        create_line(event)
+
+
+
+
+def create_line(event):
+    global point_start_name, point_end_name, existing_lines
     # Create the final line
-    canvas.create_line(horizontal_1,horizontal_2, fill="black", width=2, tags="horizontal")
-    canvas.create_line(vertical_1, vertical_2, fill="black", width=2, tags="vertical")
-
-
-
+    if existing_lines == {(point_start_name, point_end_name)}:
+        print("line already exists can't create antoher one")
+        print(existing_lines, " : 4")
+    else:
+        existing_lines.add((point_start_name, point_end_name))
+        canvas.create_line(horizontal_1,horizontal_2, fill="black", width=2, tags="horizontal")
+        canvas.create_line(vertical_1, vertical_2, fill="black", width=2, tags="vertical")
+        print(existing_lines, " : 5")
 
 
 
