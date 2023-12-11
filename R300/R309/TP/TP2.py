@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import ttk
-from PIL import ImageTk, Image
+
 #Exercie 1 
 
 #1.1 
