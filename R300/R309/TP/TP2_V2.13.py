@@ -1,14 +1,26 @@
 from tkinter import *
 from tkinter import ttk
+import tkinter.tix
+from PIL import Image, ImageTk
 
 # ⬇️ Variable of devices ⬇️
-devices = ["Client","Router","Switch"]
+devices = {"Client" ,"Router","Switch"}
 
-
-
+# ⬇️ variable of images ⬇️
+device_images = {
+    "Client": "client.png",
+    "Router": "router.png",
+    "Switch": "switch.png",
+}
 
 
 # ⬇️ Functions ⬇️
+
+def resize_image(image_path, new_size):
+    with Image.open(image_path) as img:
+        resized_img = img.resize(new_size, Image.NEAREST)
+        return ImageTk.PhotoImage(resized_img)
+
 
 # ⬇️ Resize frames ⬇️
 def on_resize(event):
@@ -36,12 +48,23 @@ def on_device_selected_listbox(event):
 
 
 
-
 # ⬇️ Create a label and print it on the Right frame ⬇️
 def create_label(device):
+    global cname
     print(device)
-    label = Label(canvas, text=f"{device}", bd=2, relief="solid")
+
+    # Load the image for the device (assuming images are in the same directory as the script)
+    image_path = device_images.get(device, "default_image.png")
+    
+    # Resize the image
+    resized_image = resize_image(image_path, (50, 50))
+    
+    # Create a label with the resized image
+    label = Label(canvas, text=device, image=resized_image, compound="top", bd=2, relief="solid")
+    label.image = resized_image  # Keep a reference to the image to prevent garbage collection
     label.pack()
+
+    cname=label.cget("text")
     print("Label created")
 
     # ⬇️ Bind the label to move it and to have toolbar ⬇️
@@ -90,10 +113,11 @@ def menu_objects(event):
     global selected_label
     print("menu")
     selected_label = event.widget
+    cname=event.widget.cget("text")
+    print(cname)
     menu = Menu(ROOT_FRAME, tearoff=0)
     menu.add_command(label="Delete", command=delete_object)
     menu.add_command(label="Properties", command=properties_object)
-    # menu.add_command(label="line", command=objects_links)
     menu.post(event.x_root, event.y_root)
 
 
@@ -109,6 +133,7 @@ def delete_object():
 
 # ⬇️ Properties modifications ⬇️
 def properties_object():
+    global port,count,cname
     print("properties")
     
 
@@ -128,6 +153,7 @@ def properties_object():
     # ⬇️ Save the properties modifications ⬇️
     def save_properties():
         selected_label.config(text=f"{change_name.get()}")
+        device_images[cname] = image_path.get()
         FRAME_PROPERTIES.destroy()
 
 
@@ -147,26 +173,43 @@ def properties_object():
     label_name = ttk.Label(FRAME_PROPERTIES, text="Name :")
     label_name.grid(row=0, column=0)
     name = StringVar()
+    if name == "":
+        name.set("Client")
     change_name = ttk.Entry(FRAME_PROPERTIES, textvariable=name)
     change_name.grid(row=0, column=1)
 
     # ⬇️ Create the properties entry for change icon ⬇️
 
 
+    label_image_path = ttk.Label(FRAME_PROPERTIES, text="Image Path:")
+    label_image_path.grid(row=2, column=0)
+    image_path = StringVar()
+    image_path.set(device_images.get(cname, ""))
+    image_path_entry = ttk.Entry(FRAME_PROPERTIES, textvariable=image_path)
+    image_path_entry.grid(row=2, column=1)
+
+
+
     # ⬇️ Create the properties entry for change port numbers ⬇️
     label_port = ttk.Label(FRAME_PROPERTIES, text="Port :")
     label_port.grid(row=1, column=0)
-    port = StringVar()
-    change_port = ttk.Entry(FRAME_PROPERTIES, textvariable=port)
-    change_port.grid(row=1, column=1)
+    
+    if cname != "Client":
+        list_port = ttk.Combobox(FRAME_PROPERTIES, values=[1,2,3,4])
+        list_port.grid(row=1, column=1)
+    else :
+        list_port = ttk.Combobox(FRAME_PROPERTIES, values=[1])
+        list_port.grid(row=1, column=1)
+
+    print(list_port.get())
 
     # ⬇️ Create the validate modifications button ⬇️
     validate=ttk.Button(FRAME_PROPERTIES, text="Valider", command=save_properties)
-    validate.grid(row=2, column=0)
+    validate.grid(row=3, column=0)
 
     # ⬇️ Create the cancel modifications button ⬇️
     cancel=ttk.Button(FRAME_PROPERTIES, text="Annuler", command=FRAME_PROPERTIES.destroy)
-    cancel.grid(row=2, column=1)
+    cancel.grid(row=3, column=1)
 
 
 
@@ -206,7 +249,6 @@ def Shift_second_point(event):
 
 
 
-# Temporary line object
 temp_line = None
 
 # Get the first point
@@ -217,38 +259,6 @@ def CTRL_first_point(event):
     print("line")
     start_point = event.widget.winfo_x(), event.widget.winfo_y()
     print(start_point)
-
-# Update the line while dragging
-# def on_label_drag(event):
-#     global temp_line, start_point, end_point
-#     canvas.delete("horizontal")
-#     canvas.delete("vertical")
-#     if dragged_label is start_point:
-#         delta_x = event.x - dragged_label.start_x
-#         delta_y = event.y - dragged_label.start_y
-#         x = dragged_label.winfo_x() + delta_x
-#         y = dragged_label.winfo_y() + delta_y
-#         dragged_label.place(x=x,y=y)
-#     elif dragged_label is end_point:
-#         delta_x = event.x - dragged_label.start_x
-#         delta_y = event.y - dragged_label.start_y
-#         x = dragged_label.winfo_x() + delta_x
-#         y = dragged_label.winfo_y() + delta_y
-#         dragged_label.place(x=x,y=y)
-
-
-
-    # # Update the temporary line
-    # if temp_line is not None:
-    #     canvas.delete(temp_line)
-    # temp_line = None
-
-    # # Create horizontal and vertical lines
-    # horizontal_line = canvas.create_line(start_point[0], start_point[1], x, start_point[1], fill="black", width=2, tags="horizontal")
-    # vertical_line = canvas.create_line(x, start_point[1], x, y, fill="black", width=2, tags="vertical")
-    # temp_line = (horizontal_line, vertical_line)
-
-
 
 
 
@@ -305,6 +315,28 @@ def create_line(event):
         canvas.create_line(vertical_1, vertical_2, fill="black", width=2, tags="vertical")
         print(existing_lines, " : 5")
 
+
+
+# Delete the line when the line is selected
+def delete_line(event):
+    global point_start_name, point_end_name, existing_lines
+    print("delete line")
+    print(existing_lines, " : 6")
+    if (point_start_name, point_end_name) in existing_lines:
+        print("line exists")
+        existing_lines.remove((point_start_name, point_end_name))
+        canvas.delete("horizontal")
+        canvas.delete("vertical")
+        print(existing_lines, " : 7")
+    elif (point_end_name, point_start_name) in existing_lines:
+        print("line exists")
+        existing_lines.remove((point_end_name, point_start_name))
+        print(existing_lines, " : 8")
+        canvas.delete("horizontal")
+        canvas.delete("vertical")
+    else:
+        print("line doesn't exist")
+        print(existing_lines, " : 9")
 
 
 # ⬇️ Double Click Pressed ⬇️ 
@@ -368,6 +400,11 @@ device_list.bind("<Double-Button-1>", on_double_click)
 
 # ⬇️ Enter key pressed ⬇️
 device_list.bind("<Return>", on_enter_key)
+
+# ⬇️ d key pressed when the line is selected needs to select the both concern before⬇️
+device_list.bind("<d>", delete_line)
+
+
 
 
 
