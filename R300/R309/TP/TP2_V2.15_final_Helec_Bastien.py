@@ -8,10 +8,18 @@ devices = {"Client" ,"Router","Switch"}
 
 # ⬇️ variable of images ⬇️
 device_images = {
-    "Client": "client.png",
-    "Router": "router.png",
-    "Switch": "switch.png",
+    "Client": "R300/R309/TP/computer.png",
+    "Router": "R300/R309/TP/router.png",
+    "Switch": "R300/R309/TP/hub.png",
 }
+
+# ⬇️ Init variables for the line ⬇️
+temp_line = None
+
+# ⬇️ Init variables for backup points ⬇️
+existing_lines = set()
+print(existing_lines, " : 1")
+
 
 
 # ⬇️ Functions ⬇️
@@ -24,16 +32,14 @@ def resize_image(image_path, new_size):
 
 # ⬇️ Resize frames ⬇️
 def on_resize(event):
-    # Get the new size of the root window
+    # ⬇️ Resize configurations for basic frame ⬇️
     width = event.width
     height = event.height
-    # Adjust the size of the left frame based on the root window size
+    # ⬇️ Adjust the size of the left frame ⬇️
     LEFT_FRAME.config(height=height)
     
-    # Adjust the size of the main frame based on the root window size
+    # ⬇️ Adjust the size of Right frame ⬇️
     RIGHT_FRAME.config(width=width - LEFT_FRAME.winfo_width(), height=height)
-
-
 
 
 
@@ -47,23 +53,24 @@ def on_device_selected_listbox(event):
         create_label(selected_device)
 
 
-
 # ⬇️ Create a label and print it on the Right frame ⬇️
 def create_label(device):
     print(device)
 
-    # Load the image for the device (assuming images are in the same directory as the script)
+    # ⬇️ image size ⬇️
+
+    # ⬇️ Get image path ⬇️
     image_path = device_images.get(device, "default_image.png")
     
-    # Resize the image
+    # ⬇️ Resize the image for better format ⬇️
     resized_image = resize_image(image_path, (50, 50))
     
-    # Create a label with the resized image
+    # ⬇️ Create the label ⬇️
     label = Label(canvas, text=device, image=resized_image, compound="top", bd=2, relief="solid")
-    label.image = resized_image  # Keep a reference to the image to prevent garbage collection
+    label.image = resized_image
     label.pack()
 
-    cname=label.cget("text")
+    # ⬇️ Debug label  ⬇️
     print("Label created")
 
     # ⬇️ Bind the label to move it and to have toolbar ⬇️
@@ -132,7 +139,7 @@ def delete_object():
 
 # ⬇️ Properties modifications ⬇️
 def properties_object():
-    global port,cname
+    global cname
     print("properties")
     print(cname)
 
@@ -140,10 +147,10 @@ def properties_object():
 
 
     def on_resize(event):
-        # Get the new size of the root window
+        # ⬇️ Set size for the properties frame ⬇️
         width = event.width
         height = event.height
-        # Adjust the size of the left frame based on the root window size
+        # ⬇️ Configurations ⬇️
         FRAME_PROPERTIES.config(height=height, width=width)
     
 
@@ -172,14 +179,16 @@ def properties_object():
     label_name = ttk.Label(FRAME_PROPERTIES, text="Name :")
     label_name.grid(row=0, column=0)
     name = StringVar()
+
+    # ⬇️ keep the name of label in client ⬇️
     if name == "":
         name.set("Client")
+        
+    # ⬇️ configurations for change the name ⬇️
     change_name = ttk.Entry(FRAME_PROPERTIES, textvariable=name)
     change_name.grid(row=0, column=1)
 
     # ⬇️ Create the properties entry for change icon ⬇️
-
-
     label_image_path = ttk.Label(FRAME_PROPERTIES, text="Image Path:")
     label_image_path.grid(row=2, column=0)
     image_path = StringVar()
@@ -193,6 +202,8 @@ def properties_object():
     label_port = ttk.Label(FRAME_PROPERTIES, text="Port :")
     label_port.grid(row=1, column=0)
     
+
+    # ⬇️ Create the list of port numbers ⬇️
     if cname == "Client":
         print("client")
         list_port = ttk.Combobox(FRAME_PROPERTIES, values=[1])
@@ -242,6 +253,7 @@ def Shift_second_point(event):
     end_point = event.widget.winfo_x(), event.widget.winfo_y()
     print(end_point)
 
+    # ⬇️ Create the final line diagonal include ⬇️
     canvas.create_line(start_point, end_point, fill="blue", width=2)
 
 
@@ -250,9 +262,7 @@ def Shift_second_point(event):
 
 
 
-temp_line = None
-
-# Get the first point
+# ⬇️ first point in horizontal and vertical ⬇️
 def CTRL_first_point(event):
     global start_point , point_start_name
     point_start_name=event.widget.cget("text")
@@ -263,53 +273,58 @@ def CTRL_first_point(event):
 
 
 
-# Get the second point and create the line
+# ⬇️ second point in horizontal and vertical ⬇️
 def CTRL_Shift_second_point(event):
     global start_point, temp_line, horizontal_1, horizontal_2, vertical_1, vertical_2, point_end_name
     point_end_name=event.widget.cget("text")
     print("line")
 
+    #⬇️ horizontal line is like : (x1, y1) (x2, y1) ⬇️
     horizontal_1= (start_point[0], start_point[1])
     horizontal_2= (event.widget.winfo_x(), start_point[1])
 
+    # ⬇️ vertical line is like : (x1, y1) (x1, y2) ⬇️
     vertical_1= (event.widget.winfo_x(), event.widget.winfo_y())
     vertical_2= (event.widget.winfo_x(), start_point[1])
 
     check_if_line_between_points_exists(event)
 
-# Set to store existing lines
-existing_lines = set()
-print(existing_lines, " : 1")
 
+# ⬇️ Check if the line already exists in existing_lines ⬇️
 def check_if_line_between_points_exists(event):
     global point_start_name, point_end_name
-    print(point_start_name)
-    print(point_end_name)
-    name_start=point_start_name
-    name_end=point_end_name
-    print(f"name1 = {name_start},name2=  {name_end}")
-    print("check")
-    print(existing_lines, " : 2")
+    
+    # ⬇️ Debug zone ⬇️
+    print(f"""point_start_name = {point_start_name}, point_end_name =  {point_end_name} \n check \n {existing_lines}, " : 2""")
+
+    # ⬇️ check if name of start and end are the same delete ⬇️
     if point_start_name == point_end_name:
         print("same")
         canvas.delete("horizontal")
         canvas.delete("vertical")
-    elif (name_start, name_end) in existing_lines or (name_end, name_start) in existing_lines:
+        
+    # ⬇️ else if name of start and end are the same do nothing ⬇️
+    elif (point_start_name, point_end_name) in existing_lines or (point_start_name, point_end_name) in existing_lines:
         print("line already exists")
         print(existing_lines, " : 3")
-    else:
+
+    # ⬇️ else create line ⬇️
+    else:    
         print("different")
         create_line(event)
 
 
 
-
+# ⬇️ Create the line ⬇️
 def create_line(event):
     global point_start_name, point_end_name, existing_lines
-    # Create the final line
+
+    # ⬇️ if the line already exists do nothing ⬇️
     if existing_lines == {(point_start_name, point_end_name)}:
         print("line already exists can't create antoher one")
         print(existing_lines, " : 4")
+    
+    # ⬇️ else add the line to existing_lines and create line ⬇️
     else:
         existing_lines.add((point_start_name, point_end_name))
         canvas.create_line(horizontal_1,horizontal_2, fill="black", width=2, tags="horizontal")
@@ -318,32 +333,19 @@ def create_line(event):
 
 
 
-# Delete the line when the line is selected
+# ⬇️ Delete all lines with d key ⬇️
 def delete_line(event):
     global point_start_name, point_end_name, existing_lines
     print("delete line")
     print(existing_lines, " : 6")
-    if (point_start_name, point_end_name) in existing_lines:
-        print("line exists")
-        existing_lines.remove((point_start_name, point_end_name))
-        canvas.delete("horizontal")
-        canvas.delete("vertical")
-        print(existing_lines, " : 7")
-    elif (point_end_name, point_start_name) in existing_lines:
-        print("line exists")
-        existing_lines.remove((point_end_name, point_start_name))
-        print(existing_lines, " : 8")
-        canvas.delete("horizontal")
-        canvas.delete("vertical")
-    else:
-        print("line doesn't exist")
-        print(existing_lines, " : 9")
-
+    canvas.delete("horizontal")
+    canvas.delete("vertical")
+    existing_lines.clear()
 
 # ⬇️ Double Click Pressed ⬇️ 
 def on_double_click(event):
 
-    # If the user double click on listbox device
+    # ⬇️ If the user double click on listbox device ⬇️
     if device_list.curselection():
         on_device_selected_listbox(event)
     print("Double click")
@@ -351,7 +353,7 @@ def on_double_click(event):
 # ⬇️ Enter key Pressed ⬇️
 def on_enter_key(event):
     
-    # If the user pressed enter on listbox device
+    # ⬇️ If the user pressed enter on listbox device ⬇️
     if device_list.curselection():
         on_device_selected_listbox(event)
     print("Enter key")
@@ -375,7 +377,8 @@ LEFT_FRAME = Frame(ROOT_FRAME, bg="white", width=250, bd=2, relief="solid")
 LEFT_FRAME.grid(row=0, column=0, sticky="ns")
 LEFT_FRAME.pack(side=LEFT, fill=Y)
 
-device_list = Listbox(LEFT_FRAME, bg="lightblue")
+#  ⬇️ Set list box of devices ⬇️
+device_list = Listbox(LEFT_FRAME, bg="cyan")
 for n in devices:
     device_list.insert(END, n)
     print(n)
