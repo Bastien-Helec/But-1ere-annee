@@ -50,7 +50,6 @@ def on_device_selected_listbox(event):
 
 # ⬇️ Create a label and print it on the Right frame ⬇️
 def create_label(device):
-    global cname
     print(device)
 
     # Load the image for the device (assuming images are in the same directory as the script)
@@ -110,7 +109,7 @@ def on_label_release(event):
 
 # ⬇️ Menu toolbar ⬇️
 def menu_objects(event):
-    global selected_label
+    global selected_label, cname
     print("menu")
     selected_label = event.widget
     cname=event.widget.cget("text")
@@ -133,9 +132,9 @@ def delete_object():
 
 # ⬇️ Properties modifications ⬇️
 def properties_object():
-    global port,count,cname
+    global port,cname
     print("properties")
-    
+    print(cname)
 
 
 
@@ -194,12 +193,14 @@ def properties_object():
     label_port = ttk.Label(FRAME_PROPERTIES, text="Port :")
     label_port.grid(row=1, column=0)
     
-    if cname != "Client":
-        list_port = ttk.Combobox(FRAME_PROPERTIES, values=[1,2,3,4])
-        list_port.grid(row=1, column=1)
-    else :
+    if cname == "Client":
+        print("client")
         list_port = ttk.Combobox(FRAME_PROPERTIES, values=[1])
         list_port.grid(row=1, column=1)
+    else :
+        list_port = ttk.Combobox(FRAME_PROPERTIES, values=[1,2,3,4])
+        list_port.grid(row=1, column=1)
+        
 
     print(list_port.get())
 
