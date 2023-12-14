@@ -8,9 +8,9 @@ devices = {"Client" ,"Router","Switch"}
 
 # ⬇️ variable of images ⬇️
 device_images = {
-    "Client": "R300/R309/TP/computer.png",
-    "Router": "R300/R309/TP/router.png",
-    "Switch": "R300/R309/TP/hub.png",
+    "Client": "computer.png",
+    "Router": "router.png",
+    "Switch": "hub.png",
 }
 
 # ⬇️ Init variables for the line ⬇️
