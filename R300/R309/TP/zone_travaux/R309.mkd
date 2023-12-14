@@ -1,0 +1,138 @@
+# R309
+
+```
+@Bastien-Helec
+```
+---
+
+Paradigme : 
+programmation fonctionnelle : 
+* iteratif (iteration)
+* recursive (la fonction s'appelle elle meme , exemple : la factorielle) 
+
+Programmation evenementielle :
+* evenement qui declenche une fonction:
+* interface graphique(GUI) utilisation des conditions. 
+* Hardware (HW) : evenement materiels.
+* reseau : evenement reseau. ...
+
+Un evenement : quelques chose d'asynchrone qui peut arriver une fois plusieurs fois ou jamais
+
+IRQ : 
+
+
+Gestion des interruptions :
+
+Dans l'assembleur la section Intvec  c'est l'appel des fonctions présents dans code qui la declenches. 
+
+passe dans une ligne d'interruption (IRQ) qui va appeler une fonction qui va faire un traitement. 
+
+Envoi de la demande pendant le retour de l'appel le processeur fait autre chose.
+Lorsque la demande est traité le programme envoie un 1 via un canal IRQ qui va declencher une fonction qui va faire un traitement. (interruption et stop tout)
+
+un timer constant de 1ms sur chaque processus constantement.
+
+OS travail en espace kernel. Fonctionnement en prog evenement. 
+
+A la pause d'un process enregistrement de l'etat du processus dans les registres. 
+
+Demarrer une nouvelle tache : cloner(fork) remplacement du programme.
+
+un OS est une gestion de fonctionnalité.
+
+programme =serveur 
+service = ce que le programme fait
+
+SYSTICK : interruption qui fait commuter  timer electronique (120 fois par secondes)
+
+IRQ HW : interruption materiel
+SYSCALL : appel d'un service de l'OS exemple : OPEN READ WRITE CLOSE
+
+SYSTIC + haut pour le bureau 
+SYSTIC + bas pour les applications de serveur
+
+GUI :
+GTK : Gnome
+QT : KDE
+windows.h : windows
+
+G de GTK : Gimp
+K de KDE : Kool
+
+pour python : tkinter (interface graphique)
+
+interface orienté objet : GTK 
+interface orienté fonction : QT
+
+
+```
+                window manager
+                îv
+APP  ->GTK ->   X11 Xorg/wayland
+vî                îv
+        OS
+```
+
+ssh -x : permet de lancer une application graphique sur un autre ordinateur exemple : ouvrir une fenetre venant d'un serveur sur le serveur.
+
+
+tout est rectangle graphiquement 
+la fenetre intiale et la fenetre root.
+
+```
+root window
+ |
+ |--Window 1
+ |     |-vbox
+ |        |-label
+ |        |-button
+ |        |-input box
+ |----
+ |
+ |
+ |----
+```
+
+attention au redimensionnement de la fenetre.
+
+
+1- on creer les differentes instances ,
+2- puis on les affecte au containers. 
+3- callbacks : association d'un widget d'un evenement et d'une fonction a declencher. 
+
+4- "vous etes pret" : gtk.main(): boucle infinie qui attend les evenements et les declenches.
+
+
+Direct 3D : (Direct X) (passe intermediaire entre chaque couche apps - os - HD)
+OpenGL : (open source) (open GL avec securité)
+Vulkan : (open source) (open GL ES sans securité)
+
+Linux (OpenGL, vulkan) = Mesa a la place de direct 3D (pas d'intermediaire)
+
+export DISPLAY = "localhost(nom d'hote):0(numero de console graphique).0 (num d'ecran)" 
+
+x11 Magic-cookie : authentification (fichiers a transmettre pour l'authentification)
+xhost 
+
+pour demarrer la console graphique : startx [options]
+
+route window 
+
+X -query 192.168.20.3 :2 (lance une fenetre graphique du serveur vers moi) (terminal distant)
+
+plein ecran : taille des barres de taches a 0 
+
+window manager : affichage , gestion des fenetres
+
+
+Tiling-WM 
+
+triple A : pour la 3D
+
+Le gpu est un processeur qui permet de faire des calculs en parallele. 
+
+shader : programme qui s'execute sur le gpu calcule
+
+vulkan permet de faire les calculs pendant le rendu de l'image.
+
+
