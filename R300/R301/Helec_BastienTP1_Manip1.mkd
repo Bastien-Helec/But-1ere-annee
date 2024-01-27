@@ -24,7 +24,7 @@ e. En mode simulation faire un ping entre le PC3 et le PC7 et identifiez les cha
 
 la trame ethernet est alors encapsuler en Dot1q pour pouvoir etre transporter dans le vlan30
 
-![encapsulation](encapsulation.png)
+![encapsulation](Encapsulate.png)
 
 f. La valeur du champs TCI est de 0x001e cela est normal 
 
