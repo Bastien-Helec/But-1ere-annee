@@ -20,56 +20,11 @@ Ressources associées à la compétences Programmer :
 ### les liens en dessus sont clickable et renvoi vers les démonstrations correspondantes
 ---
 - [Introduction](#Introduction) : Rappel de la compétence Programmer
--  [AC 23.01 ](#Ac_23.01) : Automatiser l'administration système avec des scripts
-- [AC 23.02 ](#Ac_23.02) : Développer une application à partir d'un cahier des charges donné, pour le Web ou les périphériques mobiles
-- [AC 23.03 ](#Ac_23.03) : Utiliser un protocole réseau pour programmer une application client/serveur
-- [AC 23.04 ](#Ac_23.04) : Installer, administrer un système de gestion de données
-- [AC 23.05 ](#Ac_23.05) : Accéder à un ensemble de données depuis une application et/ou un site web
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Introduction" style="textdecoration:none;"> </a>  Introduction : Rappel de la compétence Programmer
-[Retour au sommaire](#Sommaire)
-
-
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-
-## <a id="Ac_23.01" style="textdecoration:none;"> </a>  AC 23.01 : Automatiser l'administration système avec des scripts
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-
-## <a id="Ac_23.02" style="textdecoration:none;"> </a>  AC 23.02 : Développer une application à partir d'un cahier des charges donné, pour le Web ou les périphériques mobiles
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-
-## <a id="Ac_23.03" style="textdecoration:none;"> </a>  AC 23.03 : Utiliser un protocole réseau pour programmer une application client/serveur
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-
-## <a id="Ac_23.04" style="textdecoration:none;"> </a>  AC 23.04 : Installer, administrer un système de gestion de données
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-
-## <a id="Ac_23.05" style="textdecoration:none;"> </a>  AC 23.05 : Accéder à un ensemble de données depuis une application et/ou un site web
-[Retour au sommaire](#Sommaire)
-
-
+- [Le niveau attendu en fin d'année ](#1.)
+- [Mon niveau actuel](#2.)
+- [Ce que je prevois de faire pour améliorer mon niveau](#3.)
+- [Ce que j'ai réaliser](#4.)
+- [Ce que j'en conclu](#5.)
 
 ---
 <script>

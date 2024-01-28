@@ -26,49 +26,13 @@ Ressources associées à la compétences Connecter :
 ### les liens en dessus sont clickable et renvoi vers les démonstrations correspondantes
 ---
 - [Introduction](#Introduction) : Rappel de la compétence Connecter
--  [AC 22.01 ](#Ac_22.01) : Déployer et caractériser des systèmes de transmissions complexes 
-- [AC 22.02 ](#Ac_22.02) : Mettre en place un accès distant sécurisé
-- [AC 22.03 ](#Ac_22.03) : Mettre en place une connexion multi-site via un réseau opérateur 
-- [AC 22.04 ](#Ac_22.04) : Déployer des réseaux d'accès des opérateurs
-- [AC 22.05 ](#Ac_22.05) : Capacité a questionner un cahier des charges RT 
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Introduction" style="textdecoration:none;"> </a>  Introduction : Rappel de la compétence Connecter
-[Retour au sommaire](#Sommaire)
+- [Le niveau attendu en fin d'année ](#1.)
+- [Mon niveau actuel](#2.)
+- [Ce que je prevois de faire pour améliorer mon niveau](#3.)
+- [Ce que j'ai réaliser](#4.)
+- [Ce que j'en conclu](#5.)
 
 
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_22.01" style="textdecoration:none;"> </a>  AC 22.01 : Déployer et caractériser des systèmes de transmissions complexes
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_22.02" style="textdecoration:none;"> </a>  AC 22.02 : Mettre en place un accès distant sécurisé
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_22.03" style="textdecoration:none;"> </a>  AC 22.03 : Mettre en place une connexion multi-site via un réseau opérateur
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_22.04" style="textdecoration:none;"> </a>  AC 22.04 : Déployer des réseaux d'accès des opérateurs
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_22.05" style="textdecoration:none;"> </a>  AC 22.05 : Capacité a questionner un cahier des charges RT
-[Retour au sommaire](#Sommaire)
 
 
 

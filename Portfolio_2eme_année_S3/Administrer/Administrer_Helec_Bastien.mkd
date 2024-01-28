@@ -3,7 +3,7 @@
 ```
 Bastien Helec
 Semestre 3
-Ressources associées au cours d'Administrer : 
+Ressources associées a la compétences Administrer : 
 - R301 : AC 21.01 AC 21.02
 - R302 : AC 21.05
 - R303 : AC 21.03 AC 21.04
@@ -22,18 +22,11 @@ Ressources associées au cours d'Administrer :
 ### les liens en dessus sont clickable et renvoi vers les démonstrations correspondantes
 ---
 - [Introduction](#Introduction) : Rappel de la compétence Administrer
--  [AC 21.01 ](#Ac_21.01) : Configurer et dépanner le routage dynamique dans un réseau 
-
-- [AC 21.02 ](#Ac_21.02) : Configurer et expliquer une politique simple de QoS et les fonctions de base de la sécurité d'un réseau 
-- [AC 21.03 ](#Ac_21.03) : Déployer des postes clients et des solutions virtualisées adaptées à une situation donnée
-- [AC 21.04 ](#Ac_21.04) : Déployer des services réseaux avancés
-- [AC 21.05 ](#Ac_21.05) : Identifier les réseaux opérateurs et l'architecture d'Internet
-- [AC 21.06 ](#Ac_21.06) Travailler en équipe pour développer ses compétences professionnelles
-- [AC 21.07 (hors_référentiel) ](#Ac_21.07) : Déployer et gérer des postes clients. 
-- [AC 21.08 (hors_référentiel) ](#Ac_21.08) :  Déployer des solutions virtualisées en particulier pour le poste client. 
-- [AC 21.09 (hors_référentiel) ](#Ac_21.09) : Utilisé des services conteneurisés.
-- [AC 21.10 (hors_référentiel) ](#Ac_21.10) : Déployer et utiliser un système de supervision
-- [AC 21.11 (hors_référentiel) ](#Ac_21.11) : Déployer des technologies d'opérateurs (BGP et commutation de paquet MPLS)  
+- [Le niveau attendu en fin d'année ](#1.)
+- [Mon niveau actuel](#2.)
+- [Ce que je prevois de faire pour améliorer mon niveau](#3.)
+- [Ce que j'ai réaliser](#4.)
+- [Ce que j'en conclu](#5.)
 
 
 <!-- page break html -->
@@ -42,7 +35,14 @@ Ressources associées au cours d'Administrer :
 ## <a id="Introduction" style="textdecoration:none;"> </a>  Introduction : Rappel de la compétence Administrer
 [Retour au sommaire](#Sommaire)
 
-La compétence Administrer à pour objectif d'administrer et de concenvoir un réseau. 
+La compétence Administrer à pour objectif d'administrer et de concevoir un réseau. 
+Les apprentissages attendus sont :
+- AC 21.01 : Configurer et dépanner le routage dynamique dans un réseau
+- AC 21.02 : Configurer et expliquer une politique simple de QoS et les fonctions de base de la sécurité d'un réseau
+- AC 21.03 : Déployer des postes clients et des solutions virtualisées adaptées à une situation donnée
+- AC 21.04 : Déployer des services réseaux avancés
+- AC 21.05 : Identifier les réseaux opérateurs et l'architecture d'Internet
+- AC 21.06 : Travailler en équipe pour développer ses compétences professionnelles
 
 Celle-ci demande de savoir en situation professionnelle : 
 - Concevoir et administrer l'infrastructure du réseau informatique d'une entreprise
@@ -61,69 +61,214 @@ Demandant ainsi au futur professionnel de repondre au composantes essentielles s
 - Communiquer avec les clients et le differents acteurs impliqués
 - Utiliser une approche rigoureuse et methodique (démarche scientifique) 
 
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="1." style="textdecoration:none;"> </a>  Le niveau attendu en fin d'année:
+[Retour au sommaire](#Sommaire)
+
+Selon moi le niveau attendu en fin d'année pour la Compétence Administrer est de savoir concevoir un réseau en le créant de A à Z de le dimensionner en fonction du cahier des charges , de le configurer et de le dépanner. Ainsi que pouvoir assurer le bon fonctionnement des équipements lié a l'utilisation d'internet et a l'entreprise : 
+- Les equipements réseaux (routeurs, switchs, firewall, etc...)
+- Les equipements de virtualisations (serveurs, hyperviseurs, etc...)
+- Les équipements clients (ordinateurs, tablettes, smartphones, etc...)
+
+Tout ce travail doit être effectuer en réalisant de la documentation et pouvoir obtenir des trâces de ce qui a été fait pour pouvoir le reproduire ou le modifier si besoin s'en avoir a tout redimensionner et ainsi pouvoir communiquer et travailler en équipe. 
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+##  <a id="2." style="textdecoration:none;"> </a>  Mon niveau actuel : 
+[Retour au sommaire](#Sommaire)
+
+Je pense mon niveau dans la compétence Administrer correspond au niveau attendu en fin d'année. Malgrès certain défauts lié à une documentation trop differentes d'un projet ou d'un rendu à l'autre et ainsi devoir tout reprendre depuis le début.
+
+Je pense que mon niveau est bon car j'ai pu mettre en place des réseaux avec des protocoles de routage dynamique (BGP,OSPF,EIGRP,IBGP,RIP) pouvoir mettre en place des loopback et des VLAN, j'ai tendance a observer que le réseau suis bien la demande en appliquant du QoS de manière manuel (verification humaine), ainsi que le deploiement sans problème d'un serveur a l'autre en verifiant les adresses IP occupé ou les réseaux occupé avec nmap, puis verifier le bon fonctionnement en utilisant des outils comme ping, traceroute, mtr, etc...  
+
+Puis surtout j'ai pris l'habitude de réaliser l'administration système sur des conteneurs ou sur des machines virtuels dans un premier temps de part ma distribution de celle demander : Fedora. Mais aussi pour me permettre de garder un ordinateur sein et ainsi ne pas avoir des problèmes differents d'un projet à l'autre, ce qui m'arrivais trop souvent en première année. 
+
+De plus aujourd'hui je communique auprès des premières années des conseils pour pouvoir permettre de ne pas se retrouver dans la difficulté que j'ai pu avoir en première année.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
 
-##  <a id="Ac_21.01" style="textdecoration:none;"> </a>  AC 21.01 : Configurer et dépanner le routage dynamique dans un réseau 
+## <a id="3." style="textdecoration:none;"> </a>  Ce que je prevois de faire pour améliorer mon niveau :
 [Retour au sommaire](#Sommaire)
 
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="4." style="textdecoration:none;"> </a>  Ce que j'ai réaliser : 
 
 
 
+
+#### Introduction :
+Dans cette AC je doit ainsi prouver que je suis capable de configurer et donc de depanner le routage dynamique dans un réseau. 
+
+Grâce au cours exploiter durant le S3 et ma premiere année de formation R&T, j'ai pu apprendre a configurer et depanner des routeurs et des switchs Cisco et mikrotik. 
+
+#### Les protocoles de routage dynamique :
+Dans ma formation nous avons pu voir les protocoles de routage dynamique suivant elle utilise ainsi la couches transport du modèle OSI :
+- RIP (Routing Information Protocol)
+- OSPF (Open Shortest Path First)
+- EIGRP (Enhanced Interior Gateway Routing Protocol)
+- BGP (Border Gateway Protocol)
+- STP (Spanning Tree Protocol)
+
+#### Definitions : 
+
+- **RIP** : Le protocole RIP est un protocole de routage. Il utilise le nombre de sauts comme métrique. Il est limité à 15 sauts. Il est donc utilisé pour des réseaux de petite taille. Il est très simple à configurer et à déployer. Il est très peu utilisé de nos jours, sa sécurité est très faible et il est très lent à converger.
+
+- **OSPF** : Le protocole OSPF est un protocole de routage créer par Cisco à état de lien. Il utilise la bande passante comme métrique. Il est utilisé pour des réseaux de taille moyenne à grande. Il est plus complexe à configurer et à déployer que RIP. Il est plus sécurisé et plus rapide à converger de part l'utilisation de l'algorithme de Dijkstra. 
+
+- **EIGRP** : Le protocole EIGRP est un protocole de routage. Il utilise la bande passante et la charge comme métrique. Il est utilisé pour des réseaux de taille moyenne à grande. Il est plus complexe à configurer et à déployer que RIP. Il est plus sécurisé et plus rapide à converger de part l'utilisation de l'algorithme de Dijkstra
+
+- **BGP** : Le protocole BGP est un protocole de routage. Il utilise la bande passante et la charge comme métrique. Il est utilisé pour des réseaux de taille moyenne à grande. Il est plus complexe à configurer et à déployer que RIP. Il est plus sécurisé et plus rapide à converger de part l'utilisation de l'algorithme de Dijkstra. De plus il utilise le système d'autonomie (AS) pour définir les routes, ainsi celle-ci permettent de definir plusieurs réseaux dans une meme zone et ainsi de pouvoir faire de l'agrégation de routes.
+
+- **STP** : Le protocole STP est un protocole qui a pour but d'éviter les bouclages réseaux et ainsi limité le calcul du switch, ce n'est pas a proprement parlait un protocole de routage mais est très utile pour depanner et configurer un routage dynamique.
+
+#### Démonstration de mes compétences : 
+
+- Configuration est mise en place d'un réseau avec EIGRP : 
+Dans le contexte de la formation dans la ressource R302 j'ai pu mettre en place via l'application GNS3 un réseau interne avec le protocole EIGRP et utiliser l'attributs **weight** pour le BGP qui nous permet de choisir la route que l'on souhaite utiliser :
+
+Tout d'abord j'ai mis en place le réseau suivant : 
+
+![Réseau_EIGRP_R302_TP1](./images/réseau_EIGRP_R302_TP1.png)
+
+Puis on a configurer les routeurs de cette manière :
+
+```cisco
+R12(config)# interface FastEthernet0/0
+R12(config-if)# ip address 10.0.112.2 255.255.255.0
+R12(config-if)# no shutdown
+R12(config-if)# exit
+R12(config)# do write memory
+R12(config)# router eigrp 100
+R12(config-router)# network 0.0.0.0 255.255.255.255
+R12(config-router)# exit
+R12(config)# do write memory
+```
+Les mêmes commandes ont été effectuées sur les autres routeurs en changeant l'adresse IP de l'interface FastEthernet0/0.
+Sauf pour R1 qui lui aura la configuration BGP que je vais vous montrer après l'OSPF
+
+Pour etres sur que cela fonctionne nous avons effectuer un show ip route sur le routeur R12 :
+
+```cisco
+R12# show ip route
+```
+
+![show_ip_route_R12](./images/code_Show_ip_route.png)
+![show_ip_route_R12](./images/show_ip_route_EIGRP.png)
+
+On peut voir que le réseau et bien détecter en EIGRP et que les routeurs sont bien connecter entre eux.
+J'ajouterais aussi que la configuration BGP permet de faire des redistribution de routes entre les protocoles de routage dynamique pour que puisse les voirs apparaitres que certains réseau soit sur d'autre AS ou bien utilise d'autre protocole de routage.
+
+- Configuration est mise en place d'un réseau avec OSPF :
+
+Dans le contexte de la formation dans la ressource R302 j'ai pu mettre en place via l'application GNS3 un réseau interne avec le protocole OSPF :
+
+Tout d'abord j'ai mis en place le réseau suivant :
+
+![Réseau_OSPF_R302_TP1](./images/réseau_OSPF_R302_TP1.png)
+
+
+Puis on a configurer le routeurs de cette manière :
+
+```cisco
+R21(config)# interface FastEthernet0/0
+R21(config-if)# ip address 10.0.221.2 255.255.255.0
+R21(config-if)# no shutdown
+R21(config-if)# exit
+R21(config)# do write memory
+
+# Configuration de l'OSPF
+
+R21(config)# router ospf 1
+R21(config-router)# network 10.0.221.0 255.255.255.0 area 0 
+R21(config-router)# exit
+R21(config)# do write memory
+```
+On a ainsi configurer également sur le router R2 uniquement la partie ospf presente ci-dessus.  
+
+Puis on a réaliser un show ip route sur le routeur R21 :
+
+```cisco
+R21# show ip route
+```
+
+![show_ip_route_R21](./images/code_Show_ip_route.png)
+![show_ip_route_R21](./images/show_ip_route_OSPF.png)
+
+On peut voir que le réseau et bien détecter en OSPF et que les routeurs sont bien connecter entre eux.
+J'ajouterais aussi que la configuration BGP permet de faire des redistribution de routes entre les protocoles de routage dynamique pour que puisse les voirs apparaitres que certains réseau soit sur d'autre AS ou bien utilise d'autre protocole de routage.
+
+
+
+
+- Configuration est mise en place d'un réseau avec BGP :
+Dans le contexte de la formation dans la ressource R302 j'ai pu mettre en place via l'application GNS3 un réseau interne avec le protocole BGP :
+
+Tout d'abord j'ai mis en place le réseau suivant :
+
+![Réseau_BGP_R302_TP1](./images/réseau_BGP_R302_TP1.png)
+
+On a configurer les routeurs R1 R2 R3 et R4 de sorte a avoir les configurations principales pour les réseaux BGP. 
+
+Puis en fonction des AS on a configurer le BGP de cette manière : 
+
+```cisco
+R1(config)# router bgp 100
+R1(config-router)# neighbor 10.0.12.2 remote-as 200
+R1(config-router)# neighbor 10.0.14.4 remote-as 400
+R1(config-router)# exit
+R1(config)# do write memory
+```
+Les mêmes commandes ont été effectuées sur les autres routeurs en correspondance avec les AS et les réseaux.
+
+Quand tout les routeurs BGP sont créer on reçoit des messages entre les routeurs : 
+
+![BGP_UP](./images/BGP_UP.png)
+
+puis on vois les routes BGP apparaitre sur les routeurs comme ici sur R3:
+
+![show_ip_route_R3](./images/show_ip_route_BGP.png)
+![show_ip_route_R3](./images/show_ip_route_BGP_2.png)
+
+- Configuration est mise en place d'un réseau avec STP :
+
+Dans la ressource R301 j'ai pu mettre en place via l'application Cisco Packet Tracer un réseau interne avec le protocole STP :
+
+![Spanning_tree](./images/Spanning_tree.png)
+
+On peut voir pour un réseau complexe les routes prises par le protocole STP pour éviter les bouclages réseaux. 
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
 
 
-## <a id="Ac_21.02" style="textdecoration:none;"> </a>  AC 21.02 : Configurer et expliquer une politique simple de QoS et les fonctions de base de la sécurité d'un réseau
+## <a id="5." style="textdecoration:none;"> </a>  Ce que j'en conclu : 
 [Retour au sommaire](#Sommaire)
 
-<div style="page-break-after: always;"></div>
 
-## <a id="Ac_21.03" style="textdecoration:none;"> </a>  AC 21.03 : Déployer des postes clients et des solutions virtualisées adaptées à une situation donnée
-[Retour au sommaire](#Sommaire)
 
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_21.04" style="textdecoration:none;"> </a>  AC 21.04 : Déployer des  services réseaux avancés
-[Retour au sommaire](#Sommaire)
-
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_21.05" style="textdecoration:none;"> </a>  AC 21.05 : Identifier les réseaux opérateurs et l'architecture d'Internet
-[Retour au sommaire](#Sommaire)
-
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_21.06" style="textdecoration:none;"> </a>  AC 21.06 : Travailler en équipe pour développer ses compétences professionnelles
-[Retour au sommaire](#Sommaire)
-
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_21.07" style="textdecoration:none;"> </a>  AC 21.07 (hors_réferentiel) : Déployer et gérer des postes clients
-[Retour au sommaire](#Sommaire)
-
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_21.08" style="textdecoration:none;"> </a>  AC 21.08 (hors_réferentiel) : Déployer des solutions virtualisées en particulier pour le poste client
-[Retour au sommaire](#Sommaire)
-
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_21.09" style="textdecoration:none;"> </a>  AC 21.09 (hors_réferentiel) : Utilisé des services conteneurisés
-[Retour au sommaire](#Sommaire)
-
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_21.10" style="textdecoration:none;"> </a>  AC 21.10 (hors_réferentiel) : Déployer et utiliser un système de supervision
-[Retour au sommaire](#Sommaire)
-
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_21.11" style="textdecoration:none;"> </a>  AC 21.11 (hors_réferentiel) : Déployer des technologies d'opérateurs (BGP et commutation de paquet MPLS)
-[Retour au sommaire](#Sommaire)
 
 ---
 <script>
@@ -132,4 +277,4 @@ var currentDateTime = new Date().toLocaleString();
 document.write("<footer>" + currentDateTime + " &copy Helec Bastien. All Rights Reserved.</footer>");
 </script>
 
----
+--- 

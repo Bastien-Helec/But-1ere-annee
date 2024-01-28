@@ -15,72 +15,11 @@ Ressources associées à la compétences Programmer :
 ### les liens en dessus sont clickable et renvoi vers les démonstrations correspondantes
 ---
 - [Introduction](#Introduction) : Rappel de la compétence Développer
--  [AC 25.DevCloud.01 ](#Ac_25.DevCloud.01) : Développer un microservice
--  [AC 25.DevCloud.02 ](#Ac_25.DevCloud.02) : Mettre en production une application
--  [AC 25.DevCloud.03 ](#Ac_25.DevCloud.03) : Programmer son réseau par le code
--  [AC 25.DevCloud.04 (hors_réferentiel) ](#Ac_25.DevCloud.04) : Construire et déployer une application ou un service réseau conteneurisée
--  [AC 25.DevCloud.05 (hors_réferentiel) ](#Ac_25.DevCloud.05) : Choisir un outil de conteneurisation en fonction du besoin
--  [AC 25.DevCloud.06 (hors_réferentiel) ](#Ac_25.DevCloud.06) : Sécuriser ses images et ses instances de containers
--  [AC 25.DevCloud.07 (hors_réferentiel) ](#Ac_25.DevCloud.07) : utiliser basiquement les outils de la CI/CD
--  [AC 25.DevCloud.08 (hors_réferentiel) ](#Ac_25.DevCloud.08) : Programmer des materiels réseaux
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Introduction" style="textdecoration:none;"> </a>  Introduction : Rappel de la compétence Développer
-[Retour au sommaire](#Sommaire)
-
-
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_25.DevCloud.01" style="textdecoration:none;"> </a>  AC 25.DevCloud.01 : Développer un microservice
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_25.DevCloud.02" style="textdecoration:none;"> </a>  AC 25.DevCloud.02 : Mettre en production une application
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_25.DevCloud.03" style="textdecoration:none;"> </a>  AC 25.DevCloud.03 : Programmer son réseau par le code
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_25.DevCloud.04" style="textdecoration:none;"> </a>  AC 25.DevCloud.04 (hors_réferentiel) : Construire et déployer une application ou un service réseau conteneurisée
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_25.DevCloud.05" style="textdecoration:none;"> </a>  AC 25.DevCloud.05 (hors_réferentiel) : Choisir un outil de conteneurisation en fonction du besoin
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_25.DevCloud.06" style="textdecoration:none;"> </a>  AC 25.DevCloud.06 (hors_réferentiel) : Sécuriser ses images et ses instances de containers
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_25.DevCloud.07" style="textdecoration:none;"> </a>  AC 25.DevCloud.07 (hors_réferentiel) : utiliser basiquement les outils de la CI/CD
-[Retour au sommaire](#Sommaire)
-
-<!-- page break html -->
-<div style="page-break-after: always;"></div>
-
-## <a id="Ac_25.DevCloud.08" style="textdecoration:none;"> </a>  AC 25.DevCloud.08 (hors_réferentiel) : Programmer des materiels réseaux
-[Retour au sommaire](#Sommaire)
-
-
+- [Le niveau attendu en fin d'année ](#1.)
+- [Mon niveau actuel](#2.)
+- [Ce que je prevois de faire pour améliorer mon niveau](#3.)
+- [Ce que j'ai réaliser](#4.)
+- [Ce que j'en conclu](#5.)
 
 ---
 <script>
