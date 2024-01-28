@@ -1,0 +1,135 @@
+# Administrer
+
+```
+Bastien Helec
+Semestre 3
+Ressources associées au cours d'Administrer : 
+- R301 : AC 21.01 AC 21.02
+- R302 : AC 21.05
+- R303 : AC 21.03 AC 21.04
+- R304 : AC 21.03 AC 21.04
+- R311 : AC 21.02 AC 21.06
+- R312 : AC 21.06
+- R313 : AC 21.01 AC 21.02 AC 21.03 AC 21.04 AC 21.05 AC 21.06
+- R315 : AC 21.06
+- SAE 3.02: AC 21.06
+- SAE 3.Devcloud.03: AC 21.01 AC 21.02 AC 21.03 AC 21.04 AC 21.05 AC 21.06
+- Portfolio : AC 21.01 AC 21.02 AC 21.03 AC 21.04 AC 21.05 AC 21.06 
+```
+
+---
+## <a id="Sommaire" style="textdecoration:none"></a> Sommaire
+### les liens en dessus sont clickable et renvoi vers les démonstrations correspondantes
+---
+- [Introduction](#Introduction) : Rappel de la compétence Administrer
+-  [AC 21.01 ](#Ac_21.01) : Configurer et dépanner le routage dynamique dans un réseau 
+
+- [AC 21.02 ](#Ac_21.02) : Configurer et expliquer une politique simple de QoS et les fonctions de base de la sécurité d'un réseau 
+- [AC 21.03 ](#Ac_21.03) : Déployer des postes clients et des solutions virtualisées adaptées à une situation donnée
+- [AC 21.04 ](#Ac_21.04) : Déployer des services réseaux avancés
+- [AC 21.05 ](#Ac_21.05) : Identifier les réseaux opérateurs et l'architecture d'Internet
+- [AC 21.06 ](#Ac_21.06) Travailler en équipe pour développer ses compétences professionnelles
+- [AC 21.07 (hors_référentiel) ](#Ac_21.07) : Déployer et gérer des postes clients. 
+- [AC 21.08 (hors_référentiel) ](#Ac_21.08) :  Déployer des solutions virtualisées en particulier pour le poste client. 
+- [AC 21.09 (hors_référentiel) ](#Ac_21.09) : Utilisé des services conteneurisés.
+- [AC 21.10 (hors_référentiel) ](#Ac_21.10) : Déployer et utiliser un système de supervision
+- [AC 21.11 (hors_référentiel) ](#Ac_21.11) : Déployer des technologies d'opérateurs (BGP et commutation de paquet MPLS)  
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="Introduction" style="textdecoration:none;"> </a>  Introduction : Rappel de la compétence Administrer
+[Retour au sommaire](#Sommaire)
+
+La compétence Administrer à pour objectif d'administrer et de concenvoir un réseau. 
+
+Celle-ci demande de savoir en situation professionnelle : 
+- Concevoir et administrer l'infrastructure du réseau informatique d'une entreprise
+- Installer et administrer les services réseaux informatiques d'une entreprise
+- Déployer et administrer des solutions fixes pour les clients d'un opérateur de télécommunication
+- Gestion des postes clients
+- Utilisation des technologies de virtualisations 
+
+Demandant ainsi au futur professionnel de repondre au composantes essentielles suivantes :
+
+- Choisir les solutions et téchnologies adaptées à la situation
+- Réspecter les principes fondamenteaux de la sécurité informatiques 
+- Utiliser une approche rigoureuse pour la résolution des dysfonctionnements
+- Respecter les règles métiers
+- Assurer une veille technologique
+- Communiquer avec les clients et le differents acteurs impliqués
+- Utiliser une approche rigoureuse et methodique (démarche scientifique) 
+
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+##  <a id="Ac_21.01" style="textdecoration:none;"> </a>  AC 21.01 : Configurer et dépanner le routage dynamique dans un réseau 
+[Retour au sommaire](#Sommaire)
+
+
+
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+
+## <a id="Ac_21.02" style="textdecoration:none;"> </a>  AC 21.02 : Configurer et expliquer une politique simple de QoS et les fonctions de base de la sécurité d'un réseau
+[Retour au sommaire](#Sommaire)
+
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_21.03" style="textdecoration:none;"> </a>  AC 21.03 : Déployer des postes clients et des solutions virtualisées adaptées à une situation donnée
+[Retour au sommaire](#Sommaire)
+
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_21.04" style="textdecoration:none;"> </a>  AC 21.04 : Déployer des  services réseaux avancés
+[Retour au sommaire](#Sommaire)
+
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_21.05" style="textdecoration:none;"> </a>  AC 21.05 : Identifier les réseaux opérateurs et l'architecture d'Internet
+[Retour au sommaire](#Sommaire)
+
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_21.06" style="textdecoration:none;"> </a>  AC 21.06 : Travailler en équipe pour développer ses compétences professionnelles
+[Retour au sommaire](#Sommaire)
+
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_21.07" style="textdecoration:none;"> </a>  AC 21.07 (hors_réferentiel) : Déployer et gérer des postes clients
+[Retour au sommaire](#Sommaire)
+
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_21.08" style="textdecoration:none;"> </a>  AC 21.08 (hors_réferentiel) : Déployer des solutions virtualisées en particulier pour le poste client
+[Retour au sommaire](#Sommaire)
+
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_21.09" style="textdecoration:none;"> </a>  AC 21.09 (hors_réferentiel) : Utilisé des services conteneurisés
+[Retour au sommaire](#Sommaire)
+
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_21.10" style="textdecoration:none;"> </a>  AC 21.10 (hors_réferentiel) : Déployer et utiliser un système de supervision
+[Retour au sommaire](#Sommaire)
+
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_21.11" style="textdecoration:none;"> </a>  AC 21.11 (hors_réferentiel) : Déployer des technologies d'opérateurs (BGP et commutation de paquet MPLS)
+[Retour au sommaire](#Sommaire)
+
+---
+<script>
+// JavaScript code to insert current date and time into footer
+var currentDateTime = new Date().toLocaleString();
+document.write("<footer>" + currentDateTime + " &copy Helec Bastien. All Rights Reserved.</footer>");
+</script>
+
+---

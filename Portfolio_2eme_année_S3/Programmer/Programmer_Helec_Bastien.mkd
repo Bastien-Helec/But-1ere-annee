@@ -1,0 +1,81 @@
+# Programmer
+
+```
+Bastien Helec
+Semestre 3
+Ressources associées à la compétences Programmer : 
+- R308 : AC 23.02 AC 23.05
+- R309 : AC 23.02 AC 23.03
+- R310 : AC 23.04
+- R311 : AC 23.02
+- R312 : AC 23.02
+- R313 : AC 23.01 AC 23.02 AC 23.03 AC 23.04 AC 23.05
+- R315 : AC 23.02
+- SAE 3.02 : AC 23.02 AC 23.03 AC 23.04 AC 23.05
+- Portfolio : AC 23.02 AC 23.03 AC 23.04 AC 23.05
+```
+
+---
+## <a id="Sommaire" style="textdecoration:none"></a> Sommaire
+### les liens en dessus sont clickable et renvoi vers les démonstrations correspondantes
+---
+- [Introduction](#Introduction) : Rappel de la compétence Programmer
+-  [AC 23.01 ](#Ac_23.01) : Automatiser l'administration système avec des scripts
+- [AC 23.02 ](#Ac_23.02) : Développer une application à partir d'un cahier des charges donné, pour le Web ou les périphériques mobiles
+- [AC 23.03 ](#Ac_23.03) : Utiliser un protocole réseau pour programmer une application client/serveur
+- [AC 23.04 ](#Ac_23.04) : Installer, administrer un système de gestion de données
+- [AC 23.05 ](#Ac_23.05) : Accéder à un ensemble de données depuis une application et/ou un site web
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="Introduction" style="textdecoration:none;"> </a>  Introduction : Rappel de la compétence Programmer
+[Retour au sommaire](#Sommaire)
+
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+
+## <a id="Ac_23.01" style="textdecoration:none;"> </a>  AC 23.01 : Automatiser l'administration système avec des scripts
+[Retour au sommaire](#Sommaire)
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+
+## <a id="Ac_23.02" style="textdecoration:none;"> </a>  AC 23.02 : Développer une application à partir d'un cahier des charges donné, pour le Web ou les périphériques mobiles
+[Retour au sommaire](#Sommaire)
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+
+## <a id="Ac_23.03" style="textdecoration:none;"> </a>  AC 23.03 : Utiliser un protocole réseau pour programmer une application client/serveur
+[Retour au sommaire](#Sommaire)
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+
+## <a id="Ac_23.04" style="textdecoration:none;"> </a>  AC 23.04 : Installer, administrer un système de gestion de données
+[Retour au sommaire](#Sommaire)
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+
+## <a id="Ac_23.05" style="textdecoration:none;"> </a>  AC 23.05 : Accéder à un ensemble de données depuis une application et/ou un site web
+[Retour au sommaire](#Sommaire)
+
+
+
+---
+<script>
+// JavaScript code to insert current date and time into footer
+var currentDateTime = new Date().toLocaleString();
+document.write("<footer>" + currentDateTime + " &copy Helec Bastien. All Rights Reserved.</footer>");
+</script>
+
+---

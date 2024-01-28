@@ -1,0 +1,107 @@
+# Orchestrer
+
+```
+Bastien Helec
+@Bastien-Helec
+Semestre 3
+Ressources associées à la compétences Orchestrer : 
+- R313 : AC 24.DevCloud.01 AC 24.DevCloud.02 AC 24.DevCloud.03 AC 24.DevCloud.04
+- R3.DevCloud.16 : AC 24.DevCloud.01 AC 24.DevCloud.03
+- R3.DevCloud.17 : AC 24.DevCloud.01 AC 24.DevCloud.02 AC 24.DevCloud.04
+- SAE 1.Devcloud.03 : AC 24.DevCloud.02 
+- SAE 3.Devcloud.04 : AC 24.DevCloud.01 AC 24.DevCloud.02 AC 24.DevCloud.04
+- Portfolio : AC 24.DevCloud.01 AC 24.DevCloud.02 AC 24.DevCloud.04
+
+```
+
+---
+## <a id="Sommaire" style="textdecoration:none"></a> Sommaire
+### les liens en dessus sont clickable et renvoi vers les démonstrations correspondantes
+---
+- [Introduction](#Introduction) : Rappel de la compétence Orchestrer
+-  [AC 25.DevCloud.01 ](#Ac_24.DevCloud.01) : Proposer une solution Cloud adaptée a l'entreprise
+-  [AC 25.DevCloud.02 ](#Ac_24.DevCloud.02) : Virtualiser un environnement
+-  [AC 25.DevCloud.03 ](#Ac_24.DevCloud.03) : Utiliser les servies du Cloud
+-  [AC 25.DevCloud.04 ](#Ac_24.DevCloud.04) : Analyser un service Cloud au travers des métriques
+-  [AC 25.DevCloud.05 (hors_réferentiel) ](#Ac_24.DevCloud.05) : Virtualiser une infrastructure système et réseau
+-  [AC 25.DevCloud.06 (hors_réferentiel) ](#Ac_24.DevCloud.06) : Bâtir une infrastructure de stockage partagée
+-  [AC 25.DevCloud.07 (hors_réferentiel) ](#Ac_24.DevCloud.07) : Configurer et exploiter une infrastructure physique serveurs
+-  [AC 25.DevCloud.08 (hors_réferentiel) ](#Ac_24.DevCloud.08) : Sécuriser les accès informatiques à son infrastructure physique
+-  [AC 25.DevCloud.09 (hors_réferentiel) ](#Ac_24.DevCloud.09) : Analyser basiquement une offre de service Cloud
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="Introduction" style="textdecoration:none;"> </a>  Introduction : Rappel de la compétence Orchestrer
+[Retour au sommaire](#Sommaire)
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_24.DevCloud.01" style="textdecoration:none;"> </a>  AC 24.DevCloud.01 : Proposer une solution Cloud adaptée a l'entreprise
+[Retour au sommaire](#Sommaire)
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_24.DevCloud.02" style="textdecoration:none;"> </a>  AC 24.DevCloud.02 : Virtualiser un environnement
+[Retour au sommaire](#Sommaire)
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_24.DevCloud.03" style="textdecoration:none;"> </a>  AC 24.DevCloud.03 : Utiliser les servies du Cloud
+[Retour au sommaire](#Sommaire)
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_24.DevCloud.04" style="textdecoration:none;"> </a>  AC 24.DevCloud.04 : Analyser un service Cloud au travers des métriques
+[Retour au sommaire](#Sommaire)
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_24.DevCloud.05" style="textdecoration:none;"> </a>  AC 24.DevCloud.05 (hors_réferentiel) : Virtualiser une infrastructure système et réseau
+[Retour au sommaire](#Sommaire)
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_24.DevCloud.06" style="textdecoration:none;"> </a>  AC 24.DevCloud.06 (hors_réferentiel) : Bâtir une infrastructure de stockage partagée
+[Retour au sommaire](#Sommaire)
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_24.DevCloud.07" style="textdecoration:none;"> </a>  AC 24.DevCloud.07 (hors_réferentiel) : Configurer et exploiter une infrastructure physique serveurs
+[Retour au sommaire](#Sommaire)
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_24.DevCloud.08" style="textdecoration:none;"> </a>  AC 24.DevCloud.08 (hors_réferentiel) : Sécuriser les accès informatiques à son infrastructure physique
+[Retour au sommaire](#Sommaire)
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="Ac_24.DevCloud.09" style="textdecoration:none;"> </a>  AC 24.DevCloud.09 (hors_réferentiel) : Analyser basiquement une offre de service Cloud
+[Retour au sommaire](#Sommaire)
+
+---
+<script>
+// JavaScript code to insert current date and time into footer
+var currentDateTime = new Date().toLocaleString();
+document.write("<footer>" + currentDateTime + " &copy Helec Bastien. All Rights Reserved.</footer>");
+</script>
+
+
+---
+
+
+
+
+
+
+
