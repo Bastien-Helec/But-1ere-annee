@@ -111,6 +111,11 @@ De plus aujourd'hui je communique auprès des premières années des conseils po
 ## <a id="3." style="textdecoration:none;"> </a>  Ce que je prevois de faire pour améliorer mon niveau :
 [Retour au sommaire](#Sommaire)
 
+Je prevois de me renseigner plus sur les documentations des differents protocoles de routage dynamique comme par exemple les RFC du BGP , du RIP etc afin des les comprendres et pouvoir ainsi utiliser tout le potentiel associés au ceux-ci.
+
+Je pense aussi réaliser des infrastructures toujours plus complexe en me permettant de mettre en pratique toutes les informations que j'aurais apprise auprès des documentations, Et donc ainsi réaliser moi meme une documentation sous forme de tutoriel. 
+
+
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
 
@@ -259,6 +264,12 @@ Dans la ressource R301 j'ai pu mettre en place via l'application Cisco Packet Tr
 ![Spanning_tree](./images/Spanning_tree.png)
 
 On peut voir pour un réseau complexe les routes prises par le protocole STP pour éviter les bouclages réseaux. 
+
+
+Durant la SAE.3.Devcloud.03 On a pu virtualiser des appareils de routages comme le routeur c8000 avec le router edge csr1000v. 
+
+<!-- Ajouter les choses effectuer sur le google docs -->
+
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
