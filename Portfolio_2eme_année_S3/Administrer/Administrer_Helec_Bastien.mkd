@@ -279,7 +279,7 @@ Durant la SAE.3.Devcloud.03 On a pu virtualiser des appareils de routages comme 
 [Retour au sommaire](#Sommaire)
 
 
-
+J'en conclu que j'ai obtenu le niveau attendu en fin d'année pour la compétence Administrer.
 
 ---
 <script>
