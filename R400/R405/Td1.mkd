@@ -1,0 +1,230 @@
+# TD1 Bash 
+
+## 1. Que font ces oneliners ou ces scripts BASH ? écrivez ce que vous pensez voir en sortie de la commande ou du script bash
+
+1. Quel résultat donne cette ligne ?
+```bash
+DATE=$(date); echo $DATE
+```
+
+![date](./images/TD1_R405_1.png)
+
+Elle affiche la date courante.
+
+2. quel résultat donne cette ligne ?
+
+```bash
+cat /etc/passwd |wc -l
+```
+Elle affiche le nombre de lignes du fichier /etc/passwd.
+
+![wc](./images/TD1_R405_2.png)
+
+
+3. 
+```bash
+find /var/log -type f -name *.log -exec ls -alh {} \;
+```
+
+
+Affiche les fichiers log de /var/log avec les droits d'accès.
+
+![find](./images/TD1_R405_3.png)
+
+
+4. expliquez ce que fait cet alias. Quels sont les autres alias sur votre compte ?
+
+```bash
+alias cds='cd /Users/pouchou/ownCloud/cours\ iut\ 2/cours\ iut/latex/inc/scripts'
+```
+
+Cet alias permet de se déplacer dans le répertoire donné. Les autres alias sont :
+
+![alias](./images/TD1_R405_4.png)
+
+
+5. Que fait cette ligne ?
+
+```bash
+echo 111-{aa,bb,cc}+{xx,yy,zz}-222
+```
+
+Affiche les combinaisons possibles entre les accolades.
+
+![echo](./images/TD1_R405_5.png)
+
+
+
+6. Pourquoi le résultat diffère-t-il entre les deux boucles ? que pourriez vous en retenir comme conseil systématique ?
+
+```bash
+MESSAGE="hello world"
+for i in "$MESSAGE"; do echo $i; done
+hello world
+for i in $MESSAGE; do echo $i; done
+hello
+word
+```
+
+Le premier for boucle sur une seule valeur, le second sur deux valeurs (sans-guillemet).
+
+
+
+
+7. Utilisez l’expansion de variables afin de simplifier cette commande :
+
+```bash
+cp dirname-et-basename.sh dirname-et-basename.sh.bak
+```
+
+```bash
+cp dirname-et-basename.sh{,.bak}
+```
+
+en ajoutant {,.bak} on ajoute le suffixe .bak au fichier dirname-et-basename.sh sans avoir à le réécrire.
+
+
+8. Déterminez quel est le PID de votre bash via la commande ps -ef. comparer avec la variable $$ ? Que fait cette commande ?
+
+```bash
+ps -ef | grep bash
+
+```bash
+echo $$
+```
+
+![ps](./images/TD1_R405_8.png)
+
+
+```bash
+kill -9 $$
+```
+
+supprime le bash courant.
+
+
+9. 
+```bash
+ping -c1 localhost && { echo succes;} || { echo pasglop; }
+```
+
+![ping](./images/TD1_R405_9.png)
+
+## 2. Explorons $* et $@ : quels résultats donnent les scripts suivants ?
+
+1. Quel résultats pour la commande suivante : ./loopargs1.sh un deux trois quatre rappel du cours :
+Les variables $* et $@ contiennent la liste des arguments d’un script shell. Lorsqu’elles ne sont pas entourées par des guillemets, elles sont équivalentes. $* ou $@ ensemble des paramètres positionnels, équivalent à $1 $2 ... $n
+"$*" ensemble des paramètres positionnels, équivalent à "$1 $2 ... $n"
+"$@" ensemble des paramètres positionnels, équivalent à "$1" "$2" ... "$n"
+
+```bash
+#!/bin/bash
+for i in $*
+do
+echo $i
+done
+echo -e '\n'
+for i in $@
+do
+echo $i
+done
+echo -e '\n'
+for i in "$*"
+do
+echo $i
+done
+echo -e '\n'
+for i in "$@"
+do
+echo $i
+done
+```
+
+![log](./images/TD1_405_2_1.png)
+
+le programme affiche les arguments passés en paramètre (un deux trois quatre rappel du cours) en les séparant par des espaces.
+
+## 3. Solutions pour lire un fichier.
+
+1. Découverte de la variable IFS.
+    a. Expliquez les résultats de ce script : 
+```bash
+mkdir "repertoire avec espace"{1,2} &>/dev/null && touch "fichier "{1,2} \
+& > /dev/null || echo -e "rep et fichiers presents"
+for n in $(ls) ; do echo $n ; done
+echo -e "-------------------"
+echo -e "Avec IFS modifié"
+IFS=$'\n'; for n in $(ls) ; do echo $n ; done
+./test-ifs.sh
+fichier
+1
+fichier
+2
+repertoire
+avec
+espace1
+repertoire
+avec
+espace2
+test-ifs.sh
+-------------------
+Avec IFS modifie
+fichier 1
+fichier 2
+repertoire avec espace1
+repertoire avec espace2
+test-ifs.sh
+```
+
+Le programme affiche le texte "rep et fichiers presents" puis les fichiers et répertoires présents dans le répertoire courant. En modifiant IFS, on affiche les fichiers et répertoires en prenant en compte les espaces.
+
+Avant chaque for met un retour a la ligne, contrairement à la commande IFS=$'\n'
+
+b. Que fait ce script ? 
+```bash
+#!/bin/bash
+_file="${1:-/dev/null}" # sécurité en cas d'erreur
+while IFS= read -r line
+do
+echo "$line"
+done < "$_file"
+```
+
+Le script affiche le contenu du fichier passé en paramètre, en respectant la disposition ligne par ligne.
+
+
+![read](./images/TD1_405_3b.png)
+
+
+2. Que fait ce script ? 
+```bash
+#!/bin/bash
+while IFS= read -r line
+do
+echo "$line"
+done < "/etc/passwd"
+```
+
+On rappelle que les champs de /etc/passwd sont séparés par ’ :’ A quoi sert IFS ?
+
+Le script affiche le contenu du fichier /etc/passwd en respectant la disposition ligne par ligne. IFS est une variable d'environnement qui définit le séparateur de champ interne. Par défaut, il est défini sur les espaces, les tabulations et les retours à la ligne.
+
+3. Que fait ce script ? 
+```bash
+#/bin/bash
+IFS=:
+while read login mdp uid gid gecos home shell;
+do echo "${gecos:=undef} > login $login (home : $home, shell : $shell)" ;
+done < /etc/passwd
+```
+
+Le script affiche le contenu du fichier /etc/passwd en respectant la disposition ligne par ligne. Il affiche le login, le home et le shell de chaque utilisateur.
+
+A quoi sert IFS ? IFS =: permet de définir le séparateur de champ interne à ":".
+
+A quoi sert le undef ? il permet de ne pas enregistrer via gecos
+*
+
+4. A quoi sert la commande set -x 
+affiche les options de ligne lisibles.
+

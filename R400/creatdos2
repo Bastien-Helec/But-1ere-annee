@@ -1,0 +1,33 @@
+#!/bin/bash 
+i=100
+t=116
+while ((i<t))
+do
+mkdir "R${i}"
+$((i++))
+done
+
+c=400
+d=416
+while ((c<d))
+do
+mkdir "R${c}"
+$((c++))
+done
+
+
+e=41
+f=46
+while ((e<f))
+do
+mkdir "SAE${e}"
+$((e++))
+done
+
+a=11
+b=16
+while ((a<b))
+do
+mkdir "SAE${a}"
+$((a++))
+done

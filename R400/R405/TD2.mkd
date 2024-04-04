@@ -1,0 +1,122 @@
+# TD2 Cron Table (R400/R405/TD2)
+
+## Commande AT
+1. Donner la syntaxe pour effectuer une commande différée répondant au criteres suivants : 
+- A 3h10 du matin
+- A 3h10 de l’après midi
+- Le 21 janvier 2048 a 5h27
+- Dans 20 minutes
+- Dans 3 jours
+- Dans 3 jours et un mail est envoyé a l’utilisateur
+- A 3h10 lancer le script /home/user/script
+
+```bash
+at 3:10am
+at 3:10pm
+at 5:27am 21 jan 2048
+at now + 20 minutes
+at now + 3 days
+echo "mail -s 'sujet'
+at now + 3 days
+at 3:10 /home/user/script
+```
+
+2. Quelle est la commande permettant de voir la liste des tâches en attente ?
+
+```bash
+atq
+```
+3. Quelle commande permet de supprimer une tâche en attente ?
+
+```bash
+atrm <id>
+```
+
+4. Quelle commande permet de voir le contenu d’une tâche en attente ?
+
+```bash
+at -c <id>
+```
+
+5. Regarder le contenu et le nom d'un des fichiers de tâches en attente (après avoir crée une ou 2 taches)  ?
+
+```bash
+at -c <id>
+```
+
+## Cron
+1. CRON Système
+a. Dans quel fichier se trouve la configuration principale de CRON
+
+```bash
+/etc/crontab
+```
+
+b) Debian propose par défaut une préconfiguration permettant de lancer automatiquement des
+scripts
+— toutes les heures
+— tous les jours
+— toutes les semaines
+— tous les mois
+Retrouvez dans quels dossiers doivent être placés les scripts concernés
+
+```bash
+/etc/cron.hourly
+/etc/cron.daily
+/etc/cron.weekly
+/etc/cron.monthly
+```
+
+c) En tant que quel utilisateur sont-ils lancés ?
+
+```bash
+root
+```
+
+d) A quel moment sont-ils lancés précisément ?
+
+```bash
+A 6h25
+```
+
+
+e) A quoi sert la commande run-parts
+
+
+Elle permet de lancer tous les scripts d'un dossier
+
+2. CRON Utilisateur
+a) Dans quelle variable d’environnement peut-on spécifier l’éditeur par défaut ?
+
+```bash
+EDITOR
+```
+
+
+b) Quelle ligne faut-il ajouter au .bashrc de l’utilisateur pour que l’éditeur par défaut soit vim pour l’utilisateur ?
+
+```bash
+export EDITOR=vim
+```
+
+c) La commande crontab -e permet d’éditer la crontab d’un utilisateur. A quel endroit est stockée le fichier crontab des utilisateurs ?
+
+```bash
+/var/spool/cron/crontabs
+```
+
+d) Donner la syntax à mettre dans le fichier crontab d’un utilisateur pour lancer une commande répondant aux critères suivants :
+
+e) Lancer un script tous les jours à 3h05
+f) Lancer un script toutes les 5 minutes
+g) Lancer un script toutes les 5 minutes entre 8h et 17h
+h) Lancer un script tous les premiers lundi du mois à 13h15
+
+
+```bash
+5 3 * * * /home/user/script
+*/5 * * * * /home/user/script
+*/5 8-17 * * * /home/user/script
+15 13 * * 1 [ "$(date +\%d)" -le 07 ] && /home/user/script
+```
+
