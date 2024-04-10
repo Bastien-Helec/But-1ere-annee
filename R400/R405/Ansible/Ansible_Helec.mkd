@@ -1,0 +1,49 @@
+# Ansible Helec
+
+## 3. Installation et utilisation d'Ansible
+
+sous la vm packer debian accessible sous moodle, on recupere le script d'ansible.
+
+```bash
+git pull https://github.com/pushou/tp3automatisation.git/
+```
+
+Puis on lance le script create-cont.sh qui va nous generer un espace de travail complet pour ansible.
+
+```bash
+./create-cont.sh
+```
+
+## 4 Prise en main d'Ansible
+
+on va verifier avec la commande ansible et le module ping que les cibles sont vivantes
+
+on va utilisez l'option host_key_checking=false du fichier ansible.cfg pour eviter les warnings désagréable
+
+
+on utilise ensuite ansible-console pour lancer la commande : 
+
+```bash
+ansible-console 
+
+ip -br a
+```
+ansible utilise le protocole ssh 
+
+Analyser le fonctionnement de la commande ansible avec l’option -vvv. Que pouvez vous en déduire du fonctionnement d’Ansible ? expliquer comment Ansible peut être "agentless"?
+
+-vvv permet d'afficher le multi debug 
+
+Création d'un groupe container qui regroupe tout les containeurs actuelle :
+
+
+le groupe unlisted regroupe tout les noeuds sans groupe. 
+
+Sur 2 des containeurs créer installez un serveur web apache2 et Centos a l'aide de la commande ansible et des modules Ansible de gestion des paquets apt et dnf. Le package s'appelle httpd sous Centos.
+
+```bash
+ansible -m apt -a "name=apache2 state=present" debian-0
+ansible -m dnf -a "name=httpd state=present" rocky-0
+```
+
+

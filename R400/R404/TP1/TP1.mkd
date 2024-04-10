@@ -1,0 +1,270 @@
+# TP1 R404 : Réseaux cellulaires
+---
+
+## 1 Localisation des antennes des réseaux 2G/3G/4G/5G :
+
+1. A l'aide du site WEB http://www.cartoradio.fr/, déterminer l'implantation réelle des principaux émetteurs de
+téléphonie mobile autour de l'IUT de Béziers (Photo de la carte - échelle 500 m).
+
+-Chateau 
+
+![Chateaux](./images/Chateau-1.png)
+
+Distance : 
+
+0.86 km
+
+![Chateaux](./images/Chateau-2.png)
+
+
+-Arènes
+
+![Arènes](./images/Arene-1.png)
+
+Distance :
+
+0.61 Km
+
+![Arènes](./images/Arene-2.png)
+
+
+
+2. Noter les coordonnées GPS de l'IUT en utilisant le site https://www.geoportail.gouv.fr et la « clé à molette »
+ou le site https://carte-fh.lafibre.info/ et l’outil « Mesure de distance et superficie » en bas à droite.
+
+
+Coordonnées GPS de l'IUT : 
+
+```
+Lat : 43.3466
+Long : 3.2222
+
+Bouygues : 3G/4G, FH
+Free : 2G/3G/4G/5G, FH
+SFR : 2G/3G/4G, FH
+TDF : FH
+```
+
+![IUT](./images/IUT.png)
+
+
+
+3. Pour les support suivants, noter les coordonnées GPS et le nom des différents opérateurs de téléphonie
+2G/3G/4G/5G :
+• 568135 au Château d'eau
+• 474133 aux Arènes de Béziers
+
+- Château d'eau
+
+![Chateaux](./images/Chateau-3.png)
+
+```
+Lat : 43.36
+Long : 3.22
+
+
+``` 
+
+- Arènes
+
+![Arènes](./images/Arene-3.png)
+
+```
+Lat : 43.34
+Long : 3.22
+
+SFR : 2G/3G/4G
+Bouygues : 2G/3G/4G , FH
+Free : 2G/3G/4G, FH
+Orange : 2G/3G/4G/5G
+
+```
+
+
+
+
+4. Noter le détail des antennes « Bouygues » pour les 2 supports (hauteur, orientation, bandes de fréquences).
+
+- Chateau d'eau
+
+```
+FH 18 GHz	34 m	347°
+FH 11 GHz	42 m	292°
+FH 18 GHz	33.7 m	286°
+FH 18 GHz	33.6 m	120°
+FH 18 GHz	33.9 m	153°
+FH 18 GHz	33 m	172°
+FH 18 GHz	33 m	121°
+FH 32 GHz	33.8 m	85°
+FH 26 GHz	33.2 m	162°
+FH 26 GHz	34.2 m	253°
+FH 32 GHz	34 m	210°
+FH 32 GHz	33.9 m	222°
+FH 32 GHz	33.7 m	131°
+FH 70/80 GHz	33.3 m	228°
+FH 70/80 GHz	33.3 m	274°
+FH 32 GHz	33.8 m	162°
+FH 11 GHz	33.6 m	36°
+FH 18 GHz	33.3 m	272°
+FH 18 GHz	33.6 m	2°
+FH 32 GHz	33 m	35°
+FH 32 GHz	33 m	280°
+FH 32 GHz	33.3 m	309°
+FH 18 GHz	34 m	111°
+FH 18 GHz	32 m	175°
+FH 18 GHz	32.2 m	108°
+FH 18 GHz	33.5 m	293°
+```
+
+![Chateaux](./images/Bouygues-1.png)
+
+
+- Arènes
+
+```
+FH 38 GHz	Antenne parabolique (0.3 m)	16.5 m	356°
+```
+
+
+![Arènes](./images/Bouygues-2.png)
+
+
+
+5. Afficher les directions des antennes sur la carte à l'échelle 100 m ou 200 m. Vérifier que cela correspond aussi terme Azimut.
+
+- Chateau d'eau : 
+
+![Chateaux](./images/Directions_Azimut.png)
+
+
+
+- Arènes :
+
+![Arènes](./images/Directions_Azimut-2.png)
+
+
+## 2 Faisceaux Hertziens :
+1. Que signifie le terme « Faisceau Hertzien » ? A quoi cela sert-il pour la téléphonie ?
+
+
+Un faisceau hertzien est une technique de transmission de signaux par ondes électromagnétiques. Il est utilisé pour la téléphonie pour transmettre des données entre deux points distants sans avoir besoin de câbles.
+
+
+
+2. Noter les gammes de fréquence des FH et les orientations pour le réseau Free sur les supports précédents.
+
+- Chateau d'eau
+
+```
+FH 18 GHz	Antenne parabolique (0.6 m)	22.5 m	285.6°
+FH 18 GHz	Antenne parabolique (0.6 m)	22.5 m	225.2°
+```
+
+- Arènes
+
+```
+FH 70/80 GHz	Antenne parabolique (0.3 m)	13 m	72.1°
+```
+
+
+
+3. Déterminer les supports interconnectés à ces FH et les distances en se servant du site https://carte-fh.lafibre.info/.
+
+Les supports interconnectés sont les suivants :
+
+- Chateau d'eau
+
+```
+Syndicat des eaux, Adduction (568135)
+distance : 0.6m 
+```
+
+- Arènes
+
+```
+Société Privée (474133)
+distance : 0.3m
+```
+
+
+
+
+
+
+4. Un installateur de FH pour un opérateur Réseau Mobile a prit des photos lors de l’installation d’un FH entre 2
+sites (voir fichiers fournis). 
+
+Image : IMGP1579.JPG
+
+![IMGP1579](./images/IMGP1579.JPG)
+
+
+Donner la gamme de fréquences utilisé par le FH (indiquer la photo). Quels sont les azimuts sur chaque site (indiquer la photo) et vérifier les valeurs sur la carte en ligne de FH.
+
+- FH 18 GHz
+
+Azimut : 
+- Site 1 : 262.61 °
+- Site 2 : 82.60 °
+
+Site 1 : 
+![Site 1](./images/Site-1.png)
+
+![Azimute Site 1](./images/Azimut_site1.png)
+
+
+Site 2 :
+
+![Site 2](./images/Site-2.png)
+
+![Azimute Site 2](./images/Azimut_site2.png)
+
+
+
+
+
+5. Quelle distance sépare les 2 sites ? Sur quelle photo, a-t-on le second site en visuel ?
+
+Distance = 2.04 Km
+
+![Distance](./images/Distance.png)
+
+
+On a le second site en visuel sur la photo RIMG8753.JPG
+
+![Visuel](./images/RIMG8753.JPG)
+
+6. Faire un bilan de liaison (rechercher sur Internet), sachant qu’il à paramétré les équipements ainsi :
+
+![Bilan](./images/Bilan_Liaison.png)
+
+
+
+
+
+
+7. En étudiant l’analyse fournie entre les sites 66136_020 et 66195_003, localiser les FH sur une carte et vérifier
+les valeurs indiquées (Fréquence, azimuts, tilt, distance, altitudes/hauteurs, ...).
+
+Site 1 : 66136_020
+![FH](./images/FH.png)
+
+
+
+Site 2 : 66195_003
+
+![FH](./images/FH-2.png)
+
+
+
+![FH](./images/Doc.png)
+
+
+
+
+8. Que représente les valeurs PIRE et C/Imin ?
+
+PIRE : Puissance Isotrope Rayonnée Equivalente
+C/Imin : Carrier to Interference Minimum
+
+Donc PIRE est la puissance rayonnée par l'antenne et C/Imin est le rapport signal/bruit.
