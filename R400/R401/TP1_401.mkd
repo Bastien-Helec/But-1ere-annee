@@ -1,0 +1,228 @@
+# TP1 401 : chiffrement :
+
+## 1 : Fonction de hachage 
+
+Le condensé, de par ses propriétés mathématiques, est un outil de choix pour la vérifica-
+tion de l’intégrité des données. En effet, si le moindre octet est modifié dans le fichier de
+départ, son condensé change radicalement. En pratique, le condensé permet de vérifier
+qu’un fichier n’a pas été altéré lors d’une transmission. On s’en sert également pour le
+stockage des mots de passe sous Linux
+
+1.1 : Calcul d'un condensé à l'aide de MD5 : 
+
+A l’aide d’un éditeur quelconque, créez un fichier contenant un texte quelconque. Sauvez-
+le, puis calculez son condensé à l’aide de la fonction md5sum :
+
+```bash
+md5sum fichier.txt
+```
+
+Exercice 1 : Quel hash obtenez vous ?
+
+
+```bash
+echo "fichier quelconque" > fichier.txt
+md5sum fichier.txt
+```
+
+![md5sum](../R401/images/TP1_R401.png)
+
+Exercice 2 : Combien de condensés différents sont possibles (Indice : c'est de l'hexadecimal )?
+
+Il y a 128 bits de condensé possible car il y a 16^32 combinaisons possibles.
+
+Exercice 3 : La dernière propriété mathématique énoncée dans Wikipédia est-elle possible en pratique ?
+
+La robustesse de la fonction de hash MD5 est possible en pratique. Néanmoins il est possible de trouver des collisions en pratique.
+
+1.2 : Verification des propriétes du condensé 
+
+Exercice 4 Reprenez le fichier précédent et renommez-le. Calculez son hash. Que remarquez vous ?
+
+```bash
+mv fichier.txt fichier2.txt
+md5sum fichier2.txt
+```
+
+Exercice 5 Modifiez maintenant le contenu du fichier. Recalculez le hash. Que remarquez-vous ?
+
+```bash
+echo "fichier modifié" > fichier2.txt
+md5sum fichier2.txt
+```
+
+![md5sum](../R401/images/TP1_R401_2.png)
+
+Le code MD5 n'a pas changer, il est toujours le même.
+
+Exercice 6 Peut-on calculer le hash d’un fichier binaire ( un executable par exemple ) ? Vérifiez votre réponse.
+
+```bash
+md5sum /bin/ls
+```
+
+![md5sum](../R401/images/TP_R401_3.png)
+
+Oui on peut calculer le hash d'un fichier binaire.
+
+## 2 Clefs de chiffrement :
+
+2.1 : Génération de clefs :
+
+Nous allons commencer par créer un couple de clés publique/privée associées à votre Email. Pour ce faire, nous allons utiliser gnupg.
+
+Vous allez suivre la procédure suivante : Tapez la commande suivante pour générer la paire de clefs.
+
+```bash
+gpg --gen-key # version simplifié
+gpg --full-generate-key # version avec toutes les options
+```
+
+![gpg](../R401/images/TP1_R401_4.png)
+
+![gpg_full](../R401/images/TP1_R401_5.png)
+ 
+
+
+passphrase : TP1401
+
+Exercice 7 : Vérifiez que votre trousseau numérique contient bien votre nouvelle clé.
+
+```bash
+gpg --list-keys
+```
+
+![gpg_list](../R401/images/TP1_R401_6.png)
+
+quels sont les différents champs ? 
+
+pub : clé publique
+uid : utilisateur
+sub : clé privée
+
+Exercice 8 : Quelle commande permet de liste les clefs privées présentes sur votre machine ? 
+Comment peut-on savoir comment relier la clef publique et la clef privée ?
+
+```bash
+gpg --list-secret-keys
+```
+
+![gpg_list_secret](../R401/images/TP1_R401_7.png)
+
+
+On peut relier la clef publique et la clef privée grâce à l'ID de la clef.
+
+
+2.2 : Diffusion de la clef publique 
+Pour permettre aux gens de vous envoyer des messages chiffrés, il est nécessaire de leur distribuer votre clef publique. Cela pourrait se faire par Email, mais deux questions se poseraient :
+▷ Êtes vous sur que l’expéditeur du mail est bien la bonne personne ?
+▷ Ne peut-on pas faire cela de manière plus compliquée, donc plus rigolote ?
+
+Des serveurs de clés sont mis gratuitement à disposition des internautes pour la distribution des clefs publiques. Nous allons donc exporter votre clef par ce biais :
+
+
+```bash 
+gpg --keyserver pgp.mit.edu --send-keys 0xXXXXXXXX
+```
+
+Il se peut que les serveurs soient très longs en terme de temps d’accès Pour éviter d’être bloqué trop longtemps nous allons exporter la clef et l’envoyer à votre binôme.
+Pour l’exporter on va utiliser la commande suivante (l’option – armor permet de la sauvegarder au format 7 bits donc en hexadécimal) :
+
+```bash
+gpg --armor --export > clef.pub
+```
+
+Exercice 9 : Quel est le contenu de votre fichier ?
+
+```bash
+cat clef.pub
+```
+
+![gpg_pub](../R401/images/TP1_R401_8.png)
+
+Exercice 10 : Il est également possible d’exporter sa clef privée pour la mettre sur son ordinateur (si on ne l’a pas créée sur son ordinateur). Pour celà on utilise la commande suivante :
+
+```bash
+gpg --armor --export-secret-keys > clef.priv
+```
+
+## 3 Chiffrement d’un fichier :
+
+Exercice 11 Pour envoyer un message chiffré à votre binôme, quelle clef faut-il utiliser pour chiffrer le message ?
+
+Pour cela soit on la récupère sur un site de dépôt de clef soit on l’importe à partir d’un fichier reçu.
+
+```bash
+gpg --keyserver pgp.mit.edu --recv-keys <ID_Clef>
+```
+Ou bien à partir d’un fichier :
+
+```bash
+gpg --import <NomFichierClefPublique.key>
+```
+
+
+
+Exercice 12 Vérifier que la clef est importée sur votre trousseau numérique.
+
+```bash
+gpg --list-keys
+```
+
+![gpg_list](../R401/images/TP1_R401_14.png)
+
+![gpg_list](../R401/images/TP1_R401_15.png)
+
+Exercice 13 Générer un fichier texte "toto.txt" et chiffrez le avec la commande suivante :
+
+```bash
+gpg --armor --recipient <@mail_du_destinataire> --encrypt
+↪→ toto.txt
+```
+
+
+
+Quel est le fichier généré qui correspond à la version chiffrée de toto.txt ?
+
+```bash
+toto.txt.asc
+```
+
+
+Le déchiffrage du fichier se fera avec la clef privée du destinataire. La commande utilisée pour faire cela est :
+
+```bash
+gpg --decrypt toto.txt.asc > toto.txt
+```
+
+Exercice 14 Vérifier que le fichier déchiffré est équivalent au fichier initial.
+
+
+
+
+
+
+
+## 5  Utilisation d'un certificat : 
+
+exercice 18 : Effectuer la configuration sur le serveur. Faut-il prévoir quelque chose sur le client ?
+Vérifier si le trafic est chiffré lors de l’envoi de la page web.
+
+```bash
+curl -v https://localhost
+```
+
+![curl](../R401/images/TP1_R401_16.png)
+
+Le trafic est bien chiffré.
+
+
+
+exercice 19 : Quels sont d’après vous les risques pour un administrateur réseau d’avoir des utilisateurs
+qui utilisent principalement des sites en https ?
+
+Les risques sont que les utilisateurs pensent que les sites sont sécurisés alors qu'ils ne le sont pas forcément. Il est possible de faire du phishing en utilisant des sites en https.
+
+
+
+
