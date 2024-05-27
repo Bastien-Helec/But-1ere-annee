@@ -1,0 +1,138 @@
+# TP Nushell Helec Bastien
+
+```
+# TP Nushell Helec Bastien
+22/05/2024
+```
+
+## Preparation de l'analyse: 
+
+On va analyser le fichier eve2.json avec nushell pour cela on va d'abord devoir transferer le fichiers avec la commande scp : 
+
+```bash
+scp eve2.json user@ip:/path/to/folder
+```
+
+Puis on fait la commande suivante : 
+
+```bash
+jq -s '.' eve2.json | save -f eve.json
+```
+
+![alt text](image.png)
+![alt text](image-1.png)
+
+Cette commande permet de transformer le fichier eve2.json en un fichier eve.json qui est plus lisible. avec les bonnes indentations.
+
+On peu a présent faire l'analyse du fichier eve.json avec nushell : 
+
+```bash
+open eve.json
+```
+
+![alt text](image-2.png)
+
+
+
+## Analyse du fichier : 
+
+Il y a présence d'une faille suricata pour cela on va observer les alertes suricata : 
+
+```bash
+open eve.json | where event_type == "alert"
+```
+
+![alt text](image-3.png)
+
+On voit a premiere vue qu'il ya présence d'une alerte suricata sur trojan DNS. 
+
+
+## Analyse avancée :
+
+On va maintenant faire une analyse plus pousser sur tous ce qui es lié a ce trojan: 
+
+- Adresse IP touchée
+- Port touché
+- Protocole utilisé
+- les types d'events
+- La sévérité des events alertes
+
+* Les ip touchées : 
+
+```bash
+open eve.json | where event_type == "alert" | get dest_ip| sort | uniq
+```
+
+![alt text](image-4.png)
+
+* Les ports touchés : 
+
+```bash
+open eve.json | where event_type == "alert" | get dest_port | sort | uniq  
+```
+
+![alt text](image-6.png)
+
+* Les protocoles utilisés : 
+
+```bash
+open eve.json | where event_type == "alert" | get proto | sort | uniq
+```
+
+![alt text](image-7.png)
+
+* Les event_type : 
+
+```bash
+open eve.json |get event_type | sort | uniq
+```
+
+![alt text](image-8.png)
+
+* Les severités des events alertes : 
+
+```bash
+open eve.json | get alert.severity | sort | uniq
+```
+
+
+## Analyse sur un autre fichier :
+
+On va maintenant refaire l'analyse evetpot.json : 
+
+```bash
+open evetpot.json
+```
+![alt](image-9.png)
+
+On va maintenant faire une analyse sur les alertes suricata : 
+
+```bash
+open evetpot.json | where event_type == "alert"
+```
+
+
+On liste les alertes suricata : 
+
+```bash
+open tpot.json | flatten | where "event_type" == "alert" |get "alert.signature" | sort | uniq
+```
+
+![alt text](image-11.png)
+
+Puis on fait une analyse sur tout les events alertes : 
+
+```bash
+open evetpot.json | where "event_type" == "alert" | get "alert.signature"
+```
+
+![alt text](image-12.png)
+
+puis on analyse un event en particulier :
+
+```bash 
+open evetpot.json | where event_type == "alert" | get 853 
+```
+
+![alt text](image-10.png)
+

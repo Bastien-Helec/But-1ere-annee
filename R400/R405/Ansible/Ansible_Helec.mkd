@@ -18,32 +18,216 @@ Puis on lance le script create-cont.sh qui va nous generer un espace de travail 
 
 on va verifier avec la commande ansible et le module ping que les cibles sont vivantes
 
-on va utilisez l'option host_key_checking=false du fichier ansible.cfg pour eviter les warnings désagréable
+```bash
+ansible -m ping debian
+```
 
 
-on utilise ensuite ansible-console pour lancer la commande : 
+![ping_debian](../Ansible/images/ping_debian_ansible.png)
+
+
+Les collection ansible-galaxy :
+
+```bash
+ansible-galaxy collection list
+```
+
+![ansible-galaxy](../Ansible/images/ansible-galaxy.png)
+
+
+![ip_br_a](../Ansible/images/ip-braansible.png)
+
+ansible utilise le protocole ssh on peut donc se connecter aux containeurs avec la commande ssh
+
+```bash
+ssh debian-0 # de 0 a 4
+ssh rocky-0
+```
+
+![ssh_debian](../Ansible/images/ssh_debian-0.png)
+
+
+
+1. on va utilisez l'option host_key_checking=false du fichier ansible.cfg pour eviter les warnings désagréable
+
+2. on utilise ensuite ansible-console pour lancer la commande : 
 
 ```bash
 ansible-console 
 
 ip -br a
 ```
-ansible utilise le protocole ssh 
 
-Analyser le fonctionnement de la commande ansible avec l’option -vvv. Que pouvez vous en déduire du fonctionnement d’Ansible ? expliquer comment Ansible peut être "agentless"?
+
+3. Le proctole réseau utilisé par ansible et le protocole ssh
+
+
+
+4. Analyser le fonctionnement de la commande ansible avec l’option -vvv. Que pouvez vous en déduire du fonctionnement d’Ansible ? expliquer comment Ansible peut être "agentless"?
 
 -vvv permet d'afficher le multi debug 
 
 Création d'un groupe container qui regroupe tout les containeurs actuelle :
 
+```bash
+ansible-inventory --list all
+ansible-navigator
+```
 
-le groupe unlisted regroupe tout les noeuds sans groupe. 
+![ungrouped](../Ansible/images/ungroupped.png)
 
-Sur 2 des containeurs créer installez un serveur web apache2 et Centos a l'aide de la commande ansible et des modules Ansible de gestion des paquets apt et dnf. Le package s'appelle httpd sous Centos.
+ 
+le groupe ungrouped regroupe tout les noeuds sans groupe. 
+
+### 4.2 Installation d'apache via les modules dnf et apt ansible core : 
+
+
+1. Sur 2 des containeurs créer installez un serveur web apache2 et Centos a l'aide de la commande ansible et des modules Ansible de gestion des paquets apt et dnf. Le package s'appelle httpd sous Centos.
 
 ```bash
 ansible -m apt -a "name=apache2 state=present" debian-0
 ansible -m dnf -a "name=httpd state=present" rocky-0
 ```
 
+![installapache](../Ansible/images/Installapache.png)
+![installhttpd](../Ansible/images/installhttpd.png)
 
+2. Le playbook suivant installera Apache et PHP, un fichier info.php et qui démarrera le serveur web
+Apache sur vos containers Debian.
+
+```yaml
+---
+- hosts: debian-0
+    tasks:
+    - name: Installer Apache
+    ansible.builtin.apt:
+        name: apache2
+        state: present
+        update_cache: true
+        
+        
+    - name: Installer Php7
+    ansible.builtin.apt:
+        name: libapache2-mod-php8.2
+        state: present
+    
+    - name: Démarrer le service Apache
+    ansible.builtin.service:
+        name: apache2
+        state: started
+        enabled: true
+
+    - name: Copier le fichier phpinfo
+    ansible.builtin.copy:
+        src: info.php
+        dest: /var/www/html/index.php
+        owner: www-data
+        group: www-data
+        mode: 0664
+```
+
+Pour l'integrer il faut ecrire 
+
+```bash
+ansible-playbook apache.yml
+```
+
+3. Avant de le lancer avec la commande ansible-playbook, vérifiez le bon enchainement des taches avec les options --check et --diff (pas d’éxécution réelle), --list-hosts, --list-tasks de la commande ansible-playbook. Testez aussi la conformité de votre playbook avec le "linteur" ansible-lint
+
+```bash
+ansible-playbook apache.yml --check --diff
+ansible-playbook apache.yml --list-hosts
+ansible-playbook apache.yml --list-tasks
+ansible-lint apache.yml
+```
+
+
+
+
+![check](../Ansible/images/check.png)
+![list-hosts](../Ansible/images/host_tasks.png)
+![ansible-lint](../Ansible/images/lint.png)
+
+
+1. Créer une tache nommée "reload"  qui "reload" le server web 10. Tagué cette tache "relance" puis utilisez le tag pour n’exécuter que cette tache dans le playbook.
+
+
+```yaml
+---
+- hosts: debian
+    tasks:
+    - name: Reload Apache
+    ansible.builtin.service:
+        name: apache2
+        state: reloaded
+        tags: relance
+```
+
+```bash
+ansible-playbook apache.yml --tags relance
+```
+
+![reload](../Ansible/images/reload.png)
+
+
+
+5. A quoi servent les tags "never" et "always" (testez) ?
+
+never et always sont des tags qui permettent de ne jamais executer une tache ou de toujours l'executer.
+
+```bash
+ansible-playbook apache.yml --tags never
+ansible-playbook apache.yml --tags always
+```
+
+![never](../Ansible/images/never_always.png)
+
+
+6. Lister les facts à l'aide du module setup. A quoi servent ces facts ?
+
+```bash
+ansible -m setup debian-0
+```
+
+![facts](../Ansible/images/facts.png)
+
+C'est facts permettent de connaitre les informations sur la machine cible.
+
+
+7. Récuperez les facts contenant les adresses IP de tous les containers via un filtre. 
+
+```bash
+ansible -m setup debian -a "filter=ansible_default_ipv4"  
+```
+
+![facts_ip](../Ansible/images/facts_ip.png)
+
+8. Utilisez les facts et les templates jinja2 afin de modifier la directive fichier ports.conf sous Debian pour que lors de l’installation du module apache2 de Debian n’écoute que sur l’IP interne du container. Vous utiliserez les mots clefs notify et handler pour relancer le service apache dans le playbook.
+
+```yaml
+---
+- hosts: debian
+    tasks:
+    - name: Modifier le fichier ports.conf
+    ansible.builtin.template:
+        src: ports.conf.j2
+        dest: /etc/apache2/ports.conf
+        owner: root
+        group: root
+        mode: 0644
+    notify: Reload Apache
+
+    handlers:
+    - name: Reload Apache
+    ansible.builtin.service:
+        name: apache2
+        state: reloaded
+```
+
+```jinja2
+Listen {{ ansible_default_ipv4.address }}
+```
+
+```bash
+ansible-playbook ports.yml
+```

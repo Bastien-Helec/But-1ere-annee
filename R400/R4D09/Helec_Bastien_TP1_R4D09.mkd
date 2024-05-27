@@ -1,0 +1,595 @@
+# TP1 Solutions de containeurisation avec docker
+
+```
+Helec Bastien
+29/04/2024
+```
+---
+
+## 1. Docker installation : 
+
+
+```bash
+
+sudo apt-get update
+
+# Desinstaller les anciennes versions de docker
+for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
+
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+
+## 2. Docker sous linux : 
+
+1. Retrouvez la version de Docker installée ? 
+
+```bash
+docker --version
+```
+
+![d](images/docker_version.png)
+
+2. Verifiez que votre installation fonctionne bien :
+
+```bash
+docker run hello-world
+```
+
+![d](images/hello_world.png)
+
+a) Que vous explique le retour de cette commande (au delà de "tout s'est bien passé" reformulez en Français..) ?
+
+```
+1. Le client docker a contacté le demon docker
+2. Le docker demon tire l'image hello-world depuis le docker hub
+3. Le demon docker créer un nouveau container à partir de l'image hello-world et le lance avec la sortie lu actuellement
+4. Le demon docker affiche le message sur cette sortie du client docker sur le terminal actuelle
+
+Pour essayer quelque chose de plus ambitieux , vous pouvez lancez un container ubunutu avec la commande suivante :
+
+docker run -it ubuntu bash
+```
+
+b) Retrouvez sur https://hub.docker.com/ l'images hello-world
+
+![d](images/helloworld_dockerhub.png)
+
+c) Expliquez les mecanismes en jeux pour la création du container helloworld. Quel est le fichier sur DockerHub qui permet de créer ce container ? 
+
+Les mécanismes sont les suivants : 
+- La récuperation de l'image
+- La création du container
+- Le lancement du container
+
+Pour la création du container helloworld , le demon docker a besoin de l'image hello-world qui est stocké sur le docker hub. Le fichier qui permet de créer ce container est le fichier Dockerfile.
+
+
+3. Recherchez les images officielles Debian à l'aide de docker search. Récupérez-les ainis que les images officielles busybox. 
+
+```bash
+docker search debian
+docker search busybox
+```
+
+![d](images/docker_search_busybox.png)
+
+
+```bash
+docker pull debian
+docker pull busybox
+```
+
+![d](images/docker_pull_debian.png)
+![d](images/docker_pull_busybox.png)
+
+4. Créez votre premier container a partir de l'image debian officielle et en utilisant la commande 
+
+```bash
+docker run -d debian
+```
+![d](images/docker_run_debian.png)
+
+5. En utilisant la commande "docker ps" vérifiez que le container est "vivant" ? Expliquez : 
+
+```bash
+docker ps
+```
+
+![d](images/docker_ps.png)
+
+Aucun container n'est actuellement pas vivant car le logiciel docker stop automatiquement les containers qui n'ont pas de processus en cours d'execution dans le container il est egalement inexistant.
+
+6. Relancez le "docker run" en lui donnant comme argument 
+
+```bash
+bash -c "while :; do echo "coucou"; sleep 1;done". 
+```
+
+```bash
+docker run -d debian bash -c "while :; do echo "coucou"; sleep 1;done"
+```
+
+
+![d](images/docker_run_debian_bash.png)
+
+Ici on peut voir que le processus est en cours d'execution dans le container.
+
+7. Stoppez et redémarrez le container. 
+
+```bash
+docker stop <container_id>
+docker start <container_id>
+```
+
+![d](images/docker_restart_debian.png)
+
+8. Supprimez le container. 
+
+```bash
+docker rm <container_id>
+```
+
+![d](images/docker_rm_debian.png)
+
+9. Utilisez les options -it afin d'integrer RUN pip3 install flaskle container a son lancement
+
+```bash
+docker run -it debian bash
+```
+
+![d](images/docker_run_it_debian.png)
+
+10. Même opération mais nommant le container et son hostname DebianOne.
+
+```bash
+docker run -it --name DebianOne --hostname DebianOne debian bash
+```
+
+![d](images/docker_run_it_name_hostname.png)
+
+
+11. Détachez vous du container debianone puis rattachez vous a  lui de nouveau. 
+
+```bash
+exit
+
+docker attach DebianOne
+```
+
+![d](images/docker_detach_attach.png)
+
+
+12. Lancez un processus bash supplémentaire dans le container DebianOne. Pour cela utilisez la commande docker exec. 
+ 
+```bash
+docker exec -it DebianOne bash -c "echo coucou"
+
+```
+
+![d](images/docker_exec.png)
+
+
+
+13. Listez le container restant. Ne listez ensuite que le dernier ContainerID.
+
+```bash
+docker ps -a
+docker ps -l
+```
+
+![d](images/docker_ps_a_l.png)
+
+14. Utilisez un volume pour donner à votre container l’accès à un répertoire de l’hôte. Quels sont les avantages de l’utilsation d’un volume ? un inconvénient ? A l’aide de la commande docker volume affichez les volumes présents sur votre hôte.
+
+```bash
+docker run -it --name DebianOne --hostname DebianOne -v VolDebone:/Documents debian bash
+```
+
+![d](images/docker_volume_Debone.png)
+
+Les avantages de l'utilisation d'un volume sont les suivants :
+- Les données sont persistantes
+- Les données sont partagées entre les containers
+- Les données sont partagées entre l'hôte et le container
+
+
+L'inconvénient de l'utilisation d'un volume est la sécurité des données un container non protéger peut ainsi permettre la vole de donnée.
+
+```bash
+docker volume ls
+```
+
+![d](images/docker_volume_ls.png)
+
+
+15. Supprimez le container et son image. 
+
+```bash
+docker rm DebianOne
+docker rmi -f debian
+```
+
+![d](images/docker_rmi.png)
+
+
+16. Supprimez tous les containers avec un oneliner sous bash. Idem pour les images
+
+```bash
+docker rm $(docker ps -a -q)
+docker rmi $(docker images -q)
+```
+
+![d](images/docker_rm_rmi.png)
+
+
+
+17. Supprimez les images et les containers non utilisés avec la commande "docker system prune"
+
+```bash
+docker system prune
+```
+
+![d](images/docker_system_prune.png)
+
+
+
+
+## 3 Création d'images Docker : 
+
+Récuperez les fichiers pour cet exercice via git : 
+
+```bash
+git clone https://github.com/pushou/tpdocker.git
+```
+
+!d[](images/git_clone.png)
+
+3.1 Build d'une image docker debian: 
+
+1. Construisez l’image "debian:vosinitiales" à partir du Dockerfile du repository et de la commande "docker build..."
+
+```bash
+cd tpdocker/
+docker build -t debian:HB -f Dockerfile.bookworm .
+```
+
+![d](images/docker_build_debianHB.png)
+
+
+2. Expliquez ce que font les différentes commandes "RUN, ENV, FROM" de ce Dockerfile
+
+- RUN : execute les nouvelles maj et installe les paquets comme cmatrix , wget ...
+- ENV : Defini les nouvelles variables 
+- FROM : permet de définir l'image de base
+
+3. Quel est l’intérêt de faire tous les apt-get en une seule fois pour la taille de l’image Docker. ( indice: voir AUFS et Docker ).
+
+
+Cela evite de creer plusieurs couches dans l'image docker et donc de reduire la taille de l'image.
+
+
+1. A partir de l’image "debian:vosinitiales" générez une image "pingfour" qui permettra de lancer un container de type ping se limitant à 4 envois ICMP vers www.iutbeziers.fr par défaut. Vous utiliserez les commandes "ENTRYPOINT" et "CMD" dans le Dockerfile.
+
+```bash
+nano Dockerfile.pingfour
+
+FROM debian:HB
+
+
+docker build -t pingfour -f Dockerfile.ping4 .
+```
+
+![d](images/docker_build_pingfour.png)
+
+
+Entrypoint et CMD sont les memes choses , elles permettent de lancer une commande lors du lancement du container. La difference entre les deux est que CMD permet de surcharger la commande lors du lancement du container contrairement à l'entrypoint.
+
+
+5. Lancez un container issu de cette image au travers de la commande ```docker run --rm -it ...``` . A quoi sert la commande -rm
+
+
+```bash
+docker run --rm -it pingfour
+```
+
+La commande -rm permet de supprimer le container lorsqu'il est arreté.
+
+![d](images/docker_run_pingfour.png)
+
+
+6. Peux-t-on changer la destination du ping ? le nombre de ping ? 
+   
+Oui dans le dockerfile on peut changer la destination du ping et le nombre de ping.
+au niveau du CMD final dans le dockerfile. 
+
+7. Utilisez l’option entrypoint de "docker run" pour changer la commande ping par traceroute.
+
+```bash
+docker run -it --entrypoint /bin/traceroute pingfour www.iutbeziers.fr
+```
+
+![d](images/docker_run_traceroute.png)
+
+8. Transformez votre container en image en le "comittant" via la commande "docker commit..."
+
+```bash
+docker commit xenodochial_diffie pingfour:traceroute
+```
+
+![d](images/docker_commit.png)
+
+
+9. Créez un projet dont le nom sera de la forme "prenom.nom" sur registry.iutbeziers.fr
+
+10. Utilisez la commande "docker tag" pour générer une image registry.iutbeziers.fr/votre-prenom.votre-nom/adet-ping à partir de l’image comittée précedemment. Poussez cette image sur votre namespace généré précédemment vers le registry de l’IUT de Béziers.
+
+11. Récupérez l’image de votre voisin via un docker pull sur le registry mis en place par votre enseignant. Instanciez-la afin de vérifier qu’elle fonctionne.
+
+
+le 9 10 et 11 a besoin de l'acces au registry de l'IUT de Béziers pour pouvoir les réaliser. 
+Mais il y a un probleme de connexion : 
+
+![d](images/registry_nonfonctionnelle.png)
+
+### 3.2 Installation d'un "insecure registry"  sur votre poste de travail
+
+En suivant https://docs.docker.com/registry/insecure installez un registry sur votre VM et testez-le. L’installation d’un certificat n’est pas demandée.
+
+![d](images/insecure_registry.png)
+
+
+### 3.3 Création d'un Dockerfile afin de générer une image debian ssh: 
+
+Créez un Dockerfile afin de générer un container fournissant un serveur SSH. Vous utiliserez l’image registry.iutbeziers.fr/debianiut comme image de base.
+
+Vous instancierez cette image sous forme d’un container accessible en ssh sur le port 2222. Le container permettra l’authentification sur le compte root.
+
+Indication: Utilisez chpasswd pour saisir le mot de passe root du container lors de son build.
+
+```bash
+nano Dockerfile.ssh
+
+FROM registry.iutbeziers.fr/debianiut
+
+RUN apt-get update && apt-get install -y \
+openssh-server 
+
+RUN echo 'root:root' | chpasswd
+
+RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+
+RUN mkdir /var/run/sshd
+
+
+
+EXPOSE 2222
+
+CMD ["/usr/sbin/sshd", "-D"]
+```
+
+```bash 
+docker build -t debian:ssh -f Dockerfile.ssh .
+```
+
+![d](images/dockerfile_ssh.png)
+
+### 3.4 Dockérisation d'une application python : 
+
+Sans le container lancez l'appliquette suivante fonctionnant avec python3
+
+```python
+from flask import Flask
+app = Flask(__name__)
+@app.route('/')
+def hello_world():
+    return "Le Python c'est bon mangez en"
+    
+if __name__ == '__main__':
+    app.run(debug=True,host='0.0.0.0')
+```
+
+puis on lance l'application via : 
+
+```bash
+apt install python3-flask   
+export ENV FLASK_APP=app.py
+export ENV FLASK_APP=development
+FLASK_APP=app.py flask run -p 9999
+```
+
+![d](images/run_flask.png)
+
+
+Pour la prochaine étapes Dockérisez cette application en créant un Dockerfile et en utilisant une image python 3 (base Debian) 1.
+L’application doit être accessible sur le port 9999 de l’hôte.
+
+```bash
+nano Dockerfile.flask
+
+FROM debian:bookworm
+
+RUN apt-get update && apt-get install -y \
+python3 \
+python3-pip \
+python3-flask \
+nano
+
+
+EXPOSE 9999
+
+```
+
+```bash
+docker build -t flask -f Dockerfile.flask .
+```
+
+
+```bash
+docker network disconnect flask [container_id]
+docker network create --subnet=192.168.0.0/24 flask
+docker network connect flask [container_id]
+docker run -d -p -h 192.168.0.2 9999:9999 flask
+```
+
+
+
+![d](images/dockerfile_flask.png)
+
+
+
+Création d'un docker-compose  pour une application en microservices : 
+
+Il est possible de démarrer plusieurs containers afin de former un ensemble applicatif cohérent.
+Pour cela il faut utiliser un fichier docker-compose.yml qui sera utilisé par la commande docker-compose
+afin de démarrer cet ensemble cohérent de containers.
+
+On utilisare la distribution Debian pour les containers.
+
+```yaml
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "9999:9999"
+  redis:
+    image: "redis:alpine"
+```
+
+
+et le Dockerfile : 
+
+```bash
+nano Dockerfile
+```
+
+<!-- Je veux executer cette commande dans le dockerfile en cmd avec CMD ["flask", "run", "--debug"] pour l'adresse hote de 172.18.0.2 et le port 9999 -->
+
+CMD ["flask", "run", "--debug", "--host=172.18.0.2", "--port=9999"]
+
+
+1. Modifiez l’application flask précédente de façon à afficher l’IP du container sur l’uri /whoami. Recréez
+une image.
+
+```python
+from flask import Flask,jsonify, request
+import os
+app.run(debug=True,host='0.0.0.0',port=9999)
+
+app = Flask(__name__)
+@app.route('/')
+def hello_world():
+    return "Le Python c'est bon mangez en \n"
+    
+@app.route('/whoami')
+def get_tasks():
+    ipv4=os.popen('ip addr show eth0').read().split("inet ")[1].split("/")[0]
+    return jsonify({'ip': ipv4}), 200
+    
+if __name__ == '__main__':
+    app.run(debug=True,host='0.0.0.0',port=9999)
+```
+
+Je ne sais pas pourquoi malgres toutes les configurations l'application web ce lance sur le port 5000 et non sur le port 9999.
+
+
+![d](images/docker_compose_up.png)
+![d](images/docker_compose_run.png)
+![d](images/docker_compose_whoami.png)
+
+2. Créez un fichier docker-compose.yml qui générera un ensemble contenant un container traefik (version 2+) et un container issus de notre application. Aidez-vous de https://docs.traefik.io/.
+Vous pouvez utilisez le domaine ni.io qui renvoie une ip privée lorsqu’on fait une requête (mon ip privée est ici 192.168.1.95) :
+
+
+```
+host 192.168.1.95.nip.io
+192.168.1.95.nip.io has address 192.168.1.95
+host whoami.192.168.1.95.nip.io
+whoami.192.168.1.95.nip.io has address 192.168.1.95
+```
+
+
+
+
+## 4. Réseaux Docker : 
+
+1. Listez les réseaux présent sur votre hôte. 
+
+```bash
+docker network ls
+```
+
+
+2. Créez un réseau bridge supplémentaire. 
+
+```bash
+docker network create --driver bridge mybridge
+```
+
+
+3. Créez eux nouveaux containers en les rattachant à ce nouveau réseau NAT.Expliquez comment le container accède au réseau de la salle
+
+Le container accède au réseau de la salle en utilisant le réseau NAT qui a pour gateway la machine hôte et qui permet de faire la translation d'adresse entre le réseau local et le réseau public via des commandes iptables ou nftables integrer.
+
+```bash
+docker run -d --network mybridge --name container1 debian
+docker run -d --network mybridge --name container2 debian
+```
+
+
+4. Créez un nouveau container en le rattachant a un réseau macvlan.
+
+```bash
+docker network create -d macvlan --subnet=10.202.0.0/16
+
+docker run -d --network macvlan --name container3 debian
+```
+
+
+5. Creez un container en le rattachant a un réseau ipvlan.
+
+```bash
+docker network create -d ipvlan --subnet=10.202.0.0/16
+
+docker run -d --network ipvlan --name container4 debian
+```
+
+6. Expliques l'utilité des différents types de réseaux :
+
+- Bridge : permet de connecter les containers à un réseau local
+- Host : permet de connecter les containers à l'hôte
+- Overlay : permet de connecter les containers entre eux
+- Macvlan : permet de connecter les containers à un réseau local
+- Ipvlan : permet de connecter les containers à un réseau local
+- None : permet de connecter les containers à aucun réseau
+
+L'utilité pour chacun d'entre eux et de pouvoir avoir une connectivité interne sans passé par le réseau public et de pouvoir isoler les containers entre eux. Ou bien de pouvoir connecter les containers à un réseau local.
+
+7. Quelle est la chaine de résolution DNS utilisée par le container ? Comment changer le DNS au run ?
+
+La chaine de résolution DNS utilisée est celle de l'hôte. Pour changer le DNS au run il faut utiliser l'option --dns.
+
+```bash
+docker run --dns
+```
+
+
+## 5: Tips and Tricks :
+
+Docker est batie sur une architecture modulaire ui lui permet de se connecter à un daemon Docker sur une machine distante en TLS ou SSH.
+
+1. Créez un contexte pour vous connectez à distance au daemon Docker de votre VM (Vous pouvez utiliser une autre VM Linux ou installer Docker )
+
+```bash
+docker context create R4D09_TP1 --docker "host=ssh://vagrant@10.202.0.176"
+```
+
+2. Verifiez le bon fonctionneme du contexte en créant un container sur la VM 
+
+![d](images/docker_context_create.png)
+
+```bash
+docker --context R4D09_TP1 run -d debian
+```
+

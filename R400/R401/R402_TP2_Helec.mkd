@@ -1,0 +1,208 @@
+# TP2 Accès distants - VPN
+
+
+Exercice 1 : 
+
+Configurer la passerelle de sorte que le client interne ait accès à la partie internet. Il s’agira de mettre du NAT en place
+
+Exercice 2 : 
+ 
+
+```
+
+passerelle : 192.168.56.254/24 ; 
+client-interne : 192.168.56.1/24 ; 
+client-vpn: ip dynamique ; 
+``` 
+
+Passerelle nat : 
+
+```bash 
+
+nano /etc/sysctl.conf
+net.ipv4.ip_forward=1
+
+iptables -t nat -A POSTROUTING -s 192.168.56.254/24 -o eth0 -j MASQUERADE
+```
+
+eth0 est l'interface de la passerelle qui donne accès à internet
+
+
+
+Exercice 3 :
+
+```bash
+
+apt install openvpn
+apt install liblzo2-2
+
+```
+
+Exercice 4 : 
+
+```bash
+passerelle : 
+
+openvpn --dev tun0 --ifconfig 192.168.10.1 192.168.10.2
+
+clientVPN : 
+openvpn --remote 192.168.1.79 --dev tun0 --ifconfig 192.168.10.2 192.168.10.1
+```
+
+
+
+Exercice 5 : 
+
+![init](images/TP2/init_openvpn_connection.png)
+
+
+on peut ping entre la machine qui a le client vpn et la passerelle. Mais pas entre la machine qui a le client vpn et la machine qui a le client interne. 
+
+
+Exercice 6 : 
+
+On observe la présence d'un tun0 sur les 2 machines ce qui indique donc que la connexion ce fait entre c'est 2 machines par tunnel vpn.
+
+![tun0](images/TP2/tun0.png)
+
+Exercice 7 : 
+
+![trame_openvpn](images/TP2/trame_openvpn.png)
+
+On peut voir que les trames openvpn sont transmises en UDP.
+
+PS : j'ai utilisé tcpdump pour voir les trames openvpn, etant donné que le groupe wireshark n'etait pas associé à mon utilisateur qui a les roles root.
+
+
+Exercice 8 : 
+
+![tcpdump_telnet](images/TP2/tcpdump_telnet.png)
+
+On peut voir ici que chaque touche tapée sur le client vpn est transmise à la passerelle.
+
+Exercice 9 :
+
+On va generer notre clef partagée avec la commande suivante :
+
+```bash
+openvpn --genkey --secret static.key
+```
+
+Le fichier static.key contient la clef générée.
+
+
+Exercice 10 : 
+De quel type de clé s'agit-il ?
+
+Il s'agit d'une clé symétrique.
+
+Exercice 11 : 
+
+Sa longueur est de 2048 bits.
+
+Exercice 12 : 
+
+Il faut maintenant transférer cette clé de façon sécurisée sur le client. Comment procéder ?
+
+On peut utiliser la commande scp pour transférer la clé de la passerelle vers le client.
+
+```bash
+scp static.key root@192.168.1.80:/chemin/vers/votre/clef
+```
+
+
+
+Relancez le VPN entre les deux machines en concaténant aux commandes précédentes
+la directive suivante :
+    
+```bash
+--secret /chemin/vers/votre/clef
+```
+
+Donc : 
+
+```bash
+
+openvpn --dev tun0 --ifconfig 192.168.10.1 192.168.10.2 --secret static.key
+
+openvpn --remote 192.168.1.79 --dev tun0 --ifconfig 192.168.10.2 192.168.10.1 --secret static.key
+
+```
+
+Exercice 13 : 
+
+![tame_openvpn_static](images/TP2/trame_openvpn_chiffrer.png)
+
+On peut voir une longueur de 128 bits pour les trames openvpn.
+Contrairement auparavant ou les trames était a 84 bits de longueur pour les memes demande (ping).
+
+Ce qui indique que les trames sont chiffrées.
+
+
+Exercice 14 : 
+Pour gagner de la bande passant on ajoute la directive suivante :
+
+```bash
+--comp-lzo --keepalive 10 60 --float
+```
+
+Exercice 15 :
+
+Explication : 
+
+l'option --comp-lzo permet de compresser les données transmises, ce qui permet de gagner de la bande passante.
+
+l'option --keepalive permet de garder la connexion active en envoyant un paquet toutes les 10 secondes.
+
+le 60 est le nombre de secondes avant de considérer la connexion comme perdue.
+
+l'option --float permet de permettre au client de changer d'adresse IP sans avoir à se reconnecter.
+
+
+Pour simplifier la connexion il est préférable de créer un fichier de configuration pour le client d'abord
+
+```bash
+nano client.conf
+dev tun0
+remote 192.168.1.79
+ifconfig 192.168.10.2 192.168.10.1
+secret static.key
+comp-lzo
+keepalive 10 60
+float
+```
+
+Ensuite on peut lancer la connexion avec la commande suivante :
+
+```bash
+openvpn client.conf
+```
+
+Exercice 16 :
+
+On fait la meme chose pour le serveur :
+
+```bash
+nano serveur.conf
+dev tun0
+ifconfig 192.168.10.1 192.168.10.2
+secret static.key
+comp-lzo
+keepalive 10 60
+float
+```
+
+Ensuite on peut lancer la connexion avec la commande suivante :
+
+```bash
+openvpn serveur.conf
+```
+
+![openvpn_conf](images/TP2/openvpn_conf.png)
+
+Exercice 17 :
+
+Le TLS est un protocole de sécurisation des échanges sur internet. Il permet de chiffrer les données transmises entre le client et le serveur.
+
+PS : J'ai pu de mon coté mettre en place sur le principe de public key infrastructure un VPN en utilisant wireguard. 
+
