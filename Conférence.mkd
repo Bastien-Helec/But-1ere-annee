@@ -1,0 +1,64 @@
+# Introduction conference gitlab et cloud 
+
+## cloud: 
+
+POP : point of p? 
+
+multi-cloud : eviter le lock-in vendor (rester dans une seule technologie)
+
+oracle cloud : objectif de sortir du vendor lock-in 
+
+hybrid-cloud : cloud privé + cloud public
+
+les serveurs était enormement sous utilisé en dehors des periodes de black friday , aws a donc developpé S3 et EC2
+
+Netflix : tout en open source , netflix.github.io
+
+responsabilité partagé du cloud : limite de responsabilité du fournisseur de cloud
+
+le fournisseur cloud s'arrete uniquement au niveau de l'infrastructure (machine physique etc)
+
+
+securité sur les API 
+
+Cloud native computing foundation : regle du cloud et blue prints pour etre compatible avec le cloud (CNCF)
+
+kubernetes 
+
+lift and shift : prendre une application et la mettre dans le cloud 
+
+services managés : un service qui est géré par un autre service 
+
+serverless : ne plus s'occuper de la gestion des serveurs, automatisé par le cloud , generer dans un container, via function python ou autre.
+
+API Gateway est un service aws qui permet de gerer les API avec les versionnings de chacun des services
+
+les HPC : high performance computing : calculs intensifs sont sur demande actionner par les equipes. 
+
+SPOT : machine qui sont moins cher mais qui peut etre coupé a tout moment
+
+Amazon S3 : pas de stockage par block mais par objet accessible avec une clef de retribution, performant et scalable tres fiable, duplication des données sur plusieurs datacenter.
+
+RDS : base de donnée relationnelles par cloud directement plusieurs module disponible.
+
+Amazon aurora : base de données amazon qui est compatible avec mysql et postgresql
+
+Video permettant de comprendre pourquoi le VPC a etait creer 
+
+Amazon CloudWatch : permet de monitorer les ressources et les applications
+
+AWS control tower : permet de créer une landing zone pour les nouveau projets
+
+x : docbill (canard)
+
+papachess / papajess 
+
+AMI : Amazon Machine Image basé sur un OS
+
+les types de AMI : t (micro les moins chers), m (medium), c (compute), r (ram), i (IOPS), g (GPU), p (processeur)
+
+
+
+
+
+

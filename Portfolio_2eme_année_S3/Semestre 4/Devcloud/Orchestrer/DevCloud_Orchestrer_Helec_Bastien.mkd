@@ -1,0 +1,43 @@
+# Orchestrer
+
+```
+Bastien Helec
+@Bastien-Helec
+Semestre 3
+Ressources associées à la compétences Orchestrer : 
+- R313 : AC 24.DevCloud.01 AC 24.DevCloud.02 AC 24.DevCloud.03 AC 24.DevCloud.04
+- R3.DevCloud.16 : AC 24.DevCloud.01 AC 24.DevCloud.03
+- R3.DevCloud.17 : AC 24.DevCloud.01 AC 24.DevCloud.02 AC 24.DevCloud.04
+- SAE 1.Devcloud.03 : AC 24.DevCloud.02 
+- SAE 3.Devcloud.04 : AC 24.DevCloud.01 AC 24.DevCloud.02 AC 24.DevCloud.04
+- Portfolio : AC 24.DevCloud.01 AC 24.DevCloud.02 AC 24.DevCloud.04
+
+```
+
+---
+## <a id="Sommaire" style="textdecoration:none"></a> Sommaire
+### les liens en dessus sont clickable et renvoi vers les démonstrations correspondantes
+---
+- [Introduction](#Introduction) : Rappel de la compétence Orchestrer
+- [Le niveau attendu en fin d'année ](#1.)
+- [Mon niveau actuel](#2.)
+- [Ce que je prevois de faire pour améliorer mon niveau](#3.)
+- [Ce que j'ai réaliser](#4.)
+- [Ce que j'en conclu](#5.)
+
+---
+<script>
+// JavaScript code to insert current date and time into footer
+var currentDateTime = new Date().toLocaleString();
+document.write("<footer>" + currentDateTime + " &copy Helec Bastien. All Rights Reserved.</footer>");
+</script>
+
+
+---
+
+
+
+
+
+
+

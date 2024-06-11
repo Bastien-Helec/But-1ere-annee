@@ -1,0 +1,36 @@
+# Programmer
+
+```
+Bastien Helec
+Semestre 3
+Ressources associées à la compétences Programmer : 
+- R308 : AC 23.02 AC 23.05
+- R309 : AC 23.02 AC 23.03
+- R310 : AC 23.04
+- R311 : AC 23.02
+- R312 : AC 23.02
+- R313 : AC 23.01 AC 23.02 AC 23.03 AC 23.04 AC 23.05
+- R315 : AC 23.02
+- SAE 3.02 : AC 23.02 AC 23.03 AC 23.04 AC 23.05
+- Portfolio : AC 23.02 AC 23.03 AC 23.04 AC 23.05
+```
+
+---
+## <a id="Sommaire" style="textdecoration:none"></a> Sommaire
+### les liens en dessus sont clickable et renvoi vers les démonstrations correspondantes
+---
+- [Introduction](#Introduction) : Rappel de la compétence Programmer
+- [Le niveau attendu en fin d'année ](#1.)
+- [Mon niveau actuel](#2.)
+- [Ce que je prevois de faire pour améliorer mon niveau](#3.)
+- [Ce que j'ai réaliser](#4.)
+- [Ce que j'en conclu](#5.)
+
+---
+<script>
+// JavaScript code to insert current date and time into footer
+var currentDateTime = new Date().toLocaleString();
+document.write("<footer>" + currentDateTime + " &copy Helec Bastien. All Rights Reserved.</footer>");
+</script>
+
+---

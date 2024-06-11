@@ -1,0 +1,107 @@
+# Connecter
+
+```
+Bastien Helec
+Semestre 3
+Ressources associées à la compétences Connecter : 
+- R301 : AC 22.05
+- R302 : AC 22.03
+- R305 : AC 22.01
+- R306 : AC 22.01
+- R307 : AC 22.01 AC 22.04
+- R310 : AC 22.02
+- R311 : AC 22.05
+- R312 : AC 22.05
+- R313 : AC 22.01 AC 22.02 AC 22.03 AC 22.04 AC 22.05
+- R314 : AC 22.01 AC 22.05
+- R315 : AC 22.05
+- SAE 3.01 : AC 22.01 AC 22.03 AC 22.04 AC 22.05
+- SAE 3.02 : AC 22.05
+- SAE 3.Devcloud.03 : AC 22.02 AC 22.03
+- Portfolio : AC 22.01 AC 22.02 AC 22.03 AC 22.04 AC 22.05
+```
+
+---
+## <a id="Sommaire" style="textdecoration:none"></a> Sommaire
+### les liens en dessus sont clickable et renvoi vers les démonstrations correspondantes
+---
+- [Introduction](#Introduction) : Rappel de la compétence Connecter
+- [Le niveau attendu en fin d'année ](#1.)
+- [Mon niveau actuel](#2.)
+- [Ce que je prevois de faire pour améliorer mon niveau](#3.)
+- [Ce que j'ai réaliser](#4.)
+- [Ce que j'en conclu](#5.)
+
+## <a id="Introduction" style="textdecoration:none"></a> Introduction : Rappel de la compétence Connecter
+[Retour au sommaire](#Sommaire)
+
+La compétence Connecter à pour objectif de  ... :
+
+Il demande ainsi comme apprentissage : 
+
+- AC 22.01 : Déployer et caractériser des systèmes de transmissions complexes
+- AC 22.02 : Mettre en place un accès distant sécurisé
+- AC 22.03 : Mettre en place une connexion multi-site via un réseau opérateur
+- AC 22.04 : Déployer des réseaux d'accès des opérateurs
+- AC 22.05 : Capacité a questionner un cahier des charges RT
+
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="1." style="textdecoration:none"></a> Le niveau attendu en fin d'année
+
+[Retour au sommaire](#Sommaire)
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="2." style="textdecoration:none"></a> Mon niveau actuel
+
+[Retour au sommaire](#Sommaire)
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="3." style="textdecoration:none"></a> Ce que je prevois de faire pour améliorer mon niveau
+
+[Retour au sommaire](#Sommaire)
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="4." style="textdecoration:none"></a> Ce que j'ai réaliser 
+
+[Retour au sommaire](#Sommaire)
+
+
+- B-I-C sharepoint : 22.03
+- Sae Réseau opérateur pujas : 22.05 22.04
+- Fibre Optique : 22.01
+- VPN administrer et proxmox : 22.01 22.03
+- Dimensionnement répéteur wifi : 22.01
+
+
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="5." style="textdecoration:none"></a> Ce que j'en conclu 
+
+[Retour au sommaire](#Sommaire)
+
+
+---
+<script>
+// JavaScript code to insert current date and time into footer
+var currentDateTime = new Date().toLocaleString();
+document.write("<footer>" + currentDateTime + " &copy Helec Bastien. All Rights Reserved.</footer>");
+</script>
+
+---
+
