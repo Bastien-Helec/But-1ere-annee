@@ -58,7 +58,7 @@ Demandant ainsi au futur professionnel de repondre au composantes essentielles s
 - Utiliser une approche rigoureuse pour la résolution des dysfonctionnements
 - Respecter les règles métiers
 - Assurer une veille technologique
-- Communiquer avec les clients et le differents acteurs impliqués
+- Communiquer avec les clients et les differents acteurs impliqués
 - Utiliser une approche rigoureuse et methodique (démarche scientifique) 
 
 <!-- page break html -->
@@ -80,7 +80,7 @@ Tout ce travail doit être effectuer en réalisant de la documentation et pouvoi
 ##  <a id="2." style="textdecoration:none;"> </a>  Mon niveau actuel : 
 [Retour au sommaire](#Sommaire)
 
-Je pense mon niveau dans la compétence Administrer correspond au niveau attendu en fin d'année. Malgrès certain défauts lié à une documentation trop differentes d'un projet ou d'un rendu à l'autre et ainsi devoir tout reprendre depuis le début.
+Je pense que mon niveau dans la compétence Administrer correspond au niveau attendu en fin d'année. Malgrès certain défauts lié à une documentation trop differentes d'un projet ou d'un rendu à l'autre et ainsi devoir tout reprendre depuis le début.
 
 Je pense que mon niveau est bon car j'ai pu mettre en place des réseaux avec des protocoles de routage dynamique (BGP,OSPF,EIGRP,IBGP,RIP) pouvoir mettre en place des loopback et des VLAN, j'ai tendance a observer que le réseau suis bien la demande en appliquant du QoS de manière manuel (verification humaine), ainsi que le deploiement sans problème d'un serveur a l'autre en verifiant les adresses IP occupé ou les réseaux occupé avec nmap, puis verifier le bon fonctionnement en utilisant des outils comme ping, traceroute, mtr, etc...  
 
@@ -213,7 +213,7 @@ R21(config)# do write memory
 
 Ici on a une configuration OSPF classique en definissant le numéro de l'AS 1 et le réseau
 
-On a ainsi configurer également sur le router R2 uniquement la partie ospf presente ci-dessus.  
+J'ai ainsi configurer également sur le router R2 uniquement la partie ospf presente ci-dessus.  
 
 Puis on a réaliser un `show ip route` sur le routeur R21 :
 
@@ -274,8 +274,85 @@ On peut voir pour un réseau complexe les routes prises par le protocole STP pou
 
 Durant la SAE.3.Devcloud.03 On a pu virtualiser des appareils de routages comme le routeur c8000 avec le router edge csr1000v. 
 
-<!-- Ajouter les choses effectuer sur le google docs -->
+![alt text](images/NFVIS.png)
 
+Le router edge csr1000v étant notre appareil de virtualisation global nous avons mis en place avec mon binôme le logiciel NFVIS qui nous permet de voir la consomation actuelles du hardware de l'appareil
+
+![alt text](images/consonfvis.png)
+
+Une fois qui notre appareil était configuré nous avons réflechi a notre réseau a l'interieur de notre routeur edge arrivant ainsi a cette solution :
+
+![alt text](images/Réseausae3dev03.png)
+
+En outre passant ici les configurations des routeurs FRR et C8000 effecuté afin d'arrivé a une communication entre le réseau de la salle et le PC de mon binôme. 
+Nous avons pu créer notre réseau virtuellement une fois les 2 routeurs créer grace a NFVIS :
+
+![alt text](images/virtualisationnfvis.png)
+
+GE0-2 correspondant a une interface physique de notre routeur edge
+
+Une fois notre réseau initial terminé nous avons pu nous connecter a l'interface web du routeur C8000 voyant ainsi sont utilisation : 
+
+![alt text](images/C8000.png)
+
+Pour arriver a ce réseau final : 
+
+
+![alt text](images/réseauNFVISfin.png)
+
+
+- Virutalisaton d'une infrastructure :
+
+En parallele lors de la SAE.3.Devcloud.04 j'ai pu mettre en place une infrastrucutre virtualisé via 2 serveurs a dispositions, l'objectif était de mettre en application et de ce familiariser avec les solutions Cloud comme ESXI de VMware ou encore Proxmox
+
+![alt text](images/image.png)
+
+Pour cela nous avons, mon binôme et moi, utiliser VM ware en réalisant une installation classique sur un serveur HP Proliant DL360 et un serveur Dell PowerEdge R640. L'avantage avec les serveur est qu'ils possedent 2 carte réseau dont l'une accessible lorsque le serveur est atteint sur Dell on l'appel l'iDRAC et sur HP l'iLO. 
+
+Ainsi nos deux serveurs ce sont retrouver dans l'addressage IP suivant : 
+
+iLO : 10.202.100.112 partie ESXi : 10.202.26.1
+iDRAC : 10.202.100.113 partie ESXi : 10.202.26.2
+
+Les configurations des interfaces iLO et iDRAC on était effectué directement sur les serveurs associées.   
+![alt text](images/iDRAC_conf.png)
+
+La différence est notables lorsqu'il s'agit de la configuration du serveur sous iDRAC nous avons eu tendance a chercher plus comparer a l'iLO qui celui-ci indiqué d'office ou était les points demander.
+
+Une fois la configuration et l'installation sur ESXi terminer nous avons eu besoin d'une VM pour nous permettre d'obtenir le Vsphere client de chaque serveur. Un point qui paru assez étrange de mon cas étant donné que nous aurions pu directement installer le Vsphere client sur les serveurs.
+
+Ainsi en finalité nous avons pu obtenir un réseau de 2 serveurs correspondant au serveur configuré pour nous permettre de créer des machine virtuel et conteneur.
+
+
+De mon coté a titre personnel j'ai pu mettre en place en cluster Proxmox me permettant ainsi de me faire du développement informatique, une phase de test et une connectivité VPN via un conteneur LXC. 
+
+
+![alt text](images/Proxmox_interne.png)
+
+Ce ne fu pas de tout repos car l'un de mes serveurs ne pouvait pas etre démarrer par affichage de par un defaut interne , la RAM était mal intégrer dans le boitier donnant l'impression que celui-ci pouvait avoir un affichage sans réellement l'avoir ce qui complexifier la taches afin d'entamer le cluster. Une fois ce probleme résolu j'ai ainsi donc pu mettre en place un ceph nous permettant d'afficher un résumé succints de la consomation de chaque appareil. 
+
+![alt text](images/Ceph_monitoring.png)
+
+J'ai décidé d'utiliser des conteneurs de par la présence d'un hardware peu performant avec plusieurs VM a l'interieur.
+
+Ainsi cela ma permit de mettre en place un VPN wireguard, ainsi qu'un serveur fivem qui correspond a du developpement de jeu video me permettant ainsi de réaliser des scripts et tout ce qui s'en suit pour une communauté de jeu de rôles.
+
+*Fivem est un produit de l'entreprise cfx.re permettant d'ajouter une surcouche a un jeu video internationnellement connu (GTA 5) offrant la possibilité au joueurs de développer une toute nouvelle alternative au jeu d'origine ici du roleplay.*  
+
+également a l'interieur ma phase de test avant le deploiment de plusieurs solutions. 
+
+Comme la création d'un container docker permettant un deploiement rapide d'un serveur fivem ainsi qu'une documentation permettant le deploiement efficaces. 
+Initialiser sur mon github :
+
+ ![alt text](images/github_fivemdev.png)
+
+ ![alt text](images/docker_fivemserv.png)
+
+![alt text](images/utilisation_docker_fivemserv.png)
+
+Et la préparation des playbooks ansible comme ceux utilisé pour la SAE4.devcloud.01 ayant pour objectif le deploiment de microservice avec une solution de supervision des microservices.
+
+Egalement sur mon serveur j'ai mis en place un systeme de replication qui récuperent les dernieres sauvegarde réaliser sur les machines présentes, ainsi qu'un demarrage automatique pour les containeurs essentielles comprenant le demarrage via init.d d'un nouveau services créer. 
 
 - Configuration des VPN sur serveur et client : 
 
@@ -315,7 +392,7 @@ PersistentKeepalive = 25
 Bien evidement on a du configurer a l'interieur du serveur VPN les regles de forwarding et de NAT pour permettre au client de pouvoir acceder a internet.
 
 ```bash
-iptables iptables -t nat -A POSTROUTING -s [ Réseau wireguard ] -o eth0 -j MASQUERADE
+iptables -t nat -A POSTROUTING -s [ Réseau wireguard ] -o eth0 -j MASQUERADE
 ```
 
 Et sur le routeur on autorise l'accès au serveur wireguard en ouvrant le port 51820.
@@ -327,15 +404,144 @@ Sous windows et android l'entreprise Wireguard a créer une application pour pou
 
 Pour ma part j'ai configurer mon VPN en full tunnel pour pouvoir acceder a tout les ports et mon cluster proxmox.
 
+- Support client : 
+
+Dans mon stage j'ai pu réaliser un dépannage auprès de plusieurs clients sur l'installation d'un nouvel ordinateur avec les logiciels primordiaux, également un depannage sur une imprimantes qui suite au passage d'un technicien de l'entreprise de l'imprimantes a perturber la cliente sur le nom de l'imprimante permettant l'impression.  
+
+
+- Configuration de machine :
+
+Durant mon stage j'ai du préparer une nouvelle machine pour le responsable technique du pole informatique de l'entreprise, pour cela j'ai alors commencer par configurer les nouveaux composants sur la machine : (RAM , carte graphique).
+
+Puis ensuite faire l'installation classique ainsi que les mises a jour de la nouvelle machine. 
+J'ai également associer le NAS de l'entreprise via une procédure qui explique de A a Z comment faire la configuration d'un NAS synology, ce qui ma aider pour les autres configurations de PC demander dans l'entreprise. 
+
+Je suis également venu en aide a des petits dépannages dans l'entreprise pour un HDMI non fonctionel, un probleme de surchauffe jusqu'a la mise a jour de la machine etc ...
+
+- Supervisions des machines : 
+
+En entreprise on a pu me demander de faire une installation via GPO d'un agent de stockage de document (zeendoc) pour cela j'ai trouver une command le permettant de le faire en mode silencieux sous windows : 
+
+` .\Setup_Agent_ZeenDoc_v2.0.26.exe /SILENT /LOG=log2.txt `
+
+
+J'ai pu également venir en aide a un autre stagiaire de l'entreprise avec la solution de supervision DATTO pour l'installation silencieuse d'un antivirus pour cela il avait entamer une programmation qui c'est averer inutile de part la solution deja présente sur le logiciel
+
+En suivant les cours et la demande en SAE j'ai était amener a deployer une solution ansible pour la supervisions des microservices pour cela j'ai utilisé des playbooks en yaml me permettant ainsi de gerer les microservices ainsi que de les stocker dans un registry harbor relatif a la SAE je prendrais l'exemple du serveur nextcloud :
+
+Nextcloud nous demande ainsi d'avoir un service de base de données , un service web et le service nextcloud. Pour cela dans le playbook j'ai indiquer un service maraidb un service PHPmyadmin permettant d'observer la base de données relative et le service nextcloud alloué avec son service web en NGINX. j'avais entamer la chose avec docker compose qui c'est averer utile lors du deploiement sous ansible. 
+
+le fichier relatif au playbooks ansible de nextcloud :
+
+```yaml
+- include_tasks: install.yml
+  tags: install_docker
+
+- include_tasks: pull_images.yml
+  tags: pull_nextcloud
+
+- include_tasks: manage_nextcloud.yml
+  tags:
+    - create_nextcloud
+    - start_nextcloud
+    - stop_nextcloud
+
+- include_tasks: info_containers.yml
+  tags: nextcloud_info
+
+- include_tasks: network_containers.yml
+  tags: network_info
+```
+
+et sont fichier docker compose : 
+```yaml
+services:
+  db:
+    image: mariadb
+    volumes:
+      - /var/lib/docker/disk01:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: debian
+      MYSQL_PASSWORD: root
+      MYSQL_DATABASE: nextcloud_db
+    ports:
+      - 3306:3306
+    networks:
+       macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.90
+
+  phpmyadmin:
+    image: phpmyadmin
+    environment:
+      PMA_HOST: 192.168.1.90
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3356:3356/tcp
+    networks:
+       macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.83
+
+  nextcloud:
+    image: nextcloud
+    volumes:
+      - /var/lib/docker/nextcloud:/var/www/html
+    environment:
+      MYSQL_HOST: 192.168.1.90
+      MYSQL_DATABASE: nextcloud_db
+      MYSQL_USER: debian
+      MYSQL_PASSWORD: root
+    depends_on:
+      - db
+    networks:
+       macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.18
+
+  nginx:
+    image: nginx
+    volumes:
+      - /var/lib/docker/nginx:/etc/nginx/conf.d
+      - /var/lib/docker/nginx/logs:/var/log/nginx
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - web
+    networks:
+       macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.150
+
+  web:
+    image: nginx  # Remplacez ceci par l'image de votre service web
+    volumes:
+      - /var/lib/docker/web:/usr/share/nginx/html  # Chemin exemple, adaptez selon vos besoins
+    networks:
+      macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.151
+
+
+networks:
+  macvlan-docker-nextcloud:
+    external: true
+```
+
+![alt text](images/nextcloud_final.png)
+
+
+
 
 ## <a id="5." style="textdecoration:none;"> </a>  Ce que j'en conclu : 
 [Retour au sommaire](#Sommaire)
 
 
-J'estime que je suis capable de configurer et de depanner le routage dynamique dans un réseau. Egalement de configurer les ordinateurs clients et serveurs pour qu'ils puissent correspondre au besoin demander et faire la planification du réseau complet d'une infrastructure.
+De la part les demonstrations réaliser dans le contenu ultérieur 
+J'estime que je suis capable de configurer et de depanner le routage dynamique dans un réseau.
 
+Egalement de configurer les ordinateurs clients et serveurs pour qu'ils puissent correspondre au besoin demander et faire la planification du réseau complet d'une infrastructure.
 
-J'en conclu que j'ai obtenu le niveau attendu en fin d'année pour la compétence Administrer.
+Avec la création d'une infrastructure a domicile cela ma également permis de développer concrétement les compétences rélatif au réseau et télécommunications
+
+J'en conclu aujourd'hui que je serais en capacité de d'administrer de concevoir et de gerer un réseau ainsi que les demandes clients sur des points précis. 
 
 ---
 <script>
