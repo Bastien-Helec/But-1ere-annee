@@ -35,7 +35,7 @@ Ressources associées à la compétences Connecter :
 ## <a id="Introduction" style="textdecoration:none"></a> Introduction : Rappel de la compétence Connecter
 [Retour au sommaire](#Sommaire)
 
-La compétence Connecter à pour objectif de  ... :
+La compétence Connecter à pour objectif de deployer caractériser un réseau dans le domaine des télécommunications :
 
 Il demande ainsi comme apprentissage : 
 
@@ -45,6 +45,20 @@ Il demande ainsi comme apprentissage :
 - AC 22.04 : Déployer des réseaux d'accès des opérateurs
 - AC 22.05 : Capacité a questionner un cahier des charges RT
 
+Celles-ci demande de savoir en situation professionnelle : 
+
+- Déploiment des supports et systèmes de transmision
+- Mise en service et administration des équipements d'accès fixe ou mobile d'un opérateur de télécommunications
+- Déploiement et administration des accès sans fil pour l'entreprise
+- Déploiement des systèmes de communications
+
+Demandant ainsi au futur professionnel de repondre au composantes essentielles suivantes :
+
+- Communiquer avec le client et les différents acteurs impliqués, parfois en anglais
+- Faire preuve d’une démarche scientifique
+- Choisir les solutions et technologies adaptées
+- Proposer des solutions respectueuses de l'environnement
+-  Utiliser une approche rigoureuse et méthodique (démarche scientifique)
 
 
 <!-- page break html -->
@@ -54,6 +68,12 @@ Il demande ainsi comme apprentissage :
 
 [Retour au sommaire](#Sommaire)
 
+Selon moi le niveau attendu est de pouvoir deployer et caracteriser un système de communications et/ou télécommunications.
+
+- Deployer des solutions de transmissions afin de pouvoir connecter les usagers
+- Communications des solutions
+- Choix des solutions les plus adaptées à l'environnement de travail  
+
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
@@ -62,6 +82,7 @@ Il demande ainsi comme apprentissage :
 
 [Retour au sommaire](#Sommaire)
 
+Actuellement je suppose avoir un niveau assez bas de part le manque de compréhension du module 
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
