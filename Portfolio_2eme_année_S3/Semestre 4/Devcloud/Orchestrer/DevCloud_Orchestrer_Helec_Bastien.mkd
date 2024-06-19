@@ -25,6 +25,72 @@ Ressources associées à la compétences Orchestrer :
 - [Ce que j'ai réaliser](#4.)
 - [Ce que j'en conclu](#5.)
 
+
+
+## <a id="Introduction" style="textdecoration:none"></a> Introduction : Rappel de la Orchestrer 
+[Retour au sommaire](#Sommaire)
+
+La compétence Orchestrer à pour objectif de permettre une supervision et gestion quotidienne d'une infrastructure cloud : 
+
+- AC24.01 DevCloud : Proposer une solution Cloud adaptée à l'entreprise
+- AC24.02 DevCloud : Virtualiser un environnement
+- AC24.03 DevCloud : Utiliser les serivces du Cloud
+- AC24.02 DevCloud : Analyser un service Cloud au travers des métriques
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="1." style="textdecoration:none"></a> Le niveau attendu en fin d'année
+
+[Retour au sommaire](#Sommaire)
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="2." style="textdecoration:none"></a> Mon niveau actuel
+
+[Retour au sommaire](#Sommaire)
+
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="3." style="textdecoration:none"></a> Ce que je prevois de faire pour améliorer mon niveau
+
+[Retour au sommaire](#Sommaire)
+
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="4." style="textdecoration:none"></a> Ce que j'ai réaliser 
+
+[Retour au sommaire](#Sommaire)
+
+
+- Infra perso proxmox 
+- SAE Cisco 
+- SAE VMware 
+- Datto bic
+- Sharepoint bic 
+- Nextcloud sae
+- FivemDev
+- VPN
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="5." style="textdecoration:none"></a> Ce que j'en conclu 
+
+[Retour au sommaire](#Sommaire)
+
+
+
 ---
 <script>
 // JavaScript code to insert current date and time into footer

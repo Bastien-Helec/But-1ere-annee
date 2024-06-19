@@ -21,6 +21,94 @@ Ressources associées à la compétences Programmer :
 - [Ce que j'ai réaliser](#4.)
 - [Ce que j'en conclu](#5.)
 
+
+## <a id="Introduction" style="textdecoration:none"></a> Introduction : Rappel de la compétence Développer
+[Retour au sommaire](#Sommaire)
+
+La compétence Développer à pour objectif de permettre un developement continu au sein d'une infrastructure cloud :
+
+Il demande ainsi comme apprentissage :
+
+- AC25.01DevCloud : Développer un microservice 
+- AC25.02DevCloud : Mettre en production une application
+- AC25.03DevCloud : Programmer son réseau par le code
+
+Celles-ci demande de savoir en situation professionnelle :
+
+- Déploiement d'une application 
+- Intervention sur la chaîne de développement dans une optique DevOps
+- Surveillance de la qualité de la production
+- Mise en place des services réseaux nécessaires au développement
+
+Demandant ainsi au futur professionnel de repondre au composantes essentielles suivantes :
+
+- Respecter un cahier des charges
+- Documenter le travail réalisé
+- Respecter les bonnes pratiques de développement et de production
+- Viser,l’amélioration continue
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="1." style="textdecoration:none"></a> Le niveau attendu en fin d'année
+
+[Retour au sommaire](#Sommaire)
+
+Selon moi la compétence Développer correspond :
+
+- Mise en place et deploiement de solution orientée cloud tel qu'un ou plusieurs microservices 
+- Operer sous un cahier des charges promulguant le CI/CD 
+- Utilisé les outils a notre dispositions a bon escient pour augmenter ça productivité ainsi que sont efficacité.
+
+A la fin de l'année je suppose que le niveau attendu et de l'ordre d'une initiation au outils de cloud ainsi que la mise en production d'une solution concrète en apportant des solutions concrètes au préstataire.
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="2." style="textdecoration:none"></a> Mon niveau actuel
+
+[Retour au sommaire](#Sommaire)
+
+Selon moi aujourd'hui je correspond au niveau actuel attendu voir meme un peu plus de part l'interêt importante que je porte au compétences du cloud. Egalement de part mon optique de phase de test et de developpement d'un projet ou d'un morceau de projet avant la mise en production. 
+
+Entre autre de part la gestion d'un projet avec une equipe on initiaux a la méthode de travail a intégrer a inserer dans le projet. 
+
+Cela integrant aussi une phase de CI/CD meme si dans mon cas je suis plus sur le CI que le CD.  
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="3." style="textdecoration:none"></a> Ce que je prevois de faire pour améliorer mon niveau
+
+[Retour au sommaire](#Sommaire)
+
+Ayant le niveau attendu actuellement j'ai des idées comme mettre en applications une solutions d'AD pour mes ordinateurs afin de pouvoir intégrer des fonctionnalités specifiques comme , par exemple, une liaison direct au nextcloud ou encore faire les mises a jours quotidienne etc. Egalement de part une difficulté a programmer un réseau par le code remettre en place la derniere SAE en DevCloud que j'ai pu faire englobant principalement cette compétence.
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="4." style="textdecoration:none"></a> Ce que j'ai réaliser 
+
+[Retour au sommaire](#Sommaire)
+
+- Ansible
+- Nextcloud (tous c'est microservices)
+- FiveM dev 
+- VPN 
+- Github gestion de projet sae microservices
+
+
+<!-- page break html -->
+<div style="page-break-after: always;"></div>
+
+## <a id="5." style="textdecoration:none"></a> Ce que j'en conclu 
+
+[Retour au sommaire](#Sommaire)
+
+
+
 ---
 <script>
 // JavaScript code to insert current date and time into footer
