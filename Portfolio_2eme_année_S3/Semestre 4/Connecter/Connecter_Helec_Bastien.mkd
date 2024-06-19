@@ -23,7 +23,7 @@ Ressources associées à la compétences Connecter :
 
 ---
 ## <a id="Sommaire" style="textdecoration:none"></a> Sommaire
-### les liens en dessus sont clickable et renvoi vers les démonstrations correspondantes
+### les liens en dessous sont clickable et renvoi vers les démonstrations correspondantes
 ---
 - [Introduction](#Introduction) : Rappel de la compétence Connecter
 - [Le niveau attendu en fin d'année ](#1.)
@@ -82,7 +82,9 @@ Selon moi le niveau attendu est de pouvoir deployer et caracteriser un système 
 
 [Retour au sommaire](#Sommaire)
 
-Actuellement je suppose avoir un niveau assez bas de part le manque de compréhension du module 
+Actuellement je suppose avoir un niveau assez bas de part le manque de compréhension du module , neanmoins je suis en capacité de pouvoir mettre en place quelques points correspondant a cette compétences
+
+
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
@@ -91,6 +93,7 @@ Actuellement je suppose avoir un niveau assez bas de part le manque de compréhe
 
 [Retour au sommaire](#Sommaire)
 
+Pour pouvoir m'ameliorer il faut deja que j'arrive a comprendre en quoi consiste concrètement cette compétence ainsi que les points important de la formation. 
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
@@ -99,13 +102,98 @@ Actuellement je suppose avoir un niveau assez bas de part le manque de compréhe
 
 [Retour au sommaire](#Sommaire)
 
+- Dimmensionnement d'une infrastructure réseau avec répéteur wifi
 
-- B-I-C sharepoint : 22.03
-- Sae Réseau opérateur pujas : 22.05 22.04
-- Fibre Optique : 22.01
-- VPN administrer et proxmox : 22.01 22.03
-- Dimensionnement répéteur wifi : 22.01
+A titre personnel j'ai pu réaliser un dimensionnement via un répéteur wifi me permettant ainsi de mettre en place un réseau relatif a mon infrastructure pour ce faire j'ai procédé comme ceci : 
 
+![alt text](./images/schema_infrahome.png)
+
+Pour ce faire j'ai decider d'utiliser un répéteur wifi TP Link pouvant avoir en debit wifi jusqu'a 3Gb en possédant le wifi 6 ax avec un debit filaire a 1Gb ce qui aujourd'hui totalement suffisant comparer a mon entré fibre de mon domicile qui est d'une entré fibre théorique a 1Gb  
+
+
+- Fibre Optique
+
+Durant les TP dans la formation j'ai pu également apprendre a déployer une fibre optique de part la soudure , l'utilisation du multiplexage afin d'obtenir plusieurs signaux de fréquences différentes representer par des couleurs differentes a l'interieur d'une seule et meme fibre. 
+
+En stage j'ai pu en apprendre plus sur la technologie de communications IPBX et IPVA representer par ce schèma :
+
+A la fin de ma periode de stage c'est justement la solution que j'ai du mettre en place de mon entreprise tout en indiquant de part un document expliquant comment cela fonctionne et également comment le faire. On m'avait demander de configurer le sharepoint afin de pouvoir s'en servir en tant que gestion de stockage qui utilise onedrive pour la synchronisation des données. 
+
+
+Lors de la SAE 3.01 il nous a était demander de respecter le cahier des charges visant a concevoir un deploiement de cable pour un hotel de luxe, dans cette demande nous avons donc ainsi du prendre en compte des batiments deja présent ainsi que les futurs infrastructure afin d'éviter de possible travaux supplémentaires. 
+
+Pour cela nous avons du priorisez le cables en direction de l'hotel nous indiquant les fiabilités dans les clients doivent avoir besoin c'est pourquoi nos recherche nous avez mener a selectionner la fibre duplex OS2 SC/UPC monomode dedié offrant une fiabilité de 1Gb/s pour les clients. Tout en offrant pour le voisinage une fibre FTTH identique mutualisé.
+
+- Téléphonie :
+
+![alt test](./images/solutionsIPBX.png)
+
+l'objectif étant de mettre de coter les anciens PBXs pour arriver a optimiser les bandes passantes, de part la présence de technologie de haute qualité pour repondre au besoin de téléphonie.
+
+Pour cela en stage j'ai pu apercevoir et mettre légerment en application la configuration des téléphones sous unyc , unyc etant une solution IPVA permettant via une interface web la création de sites , de sous sites ainsi que tout ce qui est associées pour la configuration téléphoniques pas de mise en place via un PBX les téléphones sous des téléphones intégrant la solution IP. 
+
+Dans la meme voie j'ai pu voir de loin la configuration sous innovaphone qui offre une solution plus complexe qu'unyc avec un fonctionnement legerement utilisant cette fois l'IPBX. Innovaphone est elle aussi une entreprise orienté dans la voie de la téléphonie. utilisant également un systeme web dans un format de modules a installer sur l'affichage principal en fonction de la demande. Récement ils ont implanter une solution visant a calculer le temps téléphonique passer la configuration automatique également lorsque l'un des employers ce mets a son poste pour offrir un reponse rapide sans coupure pour l'entreprise ou le client.
+
+- Configuration d'un VPN
+
+Le VPN étant un moyen de mettre en place un réseau sécurisé distant c'est pour cette raison que je le mets dans cette compétences , entre autres elle permet de connecter plusieurs sites entre eux de part par exemple un VPN serveur reliez a un autre VPN qui celui-ci est routeur. 
+
+De part les blocages de port de l'IUT j'ai du mettre en place un VPN entre mon clusters proxmox chez moi, pour me permettre d'acceder a tout les ports exterieur.
+
+Pour ce faire j'ai créer un VPN avec wireguard sur un serveur proxmox dans un contener LXC, puis une configuration entre mon serveur proxmox chez moi et les differents clients. 
+
+De part la sécurité du VPN je ne vais pas montrer par des captures d'écrans les configurations mais je vais expliquer comment j'ai fait :
+
+1. Installation de wireguard sur le serveur proxmox : 
+
+```bash
+apt install wireguard
+```
+
+2. Génération des clés sur le serveur proxmox : 
+
+```bash
+wg genkey | tee privatekey | wg pubkey > publickey
+```
+
+3. Configuration du serveur wireguard et du client wireguard: 
+
+```bash
+[Interface]
+PrivateKey= [ Clefs priver du serveur  Clefs priver du client]
+Address = [ Adresse IP du serveur wireguard Adresse IP du client wireguard]
+ListenPort = 51820
+
+[Peer]
+PublicKey = [ Clefs public du client wireguard Clefs public du serveur wireguard]
+AllowedIPs = [ Adresse IP du client wireguard Adresse IP du serveur wireguard (ou 0.0.0.0/0 pour le full tunnel)]
+Endpoint =  [ Adresse IP du client wireguard ou ip publique ]
+PersistentKeepalive = 25
+```
+
+Bien evidement on a du configurer a l'interieur du serveur VPN les regles de forwarding et de NAT pour permettre au client de pouvoir acceder a internet.
+
+```bash
+iptables -t nat -A POSTROUTING -s [ Réseau wireguard ] -o eth0 -j MASQUERADE
+```
+
+Et sur le routeur on autorise l'accès au serveur wireguard en ouvrant le port 51820.
+
+Sous linux on utilise seulement les CLI pour pouvoir configurer le VPN.
+
+
+Sous windows et android l'entreprise Wireguard a créer une application pour pouvoir configurer le VPN de manière graphique. Sans pour autant changer les configurations de bases.
+
+Pour ma part j'ai configurer mon VPN en full tunnel pour pouvoir acceder a tout les ports et mon cluster proxmox.
+
+
+- Sharepoint 
+
+Afin de pouvoir connecter les usagers au differents sites d'une meme entreprise une solution de stockage relié a onedrive est apparu Sharepoint. 
+
+Sharepoint permet de créer une interface complête pour plusieurs sites permettant ainsi un stockage , une planification etc ... pour le personnels ou clients. Il offre également la possibilité de pouvoir obtenir un site web directement intégrer.
+
+![alt text](./images/Création_7.png)
 
 
 
@@ -116,6 +204,11 @@ Actuellement je suppose avoir un niveau assez bas de part le manque de compréhe
 
 [Retour au sommaire](#Sommaire)
 
+J'en conclu que de part le peu de compréhension sur cette competence j'ai quand meme réussi a y integrer les points qui semble correspondre a mon niveau actuel. 
+
+Ce fut délicat d'arriver a mettre en place la demonstration également car malgrès la présence forte de la partie télécommunications dans la formations cela ma difficilement permit de comprendre comment le remplir. 
+
+J'estime avoir un niveau suffisant pour valider la compétence de part la connectivité et l'apprentissage de la téléphonie.
 
 ---
 <script>
