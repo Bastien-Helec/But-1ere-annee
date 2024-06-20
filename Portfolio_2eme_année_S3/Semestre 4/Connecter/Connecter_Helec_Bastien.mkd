@@ -2,23 +2,7 @@
 
 ```
 Bastien Helec
-Semestre 3
-Ressources associées à la compétences Connecter : 
-- R301 : AC 22.05
-- R302 : AC 22.03
-- R305 : AC 22.01
-- R306 : AC 22.01
-- R307 : AC 22.01 AC 22.04
-- R310 : AC 22.02
-- R311 : AC 22.05
-- R312 : AC 22.05
-- R313 : AC 22.01 AC 22.02 AC 22.03 AC 22.04 AC 22.05
-- R314 : AC 22.01 AC 22.05
-- R315 : AC 22.05
-- SAE 3.01 : AC 22.01 AC 22.03 AC 22.04 AC 22.05
-- SAE 3.02 : AC 22.05
-- SAE 3.Devcloud.03 : AC 22.02 AC 22.03
-- Portfolio : AC 22.01 AC 22.02 AC 22.03 AC 22.04 AC 22.05
+Semestre 4
 ```
 
 ---

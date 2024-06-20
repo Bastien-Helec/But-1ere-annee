@@ -3,15 +3,7 @@
 ```
 Bastien Helec
 @Bastien-Helec
-Semestre 3
-Ressources associées à la compétences Orchestrer : 
-- R313 : AC 24.DevCloud.01 AC 24.DevCloud.02 AC 24.DevCloud.03 AC 24.DevCloud.04
-- R3.DevCloud.16 : AC 24.DevCloud.01 AC 24.DevCloud.03
-- R3.DevCloud.17 : AC 24.DevCloud.01 AC 24.DevCloud.02 AC 24.DevCloud.04
-- SAE 1.Devcloud.03 : AC 24.DevCloud.02 
-- SAE 3.Devcloud.04 : AC 24.DevCloud.01 AC 24.DevCloud.02 AC 24.DevCloud.04
-- Portfolio : AC 24.DevCloud.01 AC 24.DevCloud.02 AC 24.DevCloud.04
-
+Semestre 4
 ```
 
 ---

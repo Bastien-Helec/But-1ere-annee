@@ -2,12 +2,7 @@
 
 ```
 Bastien Helec
-Semestre 3
-Ressources associées à la compétences Programmer : 
-- R313 : AC 25.DevCloud.01 AC 25.DevCloud.02 AC 25.DevCloud.03
-- SAE 3.Devcloud.04 : AC 25.DevCloud.02
-- Portfolio : AC 25.DevCloud.02
-
+Semestre 4
 ```
 
 ---

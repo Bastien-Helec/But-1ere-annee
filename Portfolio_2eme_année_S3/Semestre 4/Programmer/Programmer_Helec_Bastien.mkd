@@ -2,17 +2,7 @@
 
 ```
 Bastien Helec
-Semestre 3
-Ressources associées à la compétences Programmer : 
-- R308 : AC 23.02 AC 23.05
-- R309 : AC 23.02 AC 23.03
-- R310 : AC 23.04
-- R311 : AC 23.02
-- R312 : AC 23.02
-- R313 : AC 23.01 AC 23.02 AC 23.03 AC 23.04 AC 23.05
-- R315 : AC 23.02
-- SAE 3.02 : AC 23.02 AC 23.03 AC 23.04 AC 23.05
-- Portfolio : AC 23.02 AC 23.03 AC 23.04 AC 23.05
+Semestre 4
 ```
 
 ---
@@ -30,6 +20,31 @@ Ressources associées à la compétences Programmer :
 ## <a id="Introduction" style="textdecoration:none"></a> Introduction : Rappel de la compétence Programmer
 [Retour au sommaire](#Sommaire)
 
+La compétence Programme à pour objectif de permettre une automatisation des outils pour faciliter le travail de l'utilisateurs :
+
+Pour ce faire il a besoin au apprentissage critique :
+
+- Automatiser l’administration système avec des scripts
+- Développer une application à partir d’un cahier des charges donné, pour le Web ou les périphériques mobiles
+- Utiliser un protocole réseau pour programmer une application client/serveur
+- Installer, administrer un système de gestion de données
+- Accéder à un ensemble de données depuis une application et/ou un site web
+
+Celles-ci demande de savoir en situation professionnelle :
+
+- Conception, déploiement et maintenance du système d’information d’une entreprise
+- Automatisation du déploiement et de la maintenance des outils logiciels
+- Développement d’outils informatiques à usage interne d'une équipe
+
+Demandant ainsi au futur professionnel de repondre au composantes essentielles suivantes :
+
+- Etre à l’écoute des besoins du client et des différents acteurs impliqués
+- Documenter le travail réalisé
+- Utiliser les outils numériques à bon escient
+- Choisir les outils et l’environnement de développement adaptés
+- Intégrer les problématiques de sécurité
+- Utiliser une approche rigoureuse et méthodique (démarche scientifique)
+
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
@@ -38,6 +53,7 @@ Ressources associées à la compétences Programmer :
 
 [Retour au sommaire](#Sommaire)
 
+Selon moi le niveau attendu en fin d'année est de pouvoir deployer des configurations specifiques pour des outils de monitoring ou simplement pour simplifier la vie de l'utilisateurs, mais également de pouvoir deployer des solutions web ou mobiles viable par des applications tout en respectant le cahier des charges. 
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
@@ -46,7 +62,9 @@ Ressources associées à la compétences Programmer :
 
 [Retour au sommaire](#Sommaire)
 
+Je pense avoir le niveau pour cette année car depuis que j'ai entrepris de la programmation autour des outils qui m'interessent comme tilix ou zellij j'ai pu developper des solutions allant observant par exemple pour zellij la présence d'un conteneur docker afin d'afficher un espace de travail (2 terminal) nommé au nom du conteneur avec une partie action externe. 
 
+Ou encore sur des projets qui mon permis réellement permis de développer cette compétences de part l'apprentissage de nouvelles langues de programmation comme le LUA ou encore une initiation au C et pour finir par l'ancienne solution d'EXCEL le VBA pour des macros pérsonaliser.  
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
@@ -55,6 +73,7 @@ Ressources associées à la compétences Programmer :
 
 [Retour au sommaire](#Sommaire)
 
+Toujours plus de projet ma challengeant sur ce que j'aime comme le developpement de jeu video sous LUA ou encore des sites web mais en faisant du site dynamique tout en optimisant pour les debits et en initialisant des frameworks via python (django) flask etc ...
 
 
 <!-- page break html -->
@@ -64,6 +83,13 @@ Ressources associées à la compétences Programmer :
 
 [Retour au sommaire](#Sommaire)
 
+- VBA 2 fichiers avec macro personnaliser
+- Configuration des outils de monitoring (tilix avec le lancement d'un layout et python pour docker)
+- Script pour debug brave sous linux 
+- VPN (protocole wireguard)
+- Microservice pour nextcloud 
+- Developpement script lua 
+
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
@@ -72,6 +98,7 @@ Ressources associées à la compétences Programmer :
 
 [Retour au sommaire](#Sommaire)
 
+En conclusion j'estime avoir le niveau pour cette compétence car cela releve avant tout de la passion et de la compréhension de l'automatisme qui ici est bien démontrer. La compétence programmer et une mine infinie de nouveauté me permettant de pouvoir tester de nouvelles chose entre autre de part mon implication assez importante dans la rédaction de script d'automatisation pour dockers ou encore des scripts sous lua pour du jeu video permettant d'offrir des nouveautés au joueurs. 
 
 
 ---

@@ -2,19 +2,7 @@
 
 ```
 Bastien Helec
-Semestre 3 et 4
-Ressources associées a la compétences Administrer : 
-- R301 : AC 21.01 AC 21.02
-- R302 : AC 21.05
-- R303 : AC 21.03 AC 21.04
-- R304 : AC 21.03 AC 21.04
-- R311 : AC 21.02 AC 21.06
-- R312 : AC 21.06
-- R313 : AC 21.01 AC 21.02 AC 21.03 AC 21.04 AC 21.05 AC 21.06
-- R315 : AC 21.06
-- SAE 3.02: AC 21.06
-- SAE 3.Devcloud.03: AC 21.01 AC 21.02 AC 21.03 AC 21.04 AC 21.05 AC 21.06
-- Portfolio : AC 21.01 AC 21.02 AC 21.03 AC 21.04 AC 21.05 AC 21.06 
+Semestre 4
 ```
 
 ---
