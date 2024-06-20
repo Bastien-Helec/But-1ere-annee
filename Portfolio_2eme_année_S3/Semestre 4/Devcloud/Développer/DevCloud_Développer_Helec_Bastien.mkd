@@ -189,10 +189,9 @@ networks:
 
 ![alt text](images/nextcloud_final.png)
 
-
 Afin de pouvoir gerer justement les microservices associées j'ai créer un petit programme me permettant d'afficher toutes les 10 secondes les containers docker actif , tout les conteneurs, les réseaux de docker deployés ainsi que la specification (nom du conteneur + adresse IP) d'un réseau specifiques. 
 
-![](images/script.png)
+![alt text](images/script.png)
 ![alt text](images/config_nextcloud.png)
 ![alt text](images/phpmyadmin.png)
 
