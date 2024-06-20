@@ -27,7 +27,7 @@ Ressources associées à la compétences Programmer :
 - [Ce que j'en conclu](#5.)
 
 
-## <a id="Introduction" style="textdecoration:none"></a> Introduction : Rappel de la compétence Connecter
+## <a id="Introduction" style="textdecoration:none"></a> Introduction : Rappel de la compétence Programmer
 [Retour au sommaire](#Sommaire)
 
 

@@ -93,12 +93,143 @@ Ayant le niveau attendu actuellement j'ai des idées comme mettre en application
 
 [Retour au sommaire](#Sommaire)
 
-- Ansible
-- Nextcloud (tous c'est microservices)
-- FiveM dev 
-- VPN 
-- Github gestion de projet sae microservices
 
+En suivant les cours et la demande en SAE j'ai était amener a deployer une solution ansible pour la supervisions des microservices pour cela j'ai utilisé des playbooks en yaml me permettant ainsi de gerer les microservices ainsi que de les stocker dans un registry harbor relatif a la SAE je prendrais l'exemple du serveur nextcloud :
+
+Nextcloud nous demande ainsi d'avoir un service de base de données , un service web et le service nextcloud. Pour cela dans le playbook j'ai indiquer un service maraidb un service PHPmyadmin permettant d'observer la base de données relative et le service nextcloud alloué avec son service web en NGINX. j'avais entamer la chose avec docker compose qui c'est averer utile lors du deploiement sous ansible. 
+
+le fichier relatif au playbooks ansible de nextcloud :
+
+```yaml
+- include_tasks: install.yml
+  tags: install_docker
+
+- include_tasks: pull_images.yml
+  tags: pull_nextcloud
+
+- include_tasks: manage_nextcloud.yml
+  tags:
+    - create_nextcloud
+    - start_nextcloud
+    - stop_nextcloud
+
+- include_tasks: info_containers.yml
+  tags: nextcloud_info
+
+- include_tasks: network_containers.yml
+  tags: network_info
+```
+
+et sont fichier docker compose : 
+```yaml
+services:
+  db:
+    image: mariadb
+    volumes:
+      - /var/lib/docker/disk01:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: debian
+      MYSQL_PASSWORD: root
+      MYSQL_DATABASE: nextcloud_db
+    ports:
+      - 3306:3306
+    networks:
+       macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.90
+
+  phpmyadmin:
+    image: phpmyadmin
+    environment:
+      PMA_HOST: 192.168.1.90
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3356:3356/tcp
+    networks:
+       macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.83
+
+  nextcloud:
+    image: nextcloud
+    volumes:
+      - /var/lib/docker/nextcloud:/var/www/html
+    environment:
+      MYSQL_HOST: 192.168.1.90
+      MYSQL_DATABASE: nextcloud_db
+      MYSQL_USER: debian
+      MYSQL_PASSWORD: root
+    depends_on:
+      - db
+    networks:
+       macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.18
+
+  nginx:
+    image: nginx
+    volumes:
+      - /var/lib/docker/nginx:/etc/nginx/conf.d
+      - /var/lib/docker/nginx/logs:/var/log/nginx
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - web
+    networks:
+       macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.150
+
+  web:
+    image: nginx  # Remplacez ceci par l'image de votre service web
+    volumes:
+      - /var/lib/docker/web:/usr/share/nginx/html  # Chemin exemple, adaptez selon vos besoins
+    networks:
+      macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.151
+
+
+networks:
+  macvlan-docker-nextcloud:
+    external: true
+```
+
+![alt text](images/nextcloud_final.png)
+
+
+Afin de pouvoir gerer justement les microservices associées j'ai créer un petit programme me permettant d'afficher toutes les 10 secondes les containers docker actif , tout les conteneurs, les réseaux de docker deployés ainsi que la specification (nom du conteneur + adresse IP) d'un réseau specifiques. 
+
+![](images/script.png)
+![alt text](images/config_nextcloud.png)
+![alt text](images/phpmyadmin.png)
+
+Afin de d'acquerir des compétences supplémentaires : 
+
+J'ai décidé d'utiliser des conteneurs de par la présence d'un hardware peu performant avec plusieurs VM a l'interieur.
+
+Ainsi cela ma permit de mettre en place un VPN wireguard, ainsi qu'un serveur fivem qui correspond a du developpement de jeu video me permettant ainsi de réaliser des scripts et tout ce qui s'en suit pour une communauté de jeu de rôles.
+
+*Fivem est un produit de l'entreprise cfx.re permettant d'ajouter une surcouche a un jeu video internationnellement connu (GTA 5) offrant la possibilité au joueurs de développer une toute nouvelle alternative au jeu d'origine ici du roleplay.*  
+
+également a l'interieur ma phase de test avant le deploiment de plusieurs solutions. 
+
+Comme la création d'un container docker permettant un deploiement rapide d'un serveur fivem ainsi qu'une documentation permettant le deploiement efficaces. 
+Initialiser sur mon github :
+
+ ![alt text](images/github_fivemdev.png)
+
+ ![alt text](images/docker_fivemserv.png)
+
+![alt text](images/utilisation_docker_fivemserv.png)
+
+Et la préparation des playbooks ansible comme ceux utilisé pour la SAE4.devcloud.01 ayant pour objectif le deploiment de microservice avec une solution de supervision des microservices.
+
+Egalement sur mon serveur j'ai mis en place un systeme de replication qui récuperent les dernieres sauvegarde réaliser sur les machines présentes, ainsi qu'un demarrage automatique pour les containeurs essentielles comprenant le demarrage via init.d d'un nouveau services créer. 
+
+
+Durant la SAE 3D.04 Devcloud j'ai mis en place la configuration complète de toute la gestion. En indiquant de ne pas toucher a la branche principal et d'ainsi avoir une branche externe pour pouvoir faire nos phase de test avant le déploiement sur la branche principal. 
+
+A l'interieur de la documentation fu effectuer pour permettre d'en connaitre le fonctionnement : 
+
+![alt text](images/Doc_quotidienne.png)
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
@@ -107,7 +238,7 @@ Ayant le niveau attendu actuellement j'ai des idées comme mettre en application
 
 [Retour au sommaire](#Sommaire)
 
-
+J'en conclu donc que de part la présence de la supervision et le deploiement d'un ou plusieurs micorservice ainsi que la phase de developpement précédent la mise en production cela correspond au niveau attendu a la fin de l'année néanmoins cela correspond a l'apprentissage critique AC35.02DevCloud :  Concevoir, gérer et sécuriser un environnement de microservices (mise sur une VM)
 
 ---
 <script>

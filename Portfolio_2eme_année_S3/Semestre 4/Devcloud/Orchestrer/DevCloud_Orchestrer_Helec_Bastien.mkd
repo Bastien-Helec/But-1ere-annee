@@ -37,6 +37,22 @@ La compétence Orchestrer à pour objectif de permettre une supervision et gesti
 - AC24.03 DevCloud : Utiliser les serivces du Cloud
 - AC24.02 DevCloud : Analyser un service Cloud au travers des métriques
 
+Celles-ci demande de savoir en situation professionnelle : 
+
+- Industrialisation du déploiement des infrastructures systèmes , réseaux et sécurité en sauvegardant et en restaurant ses configurations.
+- Maintenance des outils pour l’intégration et la mise en production du code logiciel
+- Administration d’un cluster de containers
+- Analyse des performances d’un système pour améliorer les processus de production
+
+Demandant ainsi au futur professionnel de repondre au composantes essentielles suivantes :
+
+- Respecter un cahier des charges
+- Documenter le travail réalisé
+- Intégrer les problématiques de sécurité
+- Assurer une veille technologique
+- Respecter les pratiques d’équipes et des méthodes de production
+
+
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
@@ -45,6 +61,7 @@ La compétence Orchestrer à pour objectif de permettre une supervision et gesti
 
 [Retour au sommaire](#Sommaire)
 
+Selon moi a la fin de l'année il est attendu pour un éleves de second année de pouvoir faire la gestion compléte d'une infrastructure cloud tout en respectant la mise en place de sauvegarde ainsi que la création de cette infrastructure de part de la virtualisation d'un réseau. En réalisant de la documentation permettant d'en comprendre le fonctionnement et l'utilisation pour une personne tiers qui prendrait le relais sur la/les machine(s) concernée(s)  
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
@@ -53,7 +70,11 @@ La compétence Orchestrer à pour objectif de permettre une supervision et gesti
 
 [Retour au sommaire](#Sommaire)
 
+J'estime etre en capacité de pouvoir repondre au besoin clair de cette compétence de part mon infrastructure serveur que j'ai pu mettre en place chez moi pour m'offrir des solutions de cloud pour differentes utilité. J'estime avoir aujourd'hui atteint le niveau 1 plutot proche du niveau 2 car comme dans le monde de l'entreprise il sera toujours de mise d'apprendre de nouvelle chose. 
 
+Egalement de part la gestion des projets au sein de l'environnement cloud j'ai pu assurez un suivi du developpement complet de chaque personnel relatif a la compétence d'assistant a l'administrateur cloud. 
+
+Tout en explicitant au maximum la documentations qui a pu etre réaliser part les equipes ou bien par moi même dans le rapport des tâches quotidienne dans un kanban. 
 
 <!-- page break html -->
 <div style="page-break-after: always;"></div>
@@ -61,6 +82,8 @@ La compétence Orchestrer à pour objectif de permettre une supervision et gesti
 ## <a id="3." style="textdecoration:none"></a> Ce que je prevois de faire pour améliorer mon niveau
 
 [Retour au sommaire](#Sommaire)
+
+De part l'estimation de mon niveau actuelle je dirais plus d'explication dans les documentations ainsi qu'une veille technologique beaucoup plus présente qu'actuellement.  
 
 
 
@@ -72,14 +95,168 @@ La compétence Orchestrer à pour objectif de permettre une supervision et gesti
 [Retour au sommaire](#Sommaire)
 
 
-- Infra perso proxmox 
-- SAE Cisco 
-- SAE VMware 
-- Datto bic
-- Sharepoint bic 
-- Nextcloud sae
-- FivemDev
-- VPN
+- Déploiment d'une infrastructure personnel
+
+De mon coté a titre personnel j'ai pu mettre en place en cluster Proxmox me permettant ainsi de me faire du développement informatique, une phase de test et une connectivité VPN via un conteneur LXC. 
+
+
+![alt text](images/Proxmox_interne.png)
+
+Ce ne fu pas de tout repos car l'un de mes serveurs ne pouvait pas etre démarrer par affichage de par un defaut interne , la RAM était mal intégrer dans le boitier donnant l'impression que celui-ci pouvait avoir un affichage sans réellement l'avoir ce qui complexifier la taches afin d'entamer le cluster. Une fois ce probleme résolu j'ai ainsi donc pu mettre en place un ceph nous permettant d'afficher un résumé succints de la consomation de chaque appareil. 
+
+![alt text](images/Ceph_monitoring.png)
+
+J'ai décidé d'utiliser des conteneurs de par la présence d'un hardware peu performant avec plusieurs VM a l'interieur.
+
+Ainsi cela ma permit de mettre en place un VPN wireguard, ainsi qu'un serveur fivem qui correspond a du developpement de jeu video me permettant ainsi de réaliser des scripts et tout ce qui s'en suit pour une communauté de jeu de rôles.
+
+*Fivem est un produit de l'entreprise cfx.re permettant d'ajouter une surcouche a un jeu video internationnellement connu (GTA 5) offrant la possibilité au joueurs de développer une toute nouvelle alternative au jeu d'origine ici du roleplay.*  
+
+également a l'interieur ma phase de test avant le deploiment de plusieurs solutions. 
+
+Comme la création d'un container docker permettant un deploiement rapide d'un serveur fivem ainsi qu'une documentation permettant le deploiement efficaces. 
+Initialiser sur mon github :
+
+ ![alt text](images/github_fivemdev.png)
+
+ ![alt text](images/docker_fivemserv.png)
+
+![alt text](images/utilisation_docker_fivemserv.png)
+
+Et la préparation des playbooks ansible comme ceux utilisé pour la SAE4.devcloud.01 ayant pour objectif le deploiment de microservice avec une solution de supervision des microservices.
+
+Egalement sur mon serveur j'ai mis en place un systeme de replication qui récuperent les dernieres sauvegarde réaliser sur les machines présentes, ainsi qu'un demarrage automatique pour les containeurs essentielles comprenant le demarrage via init.d d'un nouveau services créer. 
+
+- Configuration des VPN sur serveur et client : 
+
+De part les blocages de port de l'IUT j'ai du mettre en place un VPN entre mon clusters proxmox chez moi, pour me permettre d'acceder a tout les ports exterieur.
+
+Pour ce faire j'ai créer un VPN avec wireguard sur un serveur proxmox dans un contener LXC, puis une configuration entre mon serveur proxmox chez moi et les differents clients. 
+
+De part la sécurité du VPN je ne vais pas montrer par des captures d'écrans les configurations mais je vais expliquer comment j'ai fait :
+
+1. Installation de wireguard sur le serveur proxmox : 
+
+```bash
+apt install wireguard
+```
+
+2. Génération des clés sur le serveur proxmox : 
+
+```bash
+wg genkey | tee privatekey | wg pubkey > publickey
+```
+
+3. Configuration du serveur wireguard et du client wireguard: 
+
+```bash
+[Interface]
+PrivateKey= [ Clefs priver du serveur  Clefs priver du client]
+Address = [ Adresse IP du serveur wireguard Adresse IP du client wireguard]
+ListenPort = 51820
+
+[Peer]
+PublicKey = [ Clefs public du client wireguard Clefs public du serveur wireguard]
+AllowedIPs = [ Adresse IP du client wireguard Adresse IP du serveur wireguard (ou 0.0.0.0/0 pour le full tunnel)]
+Endpoint =  [ Adresse IP du client wireguard ou ip publique ]
+PersistentKeepalive = 25
+```
+
+Bien evidement on a du configurer a l'interieur du serveur VPN les regles de forwarding et de NAT pour permettre au client de pouvoir acceder a internet.
+
+```bash
+iptables -t nat -A POSTROUTING -s [ Réseau wireguard ] -o eth0 -j MASQUERADE
+```
+
+Et sur le routeur on autorise l'accès au serveur wireguard en ouvrant le port 51820.
+
+Sous linux on utilise seulement les CLI pour pouvoir configurer le VPN.
+
+Sous windows et android l'entreprise Wireguard a créer une application pour pouvoir configurer le VPN de manière graphique. Sans pour autant changer les configurations de bases.
+
+Pour ma part j'ai configurer mon VPN en full tunnel pour pouvoir acceder a tout les ports et mon cluster proxmox.
+
+- Datto : 
+
+J'ai pu également venir en aide a un autre stagiaire de l'entreprise avec la solution de supervision DATTO pour l'installation silencieuse d'un antivirus pour cela il avait entamer une programmation qui c'est averer inutile de part la solution deja présente sur le logiciel
+
+
+- Nextcloud : 
+
+En suivant les cours et la demande en SAE j'ai était amener a deployer une solution ansible pour la supervisions des microservices pour cela j'ai utilisé des playbooks en yaml me permettant ainsi de gerer les microservices ainsi que de les stocker dans un registry harbor relatif a la SAE je prendrais l'exemple du serveur nextcloud :
+
+Nextcloud nous demande ainsi d'avoir un service de base de données , un service web et le service nextcloud. Pour cela dans le playbook j'ai indiquer un service maraidb un service PHPmyadmin permettant d'observer la base de données relative et le service nextcloud alloué avec son service web en NGINX. j'avais entamer la chose avec docker compose qui c'est averer utile lors du deploiement sous ansible. 
+
+![alt text](images/nextcloud_final.png)
+
+Avec donc nextcloud stocker dans le serveur nous pouvons ainsi intéragir avec lui de part le stockage de fichiers de planification de tâche etc ... 
+
+Egalement de part la présence du phpmyadmin nous pouvons observer les bases SQL présente sur serveur. 
+
+En utilisant des microservices nous avons ainsi virtualiser la solution cloud. 
+
+
+- Virtualisation du réseau : 
+
+Durant la SAE.3.Devcloud.03 On a pu virtualiser des appareils de routages comme le routeur c8000 avec le router edge csr1000v. 
+
+![alt text](images/NFVIS.png)
+
+Le router edge csr1000v étant notre appareil de virtualisation global nous avons mis en place avec mon binôme le logiciel NFVIS qui nous permet de voir la consomation actuelles du hardware de l'appareil
+
+![alt text](images/consonfvis.png)
+
+Une fois qui notre appareil était configuré nous avons réflechi a notre réseau a l'interieur de notre routeur edge arrivant ainsi a cette solution :
+
+![alt text](images/Réseausae3dev03.png)
+
+En outre passant ici les configurations des routeurs FRR et C8000 effecuté afin d'arrivé a une communication entre le réseau de la salle et le PC de mon binôme. 
+Nous avons pu créer notre réseau virtuellement une fois les 2 routeurs créer grace a NFVIS :
+
+![alt text](images/virtualisationnfvis.png)
+
+GE0-2 correspondant a une interface physique de notre routeur edge
+
+Une fois notre réseau initial terminé nous avons pu nous connecter a l'interface web du routeur C8000 voyant ainsi sont utilisation : 
+
+![alt text](images/C8000.png)
+
+Pour arriver a ce réseau final : 
+
+
+![alt text](images/réseauNFVISfin.png)
+
+
+- Virutalisaton d'une infrastructure :
+
+En parallele lors de la SAE.3.Devcloud.04 j'ai pu mettre en place une infrastrucutre virtualisé via 2 serveurs a dispositions, l'objectif était de mettre en application et de ce familiariser avec les solutions Cloud comme ESXI de VMware ou encore Proxmox
+
+![alt text](images/image.png)
+
+Pour cela nous avons, mon binôme et moi, utiliser VM ware en réalisant une installation classique sur un serveur HP Proliant DL360 et un serveur Dell PowerEdge R640. L'avantage avec les serveur est qu'ils possedent 2 carte réseau dont l'une accessible lorsque le serveur est atteint sur Dell on l'appel l'iDRAC et sur HP l'iLO. 
+
+Ainsi nos deux serveurs ce sont retrouver dans l'addressage IP suivant : 
+
+iLO : 10.202.100.112 partie ESXi : 10.202.26.1
+iDRAC : 10.202.100.113 partie ESXi : 10.202.26.2
+
+Les configurations des interfaces iLO et iDRAC on était effectué directement sur les serveurs associées.   
+![alt text](images/iDRAC_conf.png)
+
+La différence est notables lorsqu'il s'agit de la configuration du serveur sous iDRAC nous avons eu tendance a chercher plus comparer a l'iLO qui celui-ci indiqué d'office ou était les points demander.
+
+Une fois la configuration et l'installation sur ESXi terminer nous avons eu besoin d'une VM pour nous permettre d'obtenir le Vsphere client de chaque serveur. Un point qui paru assez étrange de mon cas étant donné que nous aurions pu directement installer le Vsphere client sur les serveurs.
+
+Ainsi en finalité nous avons pu obtenir un réseau de 2 serveurs correspondant au serveur configuré pour nous permettre de créer des machine virtuel et conteneur.
+
+
+- Sharepoint 
+
+Afin de pouvoir connecter les usagers au differents sites d'une meme entreprise une solution de stockage relié a onedrive est apparu Sharepoint en utilisant une solution cloud. 
+
+Sharepoint permet de créer une interface complête pour plusieurs sites permettant ainsi un stockage , une planification etc ... pour le personnels ou clients. Il offre également la possibilité de pouvoir obtenir un site web directement intégrer.
+
+![alt text](./images/Création_7.png)
 
 
 <!-- page break html -->
@@ -89,7 +266,7 @@ La compétence Orchestrer à pour objectif de permettre une supervision et gesti
 
 [Retour au sommaire](#Sommaire)
 
-
+J'en conclu de part ma demonstration que je suis en capacité d'orchestrer une infrastructure afin d'integrer des solutions pour un ou plusieurs clients.  
 
 ---
 <script>
