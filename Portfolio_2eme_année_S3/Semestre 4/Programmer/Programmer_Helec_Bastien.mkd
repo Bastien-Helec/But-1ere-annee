@@ -84,11 +84,803 @@ Toujours plus de projet ma challengeant sur ce que j'aime comme le developpement
 [Retour au sommaire](#Sommaire)
 
 - VBA 2 fichiers avec macro personnaliser
-- Configuration des outils de monitoring (tilix avec le lancement d'un layout et python pour docker)
-- Script pour debug brave sous linux 
-- VPN (protocole wireguard)
-- Microservice pour nextcloud 
+
+
+- Configuration d'un layout de terminal avec tilix :
+
+Pour me simplifier mes tâches au demarrage de ma machine j'ai mis en place 2 outils d'automatisation me permettant de faire respectivement un layout pour mon terminal : 
+
+![alt text](images/tilix_layout.png)
+
+Programmer en json , l'utilité d'avoir un terminal de ce type me permet de pouvoir avoir plusieurs terminaux en meme temps sans avoir a changer de fenetre a chaque fois, c'est une optimisation de terminaux. 
+
+Le script a était réaliser grâce au commande tilix session puis sauvegarder en json sur la machine pour pouvoir le lancer via raccourci clavier. (ctrl + maj + alt + t)
+
+```json
+{
+    "child": {
+        "child1": {
+            "child1": {
+                "directory": "\/home\/bastien_fedora",
+                "height": 500,
+                "title":"directory and logs",
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "type": "Terminal",
+                "uuid": "29b183ed-23a4-46b4-8577-8b12c6b31e2b",
+                "width": 960
+            },
+            "child2": {
+                "directory": "\/home\/bastien_fedora",
+                "height": 500,
+                "title":"apps_process",
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "type": "Terminal",
+                "uuid": "d7792801-46b6-483a-8cbd-016bc98a43d9",
+                "width": 960
+            },
+            "orientation": 1,
+            "position": 49,
+            "ratio": 0.499500499500499517,
+            "type": "Paned"
+        },
+        "child2": {
+            "child1": {
+                "directory": "\/home\/bastien_fedora",
+                "height": 500,
+                "title":"specific_tasks",
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "type": "Terminal",
+                "uuid": "1b533d91-fb79-4c89-ad50-5d07e6f06777",
+                "width": 959
+            },
+            "child2": {
+                "directory": "\/home\/bastien_fedora",
+                "height": 500,
+                "title":"healthcare",
+                "overrideCommand":"btop",
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "type": "Terminal",
+                "uuid": "32ba07e2-6ed1-4516-8396-ca41e17c2b6a",
+                "width": 959
+            },
+            "orientation": 1,
+            "position": 49,
+            "ratio": 0.499500499500499517,
+            "type": "Paned"
+        },
+        "orientation": 0,
+        "position": 50,
+        "ratio": 0.5,
+        "type": "Paned"
+    },
+    "height": 1001,
+    "name": "${title}",
+    "synchronizedInput": false,
+    "type": "Session",
+    "uuid": "a35ee5b2-b530-4bed-81db-d7607296e306",
+    "version": "1.0",
+    "width": 1920
+}
+```
+
+- Configuration de zellij avec docker 
+
+Sous zellij la création d'un layout fu plus compliqué car il fallait que je puisse detecter la présence d'un conteneur docker pour pouvoir afficher un espace de travail nommé au nom du conteneur avec une partie action externe.
+
+de ce faite j'ai créer un script python qui me permet de faire la detection des conteneurs stocker dans une liste et de me permettre ensuite de créer un fichier en kdl pour le layout zellij qui ce lance dans la meme commande (un alias) 
+
+le fameux alias : 
+
+```bash
+python3 ./layout/zellij/docker.py && zellij --layout ./Docker.kdl
+```
+
+le script python : 
+
+```python
+import subprocess
+
+def get_docker_container_names():
+    global container_names
+    # Get the names of all docker containers
+    command = "docker ps -a --format '{{.Names}}'"
+    try:
+        result = subprocess.run(command, shell=True, check=True, text=True, capture_output=True)
+        container_names = list(result.stdout.split("\n"))
+        return container_names
+    except subprocess.CalledProcessError as e:
+        print("Error executing command:", e)
+        return None
+
+def check_container_names():
+    for n in range(len(container_names)):
+        print(container_names[n])
+        if container_names[n]=="":
+            container_names.remove("")
+            print(container_names)
+
+def write_zellij_configuration():
+    # Write the zellij configuration file
+    zellij_config = open("Docker.kdl", "w")
+    # Write the init section
+    zellij_config.write("""layout{\n 
+                            tab name="Docker" split_direction="vertical" {\n 
+                                pane {\n
+                                    name "Docker Containers"\n 
+                                }\n
+                                pane {\n
+                                    name  "Docker Images"\n  
+                                }\n 
+                            }\n
+                        """)
+    
+    for g in container_names:
+        zellij_config.write(f'    tab name="{g}" split_direction="vertical" ')
+        zellij_config.write("{ \n\n")
+        zellij_config.write("                               pane {\n\n")
+        zellij_config.write(f'                                    name "{g}"\n\n')
+        zellij_config.write("                                    } \n\n")
+        zellij_config.write("""                                pane {\n
+                                    name "Docker action" \n
+                                }\n
+                            }\n
+                        """)
+    zellij_config.write("""
+                            } \n """)
+    # Write the containers section
+    zellij_config.close()
+    
+
+
+
+
+
+get_docker_container_names()
+check_container_names()
+write_zellij_configuration()
+
+```
+
+qui me donne mon fichier kdl :
+
+```kdl
+layout{
+ 
+                            tab name="Docker" split_direction="vertical" {
+ 
+                                pane {
+
+                                    name "Docker Containers"
+ 
+                                }
+
+                                pane {
+
+                                    name  "Docker Images"
+  
+                                }
+ 
+                            }
+
+                        
+                            } 
+ 
+```
+
+Ici il n'y a que ça car je n'ai pas de conteneur docker sur ma machine
+
+![alt text](images/dockerz.png)
+
+si j'avais un conteneur docker cela aurait donner ça : 
+
+```kdl
+
+layout{
+ 
+                            tab name="Docker" split_direction="vertical" {
+ 
+                                pane {
+
+                                    name "Docker Containers"
+ 
+                                }
+
+                                pane {
+
+                                    name  "Docker Images"
+  
+                                }
+ 
+                            }
+
+                            tab name="elastic_hodgkin" split_direction="vertical" { 
+
+                               pane {
+
+                                    name "elastic_hodgkin"
+
+                                    } 
+
+                                pane {
+
+                                    name "Docker action" 
+
+                                }
+
+                            }
+
+                            tab name="friendly_pare" split_direction="vertical" { 
+
+                               pane {
+
+                                    name "friendly_pare"
+
+                                    } 
+
+                                pane {
+
+                                    name "Docker action" 
+
+                                }
+
+                            }
+
+                        
+                            } 
+```
+
+
+![alt text](images/dockerz2.png)
+![alt text](images/dockerz3.png)
+![alt text](images/dockerzinit.png)
+
+
+- Erreur de demarrage brave
+
+Apres avoir était plusieurs embeter par les erreurs de demarrage brave j'ai pu trouver une solution qui permet de supprimer les fichiers qui sont censé etre présent uniquement durant l'ouverture de session de l'application , c'est pourquoi j'ai réaliser un petit script bash qui me permet de supprimer les fichiers en question et de relancer l'application. 
+
+```bash
+alias brave-debug='cd /home/bastien_fedora/.config/BraveSoftware/Brave-Browser/ && rm SingletonCookie SingletonLock SingletonSocket && cd ~ '
+```
+
+- Configuration des VPN sur serveur et client : 
+
+Cette partie correspond également a programmer puisque cela correspond a une communication via le protocole wireguard. 
+
+De part les blocages de port de l'IUT j'ai du mettre en place un VPN entre mon clusters proxmox chez moi, pour me permettre d'acceder a tout les ports exterieur.
+
+Pour ce faire j'ai créer un VPN avec wireguard sur un serveur proxmox dans un contener LXC, puis une configuration entre mon serveur proxmox chez moi et les differents clients. 
+
+De part la sécurité du VPN je ne vais pas montrer par des captures d'écrans les configurations mais je vais expliquer comment j'ai fait :
+
+1. Installation de wireguard sur le serveur proxmox : 
+
+```bash
+apt install wireguard
+```
+
+2. Génération des clés sur le serveur proxmox : 
+
+```bash
+wg genkey | tee privatekey | wg pubkey > publickey
+```
+
+3. Configuration du serveur wireguard et du client wireguard: 
+
+```bash
+[Interface]
+PrivateKey= [ Clefs priver du serveur  Clefs priver du client]
+Address = [ Adresse IP du serveur wireguard Adresse IP du client wireguard]
+ListenPort = 51820
+
+[Peer]
+PublicKey = [ Clefs public du client wireguard Clefs public du serveur wireguard]
+AllowedIPs = [ Adresse IP du client wireguard Adresse IP du serveur wireguard (ou 0.0.0.0/0 pour le full tunnel)]
+Endpoint =  [ Adresse IP du client wireguard ou ip publique ]
+PersistentKeepalive = 25
+```
+
+Bien evidement on a du configurer a l'interieur du serveur VPN les regles de forwarding et de NAT pour permettre au client de pouvoir acceder a internet.
+
+```bash
+iptables -t nat -A POSTROUTING -s [ Réseau wireguard ] -o eth0 -j MASQUERADE
+```
+
+Et sur le routeur on autorise l'accès au serveur wireguard en ouvrant le port 51820.
+
+Sous linux on utilise seulement les CLI pour pouvoir configurer le VPN.
+
+
+Sous windows et android l'entreprise Wireguard a créer une application pour pouvoir configurer le VPN de manière graphique. Sans pour autant changer les configurations de bases.
+
+Pour ma part j'ai configurer mon VPN en full tunnel pour pouvoir acceder a tout les ports et mon cluster proxmox.
+
+- Microservice pour nextcloud :
+
+En suivant les cours et la demande en SAE j'ai était amener a deployer une solution ansible pour la supervisions des microservices pour cela j'ai utilisé des playbooks en yaml me permettant ainsi de gerer les microservices ainsi que de les stocker dans un registry harbor relatif a la SAE je prendrais l'exemple du serveur nextcloud :
+
+Nextcloud nous demande ainsi d'avoir un service de base de données , un service web et le service nextcloud. Pour cela dans le playbook j'ai indiquer un service maraidb un service PHPmyadmin permettant d'observer la base de données relative et le service nextcloud alloué avec son service web en NGINX. j'avais entamer la chose avec docker compose qui c'est averer utile lors du deploiement sous ansible. 
+
+le fichier relatif au playbooks ansible de nextcloud :
+
+```yaml
+- include_tasks: install.yml
+  tags: install_docker
+
+- include_tasks: pull_images.yml
+  tags: pull_nextcloud
+
+- include_tasks: manage_nextcloud.yml
+  tags:
+    - create_nextcloud
+    - start_nextcloud
+    - stop_nextcloud
+
+- include_tasks: info_containers.yml
+  tags: nextcloud_info
+
+- include_tasks: network_containers.yml
+  tags: network_info
+```
+
+et sont fichier docker compose : 
+```yaml
+services:
+  db:
+    image: mariadb
+    volumes:
+      - /var/lib/docker/disk01:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: debian
+      MYSQL_PASSWORD: root
+      MYSQL_DATABASE: nextcloud_db
+    ports:
+      - 3306:3306
+    networks:
+       macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.90
+
+  phpmyadmin:
+    image: phpmyadmin
+    environment:
+      PMA_HOST: 192.168.1.90
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3356:3356/tcp
+    networks:
+       macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.83
+
+  nextcloud:
+    image: nextcloud
+    volumes:
+      - /var/lib/docker/nextcloud:/var/www/html
+    environment:
+      MYSQL_HOST: 192.168.1.90
+      MYSQL_DATABASE: nextcloud_db
+      MYSQL_USER: debian
+      MYSQL_PASSWORD: root
+    depends_on:
+      - db
+    networks:
+       macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.18
+
+  nginx:
+    image: nginx
+    volumes:
+      - /var/lib/docker/nginx:/etc/nginx/conf.d
+      - /var/lib/docker/nginx/logs:/var/log/nginx
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - web
+    networks:
+       macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.150
+
+  web:
+    image: nginx  # Remplacez ceci par l'image de votre service web
+    volumes:
+      - /var/lib/docker/web:/usr/share/nginx/html  # Chemin exemple, adaptez selon vos besoins
+    networks:
+      macvlan-docker-nextcloud:
+        ipv4_address: 192.168.1.151
+
+
+networks:
+  macvlan-docker-nextcloud:
+    external: true
+```
+
+![alt text](images/nextcloud_final.png)
+
+
+Afin de pouvoir gerer justement les microservices associées j'ai créer un petit programme me permettant d'afficher toutes les 10 secondes les containers docker actif , tout les conteneurs, les réseaux de docker deployés ainsi que la specification (nom du conteneur + adresse IP) d'un réseau specifiques. 
+
+```bash
+#!/bin/bash
+
+# Fonction pour afficher les conteneurs Docker en cours d'exécution
+function display_docker_ps() {
+    echo "==== Docker Containers ===="
+    docker ps
+    docker ps -a
+    echo
+}
+
+# Fonction pour afficher les images Docker
+function display_docker_images() {
+    echo "==== Docker Images ===="
+    docker images
+    echo
+}
+
+# Fonction pour afficher les réseaux Docker
+# Fonction pour afficher les réseaux Docker
+function display_docker_networks() {
+    echo "==== Docker Networks ===="
+    docker network ls
+    echo "Inspection du réseau macvlan-docker-nextcloud..."
+    if docker network inspect macvlan-docker-nextcloud >/dev/null 2>&1; then
+        echo "macvlan-docker-nextcloud existe."
+        echo "Informations du réseau macvlan-docker-nextcloud :"
+        docker network inspect macvlan-docker-nextcloud | grep -E 'Name|Subnet|Gateway|Driver|Attachable'
+        echo
+        echo "Conteneurs connectés au réseau macvlan-docker-nextcloud :"
+        docker network inspect macvlan-docker-nextcloud --format='{{range .Containers}}{{.Name}} - {{.IPv4Address}}{{"\n"}}{{end}}'
+    else
+        echo "macvlan-docker-nextcloud n'est pas créé."
+    fi
+    echo
+}
+
+
+# Boucle infinie pour afficher les informations Docker à intervalles réguliers
+while true; do
+    clear
+    display_docker_ps
+    display_docker_images
+    display_docker_networks
+    date '+%Y-%m-%d %H:%M:%S'
+    sleep 10  # Attendre 5 secondes avant la prochaine mise à jour
+done
+
+```
+
+![alt text](images/script.png)
+![alt text](images/config_nextcloud.png)
+![alt text](images/phpmyadmin.png)
+
+Dans le services nextcloud j'ai également pu configurer une base données en mariadb directement connecter au service web , la base de données et également accesible via PHPmyadmin que j'ai mis en place également afin de pouvoir gerer la base de données uniquement. 
+
 - Developpement script lua 
+
+Pour le developpement d'un script permettant de faire de l'escalade dans un jeu video j'ai du apprendre le lua, l'objectif étant d'améliorer l'expérience de jeu des joueurs en leur permettant de faire de nouvelles actions non implémenter dans le jeu de base. Pour réaliser tout ce script j'ai du mettre en place un serveur correspondant au serveur utilisé en jeu pour pouvoir avoir une phase de test. Le script n'étant pas terminer il pour l'instant permet de récuperer les coordonnées du joueur ainsi que les coordonnées de la souris en jeu et de les afficher dans la console. 
+
+Ce serveur et basé sur GTA5, créer par l'entreprise cfx.re qui permet de créer des serveurs jeu de roles sur GTA5. 
+
+![alt text](images/console_command.png)
+
+![alt text](images/main.png)
+![alt text](images/accroches.png)
+![alt text](images/cordes.png)
+
+De part la consistance de plus 200 lignes du fichier concernant le mecanisme je ne mettrais que les points concernant les points abordées :
+
+Pour les menus:
+
+```lua
+-- Création des menus et des sous menus
+M_Escalade = RageUI.CreateMenu("Escalade", "Pour accrocher")
+sbM_accroche = RageUI.CreateSubMenu(M_Escalade, "Accroches", "Pour accrocher les points")
+sbM_corde = RageUI.CreateSubMenu(M_Escalade, "Cordes", "Pour accrocher une corde")
+
+
+Citizen.CreateThread(function()
+    while (true) do
+        Citizen.Wait(1.0)
+        
+        -- Menu principal Escalade 
+        RageUI.IsVisible(M_Escalade, function()
+            
+            -- Bouton pour ouvrir le sous menu des accroches
+            RageUI.Button('Accroches', "Pour accrocher", {RightLabel = ">>>"}, true, {
+                onSelected = function()
+                    Visual.Subtitle("onSelected", 100)
+                end,
+            }, sbM_accroche);
+            
+            
+            -- Bouton pour ouvrir le sous menu des cordes
+            RageUI.Button('Cordes', "Pour accrocher une corde", {RightLabel = ">>>"}, true, {
+                onSelected = function()
+                    GetAllRopes()
+                    -- Visual.Subtitle("onSelected", 100)
+                end,
+            }, sbM_corde);
+            
+            -- Bouton pour fermer le menu
+            RageUI.Button('Fermer', "Fermer le menu", {RightLabel = ""}, true, {
+                onSelected = function()
+                    Visual.Subtitle("onSelected", 100)
+                    RageUI.CloseAll()
+                    print("Fermeture du menu")
+                end,
+            });
+        end, function()
+        end)
+        
+        RageUI.IsVisible(sbM_accroche, function()
+            
+            -- Bouton pour assignation du premier point d'accroche (position du personnage)
+            RageUI.Button('Point 1', "Assigner le premier point (position du personnage)", {RightLabel = ""}, true, {
+                onSelected = function()
+                    Visual.Subtitle("onSelected", 100)
+                    p1_playerCoord = GetEntityCoords(PlayerPedId(), true)
+                    
+                    -- Assignation des coordonnées du joueur dans le tableau CoordPlayers
+                    CoordPlayers={ p1_playerCoord.x, p1_playerCoord.y, p1_playerCoord.z}
+                    
+                    
+                    print("Coordonnées du joueur : ", CoordPlayers[1], CoordPlayers[2], CoordPlayers[3])
+                    
+                end,
+            });
+            
+            -- Bouton pour assignation du deuxième point d'accroche (position de la selection du marqueur) pas d'affichage du marqueur
+            RageUI.Button('Point 2', "Assigner le deuxième point (position de la selection du marqueur)", {RightLabel = ""}, true, {
+                onSelected = function()
+                    GetWorldCoordinateFromNuiMouse()
+                    SetMouseCursorVisibleInMenus(true)
+                    
+                    -- CoordP_Accroche["Acc-1"]= {x= mouse_coord.x,  y=mouse_coord.y,  z=mouse_coord.z}
+                    
+                    check_create_Accroche()
+                    
+                    -- print(CoordP_Accroche["Acc-1"]["x"], CoordP_Accroche["Acc-1"]["y"], CoordP_Accroche["Acc-1"]["z"])
+                end,
+            });
+
+                
+                -- Bouton pour retour au menu principal
+                RageUI.Button('Retour', "Retour au menu précédent", {RightLabel = ""}, true, {
+                    onSelected = function()
+                        Visual.Subtitle("onSelected", 100)
+                        print("Accroche vers Menu Précédent")
+                    end,
+                }, M_Escalade);
+                
+            end, function()
+            end)
+            
+            
+            RageUI.IsVisible(sbM_corde, function()
+                
+                -- Bouton pour assignation du premier point d'accroche (position du personnage)
+                RageUI.Button('Point-Corde', "Attache le joueur au premier point créer", {RightLabel = ""}, true, {
+                    onSelected = function()
+                        p_corde1 = GetEntityCoords(PlayerPedId(), true)
+                        print("Position 1 :",p_corde1)
+                        -- Corde_JtoA()
+
+                        AddRope(p_corde1.x, p_corde1.y, p_corde1.z, 0.0, 0.0, 0.0, 10, 1, 2, 1, false, false, false, 1, false)
+                        
+
+                    end,
+                });
+                
+                -- Bouton pour assignation du deuxième point d'accroche (position de la selection du marqueur)
+                RageUI.Button('Point-Corde 2', "Attache toutes les cordes a chaque point", {RightLabel = ""}, true, {
+                    onSelected = function()
+                        p_corde2 = GetEntityCoords(PlayerPedId(), true)
+                        print("Position 2 : ",p_corde2)
+                    end,
+                });
+                
+                
+                -- Bouton pour retour au menu principal
+                RageUI.Button('Retour', "Retour au menu précédent", {RightLabel = ""}, true, {
+                    onSelected = function()
+                        Visual.Subtitle("onSelected", 100)
+                        print("Accroche vers Menu Précédent")
+                    end,
+                }, M_Escalade);
+
+        end, function()
+        end)
+
+
+        
+
+    end
+end)
+
+```
+
+Ici on a l'exemple que j'ai mis en place pour initialiser les menus et les sous menus pour le script lua. Dans les menus en fonctions du menu selectionner pour l'heure le seul fonctionnel étant le menu accroche qui permet de récupérer les coordonnées du joueur et de la souris pour les afficher dans la console.
+
+Comme on a pu voir sur les captures d'écrans précédentes.
+
+L'autre partie du script "corde" n'est pas encore fonctionnel car il me reste a faire la partie qui permet de créer les cordes entre les points d'accroches.
+
+Quelques choses qui prends enormément de temps de part les explications complexes ou manque d'explications que j'ai pu trouver, l'une des solutions serait de passer en javascript pour creer cette coord ce que je ne souhaite pas. 
+
+
+Durant ma periode dans une instance ayant une confidentialité je ne peux tout devoiler sur la macro personnaliser en VBA que j'ai pu entreprendre. 
+
+Néanmoins je peux indiquer certaines partie du code du VBA. 
+L'objectif était de répertorier tout le materiel informatique relatif a une partie de la grande instance pour en créer un documents excel permettant d'afficher le batiment avec les appareils dans leurs salles (une sorte d'inventaire informatiser).
+
+![alt text](images/parc_info1.png)
+![alt text](images/projet_parcinfo.png)
+
+En prenant pour exemple Ajout_pop qui correspond au Ajout présent sur la premiere capture d'ecran 
+
+![alt text](images/ajout_popup.png)
+
+
+Ici l'objectif etait de pouvoir ajouter un nouvelle appareil avec un ID attribuer automatiquement une fois le type d'appareil selectionner. Il serait ensuite ajouter au stock et sera afficher a un poste specifiques des salles présentes également les salles en 100 sont cliquable ammenent ainsi au differentes salle avec l'ID qui peut ensuite etre retrouvé dans le stock par une selection directement dans la salle. 
+
+```vba
+Private Sub envoi_ajout_Click()
+
+'Initialisation des variables pour la creation de ligne d'appareil
+Dim s_Type_appareill, s_Numero_de_serie, s_MAC, s_Localisation, s_Prise_reseau, s_ID, s_Reference, s_Reference_Normative, s_numero_de_poste, s_nom_du_produit, s_Observation As String
+Dim r_row As ListRow
+
+'recuperations des données du formulaire
+s_Type_appareill = Ajout_popup.Type_appareil
+s_Numero_de_serie = Ajout_popup.NS
+s_MAC = Ajout_popup.MAC
+s_Localisation = Ajout_popup.Localisation
+s_Prise_reseau = Ajout_popup.Prise_reseau
+s_ID = Ajout_popup.ID
+s_Reference = Ajout_popup.Reference
+s_numero_de_poste = Ajout_popup.Numero_poste
+s_nom_du_produit = Ajout_popup.Nom_produit
+s_Observation = Ajout_popup.Observation
+s_Reference_Normative = Ajout_popup.Reference_Normative
+
+'Creation de la variable permettant de creer une ligne
+Set s_row = Sheets("Data").ListObjects("TableData").ListRows.Add
+
+'Ajout d'une ligne avec les valeurs suivante en partant de la colonne 1 (A) a 11 (K)
+s_row.Range.Cells(1).Value = s_Numero_de_serie
+s_row.Range.Cells(2).Value = s_MAC
+s_row.Range.Cells(3).Value = s_Reference
+s_row.Range.Cells(4).Value = s_nom_du_produit
+s_row.Range.Cells(5).Value = s_Reference_Normative
+s_row.Range.Cells(6).Value = s_Observation
+s_row.Range.Cells(7).Value = s_Prise_reseau
+s_row.Range.Cells(8).Value = s_Type_appareill
+s_row.Range.Cells(9).Value = s_Localisation
+s_row.Range.Cells(10).Value = s_numero_de_poste
+s_row.Range.Cells(11).Value = s_ID
+
+
+'Affichage et incrementation de l'ID de 1 pour le prochain ajout
+MsgBox "Ligne créer avec succèes"
+Ajout_popup.ID.Value = Ajout_popup.ID.Value + 1
+
+End Sub
+Private Sub Type_appareil_Change()
+
+'Initialisation des variables permettant d'afficher l'ID superieur a la selection d'un type d'appareil
+Dim ID_Value As Range
+Dim i_ValeurE, i_ValeurO, i_ValeurSD As Integer
+Dim s_DerniereLigne As String
+
+'Assignation valeur derniere ligne
+s_DerniereLigne = Sheets("Data").Cells(3, 11).End(xlDown).row
+
+'Si l'appareil selectionner est Ecran alors on va initialiser la valeurE a 1000, on va ensuite chercher dans la feuille Data dans l'intervalle K3 et K derniere ligne toutes les valeurs commencant par 10.
+If Type_appareil.Value = "Ecran" Then
+    
+    i_ValeurE = 1000
+    
+    For Each r_ID_Value In Sheets("Data").Range("K3:K" & s_DerniereLigne)
+        
+        If Left(r_ID_Value.Value, 1) = 1 Then
+            
+        i_ValeurE = r_ID_Value.Value
+            
+            'Si valeurE est differente de la valeur de la boucle +1 alors on affiche une incrementation de  1 de la ValeurE jusqu'a ce qu'il n'y est plus de valeur commencant par 10 ça affichera donc ID_Value.Value +1
+            If i_ValeurE <> r_ID_Value.Value + 1 Then
+
+                Ajout_popup.ID.Value = i_ValeurE + 1
+            
+            Else
+        
+        End If
+        
+        Else
+        
+        End If
+    
+    Next r_ID_Value
+
+'Si l'appareil selectionner est Ordinateur alors on va initialiser la valeurE a 2000, on va ensuite chercher dans la feuille Data dans l'intervalle K3 et K derniere ligne toutes les valeurs commencant par 20.
+ElseIf Type_appareil.Value = "Ordinateur" Then
+
+    i_ValeurO = 2000
+    
+    For Each r_ID_Value In Sheets("Data").Range("K3:K" & s_DerniereLigne)
+           
+           If Left(r_ID_Value.Value, 2) = 20 Then
+           
+                i_ValeurO = r_ID_Value.Value
+               
+               'Si valeurO est differente de la valeur de la boucle +1 alors on affiche une incrementation de  1 de la ValeurO jusqu'a ce qu'il n'y est plus de valeur commencant par 20 ça affichera donc ID_Value.Value +1
+               If i_ValeurO <> r_ID_Value.Value + 1 Then
+               
+                    Ajout_popup.ID.Value = i_ValeurO + 1
+                Else
+                
+                End If
+            
+            Else
+            
+            End If
+
+Next r_ID_Value
+
+'Si l'appareil selectionner est Station Dock alors on va initialiser la valeurSD a 3000, on va ensuite chercher dans la feuille Data dans l'intervalle K3 et K derniere ligne toutes les valeurs commencant par 30.
+
+ElseIf Type_appareil.Value = "Station Dock" Then
+
+    i_ValeurSD = 3000
+    
+    For Each r_ID_Value In Sheets("Data").Range("K3:K" & s_DerniereLigne)
+        
+        If Left(r_ID_Value.Value, 2) = 30 Then
+            
+            i_ValeurSD = r_ID_Value.Value
+            
+            'Si valeurSD est differente de la valeur de la boucle +1 alors on affiche une incrementation de  1 de la ValeurSD jusqu'a ce qu'il n'y est plus de valeur commencant par 30 ça affichera donc ID_Value.Value +1
+            If i_ValeurSD <> r_ID_Value.Value + 1 Then
+
+                Ajout_popup.ID.Value = i_ValeurSD + 1
+            
+            Else
+            
+            End If
+        
+        Else
+        
+        End If
+    
+    Next r_ID_Value
+
+Else
+
+End If
+
+End Sub
+Private Sub UserForm_Initialize()
+
+'Ajout de trois valeur Ecran , Ordinateur et Station Dock a l'ouverture du formulaire
+With Ajout_popup.Type_appareil
+.AddItem "Ecran"
+.AddItem "Ordinateur"
+.AddItem "Station Dock"
+End With
+
+End Sub
+```
+
+PS : De part la charge probable d'un grand nombres de lecture de votre côté je vais evitez de donner tout les codes du projet (un projet conséquent de 2 a 3 semaines) en esperant que cela me permettent malgrès tout de valider cette partie des compétences.  
+
 
 
 <!-- page break html -->
