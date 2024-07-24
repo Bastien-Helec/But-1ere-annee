@@ -97,42 +97,7 @@ attention au redimensionnement de la fenetre.
 
 
 1- on creer les differentes instances ,
-2- puis on les affecte au containers. 
+2- puis on les affecte au contenairs. 
 3- callbacks : association d'un widget d'un evenement et d'une fonction a declencher. 
 
 4- "vous etes pret" : gtk.main(): boucle infinie qui attend les evenements et les declenches.
-
-
-Direct 3D : (Direct X) (passe intermediaire entre chaque couche apps - os - HD)
-OpenGL : (open source) (open GL avec securité)
-Vulkan : (open source) (open GL ES sans securité)
-
-Linux (OpenGL, vulkan) = Mesa a la place de direct 3D (pas d'intermediaire)
-
-export DISPLAY = "localhost(nom d'hote):0(numero de console graphique).0 (num d'ecran)" 
-
-x11 Magic-cookie : authentification (fichiers a transmettre pour l'authentification)
-xhost 
-
-pour demarrer la console graphique : startx [options]
-
-route window 
-
-X -query 192.168.20.3 :2 (lance une fenetre graphique du serveur vers moi) (terminal distant)
-
-plein ecran : taille des barres de taches a 0 
-
-window manager : affichage , gestion des fenetres
-
-
-Tiling-WM 
-
-triple A : pour la 3D
-
-Le gpu est un processeur qui permet de faire des calculs en parallele. 
-
-shader : programme qui s'execute sur le gpu calcule
-
-vulkan permet de faire les calculs pendant le rendu de l'image.
-
-
