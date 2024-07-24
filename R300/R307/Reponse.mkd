@@ -1,0 +1,627 @@
+[comment]: # (Initialisation des couleurs et autres styles)
+<style>
+    
+r { color: #c42f3c }
+o { color: Orange }
+g { color: #019d00}
+bl { color: #0100c8}
+
+</style>
+
+
+# Etude du réseau d'accès optique en France
+
+```
+@Bastien-Helec
+```
+
+### I. Aspects structurels
+
+1/ Question très générale pour commencer : faire les recherches adéquates afin de pouvoir faire
+un schéma faisant apparaître les différents segments du réseau de manière générale :
+collecte, transport, distribution, branchement, desserte, réseau domestique. Et indiquer sur votre
+schéma ce qu’on appelle réseau d’accès. Trouver l’autre nom du réseau d’accès.
+
+<bl>
+
+![Schéma Réseau d'accès](schema1.png)
+
+<b><r><u>
+Les noms et definitions adaptés sont les suivants :
+</u></r></b>
+
+- <b>BLOM</b> : <u>entre Collecte et Transport</u>,  Boucle locale optique mutualisée, elle permet la connectivité d'une zone qui est ensuite relié a un NRO
+
+- <b>NRO</b> : <u>entre Collecte et Transport </u>, Noeud de raccordement optique, il est le coeur du réseau d'accès il relie les BLOM a la zone qu'il dessert
+
+- <b>SRO</b>:  <u>entre Transport et Distribution</u>, Sous répartiteur optique, Noeud intermediaire de brassage qui NRO ou PBO  (ça fait parti de la desserte)
+
+- <b>PBO</b> : <u>entre Distribution et Branchement</u>, Point de branchement optique, il est le point de branchement au plus proche du logement de l'abonné.
+
+- <b> DTIO </b> : <u>entre Branchement et Desserte</u>, Dispositif de terminaison intérieur optique, il est le point de terminaison de la fibre optique dans le logement de l'abonné.
+
+L'autre nom de réseau d'accès est Boucle Locale Optique (BLO)
+
+https://www.gersnumerique.fr/harmonisation-des-reseaux/architecture-et-terminologie-du-reseau.html
+
+</bl>
+
+2/ Décrire rapidement les réseaux d'accès xDSL. 
+
+<bl>
+
+Le DSL (digital subscriber line) est une technologie qui permet d'obtenir un accès internet via les cables téléphoniques. Malheureusement l'un des problèmes concernant cette technologie est la perte en distance plus la distance sera grande moins le debit sera important voir nul (zone blanche de DSL). Elle ce derive via plusieurs technologies :
+
+- ADSL (Asymetric DSL) : Une porter de 5km pour les lignes en calibre (4/10) et une porter de 3,5km , Le debit max est a 8Mbits/s possible uniquement sur les courtes lignes < 2km,Le debit montant max est de 1Mbits/s (client vers internet) et le debit descendant max est de 8Mbits/s (internet vers client)
+
+- SDSL ( symetric DSL) : une porter de 2km pour un debit max 20Mbits/s. La symetrie n'ou indique donc que le debit montant et descendant sont indentiques. 
+
+- VDSL2 : (Very high bit-rate DSL) : une porter de 1,5km pour un debit max de 100Mbits/s. Le debit montant max est de 30Mbits/s (client vers internet) et le debit descendant max est de 90Mbits/s (internet vers client) en pratique.
+
+https://smart-city.cerema.fr/sites/smartcity/files/fichiers/2020/07/NV_SITE_151124_LPS_Les%20technologies_xDSL.pdf
+
+page 1 et 2
+
+
+https://www.wixxim.fr/fiches/comparaison-entre-adsl-et-sdsl 
+"Les specificités du SDSL"
+
+https://www.ariase.com/box/dossiers/vdsl2
+
+
+</bl>
+
+3/ Rechercher les differents acronynmes FTTxx et ce qu'ils signifient (jusqu'où arrive la fibre). il n'est pas necessaire d'être exhaustif. 
+
+<bl>
+
+- <b>FTTH</b> : Fiber To The Home, la fibre arrive jusqu'au logement de l'abonné
+
+- <b> FTTLA </b> : Fiber To The Last Amplifier, la fibre arrive jusqu'au dernier amplificateur
+
+- <b> FTTB </b> : Fiber To The Building, la fibre arrive jusqu'au batiment
+
+- <b> FTTN </b> : Fiber To The Node, la fibre arrive jusqu'au noeud
+
+- <b> FTTDP </b> : Fiber To The Distribution Point, la fibre arrive jusqu'au point de distribution
+
+- <b> FTTO </b> : Fiber To The Office, la fibre arrive jusqu'au bureau
+
+<br/>
+
+https://fibre.guide/deploiement/technologies
+
+</bl>
+
+4/ Dans le cas de la fibre optique, expliquer ce qu'est une architecture point à point, et une architecture point multipoint.
+
+<bl>
+
+- <b> Point à point </b> : Chaque abonné est relié directement au NRO, il n'y a pas de partage de la fibre optique. C'est une architecture qui est plus couteuse mais qui permet d'avoir un debit plus important et plus stable.
+  
+- <b> Point multipoint (PON : passive optical network) </b> : Est une fibre qui relie jusqu'a 64 utilisateurs a un meme Nœud. C'est une architecture qui est moins couteuse mais qui permet d'avoir un debit moins important et moins stable.
+
+
+https://www.fibre-pro.fr/2020/03/03/fibre-p2p/
+
+
+</bl>
+
+5/ Les boucles locales optiques sont mutualisées (BLOM) ou dédiées (BLOD). Expliquer. Dans la suite, on ne s'intéressera pas aux BLOD. 
+
+<bl>
+Les boulces locales optiques sont mutualisées pour les FTTH autrement dit ils sont partagés par plusieurs abonnées
+
+Les boucles locales dédiées sont utilisées pour des choses specifiques comme les entreprises utilisant ainsi les FTTO ou FTTE.
+
+https://wholesalefrance.orange.fr/fr/nos-reseaux/fibre-optique/
+
+</bl>
+
+6/ On considère un réseau GPON. Que veut dire le sigle GPON ? Qu'est ce qu'un réseau GPON ? Préciser quelle est la norme des réseaux GPON. 
+
+<bl>
+Le sigle GPON signifie : Gigabitethernet Passive Optical Network 
+Un réseau GPON est un réseau fibre qui ce base sur PON et améliorer c'est performance , il peut aller jusqu'a 20 km de porter, synchroniser a 2,5 Gbits. La GPON est composer de l'ONU , OLT ,et ODN. 
+
+- <b> ONU</b> : Optical Network Unit : C'est une unité ou un terminal coté utilisateurs qui fournit diverses interfaces aux utilisateurs au niveau clients 
+
+- <b> OLT </b> : Optical Line Terminal : Dispositif d'agregation qui termine le protocole PON au niveau du central
+- <b> ODN </b> : Optical Distribution Network : C'est le réseau de distribution optique qui relie l'OLT et l'ONU il est composé de dispositifs optiques passif tels que des repartiteurs optiques.
+
+La norme des réseaux GPON est la norme G.984
+
+https://www.tp-link.com/fr/blog/289/qu-est-ce-que-gpon-et-pourquoi-le-choisir-/
+
+</bl>
+
+7/ Faire un schéma représentatif d’un réseau GPON avec :
+un NRO, plusieurs SRO, plusieurs PBO, plusieurs PTO, des clients.
+Le but est de visualiser l’architecture globale : un NRO peut-il être relié à un seul SRO ou plusieurs,
+etc. Les différents segments de réseau vus question 1 doivent apparaître.
+Pour chaque élément (NRO, SRO, PBO, PTO) donner une description rapide et significative pour
+vous.
+
+Trouver où se trouvent les PM (Points de mutualisation) sur le schéma et expliquer ce que cela signifie
+(pourquoi on les appelle ainsi).
+Chercher ensuite ce qu’est un OLT et préciser sur le schéma où il sera.
+
+Chercher aussi ce qu’est un ONU et préciser sur le schéma où il sera.
+
+<bl>
+Un NRO peut etre relié par plusieurs SRO et un SRO peut etre relié par plusieurs PBO. Les PM sont les points de mutualisation entre le NRO et le SRO. L'OLT est au niveau du NRO et l'ONU est au niveau du PBO.
+
+
+![schema2](schema2.png)
+
+Le PM ce situe entre le SRO et le PBO. Il permette de regrouper les differents opérateurs a une seul armoire et permette d'utilisé le meme deploiment fibre pour plusieurs opérateurs.
+
+Le ONU sera present dans le schema du coté du PBO, il permet de fournir une interface aux utilisateurs au niveau client.
+
+https://www.gersnumerique.fr/harmonisation-des-reseaux/architecture-et-terminologie-du-reseau.html
+
+</bl>
+
+8. Toujours dans le cas d'un réseau GPON, on considère une fibre qui arrrive sur un SRO depuis le NRO. Quel est l'équipement qui va permettre à partir de cette fibre de desservir plusieurs PBO ? 
+
+<bl> Le SRO </bl>
+
+
+9. On distingue les zones de déploiement très denses (ZTD) des zones de déploiement moins denses (ZMD). De plus, dans les ZTD sont définies des zones de basse densité, ZTD-BD. Trouver
+comment, en France, se répartit le nombre total de lignes entre les trois types de zones.
+
+<bl>
+
+
+Les ZMD sont les zones ou la densité de populations est peu dense elle est deployés avec des PM dans le domaine public
+
+Les ZTD sont les zones ou la concentration de la population est importante souvent dans les villes : "Paris , Rouen , Montpellier,...". Elle est deployés avec des PM dans le domaine public et des PM dans le domaine privé
+Elle ce distingue par 2 sous partie : Les ZTD-PHD et les ZTD-BD
+
+Les ZTD-BD ont un PM situé du coté publique comportant au moins 300 prises. 
+
+</bl>
+
+https://www.zoneadsl.com/dossiers/france-thd/quelles-differences-entre-zones-tres-denses-et-zones-moins-denses-.html
+
+10/ Ordres de grandeur : 
+Un NRO peut desservir combien d’abonnés ?
+Le segment de fibre NRO-SRO peut faire jusqu’à quelle longueur en ZTD ? Et en ZMD ?
+Un PM peut desservir combien de lignes ?
+
+<bl>
+
+1 NRO peut desservir jusqu'a 5 000 foyers
+
+pages 4 
+https://www.pixl-fibre.fr/wp-content/uploads/sites/17/2020/10/Guide-pratique-PIXL.pdf
+
+entre 16km et 20 km 
+
+https://lafibre.info/images/pon/202001_schema_blom_boucle_local_optique_mutualisee.pdf
+
+
+Le PM peut desservir entre 100 et 1000 lignes.
+
+https://www.ariase.com/box/dossiers/nro-pm-pbo-pto-fibre-optique
+
+</bl>
+
+11/ Expliciter ce que veulent dire le sens montant et le sens descendant (utiliser votre schéma pour
+être précis)
+
+<bl>
+
+Le sens montant : C'est le sens de l'information qui va du client vers le serveur
+
+Le sens descendant : C'est le sens de l'information qui va du serveur vers le client
+
+https://www.choisir.com/box-internet/articles/185512/debit-descendant-et-debit-montant-quelles-differences
+
+</bl>
+
+12/ En réseau FTTH, la desserte peut être mono-fibre (1 seule fibre est affectée par client) ou
+multi-fibres (pour chaque client, 1 fibre est dédiée à chaque opérateur).
+Faire un schéma au niveau du PM avec des fibres arrivant d’un coté, provenant de plusieurs
+opérateurs, et des fibres repartant de l’autre coté, vers plusieurs clients, lorsque la desserte est mono-
+fibre puis recommencer lorsque la desserte est multi-fibres.
+La desserte multi-fibres est intéressante lorsqu’un abonné change d’opérateur. Expliquer.
+
+<bl>
+
+
+![schema3](schema3.png)
+
+La multi-fibre est interessant lorsqu'un abonné change d'operateur car ça evite a l'operateur de devoir tirer une nouvelle fibre pour l'abonné. Il lui suffit juste de brancher la fibre de l'abonné sur le PM.
+
+</bl>
+
+13/ En réseau FTTH, il existe différentes situations réglementaires :
+En ZTD, cas des immeubles de plus de 12 logements
+En ZTD, cas général des immeubles de moins de 12 logements
+En ZTD, cas particulier des immeubles isolés de moins de 12 logements
+En ZTD, poches de basse densité
+En ZMD
+
+Pour chacune de ces 5 situations, trouver où sera situé le PM, ainsi que le PBO, combien de lignes le
+PM peut desservir, et si la desserte est mono-fibre ou multi-fibres.
+Pour les situations où la desserte est multi-fibres, trouver pourquoi.
+
+<bl>
+
+Pour les immeubles de moins de 12 logements le PM mono-fibre est situé dans une armoire exterieur avec 100 lignes 
+
+Pour les immeubles de plus de 12 logements le PM multi-fibre est situé au pied du batiments. 
+
+Pour les immeubles isolés de moins de 12 logements le PM multi-fibre  est situé dans une armoire exterieur.
+
+Pour les poches de basse densité le PM mono-fibre est situé dans une armoire exterieur. PM a 300 lignes
+
+Pour les ZMD le PM mono-fibre est situé dans une armoire exterieur. PM de 300 a 1000 lignes.
+
+https://lafibre.info/raccordement-maison/ztd-operateur-immeubles-inferieurs-a-12-logements/
+
+</bl>
+
+14/ Dans quel type de situation la fibre multimode est-elle utilisée ?
+Trouver également les différentes qualités de fibres multimodes qui existent.
+
+<bl>
+
+La fibre multimode est utilisé dans le cas d'une petite distance et un cout peut élever. 
+
+https://denisetian.wordpress.com/2017/12/22/quelle-est-la-difference-entre-la-fibre-optique-monomode-et-multimode/
+
+les deux qualité de fibres multimodes utilisé sont OM1, OM2, OM3, OM4 et OM5.
+
+https://community.fs.com/fr/article/single-mode-vs-multimode-fiber-whats-the-difference.html
+
+![multimode_fibre](multimode_fibre.png)
+
+
+</bl>
+
+### II. Spécifications télécoms du réseau GPON
+Dans cette partie, vous vous appuierez sur la norme ITU-T G.984.2 pour la plupart des
+questions. Préciser alors le numéro de la page.
+Toutes les questions de cette partie font référence au réseau GPON.
+
+1/ Quels sont les débits nominaux possibles dans le sens descendant ? Dans le sens montant ?
+
+<bl>
+ Dans le sens descendant le debit nominal est de 1 244,160 Mbits/s a 2 488,320 Mbits/s . Et le sens montant le debit nominal est de 155,520 Mbits/s a 622,080 Mbits/s, de 1244,160 Mbits/s a 2488,320 Mbits/s.
+
+ page 3 https://moodle-but.iutbeziers.fr/moodle/pluginfile.php/30665/mod_resource/content/1/T-REC-G.984.2-201908-I%21%21PDF-E.pdf
+
+</bl>
+
+2/ 
+En vous appuyant sur la question précédente, donner un exemple de transmission symétrique et
+de transmission asymétrique.
+
+<bl>
+
+La transmission symetrique indique un debit montant et descendant identique. exemple : montant : 1 244,160 Mbits/s et descendant : 1 244,160 Mbits/s
+
+La transmission asymetrique indique un debit montant et descendant different. exemple : 
+montant : 155,520 Mbits/s et descendant : 1 244,160 Mbits/s
+
+</bl>
+
+3/ Quelle est la situation la plus fréquemment rencontrée ?
+
+<bl>
+La situation la plus fréquemment rencontrée est la transmission asymetrique.
+
+</bl>
+
+4/ Quelles sont les deux méthodes possibles pour transmettre dans les deux sens ?
+
+<bl>
+
+
+Transmission direction 
+Bidirectionnelle transmission. 
+
+page 12 
+
+https://moodle-but.iutbeziers.fr/moodle/pluginfile.php/30665/mod_resource/content/1/T-REC-G.984.2-201908-I%21%21PDF-E.pdf
+
+</bl>
+
+5/ Quelle est la méthode de codage des bits ? Qu’est-ce que cela signifie en termes de signal ?
+
+<bl>
+La methode de codage des bits est NRZ (Non return to zero). cela signifie physiquement parlant que la lumiere est allumé ou eteinte. en fonction du signal. 
+</bl>
+
+https://moodle-but.iutbeziers.fr/moodle/pluginfile.php/30665/mod_resource/content/1/T-REC-G.984.2-201908-I%21%21PDF-E.pdf
+page 12
+
+6/ Quelle est la plage de longueurs d’onde réservée au sens descendant ? Donner aussi la valeur
+médiane.
+Calculer la bande de fréquences correspondante (en prenant un indice égal à 1)
+
+<bl>
+
+Pour une fibre monomode : 
+entre 1480 et 1500 nm
+valeur mediane : 1490 nm
+donc entre 202 et 200 THz
+
+Pour une fibre multimode :
+valeur mediane : 1310 nm
+entre 1260 et 1360 nm
+donc entre 238 et 220 THz
+
+<r><b> Rappel : 
+pour trouver une fréquence a partir d'une longeur d'onde : 
+</b>
+
+ lambda = c/f
+</r>
+</bl>
+page 12 
+
+7/ Quelle est la plage de longueurs d’onde réservée au sens montant ? Donner aussi la valeur
+médiane.
+Donner la bande de fréquences correspondante (en prenant un indice égal à 1)
+
+<bl>
+1260 a 1360 nm
+valeur mediane : 1310 nm
+donc entre 238 et 220 THz
+
+</bl>
+page 12 
+
+
+8/ Citer la norme qui définit les fibres qui peuvent être utilisées dans un réseau GPON (d’après la
+norme ITU-T G.984.2)
+
+<bl>
+G.652 
+
+page 8
+
+</bl>
+
+9/ Ces fibres peuvent être du type SM, MM ou les deux ?
+
+<bl>
+ces fibres peuvent etre du type SM ou MM (en dual mode)
+page 17
+
+</bl>
+
+10/ Dans la norme ITU-T G.984.2 on lit qu’en sortie de l’OLT, dans le sens descendant, l’ORL
+doit être d’au moins 32 dB. Expliquer ce que cela veut dire. Soyez précis. Traduire le nombre en
+pourcentage de puissances.
+
+<bl>
+L'ORL est l'Optical Return Loss, c'est le rapport entre la puissance du signal incident et la puissance du signal réfléchi.
+32 dB correspond a 1,26% de puissance.
+
+cela veut donc dire qu'il doit avoir 32 dB de ORL
+
+page 16
+
+</bl>
+
+11/ Quelle est la distance couverte maximale dans un réseau GPON ?
+
+<bl>
+20 Km
+</bl>
+page 16
+
+12/ Il existe 3 classes d’atténuation, les classes A, B et C. Selon la classe, la plage d’atténuation
+n’est pas la même. Noter les valeurs et expliquer ce qu’elles veulent dire.
+
+<bl>
+
+Classe A : de 5dB a 20dB
+Classe B : de 10dB a 25dB
+Classe C : de 15dB a 30dB
+
+cela signifie que la perte de puissance est de 5 a 30 dB en fonction de la classe utilisé.
+
+page 16
+
+</bl>
+
+13/ Dans la norme ITU-T G.984.2 on lit par exemple les spécifications suivantes :
+en sortie de l’OLT, dans le sens descendant, et pour un débit de 1 244 Mbits/s, Interpréter ce que ces données veulent dire (il n’est pas nécessaire de convertir en W).
+
+<bl>
+Cela signifie que la puissance minimal pour pouvoir lancer le signal est de -4dBm a +1 dBm max en classe A, de +1dBm a +6dBm en classe B et de +5dBm a +9dBm en classe C.
+</bl>
+
+14/ Toujours dans le sens descendant et pour un débit de 1 244 Mbits/s, lorsqu’on lit que la
+sensibilité minimum du récepteur (au niveau de l’ONU) est de -25 dBm, qu’est-ce que cela veut dire ?
+Ici la conversion dans l’unité adéquate est demandée. 
+
+<bl>
+
+Cela signifie que le signal qui sera inferieur a -25dBm ne sera pas detecter par le systeme et donc ne sera pas transmis.
+
+Conversion :
+10^(-25/10) = 3,16*10^{-3}W
+
+</bl>
+
+15/ Définir le ‵‵Bit error ratio′′ (ne pas confondre avec le Bit error rate). Comment doit-il être pour
+respecter la norme ? Donner une réponse claire si vous avez compris
+
+<bl>
+
+Bit error ratio : C'est le rapport entre le nombre de bits erronés et le nombre total de bits transmis.
+
+il doi etre inferieur a 10^{-10}
+
+</bl>
+
+16/ Vous avez ici un cas pratique d’utilisation du diagramme de l’oeil.
+Dans la norme ITU-T G.984.2, sont spécifiés des masques de conformité pour chaque débit et chaque
+sens de transmission. Ce sont les figures 2 et 3.
+En vous servant des données figure 3, reproduire sur le même système d’axes et avec une échelle bien
+choisie les masques de deux diagramme de l’oeil pour deux débits différents (155,52 Mbits/s et
+1244,16 Mbits/s) afin de pouvoir les comparer. Vous pouvez tracer les courbes sur papier et en prendre
+une photo.
+En vous servant de vos connaissances en R305, interpréter alors votre figure.
+3
+
+
+
+![diagrammedeloeil](diagrammedeloeil.jpg)
+
+
+17/ Budget optique 
+
+La situation la plus fréquente concernant le choix des débits est traitée en annexe A (p 32).
+La table A.1 fournit les seuils min et max de puissance injectée au niveau de l’OLT et de l’ONU. Elle
+fournit également les seuils de sensibilité en réception ainsi que la puissance maximale admise par le
+récepteur.
+De ce tableau résulte la table A.2 : pour les deux longueurs d’onde utilisées, la perte de puissance le
+long de la ligne entre l’OLT et l’ONU doit être supérieure à 13 dB et inférieure à 28 dB.
+Justifier, à partir de la table A.1, pourquoi la perte de puissance ne doit pas dépasser 28 dB pour les
+deux situations correspondant aux deux longueurs d’onde.
+Justifier, à partir de la table A.1, pourquoi la perte de puissance doit être d’au moins 13 dB pour les
+deux situations correspondant aux deux longueurs d’onde.
+En pratique, un OTDR peut servir à tester une liaison de ce type et vérifier que son budget optique
+reste dans les limites permises.
+
+<bl>
+La perte de puissance ne doit pas dépasser 28dB pour les deux longueurs d'onde (1490 nm et 1310nm) car au dela de 28 dB la puissance reçue sera en dessous de la sensibilité du récepteur.
+
+La perte de puissance doit etre d'au moins 13 dB pour les deux longueurs d'onde car en dessous de 13 dB la puissance reçue sera trop forte ce qui peut provoquer des surcharges ou saturation du récepteur.
+
+En utilisant l'OTDR on peut verifier que le budget optique reste dans les limites permises en mesurant la perte de puissance sur la fibre.
+
+</bl>
+
+18/ Coupleurs optiques 
+
+Quelle est la fonction d’un coupleur optique ?
+On considère un coupleur 1 x 2 symétrique.
+Quelle est la perte de puissance en dB due à la division du signal ?
+En considérant la situation précédente pour laquelle la perte maximale est de 28 dB, et en négligeant
+toutes les autres sources de pertes, combien de coupleurs 1 x 2 pourraient être utilisés successivement
+(en cascade) ?
+En imaginant mettre autant de coupleurs que nécessaire, combien d’utilisateurs pourront alors être
+reliés à partir d’une seule fibre issue de l’OLT ?
+Dans ce cas, combien de coupleurs 1 x 2 faut-il ?
+Donner un autre exemple de coupleurs qui permettrait de relier le même nombre d’utilisateurs à partir
+d’une seule fibre.
+Vous pouvez accompagner vos réponses de schémas.
+
+
+<bl>
+La fonction optique d'un coupleur optique est de pouvoir divier la puissance optique en 2 ou plusieurs signaux. 
+
+
+La perte de puissance en dB due a la division du signal est de 3 dB
+
+En considerant la situation precedente pour laquelle la perte maximale est de 28 dB, et en negligeant toutes les autres sources de pertes, on peut utiliser 9 coupleurs 1x2 successivement.
+
+28/3 = 9,33
+
+En imaginant mettre autant de coupleurs que necessaire on peut relier 512 utilisateurs a partir d'une seule fibre issue de l'OLT.
+
+2^9 = 512
+
+2 coupleurs en 1x4 et une fibre en direct.
+
+</bl>
+
+19/ Existe-t-il des coupleurs non symétriques (par exemple 20 % / 80 %) ?
+Si oui, chercher dans quelle situation cela peut servir et expliquer.
+
+<bl>
+Oui il existe des coupleurs non symétriques. Cela peut servir dans le cas ou on veut diviser la puissance entre un immeuble et une maison.
+</bl>
+
+20/ Quelle est la technique utilisée pour pouvoir combiner les transmissions de plusieurs
+utilisateurs sur une même fibre ? Expliquer son principe.
+Quel impact cela a t-il sur le débit ? Donner un exemple précis.
+
+<bl>
+
+La technique utilisée pour pouvoir combiner les transmissions de plusieurs utilisateurs sur une même fibre est le multiplexage cela a pour impact d'augmenter la capacité de transmission de la fibre.
+
+Exemple : Une maison possede une importante consommation de la bande passante pour l'utilisation de jeux en ligne et de streaming. Une autre maison possede une importante consommation de la bande passante pour l'utilisation de la visio conference. Le multiplexage permet de combiner les deux transmissions sur une meme fibre.
+
+</bl>
+
+21/ L’ONU d’un utilisateur reçoit-il les données destinées aux autres utilisateurs ? Si oui dans ce
+cas qu’est-ce qu’il utilise pour sélectionner seulement les informations qui lui sont destinées ?
+
+<bl>
+Oui l'ONU d'un utilisateur recoit les données destinées aux autres utilisateurs. Il utilise un filtre optique pour selectionner seulement les informations qui lui sont destinées.
+</bl>
+
+22/ Quelle est la technique qui permet de combiner le flux montant et le flux descendant sur la
+même fibre ?
+
+<bl>
+Il es possible de combiner le flux montant et le flux descendant sur la meme fibre via la technologie WDM (Wavelength Division Multiplexing) qui permet de combiner plusieurs longueurs d'onde sur une meme fibre.
+
+</bl>
+
+### III. Perspectives d’évolution
+
+On attend ici une petite étude des futurs réseaux GPON :
+première génération NG-PON1 (XG-PON),
+deuxième génération NG-PON2 (TWDM-PON),
+troisième génération NG-PON3 (WDM-PON).
+Notamment : le nom de la norme qui en définit toutes les spécifications (lorsque c’est possible),
+les débits,
+les longueurs d’onde,
+les techniques de multiplexage,
+sachant que le but de l’évolution est de faire toujours plus et mieux pour l’utilisateur.
+
+<bl>
+
+- <b> NG-PON1 (XG-PON) </b> 
+Norme : 10G-PON , G.987
+Débit : 
+Ds : 9.953 Gbits/s, 
+Us : 2.488 Gbits/s,
+
+Longueur d'onde : 
+Ds : 1575-1580 nm, 
+Us: 1260-1280 nm,
+Multiplexage : WDM
+
+http://www.tarluz.com/ftth/specification-differences-among-gpon-xg-pon-and-xgs-pon/
+https://en.wikipedia.org/wiki/10G-PON
+
+
+- <b>NG-PON2 (TWDM-PON) </b>
+norme : G.983 G.984 
+Debit : 
+Ds : 10 Gbits/s,10 Gbits/s
+Us : 10 Gbits/s, 2.5 Gbits/s
+Longueur d'onde :
+Ds : 1575-1580 nm,
+Us : 1260-1280 nm,
+Multiplexage : WDM
+
+https://en.wikipedia.org/wiki/NG-PON2
+https://www.calix.com/blog/2022/05--may--/xg-pon--ng-pon2--50g-pon--how-to-tell-which-option-is-best-for-your-network.html
+
+
+- <b> NG-PON3 (WDM-PON) </b>
+Norme : G.989
+Debit :
+Ds : 10 Gbits/s
+Us : 2.5 Gbits/s
+Longueur d'onde :
+Ds : multiple
+Us : multiple
+Multiplexage : WDM
+
+https://community.fs.com/fr/article/wdm-pon-vs-gpon-vs-xg-pon.html
+https://choquantecp.medium.com/wdm-pon-vs-gpon-vs-xg-pon-5cf009d3414b
+
+</bl>
